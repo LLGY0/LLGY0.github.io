@@ -252,3 +252,4 @@ graph TD;
 ### 3.2.5 事项5
 .gitignore文件有可能将_site文件添加为忽略文件，以至于后续操作将该文件忽略，从而无法上传至远程仓库的问题。_site文件以及.sass-cache文件都不能被忽略。
 [链接1](https://blog.csdn.net/qq_43328313/article/details/124066785)
+https://blog.csdn.net/qq_56914146/article/details/128994392
