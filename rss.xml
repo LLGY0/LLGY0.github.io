@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mr Li</title>
-    <description>个人的一个技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</description>
-    <link>https://h2o-ac.pages.dev//</link>
-    <atom:link href="https://h2o-ac.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 24 May 2023 19:43:16 +0000</pubDate>
-    <lastBuildDate>Wed, 24 May 2023 19:43:16 +0000</lastBuildDate>
+    <title>LLGY</title>
+    <description>个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</description>
+    <link>http://localhost:4000//</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 25 May 2023 03:13:37 +0800</pubDate>
+    <lastBuildDate>Thu, 25 May 2023 03:13:37 +0800</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -251,12 +251,11 @@ git push origin main （正式开始上传）
 
 &lt;h3 id=&quot;325-事项5&quot;&gt;3.2.5 事项5&lt;/h3&gt;
 &lt;p&gt;.gitignore文件有可能将_site文件添加为忽略文件，以至于后续操作将该文件忽略，从而无法上传至远程仓库的问题。_site文件以及.sass-cache文件都不能被忽略。
-&lt;a href=&quot;https://blog.csdn.net/qq_43328313/article/details/124066785&quot;&gt;链接1&lt;/a&gt;
-https://blog.csdn.net/qq_56914146/article/details/128994392&lt;/p&gt;
+&lt;a href=&quot;https://blog.csdn.net/qq_43328313/article/details/124066785&quot;&gt;链接1&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate>
-        <link>https://h2o-ac.pages.dev/study/Jekyll.html</link>
-        <guid isPermaLink="true">https://h2o-ac.pages.dev/study/Jekyll.html</guid>
+        <pubDate>Wed, 24 May 2023 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/study/Jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/study/Jekyll.html</guid>
         
         <category>Study</category>
         
@@ -275,9 +274,9 @@ https://blog.csdn.net/qq_56914146/article/details/128994392&lt;/p&gt;
 
 &lt;p&gt;邮箱：luyin0731@outlook.com&lt;/p&gt;
 </description>
-        <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
-        <link>https://h2o-ac.pages.dev/daily/First_post.html</link>
-        <guid isPermaLink="true">https://h2o-ac.pages.dev/daily/First_post.html</guid>
+        <pubDate>Tue, 23 May 2023 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/daily/First_post.html</link>
+        <guid isPermaLink="true">http://localhost:4000/daily/First_post.html</guid>
         
         <category>Daily</category>
         
