@@ -18,6 +18,8 @@
     <meta property="og:site_name" content="LLGY">
     <meta property="og:gray" content="false">
     
+    <meta property="og:previous_url" content="/daily/Jotting.html">
+    
     
     <meta property="og:next_url" content="/daily/First_post.html">
     
@@ -206,7 +208,7 @@
                 <use xlink:href="#icon-words"></use>
               </svg>
               
-              本文总共  4.6k  字
+              本文总共  4.8k  字
             </span>
             <span class="post-meta-item">
               <svg class="icon time" aria-hidden="true">
@@ -228,6 +230,8 @@
       
     </header>
     <div class="post-content visible">
+      
+      <h2 class="post-subtitle">软件与环境的简单安装与调试</h2>
       
 
       
@@ -284,12 +288,14 @@ bundle exec jekyll serve（开始构建本地网址）（如果发现4000被占�
 
 <p>进入_post目录，开始你的创作吧，注意文件的格式必须为YEAR-MONTH-DAY-title.MARKUP，如：2019-02-13-blog.md。</p>
 
+<p>为了后续编辑方便，这边推荐复制一下你Blog文件夹，以后你编辑内容时使用非上传文件夹（旧文件夹）。需要上传时复制一下整体，在新文件夹里把site文件夹里的文件全部拷贝到新文件夹里，上传步骤中上传新文件夹就不会出现Blog合集无法显示的问题了。</p>
+
 <h2 id="26-数据上传github全程必须有梯子或者改host">2.6 数据上传github（全程必须有梯子，或者改host）</h2>
 
 <pre><code class="language-git_upload">git init
 git checkout -b main
 git add .
-git commit -m "1st_1" （以XX名字上传github）
+git commit -m "XX" （以XX名字上传github）
 git remote add origin https://github.com/LLGY0/LLGY0.github.io.git
 git push origin main （正式开始上传）
 </code></pre>
@@ -474,8 +480,9 @@ git push origin main （正式开始上传）
 <a href="https://blog.csdn.net/qq_40226073/article/details/119801341">链接2</a></p>
 
 <h3 id="325-事项5">3.2.5 事项5</h3>
-<p>.gitignore文件有可能将_site文件添加为忽略文件，以至于后续操作将该文件忽略，从而无法上传至远程仓库的问题。_site文件以及.sass-cache文件都不能被忽略。
-<a href="https://blog.csdn.net/qq_43328313/article/details/124066785">链接1</a></p>
+<p>.gitignore文件有可能将_site文件添加为忽略文件，以至于后续操作将该文件忽略，从而无法上传至远程仓库的问题。_site文件以及.sass-cache文件都不能被忽略。另一方面，site里面的文件内容需要上传到github来使重要元件显现。
+<a href="https://blog.csdn.net/qq_43328313/article/details/124066785">链接1</a>
+<a href="https://blog.csdn.net/qq_56914146/article/details/128994392">链接2</a></p>
 
             <div class="post-copyright">
               <p>
@@ -523,6 +530,15 @@ git push origin main （正式开始上传）
         
       </section>
       <section class="post-footer-item read-next">
+        
+        <div class="read-next-item">
+          <a href="/daily/Jotting.html" class="read-next-link" aria-label="Jotting"></a>
+          <section>
+            <span>Jotting</span>
+            <p>又到了日记时间，虽然就只是第二次日记，但能让Blog的日期连续确实是很让人激动的一件事，今天正好也发生了不少好玩的...</p>
+          </section>
+          
+      </div>
         
 
         
@@ -785,7 +801,7 @@ git push origin main （正式开始上传）
 
           $(".post time span.create-at").html(local_post_date["date"]);
 
-          fetch("https://api.github.com/repos/LLGY/LLGY0/commits?path=_posts/2023-05-24-Jekyll.markdown")
+          fetch("https://api.github.com/repos///commits?path=_posts/2023-05-24-Jekyll.markdown")
           .then((response) => {
             return response.json();
           })

@@ -4,7 +4,7 @@ version: 1.2.0
 # Site settings 配置站点
 title: 'LLGY'
 description: '个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。'
-keyword: 'None'
+keyword: 'Daily and Study'
 url: 'https://LLGY0.github.io/'
 
 # 在服务器上建站时，如果你不需要子域名，请将这一格留空
@@ -96,15 +96,15 @@ postPatterns: 'circuitBoard'
 # url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
   # google-scholar: 'https://scholar.google.com/citations?user=AUupIooAAAAJ'
-  # researchgate: 'https://www.researchgate.net/profile/Shengzhou-Li'
-  # ORCID: 'https://orcid.org/0000-0001-6973-3825'
-  # github: 'https://github.com/zhonger'
+researchgate: 'https://www.https://www.researchgate.net/profile/Yin-Lu-22'
+ORCID: 'https://orcid.org/0000-0003-0892-5879'
+github: 'https://github.com/LLGY0'
   # linkedin: 'https://www.linkedin.com/in/shengzhouli/'
   # segmentfault: 'https://segmentfault.com/u/wuwozhonger'
 
 # Links 友情链接
 links:
-  # 'LLGY': 'https://lisz.me'
+  'MGM Lab': 'https://themgmlab.com/'
 
 # Supports 赞助商
 supports:
@@ -147,7 +147,7 @@ recommend-condition-size: 12 # a tag will be recommended if the size of it is mo
 # Build settings
 pagination:
   enabled: true
-  per_page: 5
+  per_page: 8
   permalink: 'page:num/'
   title: ':title | :num of :max'
   limit: 0

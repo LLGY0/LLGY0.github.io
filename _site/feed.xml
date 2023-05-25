@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-25T03:13:37+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LLGY</title><subtitle>个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</subtitle><author><name>LLGY</name></author><entry><title type="html">Jekyll学习</title><link href="http://localhost:4000/study/Jekyll.html" rel="alternate" type="text/html" title="Jekyll学习" /><published>2023-05-24T00:00:00+08:00</published><updated>2023-05-24T00:00:00+08:00</updated><id>http://localhost:4000/study/Jekyll</id><content type="html" xml:base="http://localhost:4000/study/Jekyll.html"><![CDATA[<p>进行个<code class="language-plaintext highlighter-rouge">Jekyll</code>的学~呜呜呜，搞成功后我真的是要泪崩了，为了弄这玩意多次学到凌晨6点，但感谢我的运气，感谢我的耐心。那么废话不多说，赶快把这次学到的一切以语言形式记录下来把~</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-25T23:08:04+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LLGY</title><subtitle>个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</subtitle><author><name>LLGY</name></author><entry><title type="html">Jotting</title><link href="http://localhost:4000/daily/Jotting.html" rel="alternate" type="text/html" title="Jotting" /><published>2023-05-25T00:00:00+08:00</published><updated>2023-05-25T00:00:00+08:00</updated><id>http://localhost:4000/daily/Jotting</id><content type="html" xml:base="http://localhost:4000/daily/Jotting.html"><![CDATA[<p>又到了日记时间，虽然就只是第二次日记，但能让Blog的日期连续确实是很让人激动的一件事，今天正好也发生了不少好玩的事情，值得一记。</p>
+
+<h3 id="1">#1</h3>
+<p>今天一天基本都在学Ansys_Fluent，虽然我一开始还是对这玩意挺感兴趣的，但是当他变成一项老师的任务时，我的拖延症就会又开始犯了。但还好，今天我跑了一个相对不怎么失败的模型，尽管他耗费了我人生7小时以上才跑完（我真想有好电脑啊！）。等我对这玩意再熟悉点，说不定还能把他写进博客里。Ansys的教程不太好用文字来描述，大部分人都用视频来记录自己的学习过程。但很明显，我这个懒人并不想花时间录制和剪辑，而且谁知道哪次能跑出来呢。所以之后写Ansys相关的Blog时，恐怕就写写学习的心得和为了学他的一系列遭遇吧（为了能开始学他，折腾的时间不比Jekyll短）。最后这边放张我更新求解时巨卡无比的进度条…</p>
+
+<p><img src="/assets/img/Daily/2023052501.png" alt="" /></p>
+
+<h3 id="2">#2</h3>
+<p>今天听师妹兴奋地讲了她哥哥的故事。她哥跟我一样博士期间都没找到女盆友，家人亲戚介绍的对象也没成。但是他毕业时，有个女生主动追他，然后他们直接闪婚了。师妹讲到这也是<code class="language-plaintext highlighter-rouge">缘分</code>什么的时候，颇有种眼睛亮光的感觉，恐怕每个人都期待能遇到“注定的那个人”吧。虽然师妹也对我未来的爱情旅程给予了祝福，但恐怕这实现难度堪比我按时毕业、彩票中奖、被闪电劈死、被陨石砸死、坐飞机失事、打模拟宇宙获得全部BUFF…吧（老天，请狠狠地打我脸）。</p>
+
+<h3 id="3">#3</h3>
+<p>今天去酒吧喝酒了，算是兑现诺言，点了一杯椰林飘香。这算是我最喜欢的酒了，酒精度数不算太高，在喝出果味的时候还能感受到浓浓的奶油味。但是如果加菠萝味碎冰以及酒精度数提高点就更好了，但我估计没胆子和老板提要求吧，怕对方觉得自己逼事真多，呜呼~以及椰林飘香还有一点特别好，那就是喝完我还能继续回去加班  : )  ，针不戳！</p>
+
+<h3 id="4">#4</h3>
+<p>今天上班摸鱼看了刀剑神域进击篇黯淡黄昏的谐谑曲（我在打字时才发现这标题够长的），虽然我看过小说了，但不得不说SAO的剧场版还是可以的，虽然说不上神作之类的，但是打斗已经让我很满意了，BGM也不错，真滴不戳！（让我加班更有动力了）</p>
+
+<h3 id="5">#5</h3>
+<p><code class="language-plaintext highlighter-rouge">完全不知道Blog的评论系统怎么加，有没有dalao帮帮忙。</code>（我还把这句话标注了）</p>
+
+<h3 id="6">#6</h3>
+<p>如果世界上的蚊子有鸟这么大的话，那这个世界多恐怖啊，所以活在这种蚊子对我们没有什么生命威胁的世界里说不定其实是个幸福的奇迹呢。（在加班时饱受蚊子折磨的我如此麻痹自己）</p>]]></content><author><name>LLGY</name></author><category term="Daily" /><category term="Daily" /><summary type="html"><![CDATA[又到了日记时间，虽然就只是第二次日记，但能让Blog的日期连续确实是很让人激动的一件事，今天正好也发生了不少好玩的事情，值得一记。]]></summary></entry><entry><title type="html">Jekyll学习</title><link href="http://localhost:4000/study/Jekyll.html" rel="alternate" type="text/html" title="Jekyll学习" /><published>2023-05-24T00:00:00+08:00</published><updated>2023-05-24T00:00:00+08:00</updated><id>http://localhost:4000/study/Jekyll</id><content type="html" xml:base="http://localhost:4000/study/Jekyll.html"><![CDATA[<p>进行个<code class="language-plaintext highlighter-rouge">Jekyll</code>的学~呜呜呜，搞成功后我真的是要泪崩了，为了弄这玩意多次学到凌晨6点，但感谢我的运气，感谢我的耐心。那么废话不多说，赶快把这次学到的一切以语言形式记录下来把~</p>
 
 <h1 id="1-软件介绍当然是复制别人的啦">1. 软件介绍（<a href="http://www.noobyard.com/article/p-nwnqarhl-gs.html">当然是复制别人的啦</a>）</h1>
 
@@ -47,12 +67,14 @@ bundle exec jekyll serve（开始构建本地网址）（如果发现4000被占�
 
 <p>进入_post目录，开始你的创作吧，注意文件的格式必须为YEAR-MONTH-DAY-title.MARKUP，如：2019-02-13-blog.md。</p>
 
+<p>为了后续编辑方便，这边推荐复制一下你Blog文件夹，以后你编辑内容时使用非上传文件夹（旧文件夹）。需要上传时复制一下整体，在新文件夹里把site文件夹里的文件全部拷贝到新文件夹里，上传步骤中上传新文件夹就不会出现Blog合集无法显示的问题了。</p>
+
 <h2 id="26-数据上传github全程必须有梯子或者改host">2.6 数据上传github（全程必须有梯子，或者改host）</h2>
 
 <pre><code class="language-git_upload">git init
 git checkout -b main
 git add .
-git commit -m "1st_1" （以XX名字上传github）
+git commit -m "XX" （以XX名字上传github）
 git remote add origin https://github.com/LLGY0/LLGY0.github.io.git
 git push origin main （正式开始上传）
 </code></pre>
@@ -237,8 +259,9 @@ git push origin main （正式开始上传）
 <a href="https://blog.csdn.net/qq_40226073/article/details/119801341">链接2</a></p>
 
 <h3 id="325-事项5">3.2.5 事项5</h3>
-<p>.gitignore文件有可能将_site文件添加为忽略文件，以至于后续操作将该文件忽略，从而无法上传至远程仓库的问题。_site文件以及.sass-cache文件都不能被忽略。
-<a href="https://blog.csdn.net/qq_43328313/article/details/124066785">链接1</a></p>]]></content><author><name>LLGY</name></author><category term="Study" /><category term="Study" /><summary type="html"><![CDATA[进行个Jekyll的学~呜呜呜，搞成功后我真的是要泪崩了，为了弄这玩意多次学到凌晨6点，但感谢我的运气，感谢我的耐心。那么废话不多说，赶快把这次学到的一切以语言形式记录下来把~]]></summary></entry><entry><title type="html">第一次的POST</title><link href="http://localhost:4000/daily/First_post.html" rel="alternate" type="text/html" title="第一次的POST" /><published>2023-05-23T00:00:00+08:00</published><updated>2023-05-23T00:00:00+08:00</updated><id>http://localhost:4000/daily/First_post</id><content type="html" xml:base="http://localhost:4000/daily/First_post.html"><![CDATA[<p>第一次记录自己的日常生活，希望能在博士期间好好记录下自己的所学所见。之前试过在微博或者微信朋友圈匿名写日记，但在上述平台记录日常显然有两个弊端：一是我每天都在微博上记录自己的消极情绪，今后翻阅日记时难免会感受到一阵胃痛，但是微博也不可能在我回忆“青春”时过滤掉“过往的伤疤”；二是我很难在上述平台记录自己的学习过程，而这估计是我日后生活的一大部分（虽然我也想摸鱼）。</p>
+<p>.gitignore文件有可能将_site文件添加为忽略文件，以至于后续操作将该文件忽略，从而无法上传至远程仓库的问题。_site文件以及.sass-cache文件都不能被忽略。另一方面，site里面的文件内容需要上传到github来使重要元件显现。
+<a href="https://blog.csdn.net/qq_43328313/article/details/124066785">链接1</a>
+<a href="https://blog.csdn.net/qq_56914146/article/details/128994392">链接2</a></p>]]></content><author><name>LLGY</name></author><category term="Study" /><category term="Study" /><summary type="html"><![CDATA[进行个Jekyll的学~呜呜呜，搞成功后我真的是要泪崩了，为了弄这玩意多次学到凌晨6点，但感谢我的运气，感谢我的耐心。那么废话不多说，赶快把这次学到的一切以语言形式记录下来把~]]></summary></entry><entry><title type="html">第一次的POST</title><link href="http://localhost:4000/daily/First_post.html" rel="alternate" type="text/html" title="第一次的POST" /><published>2023-05-23T00:00:00+08:00</published><updated>2023-05-23T00:00:00+08:00</updated><id>http://localhost:4000/daily/First_post</id><content type="html" xml:base="http://localhost:4000/daily/First_post.html"><![CDATA[<p>第一次记录自己的日常生活，希望能在博士期间好好记录下自己的所学所见。之前试过在微博或者微信朋友圈匿名写日记，但在上述平台记录日常显然有两个弊端：一是我每天都在微博上记录自己的消极情绪，今后翻阅日记时难免会感受到一阵胃痛，但是微博也不可能在我回忆“青春”时过滤掉“过往的伤疤”；二是我很难在上述平台记录自己的学习过程，而这估计是我日后生活的一大部分（虽然我也想摸鱼）。</p>
 
 <p>因此在Github上更新日记变得合理了起来：首先Github应该能用好久（千万别墙了）；其次通过Tag分类，能很好的让我定向回忆“悲痛文学”，但我想温习以前所学时，也不会被自己的日记搞二次抑郁（或者感到羞耻）。好！很有精神的LLGY，希望你能努力坚持记录日常，希望你即使找不到女朋友也不感到孤独，希望你即使多么绝望最终依然能站起来，希望你最终能自信起来。</p>
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 home-title: Welcome to LLGY's blog!
-description: None
+description: 原网址开发者的更新日志
 cover: 'assets/img/Background2.jpg'
 ---
 

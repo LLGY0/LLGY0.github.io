@@ -5,9 +5,45 @@
     <description>个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 25 May 2023 08:46:03 +0800</pubDate>
-    <lastBuildDate>Thu, 25 May 2023 08:46:03 +0800</lastBuildDate>
+    <pubDate>Thu, 25 May 2023 23:08:04 +0800</pubDate>
+    <lastBuildDate>Thu, 25 May 2023 23:08:04 +0800</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
+    
+      <item>
+        <title>Jotting</title>
+        <description>&lt;p&gt;又到了日记时间，虽然就只是第二次日记，但能让Blog的日期连续确实是很让人激动的一件事，今天正好也发生了不少好玩的事情，值得一记。&lt;/p&gt;
+
+&lt;h3 id=&quot;1&quot;&gt;#1&lt;/h3&gt;
+&lt;p&gt;今天一天基本都在学Ansys_Fluent，虽然我一开始还是对这玩意挺感兴趣的，但是当他变成一项老师的任务时，我的拖延症就会又开始犯了。但还好，今天我跑了一个相对不怎么失败的模型，尽管他耗费了我人生7小时以上才跑完（我真想有好电脑啊！）。等我对这玩意再熟悉点，说不定还能把他写进博客里。Ansys的教程不太好用文字来描述，大部分人都用视频来记录自己的学习过程。但很明显，我这个懒人并不想花时间录制和剪辑，而且谁知道哪次能跑出来呢。所以之后写Ansys相关的Blog时，恐怕就写写学习的心得和为了学他的一系列遭遇吧（为了能开始学他，折腾的时间不比Jekyll短）。最后这边放张我更新求解时巨卡无比的进度条…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/2023052501.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2&quot;&gt;#2&lt;/h3&gt;
+&lt;p&gt;今天听师妹兴奋地讲了她哥哥的故事。她哥跟我一样博士期间都没找到女盆友，家人亲戚介绍的对象也没成。但是他毕业时，有个女生主动追他，然后他们直接闪婚了。师妹讲到这也是&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;缘分&lt;/code&gt;什么的时候，颇有种眼睛亮光的感觉，恐怕每个人都期待能遇到“注定的那个人”吧。虽然师妹也对我未来的爱情旅程给予了祝福，但恐怕这实现难度堪比我按时毕业、彩票中奖、被闪电劈死、被陨石砸死、坐飞机失事、打模拟宇宙获得全部BUFF…吧（老天，请狠狠地打我脸）。&lt;/p&gt;
+
+&lt;h3 id=&quot;3&quot;&gt;#3&lt;/h3&gt;
+&lt;p&gt;今天去酒吧喝酒了，算是兑现诺言，点了一杯椰林飘香。这算是我最喜欢的酒了，酒精度数不算太高，在喝出果味的时候还能感受到浓浓的奶油味。但是如果加菠萝味碎冰以及酒精度数提高点就更好了，但我估计没胆子和老板提要求吧，怕对方觉得自己逼事真多，呜呼~以及椰林飘香还有一点特别好，那就是喝完我还能继续回去加班  : )  ，针不戳！&lt;/p&gt;
+
+&lt;h3 id=&quot;4&quot;&gt;#4&lt;/h3&gt;
+&lt;p&gt;今天上班摸鱼看了刀剑神域进击篇黯淡黄昏的谐谑曲（我在打字时才发现这标题够长的），虽然我看过小说了，但不得不说SAO的剧场版还是可以的，虽然说不上神作之类的，但是打斗已经让我很满意了，BGM也不错，真滴不戳！（让我加班更有动力了）&lt;/p&gt;
+
+&lt;h3 id=&quot;5&quot;&gt;#5&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;完全不知道Blog的评论系统怎么加，有没有dalao帮帮忙。&lt;/code&gt;（我还把这句话标注了）&lt;/p&gt;
+
+&lt;h3 id=&quot;6&quot;&gt;#6&lt;/h3&gt;
+&lt;p&gt;如果世界上的蚊子有鸟这么大的话，那这个世界多恐怖啊，所以活在这种蚊子对我们没有什么生命威胁的世界里说不定其实是个幸福的奇迹呢。（在加班时饱受蚊子折磨的我如此麻痹自己）&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 25 May 2023 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/daily/Jotting.html</link>
+        <guid isPermaLink="true">http://localhost:4000/daily/Jotting.html</guid>
+        
+        <category>Daily</category>
+        
+        
+        <category>Daily</category>
+        
+      </item>
     
       <item>
         <title>Jekyll学习</title>

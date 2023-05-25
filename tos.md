@@ -2,7 +2,7 @@
 layout: page
 home-title: Welcome to LLGY's blog!
 cover: '/assets/img/Background5.jpg'
-description: None
+description: 本站使用条款和隐私政策
 ---
 
 # 本站使用条款

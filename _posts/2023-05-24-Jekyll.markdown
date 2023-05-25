@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Jekyll学习"
+subtitle: '软件与环境的简单安装与调试'
 date:   2023-05-24
 categories: Study
 tags: 

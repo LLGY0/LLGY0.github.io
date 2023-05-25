@@ -18,6 +18,8 @@
     <meta property="og:site_name" content="LLGY">
     <meta property="og:gray" content="false">
     
+    <meta property="og:previous_url" content="/daily/Jotting.html">
+    
     
     <meta property="og:next_url" content="/daily/First_post.html">
     
@@ -228,6 +230,8 @@
       
     </header>
     <div class="post-content visible">
+      
+      <h2 class="post-subtitle">软件与环境的简单安装与调试</h2>
       
 
       
@@ -527,6 +531,15 @@ git push origin main （正式开始上传）
       </section>
       <section class="post-footer-item read-next">
         
+        <div class="read-next-item">
+          <a href="/daily/Jotting.html" class="read-next-link" aria-label="Jotting"></a>
+          <section>
+            <span>Jotting</span>
+            <p>又到了日记时间，虽然就只是第二次日记，但能让Blog的日期连续确实是很让人激动的一件事，今天正好也发生了不少好玩的...</p>
+          </section>
+          
+      </div>
+        
 
         
         <div class="read-next-item">
@@ -788,7 +801,7 @@ git push origin main （正式开始上传）
 
           $(".post time span.create-at").html(local_post_date["date"]);
 
-          fetch("https://api.github.com/repos/LLGY/LLGY0/commits?path=_posts/2023-05-24-Jekyll.markdown")
+          fetch("https://api.github.com/repos///commits?path=_posts/2023-05-24-Jekyll.markdown")
           .then((response) => {
             return response.json();
           })
