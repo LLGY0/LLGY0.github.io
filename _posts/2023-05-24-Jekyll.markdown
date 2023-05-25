@@ -60,13 +60,15 @@ bundle exec jekyll serve（开始构建本地网址）（如果发现4000被占�
 
 进入_post目录，开始你的创作吧，注意文件的格式必须为YEAR-MONTH-DAY-title.MARKUP，如：2019-02-13-blog.md。
 
+为了后续编辑方便，这边推荐复制一下你Blog文件夹，以后你编辑内容时使用非上传文件夹（旧文件夹）。需要上传时复制一下整体，在新文件夹里把site文件夹里的文件全部拷贝到新文件夹里，上传步骤中上传新文件夹就不会出现Blog合集无法显示的问题了。
+
 ## 2.6 数据上传github（全程必须有梯子，或者改host）
 
 ```git_upload
 git init
 git checkout -b main
 git add .
-git commit -m "1st_1" （以XX名字上传github）
+git commit -m "XX" （以XX名字上传github）
 git remote add origin https://github.com/LLGY0/LLGY0.github.io.git
 git push origin main （正式开始上传）
 ```
@@ -250,6 +252,6 @@ graph TD;
 [链接2](https://blog.csdn.net/qq_40226073/article/details/119801341)
 
 ### 3.2.5 事项5
-.gitignore文件有可能将_site文件添加为忽略文件，以至于后续操作将该文件忽略，从而无法上传至远程仓库的问题。_site文件以及.sass-cache文件都不能被忽略。
+.gitignore文件有可能将_site文件添加为忽略文件，以至于后续操作将该文件忽略，从而无法上传至远程仓库的问题。_site文件以及.sass-cache文件都不能被忽略。另一方面，site里面的文件内容需要上传到github来使重要元件显现。
 [链接1](https://blog.csdn.net/qq_43328313/article/details/124066785)
-https://blog.csdn.net/qq_56914146/article/details/128994392
+[链接2](https://blog.csdn.net/qq_56914146/article/details/128994392)

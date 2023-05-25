@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-25T03:13:37+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LLGY</title><subtitle>个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</subtitle><author><name>LLGY</name></author><entry><title type="html">Jekyll学习</title><link href="http://localhost:4000/study/Jekyll.html" rel="alternate" type="text/html" title="Jekyll学习" /><published>2023-05-24T00:00:00+08:00</published><updated>2023-05-24T00:00:00+08:00</updated><id>http://localhost:4000/study/Jekyll</id><content type="html" xml:base="http://localhost:4000/study/Jekyll.html"><![CDATA[<p>进行个<code class="language-plaintext highlighter-rouge">Jekyll</code>的学~呜呜呜，搞成功后我真的是要泪崩了，为了弄这玩意多次学到凌晨6点，但感谢我的运气，感谢我的耐心。那么废话不多说，赶快把这次学到的一切以语言形式记录下来把~</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-25T08:46:03+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LLGY</title><subtitle>个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</subtitle><author><name>LLGY</name></author><entry><title type="html">Jekyll学习</title><link href="http://localhost:4000/study/Jekyll.html" rel="alternate" type="text/html" title="Jekyll学习" /><published>2023-05-24T00:00:00+08:00</published><updated>2023-05-24T00:00:00+08:00</updated><id>http://localhost:4000/study/Jekyll</id><content type="html" xml:base="http://localhost:4000/study/Jekyll.html"><![CDATA[<p>进行个<code class="language-plaintext highlighter-rouge">Jekyll</code>的学~呜呜呜，搞成功后我真的是要泪崩了，为了弄这玩意多次学到凌晨6点，但感谢我的运气，感谢我的耐心。那么废话不多说，赶快把这次学到的一切以语言形式记录下来把~</p>
 
 <h1 id="1-软件介绍当然是复制别人的啦">1. 软件介绍（<a href="http://www.noobyard.com/article/p-nwnqarhl-gs.html">当然是复制别人的啦</a>）</h1>
 
@@ -47,12 +47,14 @@ bundle exec jekyll serve（开始构建本地网址）（如果发现4000被占�
 
 <p>进入_post目录，开始你的创作吧，注意文件的格式必须为YEAR-MONTH-DAY-title.MARKUP，如：2019-02-13-blog.md。</p>
 
+<p>为了后续编辑方便，这边推荐复制一下你Blog文件夹，以后你编辑内容时使用非上传文件夹（旧文件夹）。需要上传时复制一下整体，在新文件夹里把site文件夹里的文件全部拷贝到新文件夹里，上传步骤中上传新文件夹就不会出现Blog合集无法显示的问题了。</p>
+
 <h2 id="26-数据上传github全程必须有梯子或者改host">2.6 数据上传github（全程必须有梯子，或者改host）</h2>
 
 <pre><code class="language-git_upload">git init
 git checkout -b main
 git add .
-git commit -m "1st_1" （以XX名字上传github）
+git commit -m "XX" （以XX名字上传github）
 git remote add origin https://github.com/LLGY0/LLGY0.github.io.git
 git push origin main （正式开始上传）
 </code></pre>
@@ -237,8 +239,9 @@ git push origin main （正式开始上传）
 <a href="https://blog.csdn.net/qq_40226073/article/details/119801341">链接2</a></p>
 
 <h3 id="325-事项5">3.2.5 事项5</h3>
-<p>.gitignore文件有可能将_site文件添加为忽略文件，以至于后续操作将该文件忽略，从而无法上传至远程仓库的问题。_site文件以及.sass-cache文件都不能被忽略。
-<a href="https://blog.csdn.net/qq_43328313/article/details/124066785">链接1</a></p>]]></content><author><name>LLGY</name></author><category term="Study" /><category term="Study" /><summary type="html"><![CDATA[进行个Jekyll的学~呜呜呜，搞成功后我真的是要泪崩了，为了弄这玩意多次学到凌晨6点，但感谢我的运气，感谢我的耐心。那么废话不多说，赶快把这次学到的一切以语言形式记录下来把~]]></summary></entry><entry><title type="html">第一次的POST</title><link href="http://localhost:4000/daily/First_post.html" rel="alternate" type="text/html" title="第一次的POST" /><published>2023-05-23T00:00:00+08:00</published><updated>2023-05-23T00:00:00+08:00</updated><id>http://localhost:4000/daily/First_post</id><content type="html" xml:base="http://localhost:4000/daily/First_post.html"><![CDATA[<p>第一次记录自己的日常生活，希望能在博士期间好好记录下自己的所学所见。之前试过在微博或者微信朋友圈匿名写日记，但在上述平台记录日常显然有两个弊端：一是我每天都在微博上记录自己的消极情绪，今后翻阅日记时难免会感受到一阵胃痛，但是微博也不可能在我回忆“青春”时过滤掉“过往的伤疤”；二是我很难在上述平台记录自己的学习过程，而这估计是我日后生活的一大部分（虽然我也想摸鱼）。</p>
+<p>.gitignore文件有可能将_site文件添加为忽略文件，以至于后续操作将该文件忽略，从而无法上传至远程仓库的问题。_site文件以及.sass-cache文件都不能被忽略。另一方面，site里面的文件内容需要上传到github来使重要元件显现。
+<a href="https://blog.csdn.net/qq_43328313/article/details/124066785">链接1</a>
+<a href="https://blog.csdn.net/qq_56914146/article/details/128994392">链接2</a></p>]]></content><author><name>LLGY</name></author><category term="Study" /><category term="Study" /><summary type="html"><![CDATA[进行个Jekyll的学~呜呜呜，搞成功后我真的是要泪崩了，为了弄这玩意多次学到凌晨6点，但感谢我的运气，感谢我的耐心。那么废话不多说，赶快把这次学到的一切以语言形式记录下来把~]]></summary></entry><entry><title type="html">第一次的POST</title><link href="http://localhost:4000/daily/First_post.html" rel="alternate" type="text/html" title="第一次的POST" /><published>2023-05-23T00:00:00+08:00</published><updated>2023-05-23T00:00:00+08:00</updated><id>http://localhost:4000/daily/First_post</id><content type="html" xml:base="http://localhost:4000/daily/First_post.html"><![CDATA[<p>第一次记录自己的日常生活，希望能在博士期间好好记录下自己的所学所见。之前试过在微博或者微信朋友圈匿名写日记，但在上述平台记录日常显然有两个弊端：一是我每天都在微博上记录自己的消极情绪，今后翻阅日记时难免会感受到一阵胃痛，但是微博也不可能在我回忆“青春”时过滤掉“过往的伤疤”；二是我很难在上述平台记录自己的学习过程，而这估计是我日后生活的一大部分（虽然我也想摸鱼）。</p>
 
 <p>因此在Github上更新日记变得合理了起来：首先Github应该能用好久（千万别墙了）；其次通过Tag分类，能很好的让我定向回忆“悲痛文学”，但我想温习以前所学时，也不会被自己的日记搞二次抑郁（或者感到羞耻）。好！很有精神的LLGY，希望你能努力坚持记录日常，希望你即使找不到女朋友也不感到孤独，希望你即使多么绝望最终依然能站起来，希望你最终能自信起来。</p>
 
