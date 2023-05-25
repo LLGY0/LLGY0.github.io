@@ -5,8 +5,8 @@
     <description>个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 25 May 2023 03:13:37 +0800</pubDate>
-    <lastBuildDate>Thu, 25 May 2023 03:13:37 +0800</lastBuildDate>
+    <pubDate>Thu, 25 May 2023 08:46:03 +0800</pubDate>
+    <lastBuildDate>Thu, 25 May 2023 08:46:03 +0800</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -60,12 +60,14 @@ bundle exec jekyll serve（开始构建本地网址）（如果发现4000被占�
 
 &lt;p&gt;进入_post目录，开始你的创作吧，注意文件的格式必须为YEAR-MONTH-DAY-title.MARKUP，如：2019-02-13-blog.md。&lt;/p&gt;
 
+&lt;p&gt;为了后续编辑方便，这边推荐复制一下你Blog文件夹，以后你编辑内容时使用非上传文件夹（旧文件夹）。需要上传时复制一下整体，在新文件夹里把site文件夹里的文件全部拷贝到新文件夹里，上传步骤中上传新文件夹就不会出现Blog合集无法显示的问题了。&lt;/p&gt;
+
 &lt;h2 id=&quot;26-数据上传github全程必须有梯子或者改host&quot;&gt;2.6 数据上传github（全程必须有梯子，或者改host）&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&quot;language-git_upload&quot;&gt;git init
 git checkout -b main
 git add .
-git commit -m &quot;1st_1&quot; （以XX名字上传github）
+git commit -m &quot;XX&quot; （以XX名字上传github）
 git remote add origin https://github.com/LLGY0/LLGY0.github.io.git
 git push origin main （正式开始上传）
 &lt;/code&gt;&lt;/pre&gt;
@@ -250,8 +252,9 @@ git push origin main （正式开始上传）
 &lt;a href=&quot;https://blog.csdn.net/qq_40226073/article/details/119801341&quot;&gt;链接2&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;325-事项5&quot;&gt;3.2.5 事项5&lt;/h3&gt;
-&lt;p&gt;.gitignore文件有可能将_site文件添加为忽略文件，以至于后续操作将该文件忽略，从而无法上传至远程仓库的问题。_site文件以及.sass-cache文件都不能被忽略。
-&lt;a href=&quot;https://blog.csdn.net/qq_43328313/article/details/124066785&quot;&gt;链接1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;.gitignore文件有可能将_site文件添加为忽略文件，以至于后续操作将该文件忽略，从而无法上传至远程仓库的问题。_site文件以及.sass-cache文件都不能被忽略。另一方面，site里面的文件内容需要上传到github来使重要元件显现。
+&lt;a href=&quot;https://blog.csdn.net/qq_43328313/article/details/124066785&quot;&gt;链接1&lt;/a&gt;
+&lt;a href=&quot;https://blog.csdn.net/qq_56914146/article/details/128994392&quot;&gt;链接2&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 24 May 2023 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/study/Jekyll.html</link>
