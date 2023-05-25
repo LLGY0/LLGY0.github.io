@@ -1,6 +1,12 @@
 [
   
     {
+      "title"    : "Jotting",
+      "tags"     : "Daily",
+      "url"      : "/daily/Jotting.html"
+    } ,
+  
+    {
       "title"    : "Jekyll学习",
       "tags"     : "Study",
       "url"      : "/study/Jekyll.html"
