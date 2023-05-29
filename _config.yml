@@ -71,10 +71,11 @@ search: true
 nightMode: false
 
 # Comments 评论功能
-#comments:
-#  disqus: true
- # shortname: llgy
-#disqus_url: 'https://llgy.disqus.com/embed.js'
+comments:
+disqus: true
+shortname: llgy
+disqus_shortname: llgy
+disqus_url: 'https://llgy.disqus.com/embed.js'
 
 # MathJax 公式支持 by Ray-Eldath
 mathjax: true
