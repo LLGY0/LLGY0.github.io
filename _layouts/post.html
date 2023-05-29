@@ -243,19 +243,32 @@
       </section>      
       {% endif %}
 
- {% if site.comments.disqus %}
- <section class="post-footer-item comment">
-    <div id="disqus_thread"></div>
-  </section>
-     {% endif %}
+    <!--主题原本使用的disqus评论相关代码 -->
+    {% if site.comments.disqus %}
+    <section class="post-footer-item comment">
+        <div id="disqus_thread"></div>
+    </section>
+    {% endif %}
+    <!--增加引入comments的代码 -->
+    {% if site.gitalk_shortname %}
+    <section class="post-footer-item comment">
+      <h2 id="comments">评论</h2>
+      {% include comments.html %}
+    </section>
+    {% endif %}
 
-  {% if site.comments.waline %}
-  <section class="post-footer-item comment">
-      <div id="waline"></div>
-   </section>
-   {% endif %}
-  </section>
+      {% if site.comments.disqus %}
+      <section class="post-footer-item comment">
+          <div id="disqus_thread"></div>
+      </section>
+      {% endif %}
 
+      {% if site.comments.waline %}
+      <section class="post-footer-item comment">
+          <div id="waline"></div>
+      </section>
+      {% endif %}
+    </section>
 
     {% include footer.html %}
     {% if page.mermaid or site.mermaid %}

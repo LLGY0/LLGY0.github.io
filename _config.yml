@@ -72,8 +72,13 @@ nightMode: false
 
 # Comments 评论功能
 comments:
-disqus: true
-disqus_url: 'https://llgy.disqus.com/embed.js'
+  disqus: true
+  disqus_url: 'https://llgy.disqus.com/embed.js'
+  waline: false
+  waline_url: 'https://h2o-ac-waline.deta.dev/'
+  waline_reaction: false
+  waline_locale: 
+  gitalk_shortname: LLGY
 
 # MathJax 公式支持 by Ray-Eldath
 mathjax: true
