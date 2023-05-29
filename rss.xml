@@ -5,12 +5,48 @@
     <description>个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 28 May 2023 13:10:21 +0800</pubDate>
-    <lastBuildDate>Sun, 28 May 2023 13:10:21 +0800</lastBuildDate>
+    <pubDate>Mon, 29 May 2023 16:31:27 +0800</pubDate>
+    <lastBuildDate>Mon, 29 May 2023 16:31:27 +0800</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
-        <title>Jotting_2023_05_27</title>
+        <title>Jotting#3</title>
+        <description>&lt;p&gt;今天下午就开始记日记了，最大的原因是我晚上要好好玩游戏捏，所以提前开搞Blog应该没什么大问题吧~~~&lt;/p&gt;
+
+&lt;h3 id=&quot;1&quot;&gt;#1&lt;/h3&gt;
+&lt;p&gt;上午睡觉，下午做实验+准备日语课考试+写Blog+找老师签字，晚上玩游戏。你看，我一天工作效率最高就是在下午，把今天这个下午去掉，我就什么都不是捏，白白虚度一天光阴捏。&lt;/p&gt;
+
+&lt;h3 id=&quot;2&quot;&gt;#2&lt;/h3&gt;
+&lt;p&gt;最近干啥都没动力~~~有必要锻炼自己的意志了…但该干什么呢，把自己电脑砸了重买新的吗。&lt;/p&gt;
+
+&lt;h3 id=&quot;3&quot;&gt;#3&lt;/h3&gt;
+&lt;p&gt;昨天组会意外没被老师质疑（指我的垃圾仿真），可能我就装样子很在行吧，也许以后我适合当传销头子。&lt;/p&gt;
+
+&lt;h3 id=&quot;4&quot;&gt;#4&lt;/h3&gt;
+&lt;p&gt;大家都好强，都在卷，可是我卷不动了，现在我可能只有更新Blog还算积极点。&lt;/p&gt;
+
+&lt;h3 id=&quot;5&quot;&gt;#5&lt;/h3&gt;
+&lt;p&gt;现在看到马路上情侣在秀恩爱，我也不会有任何想法了呢，真的。&lt;/p&gt;
+
+&lt;h3 id=&quot;6&quot;&gt;#6&lt;/h3&gt;
+&lt;p&gt;今天看到有救护车120进学校了…我自以为是个冷漠至极的人，不会对不认识的人产生一丝一毫的共情…但当我看到路边的学生对进学校的120笑着指指点点，仿佛在看新乐子的时候，莫名产生一种很难受的感觉…等哪天我陷入绝望了，在学校楼上一跃而下的时候，周边的人会笑着指着我的尸体说“看！又是一个想不开的”吗？&lt;/p&gt;
+
+&lt;h3 id=&quot;7&quot;&gt;#7&lt;/h3&gt;
+&lt;p&gt;写完第6条时，突然感觉我可能才是格格不入的不正常的人，为啥总嘲讽伤害自己呢。果然还是学习好啊。&lt;/p&gt;
+</description>
+        <pubDate>Mon, 29 May 2023 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/daily/Jotting-3.html</link>
+        <guid isPermaLink="true">http://localhost:4000/daily/Jotting-3.html</guid>
+        
+        <category>Daily</category>
+        
+        
+        <category>Daily</category>
+        
+      </item>
+    
+      <item>
+        <title>Jotting#2</title>
         <description>&lt;p&gt;醉酒回到办公室，一开灯三只蚊子在门口欢迎我，谢谢你们，我才不会在深夜里感到孤单，真的很谢谢你们（啪~啪~啪~）。&lt;/p&gt;
 
 &lt;h3 id=&quot;1&quot;&gt;#1&lt;/h3&gt;
@@ -35,8 +71,8 @@
 
 </description>
         <pubDate>Sat, 27 May 2023 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/daily/Jotting_2023_05_27.html</link>
-        <guid isPermaLink="true">http://localhost:4000/daily/Jotting_2023_05_27.html</guid>
+        <link>http://localhost:4000/daily/Jotting-2.html</link>
+        <guid isPermaLink="true">http://localhost:4000/daily/Jotting-2.html</guid>
         
         <category>Daily</category>
         
@@ -46,7 +82,7 @@
       </item>
     
       <item>
-        <title>Jotting</title>
+        <title>Jotting#1</title>
         <description>&lt;p&gt;又到了日记时间，虽然就只是第二次日记，但能让Blog的日期连续确实是很让人激动的一件事，今天正好也发生了不少好玩的事情，值得一记。&lt;/p&gt;
 
 &lt;h3 id=&quot;1&quot;&gt;#1&lt;/h3&gt;
@@ -71,8 +107,8 @@
 
 </description>
         <pubDate>Thu, 25 May 2023 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/daily/Jotting.html</link>
-        <guid isPermaLink="true">http://localhost:4000/daily/Jotting.html</guid>
+        <link>http://localhost:4000/daily/Jotting-1.html</link>
+        <guid isPermaLink="true">http://localhost:4000/daily/Jotting-1.html</guid>
         
         <category>Daily</category>
         
