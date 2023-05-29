@@ -71,13 +71,10 @@ search: true
 nightMode: false
 
 # Comments 评论功能
-comments:
-  disqus: true
-  disqus_url: 'https://h2o-ac.disqus.com/embed.js'
-  waline: true
-  waline_url: 'https://h2o-ac-waline.deta.dev/'
-  waline_reaction: false
-  waline_locale: 
+#comments:
+#  disqus: true
+ # shortname: llgy
+#disqus_url: 'https://llgy.disqus.com/embed.js'
 
 # MathJax 公式支持 by Ray-Eldath
 mathjax: true

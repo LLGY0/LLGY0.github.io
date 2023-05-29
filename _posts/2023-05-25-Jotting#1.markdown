@@ -4,6 +4,7 @@ title:  "Jotting#1"
 date:   2023-05-25
 subtitle: '随便日记#1'
 categories: Daily
+comments: true
 tags: 
 - Daily
 ---
