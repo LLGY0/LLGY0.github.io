@@ -5,9 +5,34 @@
     <description>个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 01 Jun 2023 01:52:14 +0800</pubDate>
-    <lastBuildDate>Thu, 01 Jun 2023 01:52:14 +0800</lastBuildDate>
+    <pubDate>Sat, 03 Jun 2023 02:53:55 +0800</pubDate>
+    <lastBuildDate>Sat, 03 Jun 2023 02:53:55 +0800</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
+    
+      <item>
+        <title>Jotting#5</title>
+        <description>&lt;h3 id=&quot;1&quot;&gt;#1&lt;/h3&gt;
+&lt;p&gt;最近在放纵自己，找不到方向，不想管其他人了，不想管其他事情了，自己永远也不会拜托无能这个标签吧。&lt;/p&gt;
+
+&lt;h3 id=&quot;2&quot;&gt;#2&lt;/h3&gt;
+&lt;p&gt;最近办公室的蚊子又多了许多，每天晚上都能闻到他们尸体烤糊的味道，在这个房间里，我是他们的自助餐，他们是我的噩梦…我已经有点受不了他们煽动翅膀的声音。&lt;/p&gt;
+
+&lt;h3 id=&quot;3&quot;&gt;#3&lt;/h3&gt;
+&lt;p&gt;今天知道了不该知道的事情。很久以前我就喜欢擅自揣测别人的意图，以为他人对自己有所期待，自己不能辜负他人信任。但实际上每个人都看出我是个半桶水。对我的关心与鼓励言语，会不会也是你们扮演身份时的仿作之辞呢。如果是这样，那我也没必要对自身的不完美感到难受了吧。&lt;/p&gt;
+
+&lt;h3 id=&quot;4&quot;&gt;#4&lt;/h3&gt;
+&lt;p&gt;还是好好完成任务吧，至少不要给别人带来不必要的麻烦。&lt;/p&gt;
+</description>
+        <pubDate>Fri, 02 Jun 2023 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/daily/Jotting-5.html</link>
+        <guid isPermaLink="true">http://localhost:4000/daily/Jotting-5.html</guid>
+        
+        <category>Daily</category>
+        
+        
+        <category>Daily</category>
+        
+      </item>
     
       <item>
         <title>Jotting#4</title>
