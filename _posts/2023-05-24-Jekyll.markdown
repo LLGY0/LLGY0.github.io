@@ -237,6 +237,10 @@ graph TD;
     Add gantt diagram to demo page      :20h
     Add another diagram to demo page    :48h
 ```
+### 3.1.13 其他
+[pdf名字](https://用户名.github.io/....pdf)
+
+
 ## 3.2 注意事项
 
 ### 3.2.1 事项1

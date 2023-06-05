@@ -5,9 +5,37 @@
     <description>个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 03 Jun 2023 02:53:55 +0800</pubDate>
-    <lastBuildDate>Sat, 03 Jun 2023 02:53:55 +0800</lastBuildDate>
+    <pubDate>Mon, 05 Jun 2023 22:43:09 +0800</pubDate>
+    <lastBuildDate>Mon, 05 Jun 2023 22:43:09 +0800</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
+    
+      <item>
+        <title>Jotting#6</title>
+        <description>&lt;h3 id=&quot;16月4日&quot;&gt;#1（6月4日）&lt;/h3&gt;
+&lt;p&gt;今天和高中同学看了银河护卫队3，吃了本家韩国烤肉，很满足捏。电影能吐槽的地方可太多了：反派BOSS莫名被杀，影片结尾像极了各位演员要杀青了，匆忙挨个说出下线台词。但是还是挺开心的一天。&lt;/p&gt;
+
+&lt;h3 id=&quot;2&quot;&gt;#2&lt;/h3&gt;
+&lt;p&gt;果然自己的心态还有待磨砺，希望以后的自己至少保住本心，享受活着的感觉。技不如人，被人贬低也无所谓了，只要自己善始善终就最好了。加油！以后尽量多更些技术博客，别搁着水日记了。&lt;/p&gt;
+
+&lt;h3 id=&quot;16月5日&quot;&gt;#1（6月5日）&lt;/h3&gt;
+&lt;p&gt;振作后的第一天，LLGY啊，你要好起来啊！（今天睡的觉真多，每天见到这么多美女，开心点啊）&lt;/p&gt;
+
+&lt;h3 id=&quot;2-1&quot;&gt;#2&lt;/h3&gt;
+&lt;p&gt;今天讲个趣事：今晚我在熬夜时，突然想去外面烧个水。在我打开房门的一瞬间，我瞥见旁边墙壁上扶着一只蚊子。我本打算开完门去好好收拾它，没想到他直接飞出去了…啊这，只能说蚊子都比我惜命。&lt;/p&gt;
+
+&lt;h3 id=&quot;3&quot;&gt;#3&lt;/h3&gt;
+&lt;p&gt;以后真可以在别人面前说：我打死过得蚊子比你今天吃的饭都多。&lt;/p&gt;
+</description>
+        <pubDate>Sun, 04 Jun 2023 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/daily/Jotting-6.html</link>
+        <guid isPermaLink="true">http://localhost:4000/daily/Jotting-6.html</guid>
+        
+        <category>Daily</category>
+        
+        
+        <category>Daily</category>
+        
+      </item>
     
       <item>
         <title>Jotting#5</title>
@@ -396,6 +424,9 @@ git push origin main （正式开始上传）
     Add gantt diagram to demo page      :20h
     Add another diagram to demo page    :48h
 &lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;3113-其他&quot;&gt;3.1.13 其他&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://用户名.github.io/....pdf&quot;&gt;pdf名字&lt;/a&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;32-注意事项&quot;&gt;3.2 注意事项&lt;/h2&gt;
 
 &lt;h3 id=&quot;321-事项1&quot;&gt;3.2.1 事项1&lt;/h3&gt;
