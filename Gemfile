@@ -8,3 +8,4 @@ gem "premonition"
 gem "h2o-ac-jekyll-extlinks"
 gem "nokogiri"
 gem 'wdm', '>= 0.1.0'
+gem 'jekyll-admin', group: :jekyll_plugins
