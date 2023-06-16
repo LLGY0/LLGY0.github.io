@@ -20,7 +20,7 @@ default_lang: "zh-Hans"
 # Github
 github:
   enabled: true
-  owner: LLGY
+  owner: LLGY0
   repository: LLGY0
 
 # PWA
@@ -106,6 +106,7 @@ github: 'https://github.com/LLGY0'
 # Links 友情链接
 links:
   'MGM Lab': 'https://themgmlab.com/'
+  'LiYi Group': 'http://liyigroup.hhu.edu.cn/'
 
 # Supports 赞助商
 supports:

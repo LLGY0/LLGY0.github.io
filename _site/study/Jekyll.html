@@ -208,13 +208,13 @@
                 <use xlink:href="#icon-words"></use>
               </svg>
               
-              本文总共  4.8k  字
+              本文总共  5.0k  字
             </span>
             <span class="post-meta-item">
               <svg class="icon time" aria-hidden="true">
                 <use xlink:href="#icon-time"></use>
               </svg>
-              阅读全文大约需要 14 分钟
+              阅读全文大约需要 15 分钟
             </span>
             
               <span class="post-meta-item">
@@ -327,23 +327,37 @@ git push origin main （正式开始上传）
 
 <h2 id="31-网址初始附加">3.1 网址初始附加</h2>
 
-<h3 id="311-超链接文字">3.1.1 <a href="https://github.com/kaeyleo/jekyll-theme-H2O">超链接文字→</a></h3>
+<h3 id="311-添加超链接文字">3.1.1 添加超链接文字</h3>
+<pre><code class="language-Code">[超链接文字→](https://github.com/kaeyleo/jekyll-theme-H2O)
+</code></pre>
+<p><a href="https://github.com/kaeyleo/jekyll-theme-H2O">超链接文字→</a></p>
 
 <h3 id="312-插图片">3.1.2 插图片</h3>
+<pre><code class="language-Code">![图片名](http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-realhome.jpg)
+</code></pre>
 <p><img src="http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-realhome.jpg" alt="图片名" /></p>
 
-<h3 id="313-x高亮">3.1.3 <code class="language-plaintext highlighter-rouge">X</code>高亮</h3>
+<h3 id="313-高亮文字">3.1.3 高亮文字</h3>
+<pre><code class="language-Code">`XXXXX`
+</code></pre>
+<p><code class="language-plaintext highlighter-rouge">XXXXX</code></p>
 
-<h3 id="314-代码">3.1.4 代码：</h3>
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;pre&gt;&lt;code</span> <span class="na">class=</span><span class="s">"language-css"</span><span class="nt">&gt;</span>p { color: red }<span class="nt">&lt;/code&gt;&lt;/pre&gt;</span>
+<h3 id="314-代码">3.1.4 代码</h3>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; ```markdown</span>
+<span class="gt">&gt; XXXX</span>
+<span class="gt">&gt; ```</span>
 </code></pre></div></div>
 
-<h3 id="315">3.1.5</h3>
+<h3 id="315-变成原点">3.1.5 变成原点</h3>
+<pre><code class="language-Code">- X
+</code></pre>
 <ul>
-  <li>X  -变成原点</li>
+  <li>X</li>
 </ul>
 
-<h3 id="316">3.1.6</h3>
+<h3 id="316-前有竖线">3.1.6 前有竖线</h3>
+<pre><code class="language-Code"> &gt; A
+</code></pre>
 <blockquote>
   <p>A</p>
 </blockquote>
@@ -355,6 +369,8 @@ git push origin main （正式开始上传）
 </code></pre>
 
 <h3 id="318-加粗">3.1.8 加粗</h3>
+<pre><code class="language-Code">**A** 
+</code></pre>
 <p><strong>A</strong></p>
 
 <h3 id="319-公式">3.1.9 公式</h3>
@@ -376,6 +392,8 @@ git push origin main （正式开始上传）
 \end{align}\]
 
 <h3 id="3110-空2格">3.1.10 空2格</h3>
+<pre><code class="language-Code">&amp;emsp;&amp;emsp;
+</code></pre>
 <p>  </p>
 
 <h3 id="3111-提示框">3.1.11 提示框</h3>
@@ -464,6 +482,8 @@ git push origin main （正式开始上传）
     Add another diagram to demo page    :48h
 </code></pre>
 <h3 id="3113-其他">3.1.13 其他</h3>
+<pre><code class="language-Code">[pdf名字](https://用户名.github.io/....pdf)
+</code></pre>
 <p><a href="https://用户名.github.io/....pdf">pdf名字</a></p>
 
 <h2 id="32-注意事项">3.2 注意事项</h2>
@@ -472,7 +492,7 @@ git push origin main （正式开始上传）
 <p>注意git的时候千万不能用<code class="language-plaintext highlighter-rouge">gh-pages</code>（不然在github生成网站时会出错，错误提示：<code class="language-plaintext highlighter-rouge">Action failed with "You deploy from gh-pages to gh-pages；This operation is prohibited to protect your contents</code>）</p>
 
 <h3 id="322-事项2">3.2.2 事项2</h3>
-<p>命名github的<code class="language-plaintext highlighter-rouge">repository</code>时，命名直接用<code class="language-plaintext highlighter-rouge">用户名+.github.io</code>，这样设置用户文件夹里的<code class="language-plaintext highlighter-rouge">_config.yml</code>时，就不用改<code class="language-plaintext highlighter-rouge">baseurl</code>了。（如果改baseurl，很容易导致jekyll s时出错，出错代码：<code class="language-plaintext highlighter-rouge">sw not found</code>）</p>
+<p>命名github的<code class="language-plaintext highlighter-rouge">repository</code>时，命名直接用<code class="language-plaintext highlighter-rouge">用户名+.github.io</code>，这样设置用户文件夹里的<code class="language-plaintext highlighter-rouge">_config.yml</code>时，就不用改<code class="language-plaintext highlighter-rouge">baseurl</code>了。（如果改baseurl，很容易导致输入代码-jekyll serve时出错，出错代码：<code class="language-plaintext highlighter-rouge">sw not found</code>）</p>
 
 <h3 id="323-事项3">3.2.3 事项3</h3>
 <p><a href="https://blog.csdn.net/pxyyoona/article/details/123150326">关于<code class="language-plaintext highlighter-rouge">_config.yml</code>中<code class="language-plaintext highlighter-rouge">baseurl</code>的介绍</a></p>
@@ -509,7 +529,7 @@ git push origin main （正式开始上传）
         </div>   
         <div class="table-of-contents">
           <h2>目录</h2>
-          <ul><li><a href="#1-软件介绍当然是复制别人的啦">1. 软件介绍（<a href="http://www.noobyard.com/article/p-nwnqarhl-gs.html">当然是复制别人的啦</a>）</a></li><li><a href="#11-github--jekyll-工作机制">1.1 GitHub + Jekyll 工作机制</a></li><li><a href="#2-总体流程">2. 总体流程</a><ul><li><a href="#21-各软件的安装和升级msys2的安装">2.1 各软件的安装和升级msys2的安装</a></li><li><a href="#24-jekyll相关指令">2.4 jekyll相关指令</a></li><li><a href="#25-写blog">2.5 写Blog</a></li><li><a href="#26-数据上传github全程必须有梯子或者改host">2.6 数据上传github（全程必须有梯子，或者改host）</a></li><li><a href="#26-运行查看blog">2.6 运行查看Blog</a></li><li><a href="#27-自定义域名要花钱的">2.7 自定义域名（要花钱的）</a></li></ul></li><li><a href="#3-其他事项">3. 其他事项</a><ul><li><a href="#31-网址初始附加">3.1 网址初始附加</a><ul><li><a href="#311-超链接文字">3.1.1 <a href="https://github.com/kaeyleo/jekyll-theme-H2O">超链接文字→</a></a></li><li><a href="#312-插图片">3.1.2 插图片</a></li><li><a href="#313-x高亮">3.1.3 <code class="language-plaintext highlighter-rouge">X</code>高亮</a></li><li><a href="#314-代码">3.1.4 代码：</a></li><li><a href="#315">3.1.5</a></li><li><a href="#316">3.1.6</a></li><li><a href="#317-video-test">3.1.7 Video Test</a></li><li><a href="#318-加粗">3.1.8 加粗</a></li><li><a href="#319-公式">3.1.9 公式</a></li><li><a href="#3110-空2格">3.1.10 空2格</a></li><li><a href="#3111-提示框">3.1.11 提示框</a></li><li><a href="#3112-mermaid画">3.1.12 Mermaid画</a></li><li><a href="#3113-其他">3.1.13 其他</a></li></ul></li><li><a href="#32-注意事项">3.2 注意事项</a><ul><li><a href="#321-事项1">3.2.1 事项1</a></li><li><a href="#322-事项2">3.2.2 事项2</a></li><li><a href="#323-事项3">3.2.3 事项3</a></li><li><a href="#324-事项4">3.2.4 事项4</a></li><li><a href="#325-事项5">3.2.5 事项5</a></li></ul></li></ul></li></ul>
+          <ul><li><a href="#1-软件介绍当然是复制别人的啦">1. 软件介绍（<a href="http://www.noobyard.com/article/p-nwnqarhl-gs.html">当然是复制别人的啦</a>）</a></li><li><a href="#11-github--jekyll-工作机制">1.1 GitHub + Jekyll 工作机制</a></li><li><a href="#2-总体流程">2. 总体流程</a><ul><li><a href="#21-各软件的安装和升级msys2的安装">2.1 各软件的安装和升级msys2的安装</a></li><li><a href="#24-jekyll相关指令">2.4 jekyll相关指令</a></li><li><a href="#25-写blog">2.5 写Blog</a></li><li><a href="#26-数据上传github全程必须有梯子或者改host">2.6 数据上传github（全程必须有梯子，或者改host）</a></li><li><a href="#26-运行查看blog">2.6 运行查看Blog</a></li><li><a href="#27-自定义域名要花钱的">2.7 自定义域名（要花钱的）</a></li></ul></li><li><a href="#3-其他事项">3. 其他事项</a><ul><li><a href="#31-网址初始附加">3.1 网址初始附加</a><ul><li><a href="#311-添加超链接文字">3.1.1 添加超链接文字</a></li><li><a href="#312-插图片">3.1.2 插图片</a></li><li><a href="#313-高亮文字">3.1.3 高亮文字</a></li><li><a href="#314-代码">3.1.4 代码</a></li><li><a href="#315-变成原点">3.1.5 变成原点</a></li><li><a href="#316-前有竖线">3.1.6 前有竖线</a></li><li><a href="#317-video-test">3.1.7 Video Test</a></li><li><a href="#318-加粗">3.1.8 加粗</a></li><li><a href="#319-公式">3.1.9 公式</a></li><li><a href="#3110-空2格">3.1.10 空2格</a></li><li><a href="#3111-提示框">3.1.11 提示框</a></li><li><a href="#3112-mermaid画">3.1.12 Mermaid画</a></li><li><a href="#3113-其他">3.1.13 其他</a></li></ul></li><li><a href="#32-注意事项">3.2 注意事项</a><ul><li><a href="#321-事项1">3.2.1 事项1</a></li><li><a href="#322-事项2">3.2.2 事项2</a></li><li><a href="#323-事项3">3.2.3 事项3</a></li><li><a href="#324-事项4">3.2.4 事项4</a></li><li><a href="#325-事项5">3.2.5 事项5</a></li></ul></li></ul></li></ul>
         </div>
       </div>
       
