@@ -5,13 +5,77 @@
     <description>个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 03 Jul 2023 01:05:50 +0800</pubDate>
-    <lastBuildDate>Mon, 03 Jul 2023 01:05:50 +0800</lastBuildDate>
+    <pubDate>Tue, 04 Jul 2023 01:56:09 +0800</pubDate>
+    <lastBuildDate>Tue, 04 Jul 2023 01:56:09 +0800</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
+        <title>Jekyll学习#2</title>
+        <description>&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Jekyll&lt;/code&gt;学习第二弹&lt;/p&gt;
+
+&lt;h1 id=&quot;1-插件&quot;&gt;1. 插件&lt;/h1&gt;
+
+&lt;h2 id=&quot;11-jimoji&quot;&gt;1.1 jimoji&lt;/h2&gt;
+
+&lt;p&gt;具体emoji代码参考 https://www.webfx.com/tools/emoji-cheat-sheet/&lt;/p&gt;
+
+&lt;p&gt;展示：&lt;/p&gt;
+
+&lt;p&gt;:+1:
+:dog:
+:cat:&lt;/p&gt;
+
+&lt;h2 id=&quot;12-网易云音乐插件&quot;&gt;1.2 网易云音乐插件&lt;/h2&gt;
+
+&lt;p&gt;代码参考：
+在每个页面抬头添加music-id: XXXX&lt;/p&gt;
+
+&lt;h2 id=&quot;13-为jekyll博客添加目录与scrollspy效果&quot;&gt;1.3 为Jekyll博客添加目录与ScrollSpy效果&lt;/h2&gt;
+
+&lt;p&gt;代码参考：http://t.hengwei.me/post/%E4%B8%BAjekyll%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E7%9B%AE%E5%BD%95%E4%B8%8Escrollspy%E6%95%88%E6%9E%9C.html&lt;/p&gt;
+
+&lt;h2 id=&quot;14-个人博客中添加点击爱心效果&quot;&gt;1.4 个人博客中添加点击爱心效果&lt;/h2&gt;
+
+&lt;p&gt;代码参考：https://yizibi.github.io/2018/10/18/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%B7%BB%E5%8A%A0%E7%82%B9%E5%87%BB%E7%88%B1%E5%BF%83%E6%95%88%E6%9E%9C/&lt;/p&gt;
+
+&lt;p&gt;代码2参考：https://blog.51cto.com/u_15127588/2807647&lt;/p&gt;
+
+&lt;h2 id=&quot;15-添加阅读量统计功能&quot;&gt;1.5 添加阅读量统计功能&lt;/h2&gt;
+
+&lt;p&gt;代码参考：https://blog.csdn.net/qq_32507255/article/details/89068958?ops_request_misc=&amp;amp;request_id=&amp;amp;biz_id=102&amp;amp;utm_term=jekyll%20%E7%82%B9%E5%87%BB&amp;amp;utm_medium=distribute.pc_search_result.none-task-blog-2~blog~sobaiduweb~default-4-89068958.268^v1^koosearch&amp;amp;spm=1018.2226.3001.4450&lt;/p&gt;
+
+&lt;h2 id=&quot;16-gitalk&quot;&gt;1.6 gitalk&lt;/h2&gt;
+
+&lt;p&gt;代码参考：https://www.pianshen.com/article/4404354477/  https://blog.csdn.net/zy13651953784/article/details/104813021  https://blog.csdn.net/sinat_32873711/article/details/129192910  https://github.com/gitalk/gitalk/blob/master/readme-cn.md  https://gitalk.github.io/  https://github.com/gitalk/gitalk#install&lt;/p&gt;
+
+&lt;h2 id=&quot;17-随机bgm与全局bgm&quot;&gt;1.7 随机BGM与全局BGM&lt;/h2&gt;
+
+&lt;p&gt;代码参考：https://www.jianshu.com/p/b2306e9b7ba7   https://szhshp.org/tech/2016/11/19/whynotaddabgmforurblog.html&lt;/p&gt;
+
+&lt;h2 id=&quot;18-添加站点访客数及文章浏览量添加中英文字数统计&quot;&gt;1.8 添加站点访客数及文章浏览量、添加中英文字数统计&lt;/h2&gt;
+
+&lt;p&gt;代码参考：https://blog.csdn.net/ds19991999/article/details/81293467&lt;/p&gt;
+
+&lt;h2 id=&quot;19-live2d小人&quot;&gt;1.9 Live2D小人&lt;/h2&gt;
+
+&lt;p&gt;代码参考：https://github.com/stevenjoezhang/live2d-widget&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 03 Jul 2023 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/study/Jekyll%E6%8F%92%E4%BB%B6%E4%B8%8E%E5%8A%9F%E8%83%BD%E4%BC%98%E5%8C%96.html</link>
+        <guid isPermaLink="true">http://localhost:4000/study/Jekyll%E6%8F%92%E4%BB%B6%E4%B8%8E%E5%8A%9F%E8%83%BD%E4%BC%98%E5%8C%96.html</guid>
+        
+        <category>Study</category>
+        
+        
+        <category>Study</category>
+        
+      </item>
+    
+      <item>
         <title>Jotting#3</title>
-        <description>&lt;h1 id=&quot;7月3日&quot;&gt;7月3日&lt;/h1&gt;
+        <description>&lt;!--excerpt--&gt;
+&lt;h1 id=&quot;7月3日&quot;&gt;7月3日&lt;/h1&gt;
 
 &lt;p&gt;最近情绪依然低迷，组会找了个借口不汇报了…我实在是不想做了。希望明天的我有所改变吧。但是…我还是希望自己的Blog里少点忧郁的东西，以后少写点情感类吧（除了特殊情况）&lt;/p&gt;
 
@@ -31,6 +95,11 @@
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/005.jpg&quot; alt=&quot;抑郁了，想去死一死&quot; /&gt;&lt;/p&gt;
 
+&lt;h1 id=&quot;7月4日&quot;&gt;7月4日&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-1&quot;&gt;#1&lt;/h2&gt;
+
+&lt;p&gt;今天尝试往Blog里加新东西，但是大部分都看不懂，没有HTML基础是这样的，毕竟我也不是电脑专业的，还是花时间学习下基础吧。&lt;/p&gt;
 </description>
         <pubDate>Sat, 01 Jul 2023 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/daily/Jotting-3.html</link>
@@ -320,7 +389,7 @@
 
 &lt;p&gt;Jekyll刚好是GitHub Pages的引擎，所以你能够在GitHub的服务器上免费托管项目的Jekyll页面/博客/网站。&lt;/p&gt;
 
-&lt;h1 id=&quot;11-github--jekyll-工作机制&quot;&gt;1.1 GitHub + Jekyll 工作机制&lt;/h1&gt;
+&lt;h2 id=&quot;11-github--jekyll-工作机制&quot;&gt;1.1 GitHub + Jekyll 工作机制&lt;/h2&gt;
 
 &lt;p&gt;简单地说，你在 GitHub 上有一个账号，名为&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;username&lt;/code&gt;(任意)， 有一个项目，名为&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;username.github.io&lt;/code&gt;(固定格式，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;username&lt;/code&gt;与账号名一致)， 项目分支名为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;master&lt;/code&gt;(你可以自己改)。&lt;/p&gt;
 

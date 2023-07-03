@@ -102,6 +102,12 @@
         <div class="post-cover" style="background: url('{{ page.cover | relative_url }}') center no-repeat; background-size: cover;"></div>
       {% endif %}
     </header>
+
+        <!-- 在正文开头添加网易云音乐插件 -->
+        {% if page.music-id %}
+        {% include cloud-music.html %}
+      {% endif %} 
+
     <div class="post-content visible">
       {% if page.subtitle %}
       <h2 class="post-subtitle">{{ page.subtitle }}</h2>
@@ -463,6 +469,9 @@
 	{% include mathjax.html %}
   {% include mermaid.html %} 
   {% include webpusher.html %} 
+<!--鼠标点击爱心动画-->
+<script type="text/javascript" src="/js/src/love.js"></script>
+<script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
 </body>
 
 </html>

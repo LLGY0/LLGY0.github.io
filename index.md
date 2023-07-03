@@ -23,8 +23,3 @@ cover: 'assets/img/Background.jpg'
 
 &emsp;&emsp;Email_1: luyin0731@outlook.com
 &emsp;&emsp;Email_2: luyin0731@gmail.com
-
-# 娱乐分享
-
-&emsp;&emsp;Celest
-&emsp;&emsp;Miku

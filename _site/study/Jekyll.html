@@ -229,6 +229,10 @@
       </div>
       
     </header>
+
+        <!-- 在正文开头添加网易云音乐插件 -->
+         
+
     <div class="post-content visible">
       
       <h2 class="post-subtitle">软件与环境的简单安装与调试</h2>
@@ -249,7 +253,7 @@
 
 <p>Jekyll刚好是GitHub Pages的引擎，所以你能够在GitHub的服务器上免费托管项目的Jekyll页面/博客/网站。</p>
 
-<h1 id="11-github--jekyll-工作机制">1.1 GitHub + Jekyll 工作机制</h1>
+<h2 id="11-github--jekyll-工作机制">1.1 GitHub + Jekyll 工作机制</h2>
 
 <p>简单地说，你在 GitHub 上有一个账号，名为<code class="language-plaintext highlighter-rouge">username</code>(任意)， 有一个项目，名为<code class="language-plaintext highlighter-rouge">username.github.io</code>(固定格式，<code class="language-plaintext highlighter-rouge">username</code>与账号名一致)， 项目分支名为 <code class="language-plaintext highlighter-rouge">master</code>(你可以自己改)。</p>
 
@@ -529,7 +533,7 @@ git push origin main （正式开始上传）
         </div>   
         <div class="table-of-contents">
           <h2>目录</h2>
-          <ul><li><a href="#1-软件介绍当然是复制别人的啦">1. 软件介绍（<a href="http://www.noobyard.com/article/p-nwnqarhl-gs.html">当然是复制别人的啦</a>）</a></li><li><a href="#11-github--jekyll-工作机制">1.1 GitHub + Jekyll 工作机制</a></li><li><a href="#2-总体流程">2. 总体流程</a><ul><li><a href="#21-各软件的安装和升级msys2的安装">2.1 各软件的安装和升级msys2的安装</a></li><li><a href="#24-jekyll相关指令">2.4 jekyll相关指令</a></li><li><a href="#25-写blog">2.5 写Blog</a></li><li><a href="#26-数据上传github全程必须有梯子或者改host">2.6 数据上传github（全程必须有梯子，或者改host）</a></li><li><a href="#26-运行查看blog">2.6 运行查看Blog</a></li><li><a href="#27-自定义域名要花钱的">2.7 自定义域名（要花钱的）</a></li></ul></li><li><a href="#3-其他事项">3. 其他事项</a><ul><li><a href="#31-网址初始附加">3.1 网址初始附加</a><ul><li><a href="#311-添加超链接文字">3.1.1 添加超链接文字</a></li><li><a href="#312-插图片">3.1.2 插图片</a></li><li><a href="#313-高亮文字">3.1.3 高亮文字</a></li><li><a href="#314-代码">3.1.4 代码</a></li><li><a href="#315-变成原点">3.1.5 变成原点</a></li><li><a href="#316-前有竖线">3.1.6 前有竖线</a></li><li><a href="#317-video-test">3.1.7 Video Test</a></li><li><a href="#318-加粗">3.1.8 加粗</a></li><li><a href="#319-公式">3.1.9 公式</a></li><li><a href="#3110-空2格">3.1.10 空2格</a></li><li><a href="#3111-提示框">3.1.11 提示框</a></li><li><a href="#3112-mermaid画">3.1.12 Mermaid画</a></li><li><a href="#3113-其他">3.1.13 其他</a></li></ul></li><li><a href="#32-注意事项">3.2 注意事项</a><ul><li><a href="#321-事项1">3.2.1 事项1</a></li><li><a href="#322-事项2">3.2.2 事项2</a></li><li><a href="#323-事项3">3.2.3 事项3</a></li><li><a href="#324-事项4">3.2.4 事项4</a></li><li><a href="#325-事项5">3.2.5 事项5</a></li></ul></li></ul></li></ul>
+          <ul><li><a href="#1-软件介绍当然是复制别人的啦">1. 软件介绍（<a href="http://www.noobyard.com/article/p-nwnqarhl-gs.html">当然是复制别人的啦</a>）</a><ul><li><a href="#11-github--jekyll-工作机制">1.1 GitHub + Jekyll 工作机制</a></li></ul></li><li><a href="#2-总体流程">2. 总体流程</a><ul><li><a href="#21-各软件的安装和升级msys2的安装">2.1 各软件的安装和升级msys2的安装</a></li><li><a href="#24-jekyll相关指令">2.4 jekyll相关指令</a></li><li><a href="#25-写blog">2.5 写Blog</a></li><li><a href="#26-数据上传github全程必须有梯子或者改host">2.6 数据上传github（全程必须有梯子，或者改host）</a></li><li><a href="#26-运行查看blog">2.6 运行查看Blog</a></li><li><a href="#27-自定义域名要花钱的">2.7 自定义域名（要花钱的）</a></li></ul></li><li><a href="#3-其他事项">3. 其他事项</a><ul><li><a href="#31-网址初始附加">3.1 网址初始附加</a><ul><li><a href="#311-添加超链接文字">3.1.1 添加超链接文字</a></li><li><a href="#312-插图片">3.1.2 插图片</a></li><li><a href="#313-高亮文字">3.1.3 高亮文字</a></li><li><a href="#314-代码">3.1.4 代码</a></li><li><a href="#315-变成原点">3.1.5 变成原点</a></li><li><a href="#316-前有竖线">3.1.6 前有竖线</a></li><li><a href="#317-video-test">3.1.7 Video Test</a></li><li><a href="#318-加粗">3.1.8 加粗</a></li><li><a href="#319-公式">3.1.9 公式</a></li><li><a href="#3110-空2格">3.1.10 空2格</a></li><li><a href="#3111-提示框">3.1.11 提示框</a></li><li><a href="#3112-mermaid画">3.1.12 Mermaid画</a></li><li><a href="#3113-其他">3.1.13 其他</a></li></ul></li><li><a href="#32-注意事项">3.2 注意事项</a><ul><li><a href="#321-事项1">3.2.1 事项1</a></li><li><a href="#322-事项2">3.2.2 事项2</a></li><li><a href="#323-事项3">3.2.3 事项3</a></li><li><a href="#324-事项4">3.2.4 事项4</a></li><li><a href="#325-事项5">3.2.5 事项5</a></li></ul></li></ul></li></ul>
         </div>
       </div>
       
@@ -928,6 +932,9 @@ refer to:
     </script>
  
    
+<!--鼠标点击爱心动画-->
+<script type="text/javascript" src="/js/src/love.js"></script>
+<script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
 </body>
 
 </html>

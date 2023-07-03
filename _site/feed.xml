@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-03T01:02:32+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LLGY</title><subtitle>个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</subtitle><author><name>LLGY</name></author><entry><title type="html">Jotting#3</title><link href="http://localhost:4000/daily/Jotting-3.html" rel="alternate" type="text/html" title="Jotting#3" /><published>2023-06-11T00:00:00+08:00</published><updated>2023-06-11T00:00:00+08:00</updated><id>http://localhost:4000/daily/Jotting#3</id><content type="html" xml:base="http://localhost:4000/daily/Jotting-3.html"><![CDATA[<h1 id="7月3日">7月3日</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-04T01:56:09+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LLGY</title><subtitle>个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</subtitle><author><name>LLGY</name></author><entry><title type="html">Jekyll学习#2</title><link href="http://localhost:4000/study/Jekyll%E6%8F%92%E4%BB%B6%E4%B8%8E%E5%8A%9F%E8%83%BD%E4%BC%98%E5%8C%96.html" rel="alternate" type="text/html" title="Jekyll学习#2" /><published>2023-07-03T00:00:00+08:00</published><updated>2023-07-03T00:00:00+08:00</updated><id>http://localhost:4000/study/Jekyll%E6%8F%92%E4%BB%B6%E4%B8%8E%E5%8A%9F%E8%83%BD%E4%BC%98%E5%8C%96</id><content type="html" xml:base="http://localhost:4000/study/Jekyll%E6%8F%92%E4%BB%B6%E4%B8%8E%E5%8A%9F%E8%83%BD%E4%BC%98%E5%8C%96.html"><![CDATA[<p><code class="language-plaintext highlighter-rouge">Jekyll</code>学习第二弹</p>
+
+<h1 id="1-插件">1. 插件</h1>
+
+<h2 id="11-jimoji">1.1 jimoji</h2>
+
+<p>具体emoji代码参考 https://www.webfx.com/tools/emoji-cheat-sheet/</p>
+
+<p>展示：</p>
+
+<p>:+1:
+:dog:
+:cat:</p>
+
+<h2 id="12-网易云音乐插件">1.2 网易云音乐插件</h2>
+
+<p>代码参考：
+在每个页面抬头添加music-id: XXXX</p>
+
+<h2 id="13-为jekyll博客添加目录与scrollspy效果">1.3 为Jekyll博客添加目录与ScrollSpy效果</h2>
+
+<p>代码参考：http://t.hengwei.me/post/%E4%B8%BAjekyll%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E7%9B%AE%E5%BD%95%E4%B8%8Escrollspy%E6%95%88%E6%9E%9C.html</p>
+
+<h2 id="14-个人博客中添加点击爱心效果">1.4 个人博客中添加点击爱心效果</h2>
+
+<p>代码参考：https://yizibi.github.io/2018/10/18/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%B7%BB%E5%8A%A0%E7%82%B9%E5%87%BB%E7%88%B1%E5%BF%83%E6%95%88%E6%9E%9C/</p>
+
+<p>代码2参考：https://blog.51cto.com/u_15127588/2807647</p>
+
+<h2 id="15-添加阅读量统计功能">1.5 添加阅读量统计功能</h2>
+
+<p>代码参考：https://blog.csdn.net/qq_32507255/article/details/89068958?ops_request_misc=&amp;request_id=&amp;biz_id=102&amp;utm_term=jekyll%20%E7%82%B9%E5%87%BB&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~blog~sobaiduweb~default-4-89068958.268^v1^koosearch&amp;spm=1018.2226.3001.4450</p>
+
+<h2 id="16-gitalk">1.6 gitalk</h2>
+
+<p>代码参考：https://www.pianshen.com/article/4404354477/  https://blog.csdn.net/zy13651953784/article/details/104813021  https://blog.csdn.net/sinat_32873711/article/details/129192910  https://github.com/gitalk/gitalk/blob/master/readme-cn.md  https://gitalk.github.io/  https://github.com/gitalk/gitalk#install</p>
+
+<h2 id="17-随机bgm与全局bgm">1.7 随机BGM与全局BGM</h2>
+
+<p>代码参考：https://www.jianshu.com/p/b2306e9b7ba7   https://szhshp.org/tech/2016/11/19/whynotaddabgmforurblog.html</p>
+
+<h2 id="18-添加站点访客数及文章浏览量添加中英文字数统计">1.8 添加站点访客数及文章浏览量、添加中英文字数统计</h2>
+
+<p>代码参考：https://blog.csdn.net/ds19991999/article/details/81293467</p>
+
+<h2 id="19-live2d小人">1.9 Live2D小人</h2>
+
+<p>代码参考：https://github.com/stevenjoezhang/live2d-widget</p>]]></content><author><name>LLGY</name></author><category term="Study" /><category term="Study" /><summary type="html"><![CDATA[Jekyll学习第二弹]]></summary></entry><entry><title type="html">Jotting#3</title><link href="http://localhost:4000/daily/Jotting-3.html" rel="alternate" type="text/html" title="Jotting#3" /><published>2023-07-01T00:00:00+08:00</published><updated>2023-07-01T00:00:00+08:00</updated><id>http://localhost:4000/daily/Jotting#3</id><content type="html" xml:base="http://localhost:4000/daily/Jotting-3.html"><![CDATA[<!--excerpt-->
+<h1 id="7月3日">7月3日</h1>
 
 <p>最近情绪依然低迷，组会找了个借口不汇报了…我实在是不想做了。希望明天的我有所改变吧。但是…我还是希望自己的Blog里少点忧郁的东西，以后少写点情感类吧（除了特殊情况）</p>
 
@@ -16,7 +64,13 @@
 
 <p>关于这本书，我确实被他的标题给吸引到了，读完后，确实有很多地方让人觉得逻辑有点牵强。第二章里，明明GaGa对主人公说会对那个女孩表示警惕，可还是吃了她推荐的药，药这玩意哪能乱吃。第一章内容有点让人犯困。最后，犯人没被绳之以法确实也让人有点恼火。但是我只能说作者成功了，他成功的塑造了个女儿形象。我一开始对GaGa这位主角是抱有厌恶的，她一开始的不尊重他人、蛮横不讲理，都让我觉得她是个要便当的角色。结果作者一步步塑造她的改变，让我这个读者都有种养女儿的感觉啦。特别是看到女儿赚钱赚的贼麻溜，我的天，我真是想当场去领个女儿养养，体会下真正当父亲的感觉啦（开个玩笑）。但是到后面，女儿被发现有抑郁症的时候，我这时候才发现女儿要被刀了，甚至有点不想往下看了。啊啊啊啊啊，我好不容易心动一次，你却让我输的XXXX（还是不玩烂梗了）。最后看到女儿自杀的消息，我也是准备好了的。但是！！！作者还放出了个线索，说女儿在自杀前还看着主人公的破案视频，安慰自己主人公作为神探一定会为自己爸爸讨回清白。我的天啊，真的破大防了，主人公真的是女主的第二个爸爸啊，到临死前都一直信赖主角…….我感觉我对这本书的评价因为GaGa一人上升了许多。呜呜呜。最后做个总结吧，读了很多悬疑作品的人估计对这本书不会很感冒，但是喜欢养女儿的可以看看第二章。….我为啥就喜欢推荐别人刀子呢。</p>
 
-<p><img src="/assets/img/005.jpg" alt="抑郁了，想去死一死" /></p>]]></content><author><name>LLGY</name></author><category term="Daily" /><category term="Daily" /><summary type="html"><![CDATA[7月3日]]></summary></entry><entry><title type="html">Jotting#2</title><link href="http://localhost:4000/daily/Jotting-2.html" rel="alternate" type="text/html" title="Jotting#2" /><published>2023-06-01T00:00:00+08:00</published><updated>2023-06-01T00:00:00+08:00</updated><id>http://localhost:4000/daily/Jotting#2</id><content type="html" xml:base="http://localhost:4000/daily/Jotting-2.html"><![CDATA[<h1 id="6月2日">6月2日</h1>
+<p><img src="/assets/img/005.jpg" alt="抑郁了，想去死一死" /></p>
+
+<h1 id="7月4日">7月4日</h1>
+
+<h2 id="1-1">#1</h2>
+
+<p>今天尝试往Blog里加新东西，但是大部分都看不懂，没有HTML基础是这样的，毕竟我也不是电脑专业的，还是花时间学习下基础吧。</p>]]></content><author><name>LLGY</name></author><category term="Daily" /><category term="Daily" /><summary type="html"><![CDATA[7月3日]]></summary></entry><entry><title type="html">Jotting#2</title><link href="http://localhost:4000/daily/Jotting-2.html" rel="alternate" type="text/html" title="Jotting#2" /><published>2023-06-01T00:00:00+08:00</published><updated>2023-06-01T00:00:00+08:00</updated><id>http://localhost:4000/daily/Jotting#2</id><content type="html" xml:base="http://localhost:4000/daily/Jotting-2.html"><![CDATA[<h1 id="6月2日">6月2日</h1>
 
 <h2 id="1">#1</h2>
 <p>最近在放纵自己，找不到方向，不想管其他人了，不想管其他事情了，自己永远也不会拜托无能这个标签吧。</p>
@@ -261,7 +315,7 @@
 
 <p>Jekyll刚好是GitHub Pages的引擎，所以你能够在GitHub的服务器上免费托管项目的Jekyll页面/博客/网站。</p>
 
-<h1 id="11-github--jekyll-工作机制">1.1 GitHub + Jekyll 工作机制</h1>
+<h2 id="11-github--jekyll-工作机制">1.1 GitHub + Jekyll 工作机制</h2>
 
 <p>简单地说，你在 GitHub 上有一个账号，名为<code class="language-plaintext highlighter-rouge">username</code>(任意)， 有一个项目，名为<code class="language-plaintext highlighter-rouge">username.github.io</code>(固定格式，<code class="language-plaintext highlighter-rouge">username</code>与账号名一致)， 项目分支名为 <code class="language-plaintext highlighter-rouge">master</code>(你可以自己改)。</p>
 

@@ -40,6 +40,7 @@
     <script src="{{ "/assets/js/app.min.js" | prepend: site.baseurl }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js" async></script>
     <script src="https://at.alicdn.com/t/font_3046306_skfh9jzzbbf.js"></script>
+    <script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
     {% include waline.html %}
     {% include analytics.html %}
     {% include umami.html %}
@@ -49,5 +50,8 @@
     {% include mermaid.html%}
     {% include webpusher.html %} 
     {% include comments.html %}     
-</body>
+<!--鼠标点击爱心动画-->
+<script type="text/javascript" src="/js/src/love.js"></script>
+
+  </body>
 </html>

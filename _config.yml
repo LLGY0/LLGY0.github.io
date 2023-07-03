@@ -241,4 +241,4 @@ premonition:
       default_title: 'Error'
 
 # Plugins
-plugins: [jekyll-paginate-v2, jekyll-feed, jekyll-sitemap, premonition, h2o-ac-jekyll-extlinks]
+plugins: [jekyll-paginate-v2, jekyll-feed, jekyll-sitemap, premonition, h2o-ac-jekyll-extlinks, jekyll-seo-tag, jemoji, gemoji]

@@ -18,7 +18,7 @@ Jekyll是一个简单的，博客感知的静态站点生成器。
 
 Jekyll刚好是GitHub Pages的引擎，所以你能够在GitHub的服务器上免费托管项目的Jekyll页面/博客/网站。
 
-# 1.1 GitHub + Jekyll 工作机制
+## 1.1 GitHub + Jekyll 工作机制
 
 简单地说，你在 GitHub 上有一个账号，名为`username`(任意)， 有一个项目，名为`username.github.io`(固定格式，`username`与账号名一致)， 项目分支名为 `master`(你可以自己改)。
 
