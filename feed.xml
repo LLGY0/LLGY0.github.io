@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-04T01:56:09+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LLGY</title><subtitle>个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</subtitle><author><name>LLGY</name></author><entry><title type="html">Jekyll学习#2</title><link href="http://localhost:4000/study/Jekyll%E6%8F%92%E4%BB%B6%E4%B8%8E%E5%8A%9F%E8%83%BD%E4%BC%98%E5%8C%96.html" rel="alternate" type="text/html" title="Jekyll学习#2" /><published>2023-07-03T00:00:00+08:00</published><updated>2023-07-03T00:00:00+08:00</updated><id>http://localhost:4000/study/Jekyll%E6%8F%92%E4%BB%B6%E4%B8%8E%E5%8A%9F%E8%83%BD%E4%BC%98%E5%8C%96</id><content type="html" xml:base="http://localhost:4000/study/Jekyll%E6%8F%92%E4%BB%B6%E4%B8%8E%E5%8A%9F%E8%83%BD%E4%BC%98%E5%8C%96.html"><![CDATA[<p><code class="language-plaintext highlighter-rouge">Jekyll</code>学习第二弹</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-07T00:33:39+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LLGY</title><subtitle>个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</subtitle><author><name>LLGY</name></author><entry><title type="html">Jekyll学习#2</title><link href="http://localhost:4000/study/Jekyll%E6%8F%92%E4%BB%B6%E4%B8%8E%E5%8A%9F%E8%83%BD%E4%BC%98%E5%8C%96.html" rel="alternate" type="text/html" title="Jekyll学习#2" /><published>2023-07-03T00:00:00+08:00</published><updated>2023-07-03T00:00:00+08:00</updated><id>http://localhost:4000/study/Jekyll%E6%8F%92%E4%BB%B6%E4%B8%8E%E5%8A%9F%E8%83%BD%E4%BC%98%E5%8C%96</id><content type="html" xml:base="http://localhost:4000/study/Jekyll%E6%8F%92%E4%BB%B6%E4%B8%8E%E5%8A%9F%E8%83%BD%E4%BC%98%E5%8C%96.html"><![CDATA[<p><code class="language-plaintext highlighter-rouge">Jekyll</code>学习第二弹</p>
 
 <h1 id="1-插件">1. 插件</h1>
 
@@ -70,7 +70,29 @@
 
 <h2 id="1-1">#1</h2>
 
-<p>今天尝试往Blog里加新东西，但是大部分都看不懂，没有HTML基础是这样的，毕竟我也不是电脑专业的，还是花时间学习下基础吧。</p>]]></content><author><name>LLGY</name></author><category term="Daily" /><category term="Daily" /><summary type="html"><![CDATA[7月3日]]></summary></entry><entry><title type="html">Jotting#2</title><link href="http://localhost:4000/daily/Jotting-2.html" rel="alternate" type="text/html" title="Jotting#2" /><published>2023-06-01T00:00:00+08:00</published><updated>2023-06-01T00:00:00+08:00</updated><id>http://localhost:4000/daily/Jotting#2</id><content type="html" xml:base="http://localhost:4000/daily/Jotting-2.html"><![CDATA[<h1 id="6月2日">6月2日</h1>
+<p>今天尝试往Blog里加新东西，但是大部分都看不懂，没有HTML基础是这样的，毕竟我也不是电脑专业的，还是花时间学习下基础吧。</p>
+
+<h1 id="7月6日">7月6日</h1>
+
+<h2 id="1-2">#1</h2>
+
+<p>难得这几天干了挺多事情的…今天帮老王装了新系统，解决了他电脑问题，嘿嘿，不愧是我。</p>
+
+<p><img src="/assets/img/009.jpg" alt="老王的新系统" /></p>
+
+<h2 id="2-1">#2</h2>
+
+<p>这几天重新用手柄通关了Celest的A面，只能说这个游戏对我的意义太大了，感谢能与你相逢捏，最后放两张我精心截的图。</p>
+
+<p><img src="/assets/img/007.png" alt="蔚蓝1" /></p>
+
+<p><img src="/assets/img/008.png" alt="蔚蓝2" /></p>
+
+<h2 id="3">#3</h2>
+
+<p>书接上文，今晚我试了下直播Celest，一个观众都没有，呜呜呜呜…</p>
+
+<p><img src="/assets/img/010.png" alt="第一次直播" /></p>]]></content><author><name>LLGY</name></author><category term="Daily" /><category term="Daily" /><summary type="html"><![CDATA[7月3日]]></summary></entry><entry><title type="html">Jotting#2</title><link href="http://localhost:4000/daily/Jotting-2.html" rel="alternate" type="text/html" title="Jotting#2" /><published>2023-06-01T00:00:00+08:00</published><updated>2023-06-01T00:00:00+08:00</updated><id>http://localhost:4000/daily/Jotting#2</id><content type="html" xml:base="http://localhost:4000/daily/Jotting-2.html"><![CDATA[<h1 id="6月2日">6月2日</h1>
 
 <h2 id="1">#1</h2>
 <p>最近在放纵自己，找不到方向，不想管其他人了，不想管其他事情了，自己永远也不会拜托无能这个标签吧。</p>

@@ -5,8 +5,8 @@
     <description>个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 04 Jul 2023 01:56:09 +0800</pubDate>
-    <lastBuildDate>Tue, 04 Jul 2023 01:56:09 +0800</lastBuildDate>
+    <pubDate>Fri, 07 Jul 2023 00:33:39 +0800</pubDate>
+    <lastBuildDate>Fri, 07 Jul 2023 00:33:39 +0800</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -100,6 +100,28 @@
 &lt;h2 id=&quot;1-1&quot;&gt;#1&lt;/h2&gt;
 
 &lt;p&gt;今天尝试往Blog里加新东西，但是大部分都看不懂，没有HTML基础是这样的，毕竟我也不是电脑专业的，还是花时间学习下基础吧。&lt;/p&gt;
+
+&lt;h1 id=&quot;7月6日&quot;&gt;7月6日&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-2&quot;&gt;#1&lt;/h2&gt;
+
+&lt;p&gt;难得这几天干了挺多事情的…今天帮老王装了新系统，解决了他电脑问题，嘿嘿，不愧是我。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/009.jpg&quot; alt=&quot;老王的新系统&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2-1&quot;&gt;#2&lt;/h2&gt;
+
+&lt;p&gt;这几天重新用手柄通关了Celest的A面，只能说这个游戏对我的意义太大了，感谢能与你相逢捏，最后放两张我精心截的图。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/007.png&quot; alt=&quot;蔚蓝1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/008.png&quot; alt=&quot;蔚蓝2&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;3&quot;&gt;#3&lt;/h2&gt;
+
+&lt;p&gt;书接上文，今晚我试了下直播Celest，一个观众都没有，呜呜呜呜…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/010.png&quot; alt=&quot;第一次直播&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 01 Jul 2023 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/daily/Jotting-3.html</link>
