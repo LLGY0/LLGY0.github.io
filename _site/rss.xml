@@ -5,9 +5,167 @@
     <description>个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 10 Jul 2023 21:06:56 +0800</pubDate>
-    <lastBuildDate>Mon, 10 Jul 2023 21:06:56 +0800</lastBuildDate>
+    <pubDate>Wed, 12 Jul 2023 01:48:12 +0800</pubDate>
+    <lastBuildDate>Wed, 12 Jul 2023 01:48:12 +0800</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
+    
+      <item>
+        <title>系统快捷键与命令</title>
+        <description>&lt;h1 id=&quot;1-windows&quot;&gt;1. Windows&lt;/h1&gt;
+
+&lt;p&gt;Windows快捷键大全捏，后续可能更新（复制）linux系统的&lt;/p&gt;
+
+&lt;h2 id=&quot;11-ctrl类&quot;&gt;1.1 Ctrl类&lt;/h2&gt;
+
+&lt;p&gt;Ctrl+A 全选；Ctrl+X 剪切；Ctrl+C 复制；Ctrl+X 剪切；Ctrl+V 粘贴；Ctrl+Z 撤销；&lt;/p&gt;
+
+&lt;p&gt;Ctrl+Y 恢复撤销操作；Ctrl+P 打印设置；Ctrl+S 保存；Crtl+D 删除；&lt;/p&gt;
+
+&lt;p&gt;Ctrl+滚轮 调节页面比例或者图标大小；Crtl+Shift+Esc 任务管理器；&lt;/p&gt;
+
+&lt;p&gt;Ctrl+小键盘’+’ 　页面放大10%；Ctrl+小键盘’-‘   页面缩小10%；&lt;/p&gt;
+
+&lt;h2 id=&quot;12-win类&quot;&gt;1.2 Win类&lt;/h2&gt;
+
+&lt;p&gt;Win+D 显示桌面；Win+E 打开我的电脑；Win+F 搜索；Win+R 运行；Win+L 锁定/切换用户；&lt;/p&gt;
+
+&lt;p&gt;Win+I 打开设置；Win+P 投影；Win+V 剪贴板；Win+分号 调出Emoji；&lt;/p&gt;
+
+&lt;p&gt;Win+各种方向键 最大化/最小化；Win+Home 除了当前窗口，其他都最小化；&lt;/p&gt;
+
+&lt;h2 id=&quot;13-f类&quot;&gt;1.3 F类&lt;/h2&gt;
+
+&lt;p&gt;F2 重命名；Alt+F4 关闭；F5刷新；F11 最大化/还原；&lt;/p&gt;
+
+&lt;h2 id=&quot;14-alt类&quot;&gt;1.4 Alt类&lt;/h2&gt;
+
+&lt;p&gt;Alt+Tab 切换应用；Alt+F4 关闭；Alt+Enter 显示属性；Alt+P 预览；&lt;/p&gt;
+
+&lt;p&gt;Alt+各种方向键 切换目录；Alt+Printscreen 活动窗口截图；&lt;/p&gt;
+
+&lt;h2 id=&quot;15-其他&quot;&gt;1.5 其他&lt;/h2&gt;
+
+&lt;p&gt;Crtl+Shift+Tab 切换选项/切换视图；Printscreen 整块屏幕截图；&lt;/p&gt;
+
+&lt;h2 id=&quot;16-常见命令&quot;&gt;1.6 常见命令&lt;/h2&gt;
+
+&lt;p&gt;ipconfig；netsh；ping；net user；shutdown；&lt;/p&gt;
+
+&lt;p&gt;services.msc；regedit；mstsc；msconfig；&lt;/p&gt;
+</description>
+        <pubDate>Tue, 11 Jul 2023 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/study/%E7%B3%BB%E7%BB%9F%E5%BF%AB%E6%8D%B7%E9%94%AE%E4%B8%8E%E5%91%BD%E4%BB%A4.html</link>
+        <guid isPermaLink="true">http://localhost:4000/study/%E7%B3%BB%E7%BB%9F%E5%BF%AB%E6%8D%B7%E9%94%AE%E4%B8%8E%E5%91%BD%E4%BB%A4.html</guid>
+        
+        <category>Study</category>
+        
+        
+        <category>Study</category>
+        
+      </item>
+    
+      <item>
+        <title>虚拟机学习</title>
+        <description>&lt;p&gt;本页内容参考书籍《玩转虚拟机——基于VMware+Windows》&lt;/p&gt;
+
+&lt;h1 id=&quot;1-基础知识&quot;&gt;1 基础知识&lt;/h1&gt;
+
+&lt;h2 id=&quot;11-虚拟机概念&quot;&gt;1.1 虚拟机概念&lt;/h2&gt;
+
+&lt;p&gt;如图3-1所示，虚拟机VM2和VM3连接到VMnet1交换机上，此时只要VM2和VM3计算机的IP地址设置成一个网段就能通信，虚拟机VMl和VM4连接到了不同的交换机，即便IP地址设置成一个网段也不能通信，连接到不同虚拟交换机的虚拟机之间是不能直接通信的。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/virtualmachine/3_1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;VMnet0不用规划IP地址，该网络的地址要和物理网络的地址在一个网段。&lt;/p&gt;
+
+&lt;p&gt;VMware DHCP Service服务可以为连接至VMnet的计算机白动分配IP地址。这样给虚拟机安装了操作系统，不配置IP地址，虚拟机也能够自动获得IP地址。&lt;/p&gt;
+
+&lt;p&gt;VMware Bridge Protocol让物理网卡连接到虚拟交换机VMnet。&lt;/p&gt;
+
+&lt;p&gt;VMware NAT Service 在你的计算机上虚拟出一个路由器，虚拟接口E0连接VMnet作为该网络计算机的网关，计算机的物理网卡作为该路由器的外网接口，该服务实现VMnet到物理网络的地址转换。VMware NAT Service 服务只能为一个VMnet提供网络地址转换服务。&lt;/p&gt;
+
+&lt;h2 id=&quot;12-nat&quot;&gt;1.2 NAT&lt;/h2&gt;
+
+&lt;p&gt;NAT即Network Address Translation（网络地址转换），是实现虚拟机上网的第二种方法。图3-78所示是使用了NAT技术后数据包的转发情况，A1计算机访问WebA资源，发送的数据包的目标地址是WebA源地址即A1的地址，经过路由器R1，数据包的源地址被R1的 公网地址替换，这样数据包的目标地址和源地址都是公网地址了，WebA发送返回的数据包的 目标地址是R1的地址，能够发送到R1路由器，R1路由器收到数据包，再把数据包的目标地址替换成Al计算机的发送到内网，这就是网络地址转换。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/virtualmachine/3_78.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;NAT技术的优点：&lt;/p&gt;
+
+&lt;p&gt;1、节省公网IP地址：NAT技术让使用私网地址的内网计算机能够访问Internet，这样能够大大节省公网IP地址。&lt;/p&gt;
+
+&lt;p&gt;2、内网安全：使用私网地址的内网可以访问Internet，但是Internet中的计算机不能主 动访问内网计算机。&lt;/p&gt;
+
+&lt;p&gt;缺点：由于R1路由器在内网和公网之间转发数据包时修改数据包的源地址或目标地址， 因此会稍微影响速度。&lt;/p&gt;
+
+&lt;h2 id=&quot;13-其他&quot;&gt;1.3 其他&lt;/h2&gt;
+
+&lt;p&gt;文件系统的分类：NTFS（Windows），支持最大分区2TB，最大文件2TB；FAT16（Windows）,支持最大分区2GB,最大文件2GB；FAT32（Windows）,支持最大分区128GB，最大文件4GB。&lt;/p&gt;
+
+&lt;p&gt;公网地址：整个Internet中，计算机和服务器的IP地址要统一规划，全球唯一，这些地址就是公网地 所有的IP地址都由国际组织NIC(Network Information Center)负责统一分配，目前全世址。全世界共有3个这样的网络信息中心：InterNIC，负责美国及其他地区；ENIC，负责欧洲地区：APNIC，负责亚太地区。我国申请IP地址要通过APNIC，APNIC的总部设在日本东京大学。 申请时要考虑申请哪一类的IP地址，然后向国内的代理机构提出。&lt;/p&gt;
+
+&lt;p&gt;私网地址：除了公网IP地址，还保留了一些私网地址，这些私网地址在Internet中没有被使用，企业、学校或政府的内网可以使用，不需要向国际组织注册。Internet上没有私网地址，因此Internet上的路由器也没有必要知道这些网段如何转发数据包。大家可以看到任何单位或企业的网络都可以使用这些私网地址，因为他们不需要相互访问网络，所以IP地址网段重合也没有关系。&lt;/p&gt;
+
+&lt;p&gt;私有网段保留了以下网段：&lt;/p&gt;
+
+&lt;p&gt;A类地址中有10.0.0.0~10.255.255.255.一个A类网段。&lt;/p&gt;
+
+&lt;p&gt;B类地址中有172.16.0.0~172.31.255.255，16个B类网段。&lt;/p&gt;
+
+&lt;p&gt;C类地址中有192.168.0.0～192.168.255.0，256个C类网段。&lt;/p&gt;
+
+&lt;h1 id=&quot;2-操作&quot;&gt;2 操作&lt;/h1&gt;
+
+&lt;h2 id=&quot;21-跳过内容&quot;&gt;2.1 跳过内容&lt;/h2&gt;
+
+&lt;p&gt;虚拟机软件的安装、虚拟机的构建、物理机与虚拟机之间的文件传输和共享（VMware Tool）、虚拟机快照、克隆虚拟机&lt;/p&gt;
+
+&lt;h2 id=&quot;22-虚拟机网络地址规划物理机添加网卡连接vmnet4&quot;&gt;2.2 虚拟机网络地址规划（物理机添加网卡连接VMnet4）&lt;/h2&gt;
+
+&lt;p&gt;具体步骤：进入“虚拟网络编辑器”，单击“更改设置”，单击“添加网络”，添加一个虚拟网络（虚拟交换机）。之后进入“虚拟机设置”，“网络连接”处选择“自定义”，选择所需的网络。&lt;/p&gt;
+
+&lt;h2 id=&quot;23-虚拟机访问物理机&quot;&gt;2.3 虚拟机访问物理机&lt;/h2&gt;
+
+&lt;p&gt;如图3-34所示，可以在物理机上添加一个网卡连接到VMnet4，VMware Network Adapter VMnct4的IP地址要设置成192.168.40.10，该IP地址一定要和VMnct4规划的网络地址在一个网段，虚拟机VM4的IP地址设置成192.168.40.20，这样VM4要想访问物理机，就要访问192.168.40.10，而不能访问物理网卡的地址10.7.10.212。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/virtualmachine/3_34.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;具体步骤：物理机添加网卡连接VMnet4，之后设置VMnet4的IP和掩码。之后打开物理机“网络连接”，设置VMnet4的IPV4的IP和掩码。之后打开虚拟机“网络连接”，设置网卡的IP和掩码。&lt;/p&gt;
+
+&lt;h2 id=&quot;24-虚拟机访问物理网络&quot;&gt;2.4 虚拟机访问物理网络&lt;/h2&gt;
+
+&lt;p&gt;具体步骤：进入“虚拟网络编辑器”，选择VMnet转换成“桥接模式”。之后设置虚拟机的IP地址，IP地址所在网段需要和物理网络中计算机的IP地址在同一个网段，子网掩码（255.255.255.0）、网关和DNS也要和物理网络中的计算机一样。&lt;/p&gt;
+
+&lt;h2 id=&quot;25-虚拟机通过nat访问物理网络&quot;&gt;2.5 虚拟机通过NAT访问物理网络&lt;/h2&gt;
+
+&lt;p&gt;原理：把某个VMnet所处的网络当作内网，把物理机 所的网络当作公网，并把物理机当作NAT路由器，让内网的虚拟机使用物理机的IP地址访问物理网络，这些虚拟机都使用私网地址，这样一来即使和其他物理机中虚拟机的IP地址相 同也没有关系。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/virtualmachine/3_79.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;具体步骤：进入“虚拟网络编辑器”，VMnet8调为NAT模式，单击“NAT设置”，记下网关IP（即虚拟路由器E0接口）。之后打开物理机“网络连接”，调VMnet8的IP（需要设置为与虚拟路由器E0接口同一网段下的IP，但不能相同，否则导致网关地址冲突。接着打开“虚拟机设置”，虚拟机连接到VMnet8。之后打开虚拟机“网络连接”，调本地连接IPV4的IP（与虚拟路由器E0接口同一网段）以及子网掩码以及默认网关（就是虚拟路由器E0接口），DNS设置为8.8.8.8与222.222.222.222。&lt;/p&gt;
+
+&lt;h2 id=&quot;26-端口映射&quot;&gt;2.6 端口映射&lt;/h2&gt;
+
+&lt;p&gt;服务器对外提供服务通常使用TCP或UDP协议侦听客户端的请求，客户端使用该端口访问对应的服务。远程桌面协议（RDP）默认使用TCP的3389端口。Web服务使用的http协议默认使用TCP的80端口。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/virtualmachine/3_94.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;具体步骤：进入“虚拟网络编辑器”，VMnet8调为NAT模式，单击“NAT设置”，单击“添加”，输入主机端口4000，选择TCP协议，输入虚拟机IP，制定虚拟机端口3389。接着打开“虚拟机设置”，虚拟机连接到VMnet8，选择“已连接”和“启动时连接”的复选框。设置虚拟机的IP、子网掩码、网关。打开虚拟机的“计算机-管理”，创建新用户。打开虚拟机的“远程桌面”的“允许…计算机连接”，单击“选择用户”，“添加”刚才创建的新用户。查看物理机的IP。物理网络上的计算机上启动“远程桌面连接”，输入物理机IP+冒号+端口（4000）。&lt;/p&gt;
+
+&lt;h2 id=&quot;27-网络实现虚拟机与物理机文件共享&quot;&gt;2.7 网络实现虚拟机与物理机文件共享&lt;/h2&gt;
+
+&lt;p&gt;具体步骤：打开“虚拟机设置”，虚拟机连接到VMnet8。设置虚拟机的IP、子网掩码、网关（网关与IP位于同一网段）。设置物理机的VMnet8的IP（与虚拟机的默认网关一致）。物理机在要共享的文件右键，点击“共享”和“特定用户”，设置权限。虚拟机“运行”（Win+R）中输入”\网关”，输入用户名和密码。&lt;/p&gt;
+</description>
+        <pubDate>Mon, 10 Jul 2023 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/study/%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AD%A6%E4%B9%A0.html</link>
+        <guid isPermaLink="true">http://localhost:4000/study/%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AD%A6%E4%B9%A0.html</guid>
+        
+        <category>Study</category>
+        
+        
+        <category>Study</category>
+        
+      </item>
     
       <item>
         <title>Jekyll学习#2</title>
@@ -83,7 +241,7 @@
 
 &lt;p&gt;鬼灭之刃的打戏实在太好看啦，BGM与画面配合的也超棒！！！看完最后一集瞬间让我对前面的稀烂文戏失忆。真想跟朋友分享这些精致的打斗场景啊…但是我认识的熟悉的朋友里没一个能跟我聊这个的就是了。说到这个话题，突然想起一件很让人难受的事情。前几天和刚认识的女生聊天，她询问我的兴趣和是否喜欢出门。我回答我一般喜欢在家，不太喜欢出门，之后她就直接说：“你不会是二次元吧”。有一说一，事后回想起来，突然发现自己被轻易的贴上了标签，不喜欢出门=宅在家里=宅男=二次元，有种莫名其妙就受到了贬低的感觉。乐观点想想，说不定人家只是知道这个词随便用了下，不知道这个词的贬义成分罢了。而且我也没资格要求别人尊重他人的爱好就是了，因为我确实是阴沟里的老鼠捏。但是，那时候我的心情确实因此变差了许多，所以果然还是自己一个人比较好，不会因为话语伤害到别人，我暂时可以不用奢侈那么多了。（最后附上一张鬼灭的图吧）&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/006.jpg&quot; alt=&quot;鬼灭之刃锻刀篇&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/006.jpg&quot; alt=&quot;鬼灭之刃锻刀篇&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;2&quot;&gt;#2&lt;/h2&gt;
 
@@ -93,7 +251,7 @@
 
 &lt;p&gt;关于这本书，我确实被他的标题给吸引到了，读完后，确实有很多地方让人觉得逻辑有点牵强。第二章里，明明GaGa对主人公说会对那个女孩表示警惕，可还是吃了她推荐的药，药这玩意哪能乱吃。第一章内容有点让人犯困。最后，犯人没被绳之以法确实也让人有点恼火。但是我只能说作者成功了，他成功的塑造了个女儿形象。我一开始对GaGa这位主角是抱有厌恶的，她一开始的不尊重他人、蛮横不讲理，都让我觉得她是个要便当的角色。结果作者一步步塑造她的改变，让我这个读者都有种养女儿的感觉啦。特别是看到女儿赚钱赚的贼麻溜，我的天，我真是想当场去领个女儿养养，体会下真正当父亲的感觉啦（开个玩笑）。但是到后面，女儿被发现有抑郁症的时候，我这时候才发现女儿要被刀了，甚至有点不想往下看了。啊啊啊啊啊，我好不容易心动一次，你却让我输的XXXX（还是不玩烂梗了）。最后看到女儿自杀的消息，我也是准备好了的。但是！！！作者还放出了个线索，说女儿在自杀前还看着主人公的破案视频，安慰自己主人公作为神探一定会为自己爸爸讨回清白。我的天啊，真的破大防了，主人公真的是女主的第二个爸爸啊，到临死前都一直信赖主角…….我感觉我对这本书的评价因为GaGa一人上升了许多。呜呜呜。最后做个总结吧，读了很多悬疑作品的人估计对这本书不会很感冒，但是喜欢养女儿的可以看看第二章。….我为啥就喜欢推荐别人刀子呢。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/005.jpg&quot; alt=&quot;抑郁了，想去死一死&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/005.jpg&quot; alt=&quot;抑郁了，想去死一死&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;7月4日&quot;&gt;7月4日&lt;/h1&gt;
 
@@ -107,21 +265,21 @@
 
 &lt;p&gt;难得这几天干了挺多事情的…今天帮老王装了新系统，解决了他电脑问题，嘿嘿，不愧是我。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/009.jpg&quot; alt=&quot;老王的新系统&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/009.jpg&quot; alt=&quot;老王的新系统&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;2-1&quot;&gt;#2&lt;/h2&gt;
 
 &lt;p&gt;这几天重新用手柄通关了Celest的A面，只能说这个游戏对我的意义太大了，感谢能与你相逢捏，最后放两张我精心截的图。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/007.png&quot; alt=&quot;蔚蓝1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/007.png&quot; alt=&quot;蔚蓝1&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/008.png&quot; alt=&quot;蔚蓝2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/008.png&quot; alt=&quot;蔚蓝2&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;3&quot;&gt;#3&lt;/h2&gt;
 
 &lt;p&gt;书接上文，今晚我试了下直播Celest，一个观众都没有，呜呜呜呜…&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/010.png&quot; alt=&quot;第一次直播&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/010.png&quot; alt=&quot;第一次直播&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;7月7日&quot;&gt;7月7日&lt;/h1&gt;
 
@@ -255,9 +413,9 @@
 
 &lt;h2 id=&quot;4-3&quot;&gt;#4&lt;/h2&gt;
 &lt;p&gt;6月16日晚上，与张老师以及她课题组的在校生吃了饭，地点是珠江路金鹰的泰国酒吧餐厅。因为实在太困了，没怎么好好尝味道…但是感觉上很好吃，可能也考虑到中国的饮食习惯，所以对原来的泰餐有所改编。印象最大的是各种咖喱与菠萝，以后&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;有空&lt;/code&gt;以及&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;有钱&lt;/code&gt;也可以来尝尝。最后放上大家合照，希望大家以后都好好的~（突然发现我没图,,,原来我不在群里,,,）
-&lt;img src=&quot;/assets/img/001.jpg&quot; alt=&quot;合照1&quot; /&gt;
-&lt;img src=&quot;/assets/img/002.jpg&quot; alt=&quot;合照2&quot; /&gt;
-&lt;img src=&quot;/assets/img/003.jpg&quot; alt=&quot;合照3&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/Daily/001.jpg&quot; alt=&quot;合照1&quot; /&gt;
+&lt;img src=&quot;/assets/img/Daily/002.jpg&quot; alt=&quot;合照2&quot; /&gt;
+&lt;img src=&quot;/assets/img/Daily/003.jpg&quot; alt=&quot;合照3&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;6月20日&quot;&gt;6月20日&lt;/h1&gt;
 
@@ -267,7 +425,7 @@
 &lt;h2 id=&quot;2-7&quot;&gt;#2&lt;/h2&gt;
 &lt;p&gt;2023年6月18日，我们的健美操比赛终于结束啦。最后拿到优胜奖（其实是四等奖），但是我们的得分是所有拿到该奖项的队伍中最高的（8.2分）。感觉已经是个完美的结局了，特别是得知其他学院经费那么高，老师指导的次数那么多之后。感觉环境学院好穷啊~~但是最后还是很开心的，而且也认识到好多人…虽然我现在都不知道她们叫啥233。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/004.jpg&quot; alt=&quot;挑了张自己能看的，抱歉啦大家&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/004.jpg&quot; alt=&quot;挑了张自己能看的，抱歉啦大家&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;3-6&quot;&gt;#3&lt;/h2&gt;
 &lt;p&gt;发现自己和柔丝羽同一天生日，好耶，以后跟她狠狠地交流了。（拿到了友谊的羽毛×1）&lt;/p&gt;
