@@ -1,4 +1,336 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-03T01:05:50+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LLGY</title><subtitle>个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</subtitle><author><name>LLGY</name></author><entry><title type="html">Jotting#3</title><link href="http://localhost:4000/daily/Jotting-3.html" rel="alternate" type="text/html" title="Jotting#3" /><published>2023-07-01T00:00:00+08:00</published><updated>2023-07-01T00:00:00+08:00</updated><id>http://localhost:4000/daily/Jotting#3</id><content type="html" xml:base="http://localhost:4000/daily/Jotting-3.html"><![CDATA[<h1 id="7月3日">7月3日</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-17T19:41:38+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LLGY</title><subtitle>个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</subtitle><author><name>LLGY</name></author><entry><title type="html">系统快捷键与命令</title><link href="http://localhost:4000/study/%E7%B3%BB%E7%BB%9F%E5%BF%AB%E6%8D%B7%E9%94%AE%E4%B8%8E%E5%91%BD%E4%BB%A4.html" rel="alternate" type="text/html" title="系统快捷键与命令" /><published>2023-07-11T00:00:00+08:00</published><updated>2023-07-11T00:00:00+08:00</updated><id>http://localhost:4000/study/%E7%B3%BB%E7%BB%9F%E5%BF%AB%E6%8D%B7%E9%94%AE%E4%B8%8E%E5%91%BD%E4%BB%A4</id><content type="html" xml:base="http://localhost:4000/study/%E7%B3%BB%E7%BB%9F%E5%BF%AB%E6%8D%B7%E9%94%AE%E4%B8%8E%E5%91%BD%E4%BB%A4.html"><![CDATA[<h1 id="1-windows">1. Windows</h1>
+
+<p>Windows快捷键大全捏，后续可能更新（复制）linux系统的</p>
+
+<h2 id="11-ctrl类">1.1 Ctrl类</h2>
+
+<p>Ctrl+A 全选；Ctrl+X 剪切；Ctrl+C 复制；Ctrl+X 剪切；Ctrl+V 粘贴；Ctrl+Z 撤销；</p>
+
+<p>Ctrl+Y 恢复撤销操作；Ctrl+P 打印设置；Ctrl+S 保存；Crtl+D 删除；</p>
+
+<p>Ctrl+滚轮 调节页面比例或者图标大小；Crtl+Shift+Esc 任务管理器；</p>
+
+<p>Ctrl+小键盘’+’ 　页面放大10%；Ctrl+小键盘’-‘   页面缩小10%；</p>
+
+<h2 id="12-win类">1.2 Win类</h2>
+
+<p>Win+D 显示桌面；Win+E 打开我的电脑；Win+F 搜索；Win+R 运行；Win+L 锁定/切换用户；</p>
+
+<p>Win+I 打开设置；Win+P 投影；Win+V 剪贴板；Win+分号 调出Emoji；</p>
+
+<p>Win+各种方向键 最大化/最小化；Win+Home 除了当前窗口，其他都最小化；</p>
+
+<h2 id="13-f类">1.3 F类</h2>
+
+<p>F2 重命名；Alt+F4 关闭；F5刷新；F11 最大化/还原；</p>
+
+<h2 id="14-alt类">1.4 Alt类</h2>
+
+<p>Alt+Tab 切换应用；Alt+F4 关闭；Alt+Enter 显示属性；Alt+P 预览；</p>
+
+<p>Alt+各种方向键 切换目录；Alt+Printscreen 活动窗口截图；</p>
+
+<h2 id="15-其他">1.5 其他</h2>
+
+<p>Crtl+Shift+Tab 切换选项/切换视图；Printscreen 整块屏幕截图；</p>
+
+<h2 id="16-常见命令">1.6 常见命令</h2>
+
+<p>ipconfig；netsh；ping；net user；shutdown；</p>
+
+<p>services.msc；regedit；mstsc；msconfig；</p>]]></content><author><name>LLGY</name></author><category term="Study" /><category term="Study" /><summary type="html"><![CDATA[1. Windows]]></summary></entry><entry><title type="html">虚拟机学习</title><link href="http://localhost:4000/study/%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AD%A6%E4%B9%A0.html" rel="alternate" type="text/html" title="虚拟机学习" /><published>2023-07-10T00:00:00+08:00</published><updated>2023-07-10T00:00:00+08:00</updated><id>http://localhost:4000/study/%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AD%A6%E4%B9%A0</id><content type="html" xml:base="http://localhost:4000/study/%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AD%A6%E4%B9%A0.html"><![CDATA[<p>本页内容参考书籍《玩转虚拟机——基于VMware+Windows》</p>
+
+<h1 id="1-基础知识">1 基础知识</h1>
+
+<h2 id="11-虚拟机概念">1.1 虚拟机概念</h2>
+
+<p>如图3-1所示，虚拟机VM2和VM3连接到VMnet1交换机上，此时只要VM2和VM3计算机的IP地址设置成一个网段就能通信，虚拟机VMl和VM4连接到了不同的交换机，即便IP地址设置成一个网段也不能通信，连接到不同虚拟交换机的虚拟机之间是不能直接通信的。</p>
+
+<p><img src="/assets/img/virtualmachine/3_1.png" alt="" /></p>
+
+<p>VMnet0不用规划IP地址，该网络的地址要和物理网络的地址在一个网段。</p>
+
+<p>VMware DHCP Service服务可以为连接至VMnet的计算机白动分配IP地址。这样给虚拟机安装了操作系统，不配置IP地址，虚拟机也能够自动获得IP地址。</p>
+
+<p>VMware Bridge Protocol让物理网卡连接到虚拟交换机VMnet。</p>
+
+<p>VMware NAT Service 在你的计算机上虚拟出一个路由器，虚拟接口E0连接VMnet作为该网络计算机的网关，计算机的物理网卡作为该路由器的外网接口，该服务实现VMnet到物理网络的地址转换。VMware NAT Service 服务只能为一个VMnet提供网络地址转换服务。</p>
+
+<h2 id="12-nat">1.2 NAT</h2>
+
+<p>NAT即Network Address Translation（网络地址转换），是实现虚拟机上网的第二种方法。图3-78所示是使用了NAT技术后数据包的转发情况，A1计算机访问WebA资源，发送的数据包的目标地址是WebA源地址即A1的地址，经过路由器R1，数据包的源地址被R1的 公网地址替换，这样数据包的目标地址和源地址都是公网地址了，WebA发送返回的数据包的 目标地址是R1的地址，能够发送到R1路由器，R1路由器收到数据包，再把数据包的目标地址替换成Al计算机的发送到内网，这就是网络地址转换。</p>
+
+<p><img src="/assets/img/virtualmachine/3_78.png" alt="" /></p>
+
+<p>NAT技术的优点：</p>
+
+<p>1、节省公网IP地址：NAT技术让使用私网地址的内网计算机能够访问Internet，这样能够大大节省公网IP地址。</p>
+
+<p>2、内网安全：使用私网地址的内网可以访问Internet，但是Internet中的计算机不能主 动访问内网计算机。</p>
+
+<p>缺点：由于R1路由器在内网和公网之间转发数据包时修改数据包的源地址或目标地址， 因此会稍微影响速度。</p>
+
+<h2 id="13-其他">1.3 其他</h2>
+
+<p>文件系统的分类：NTFS（Windows），支持最大分区2TB，最大文件2TB；FAT16（Windows）,支持最大分区2GB,最大文件2GB；FAT32（Windows）,支持最大分区128GB，最大文件4GB。</p>
+
+<p>公网地址：整个Internet中，计算机和服务器的IP地址要统一规划，全球唯一，这些地址就是公网地 所有的IP地址都由国际组织NIC(Network Information Center)负责统一分配，目前全世址。全世界共有3个这样的网络信息中心：InterNIC，负责美国及其他地区；ENIC，负责欧洲地区：APNIC，负责亚太地区。我国申请IP地址要通过APNIC，APNIC的总部设在日本东京大学。 申请时要考虑申请哪一类的IP地址，然后向国内的代理机构提出。</p>
+
+<p>私网地址：除了公网IP地址，还保留了一些私网地址，这些私网地址在Internet中没有被使用，企业、学校或政府的内网可以使用，不需要向国际组织注册。Internet上没有私网地址，因此Internet上的路由器也没有必要知道这些网段如何转发数据包。大家可以看到任何单位或企业的网络都可以使用这些私网地址，因为他们不需要相互访问网络，所以IP地址网段重合也没有关系。</p>
+
+<p>私有网段保留了以下网段：</p>
+
+<p>A类地址中有10.0.0.0~10.255.255.255.一个A类网段。</p>
+
+<p>B类地址中有172.16.0.0~172.31.255.255，16个B类网段。</p>
+
+<p>C类地址中有192.168.0.0～192.168.255.0，256个C类网段。</p>
+
+<h1 id="2-操作">2 操作</h1>
+
+<h2 id="21-跳过内容">2.1 跳过内容</h2>
+
+<p>虚拟机软件的安装、虚拟机的构建、物理机与虚拟机之间的文件传输和共享（VMware Tool）、虚拟机快照、克隆虚拟机</p>
+
+<h2 id="22-虚拟机网络地址规划物理机添加网卡连接vmnet4">2.2 虚拟机网络地址规划（物理机添加网卡连接VMnet4）</h2>
+
+<p>具体步骤：进入“虚拟网络编辑器”，单击“更改设置”，单击“添加网络”，添加一个虚拟网络（虚拟交换机）。之后进入“虚拟机设置”，“网络连接”处选择“自定义”，选择所需的网络。</p>
+
+<h2 id="23-虚拟机访问物理机">2.3 虚拟机访问物理机</h2>
+
+<p>如图3-34所示，可以在物理机上添加一个网卡连接到VMnet4，VMware Network Adapter VMnct4的IP地址要设置成192.168.40.10，该IP地址一定要和VMnct4规划的网络地址在一个网段，虚拟机VM4的IP地址设置成192.168.40.20，这样VM4要想访问物理机，就要访问192.168.40.10，而不能访问物理网卡的地址10.7.10.212。</p>
+
+<p><img src="/assets/img/virtualmachine/3_34.png" alt="" /></p>
+
+<p>具体步骤：物理机添加网卡连接VMnet4，之后设置VMnet4的IP和掩码。之后打开物理机“网络连接”，设置VMnet4的IPV4的IP和掩码。之后打开虚拟机“网络连接”，设置网卡的IP和掩码。</p>
+
+<h2 id="24-虚拟机访问物理网络">2.4 虚拟机访问物理网络</h2>
+
+<p>具体步骤：进入“虚拟网络编辑器”，选择VMnet转换成“桥接模式”。之后设置虚拟机的IP地址，IP地址所在网段需要和物理网络中计算机的IP地址在同一个网段，子网掩码（255.255.255.0）、网关和DNS也要和物理网络中的计算机一样。</p>
+
+<h2 id="25-虚拟机通过nat访问物理网络">2.5 虚拟机通过NAT访问物理网络</h2>
+
+<p>原理：把某个VMnet所处的网络当作内网，把物理机 所的网络当作公网，并把物理机当作NAT路由器，让内网的虚拟机使用物理机的IP地址访问物理网络，这些虚拟机都使用私网地址，这样一来即使和其他物理机中虚拟机的IP地址相 同也没有关系。</p>
+
+<p><img src="/assets/img/virtualmachine/3_79.png" alt="" /></p>
+
+<p>具体步骤：进入“虚拟网络编辑器”，VMnet8调为NAT模式，单击“NAT设置”，记下网关IP（即虚拟路由器E0接口）。之后打开物理机“网络连接”，调VMnet8的IP（需要设置为与虚拟路由器E0接口同一网段下的IP，但不能相同，否则导致网关地址冲突。接着打开“虚拟机设置”，虚拟机连接到VMnet8。之后打开虚拟机“网络连接”，调本地连接IPV4的IP（与虚拟路由器E0接口同一网段）以及子网掩码以及默认网关（就是虚拟路由器E0接口），DNS设置为8.8.8.8与222.222.222.222。</p>
+
+<h2 id="26-端口映射">2.6 端口映射</h2>
+
+<p>服务器对外提供服务通常使用TCP或UDP协议侦听客户端的请求，客户端使用该端口访问对应的服务。远程桌面协议（RDP）默认使用TCP的3389端口。Web服务使用的http协议默认使用TCP的80端口。</p>
+
+<p><img src="/assets/img/virtualmachine/3_94.png" alt="" /></p>
+
+<p>具体步骤：进入“虚拟网络编辑器”，VMnet8调为NAT模式，单击“NAT设置”，单击“添加”，输入主机端口4000，选择TCP协议，输入虚拟机IP，制定虚拟机端口3389。接着打开“虚拟机设置”，虚拟机连接到VMnet8，选择“已连接”和“启动时连接”的复选框。设置虚拟机的IP、子网掩码、网关。打开虚拟机的“计算机-管理”，创建新用户。打开虚拟机的“远程桌面”的“允许…计算机连接”，单击“选择用户”，“添加”刚才创建的新用户。查看物理机的IP。物理网络上的计算机上启动“远程桌面连接”，输入物理机IP+冒号+端口（4000）。</p>
+
+<h2 id="27-网络实现虚拟机与物理机文件共享">2.7 网络实现虚拟机与物理机文件共享</h2>
+
+<p>具体步骤：打开“虚拟机设置”，虚拟机连接到VMnet8。设置虚拟机的IP、子网掩码、网关（网关与IP位于同一网段）。设置物理机的VMnet8的IP（与虚拟机的默认网关一致）。物理机在要共享的文件右键，点击“共享”和“特定用户”，设置权限。虚拟机“运行”（Win+R）中输入”\网关”，输入用户名和密码。</p>]]></content><author><name>LLGY</name></author><category term="Study" /><category term="Study" /><summary type="html"><![CDATA[本页内容参考书籍《玩转虚拟机——基于VMware+Windows》]]></summary></entry><entry><title type="html">医学知识记录</title><link href="http://localhost:4000/study/%E5%8C%BB%E5%AD%A6%E7%9F%A5%E8%AF%86%E8%AE%B0%E5%BD%95.html" rel="alternate" type="text/html" title="医学知识记录" /><published>2023-07-09T00:00:00+08:00</published><updated>2023-07-09T00:00:00+08:00</updated><id>http://localhost:4000/study/%E5%8C%BB%E5%AD%A6%E7%9F%A5%E8%AF%86%E8%AE%B0%E5%BD%95</id><content type="html" xml:base="http://localhost:4000/study/%E5%8C%BB%E5%AD%A6%E7%9F%A5%E8%AF%86%E8%AE%B0%E5%BD%95.html"><![CDATA[<p>本页内容参考书籍《玩转虚拟机——基于VMware+Windows》</p>
+
+<h1 id="1-药物使用">1 药物使用</h1>
+
+<h2 id="11-感冒药">1.1 感冒药</h2>
+
+<p>单方药＞复方药＞二线解热镇痛药</p>
+
+<h3 id="111-单方药布洛芬对乙酰氨基酚扑热息痛洛索洛芬钠">1.1.1 单方药：布洛芬，对乙酰氨基酚（扑热息痛），洛索洛芬钠</h3>
+
+<p>在效果上，布洛芬的退热持久度和退热效果比对乙酰氨基酚好，对乙酰氨基酚的退热速度比布洛芬快。在大剂量使用的副作用上，布洛芬会对胃肠道产生刺激，对乙酰氨基酚会对肝脏产生伤害。洛索洛芬钠在国内属于较新的药，已有仿制，且对有急性上呼吸道感染引起的发热与炎症的患者效果更好。与布洛芬相比胃肠道刺激大幅减轻，但相对比较难买到。 使用缓释胶囊或者缓释片剂型的布洛芬可以有效降低胃肠道刺激。</p>
+
+<p>24小时内口服对乙酰氨基酚≥150 mg/K歌（成人约≥ 7.5 g）会产生急性对乙酰氨基酚中毒。同时需要注意不可与含酒精的药物合用（如藿香正气液）。</p>
+
+<p>### 1.1.2 复方感冒药：酚麻美敏、氨麻美敏、氨咖黄敏</p>
+
+<p>使用酚麻美敏、氨麻美敏等含有右美沙芬的复方感冒药后，不需要选择止咳药。</p>
+
+<p>含有右美沙芬（通常名字中带有“美”）、伪麻黄碱（通常名字中带有“麻”、“伪”）的感冒药，与精神类药物会产生相互作用，不可同时使用。 因此正在使用精神类药物或者有精神类药物使用史的人，购买复方感冒药时请咨询医师或药师。</p>
+
+<p>含有马来酸氯苯那敏（通常名字中带有“敏”）的感冒药会与部分精神类药物产生相互作用，需要询问医生后使用。</p>
+
+<p>一些中成药也含有对乙酰氨基酚，如三九感冒灵、维C银翘片。这些药物都具有稳定的退热效果。 这些含对乙酰氨基酚复方中成药感冒药，使用时不需且不应与其他类型感冒药重复使用，如需加量请确保在医生或说明书给出的最高用量以内。如果退热效果不明显需要换药，请按医生指导在下一剂次时再进行更换。</p>
+
+<p>其他未明确列出对乙酰氨基酚的复方中成药感冒药，在使用时可以但不推荐与其他感冒药连用，以免产生毒副作用。这些中成药的退热效果因人而异，在退热有效时无需换药或加药。</p>
+
+<p>复方药中特别需要注意「x洛芬待因x」。这是布洛芬和磷酸可待因组成的复方制剂，超剂量或长期使用可产生药物依赖性。使用洛芬待因后不需要选择止咳药。 带有「x金刚烷胺x」成分的感冒药在此不推荐使用，因为金刚烷胺仅对部分流感病毒有用；带有「x氨基比林x」「x安替比林x」成分的感冒药在此不推荐使用，副作用较大。含有这两种成分的感冒药仅作为其他药买不到时的选项。</p>
+
+<p>在找不到以上药物时，如需急用，可以询问药店药师是否有库存并是否可以使用： 尼美舒利＞双氯芬酸钠＞吲哚美辛 一定要在执业医生和药师的指导下使用！ 「x尼美舒利x」禁止用于 12 岁以下儿童，作为其他抗炎镇痛药物无效时的二线用药。 「x双氯芬酸钠x」的不良反应发生率较布洛芬高得多，常见于胃肠道反应。但解热抗炎镇痛效果非常强，除紧急情况外不要使用。 「x吲哚美辛x」同上，副作用更高，解热抗炎效果很强，但持续时间短。建议使用栓剂以减少不良反应发生。 非甾体抗炎药类的其他部分，临床应用中副作用效果过大（或者主要使用它的副作用），因此个人不选入退热应急药物中。例如，阿司匹林目前主要作为抗血小板凝集药物来预防急性心肌梗死。 —————————— 化痰可以保证呼吸道通畅，且能有效减缓因痰液刺激导致的咳嗽。 如果出现有较大量或较浓痰液的症状，在化痰之前禁用中枢神经系统类镇咳药。市售常见的中成药，如止咳化痰糖浆或止咳化痰片，均不属于此处提到的溶解性祛痰药。当痰液有不透明、变色等细菌感染指征时，应尽早使用抗生素。 溶解性祛痰药没有优先级，「盐酸氨溴索」、「乙酰半胱氨酸」、「溴己新」、「桉柠蒎肠溶软胶囊（切诺）」、「愈创甘油醚」、「桃金娘油肠溶软胶囊（吉诺通）」均可。需要注意可能存在的过敏问题，备好抗过敏药。当之前选择了含有马来酸氯苯那敏（通常成分名含有“敏”字）的复方感冒药时，不需要选择抗过敏药。 —————————— 当之前选择的复方感冒药中含有右美沙芬（通常成分名含有“美”字）、可待因时，不需要选择止咳用药。 右美沙芬和可待因与精神类药物会产生相互作用，不可同时使用。 咳嗽的主要危害是喉咙充血和心血管压力增加，长期咳嗽会导致肺泡损伤。此处按照效用和副作用排列，推荐的止咳药按优先级： 右美沙芬愈创甘油醚＞右美沙芬片＞磷酸可待因糖浆＞甘草片，麻杏止咳片和其他中成药 「右美沙芬愈创甘油醚」属于右美沙芬与溶解性祛痰药的复方，且可以在线上药店直接购买。选择右美沙芬愈创甘油醚后，不需要选择溶解性祛痰药。 「右美沙芬片」属于仅可在线下购买的强力中枢神经镇咳药。镇咳效果强于可待因，成瘾性较低，但大剂量使用会造成精神亢奋。 磷酸可待因糖浆为阿片类药品，止咳效果较强，有轻微的呼吸抑制作用和成瘾性。不可长期使用，避免成瘾性副作用，运动员慎用。 甘草片，麻杏止咳片和其他止咳糖浆属于中成药类，有效成分通常为阿片类、伪麻类成分，注意事项同上。 —————————— 抗菌由抗生素实现，常见抗生素包括但不限于xx霉素、xx西林和头孢类药物。注意药物过敏及肝肾毒性、胃肠刺激等副作用。当出现细菌感染指征如咳嗽加重、脓痰液、乳浊或变色的鼻涕、高烧不退或者退热后再次发热时，应尽早按照医嘱及说明书使用抗生素。 头孢配酒或含酒精的药物（如藿香正气液）会产生严重的不良反应，甚至致命。 抗过敏药（抗组胺药），一般不吃。当且仅当鼻塞、红疹等过敏反应严重时，在医生指导下使用。 马来酸氯苯那敏（扑尔敏）与精神类药物会产 生相互作用，不可同时使用。 —————————— 对于留学生来说，尽管海外已有成熟的居家用药方案，但使用时仍需遵守 不使用未经医生即时确认过的药，以执业医生诊断为最优先。 如果选择了复方药，要根据含有的其他成分，在后面减去该成分的等效药。 特别需要注意防止对乙酰氨基酚的过量，这是一种常见且有效的退热药成分，如果应用过量会导致肝衰竭。 特别提醒某些国外流行的止痛药如EVE中，含有副作用较大的丙戊酰脲等成分 日系复方感冒药相对国内用药，在伪麻类、可待因、咖啡因成分上均常见大量使用，注意用药副作用及成瘾性。</p>
+
+<h1 id="2-疾病治疗">2 疾病治疗</h1>
+
+<h2 id="22-脱发">2.2 脱发</h2>
+
+<p>口服：非那雄胺
+外用：米诺地尔酊</p>
+
+<h2 id="23-清黑头">2.3 清黑头</h2>
+
+<p>维A酸类药物:维A酸乳膏；阿达帕林；他扎罗汀。
+注意:在备孕期女性不可使用；只能晚上使用。具体用法:点涂/薄涂（从低浓度开始）；涂完洗手；护肤后使用；长期坚持使用。</p>
+
+<p>酸类药物:维A酸；果酸；壬二酸；水杨酸。
+常见果酸:从杏仁提取的杏仁酸；从甘蔗里面提取的甘醇酸。
+医美果酸换肤大多用20%以上的甘醇酸来做，一定找专业人士做，不要自己尝试，可能会起水泡表皮全脱。
+也可以用8%的杏仁酸，品牌:dr.wu，温和不刺激
+用法:先在耳后实验是否过敏，拧开，洗出来，弄到手上，薄涂，10-15分钟以后基本会干，然后正常护肤，严重的可以多挤多拍，但要建议耐受
+杏仁酸特性:亲脂性；温和；敏感肌可用。</p>
+
+<p>甲硝唑凝胶:抗生素药膏，没有临床研究证实，但确实有人有效果。</p>
+
+<h2 id="24-脚气">2.4 脚气</h2>
+
+<p>脚气类型：水疱型、浸渍糜烂型、角化鳞屑型</p>
+
+<p>用药：达克宁、联苯苄唑溶液（喷雾型）</p>
+
+<h2 id="25-特应性皮炎">2.5 特应性皮炎</h2>
+
+<p>短期用药：激素类药物（外用）</p>
+
+<p>长期用药：钙调磷酸酶抑制剂（他克莫斯软膏）、生物制剂（达必妥，用前需要系统的检查）</p>
+
+<h2 id="26-荨麻疹">2.6 荨麻疹</h2>
+
+<h3 id="261-胆碱能荨麻疹">2.6.1 胆碱能荨麻疹</h3>
+
+<p>一代抗组胺药 - 酮替芬</p>
+
+<h3 id="262-丘疹性荨麻疹虫咬性皮炎">2.6.2 丘疹性荨麻疹（虫咬性皮炎）</h3>
+
+<p>轻症：1.使用肥皂水冲水中和酸性即可；2.外涂一些激素性的药膏（艾洛松、卤米松等）
+重症：1.抗组胺药物；2.外涂一些激素性的药膏（艾洛松、卤米松等）</p>
+
+<h2 id="27-花斑藓">2.7 花斑藓</h2>
+
+<p>外用抗真菌药：酮康唑；特比萘芬；环吡酮胺；联苯苄唑溶液</p>
+
+<h2 id="28-脂溢性皮炎">2.8 脂溢性皮炎</h2>
+
+<p>激素类药膏（不推荐）</p>
+
+<p>他克莫司软膏；吡美莫司乳膏；酮康唑；二硫化硒（抑制剂，延缓角质细胞更新。因此停药后易复发产生头皮屑）</p>
+
+<h2 id="29-疱疹">2.9 疱疹</h2>
+
+<h3 id="291-单纯疱疹">2.9.1 单纯疱疹</h3>
+
+<p>I型：具有传染性，治疗涂外用的抗病毒药膏：阿昔洛韦软膏
+II型：性行为引起，需要口服抗病毒药：XX洛韦类</p>
+
+<p>老三：1少熬夜，2避免情绪压力，3避免过度劳累。
+新三：1洁身自好，2做好防护，3主动就医。</p>
+
+<h3 id="292-汗疱疹">2.9.2 汗疱疹</h3>
+
+<p>不能弄破，破皮后少沾水，不要接触洗涤剂及重金属材质物品。</p>
+
+<p>炉甘石洗剂，蜕皮或红斑时糖皮质激素类药膏（卤米松/哈西耐得/曲安耐得），严重封包，涂药膏，带上一次性手套，30min-1h，每晚一次，持续一周，痒的厉害就服用第二代抗组胺药（开思亭，其成分为依巴斯汀）。</p>
+
+<h2 id="210-生长纹萎缩纹">2.10 生长纹（萎缩纹）</h2>
+
+<p>好发部位：臀部、后腰部、大腿等部位会呈现数条不规则的条纹。</p>
+
+<p>生长纹，是指人体出现的不规则的条纹。生长纹一般出现于体重增加过快的人身上，因皮下脂肪增长太快，皮肤生长跟不上，真皮层的弱力纤维被拉断，从而开有成弯弯曲曲像“蚯蚓”一样的条纹。与孕妇肚子上的妊娠纹有相同的道理，许多人在发育期身高增长过快时也可能出现。（健身、生孩子都会导致）
+生长纹出现后，即使减肥成功恢复了原有的体形也无法消除。它开始是红色，慢慢可以逐渐变成紫红色，最后变成褐色的条纹。</p>
+
+<p>治疗方法：减肥、激光</p>
+
+<h2 id="211-股藓">2.11 股藓</h2>
+
+<p>一大堆抗真菌药。</p>
+
+<p>口服抗真菌：氟康唑、伊曲康唑</p>
+
+<p>应对色素沉积：外用维生素E乳、激光、维A酸乳膏</p>
+
+<h2 id="212-细菌感染疾病">2.12 细菌感染疾病</h2>
+
+<p>针对需氧菌：红霉素、克拉霉素
+针对厌氧菌：甲硝唑</p>
+
+<h2 id="213-梅毒">2.13 梅毒</h2>
+
+<p>TPPA：梅毒螺旋体颗粒凝集试验，得过便永久阳性</p>
+
+<p>RPR：快速血浆反应素环卡试验，活动期数值高，治愈后转为阴性</p>
+
+<h2 id="214灰指甲">2.14灰指甲</h2>
+
+<p>口服：
+盐酸特比萘芬片 0.25g/次/天 饭后服用 连续使用
+伊曲康唑胶囊   0.2g/次 2次/天 吃一周停三周 餐中服用</p>
+
+<p>外用：
+盐酸阿莫罗芬搽剂、冰醋酸溶液</p>
+
+<h1 id="3-其他">3 其他</h1>
+
+<h2 id="31-挂科问题">3.1 挂科问题</h2>
+
+<p>1.肚子疼（急性突发）急症外科
+（慢性持续）消化内科
+女性（无关饮食）妇产科</p>
+
+<p>2.头疼（突发剧烈）神经外科
+常/偏头痛（三叉圣经疼神经内科）</p>
+
+<p>3.头晕（天旋地转）耳鼻喉科
+（迷迷糊糊）神经内科</p>
+
+<p>4.打呼噜（儿童，瘦）耳鼻喉科
+（呼吸暂停，胖）呼吸科</p>
+
+<p>5.痔疮   肛肠科</p>
+
+<p>6.乳腺   乳腺科（普外科）</p>]]></content><author><name>LLGY</name></author><category term="Study" /><category term="Study" /><summary type="html"><![CDATA[本页内容参考书籍《玩转虚拟机——基于VMware+Windows》]]></summary></entry><entry><title type="html">Jekyll学习#2</title><link href="http://localhost:4000/study/Jekyll%E6%8F%92%E4%BB%B6%E4%B8%8E%E5%8A%9F%E8%83%BD%E4%BC%98%E5%8C%96.html" rel="alternate" type="text/html" title="Jekyll学习#2" /><published>2023-07-03T00:00:00+08:00</published><updated>2023-07-03T00:00:00+08:00</updated><id>http://localhost:4000/study/Jekyll%E6%8F%92%E4%BB%B6%E4%B8%8E%E5%8A%9F%E8%83%BD%E4%BC%98%E5%8C%96</id><content type="html" xml:base="http://localhost:4000/study/Jekyll%E6%8F%92%E4%BB%B6%E4%B8%8E%E5%8A%9F%E8%83%BD%E4%BC%98%E5%8C%96.html"><![CDATA[<p><code class="language-plaintext highlighter-rouge">Jekyll</code>学习第二弹</p>
+
+<h1 id="1-插件">1. 插件</h1>
+
+<h2 id="11-jimoji">1.1 jimoji</h2>
+
+<p>具体emoji代码参考 https://www.webfx.com/tools/emoji-cheat-sheet/</p>
+
+<p>展示：</p>
+
+<p>:+1:
+:dog:
+:cat:</p>
+
+<h2 id="12-网易云音乐插件">1.2 网易云音乐插件</h2>
+
+<p>代码参考：
+在每个页面抬头添加music-id: XXXX</p>
+
+<h2 id="13-为jekyll博客添加目录与scrollspy效果">1.3 为Jekyll博客添加目录与ScrollSpy效果</h2>
+
+<p>代码参考：http://t.hengwei.me/post/%E4%B8%BAjekyll%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E7%9B%AE%E5%BD%95%E4%B8%8Escrollspy%E6%95%88%E6%9E%9C.html</p>
+
+<h2 id="14-个人博客中添加点击爱心效果">1.4 个人博客中添加点击爱心效果</h2>
+
+<p>代码参考：https://yizibi.github.io/2018/10/18/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%B7%BB%E5%8A%A0%E7%82%B9%E5%87%BB%E7%88%B1%E5%BF%83%E6%95%88%E6%9E%9C/</p>
+
+<p>代码2参考：https://blog.51cto.com/u_15127588/2807647</p>
+
+<h2 id="15-添加阅读量统计功能">1.5 添加阅读量统计功能</h2>
+
+<p>代码参考：https://blog.csdn.net/qq_32507255/article/details/89068958?ops_request_misc=&amp;request_id=&amp;biz_id=102&amp;utm_term=jekyll%20%E7%82%B9%E5%87%BB&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~blog~sobaiduweb~default-4-89068958.268^v1^koosearch&amp;spm=1018.2226.3001.4450</p>
+
+<h2 id="16-gitalk">1.6 gitalk</h2>
+
+<p>代码参考：https://www.pianshen.com/article/4404354477/  https://blog.csdn.net/zy13651953784/article/details/104813021  https://blog.csdn.net/sinat_32873711/article/details/129192910  https://github.com/gitalk/gitalk/blob/master/readme-cn.md  https://gitalk.github.io/  https://github.com/gitalk/gitalk#install</p>
+
+<h2 id="17-随机bgm与全局bgm">1.7 随机BGM与全局BGM</h2>
+
+<p>代码参考：https://www.jianshu.com/p/b2306e9b7ba7   https://szhshp.org/tech/2016/11/19/whynotaddabgmforurblog.html</p>
+
+<h2 id="18-添加站点访客数及文章浏览量添加中英文字数统计">1.8 添加站点访客数及文章浏览量、添加中英文字数统计</h2>
+
+<p>代码参考：https://blog.csdn.net/ds19991999/article/details/81293467</p>
+
+<h2 id="19-live2d小人">1.9 Live2D小人</h2>
+
+<p>代码参考：https://github.com/stevenjoezhang/live2d-widget</p>]]></content><author><name>LLGY</name></author><category term="Study" /><category term="Study" /><summary type="html"><![CDATA[Jekyll学习第二弹]]></summary></entry><entry><title type="html">Jotting#3</title><link href="http://localhost:4000/daily/Jotting-3.html" rel="alternate" type="text/html" title="Jotting#3" /><published>2023-07-01T00:00:00+08:00</published><updated>2023-07-01T00:00:00+08:00</updated><id>http://localhost:4000/daily/Jotting#3</id><content type="html" xml:base="http://localhost:4000/daily/Jotting-3.html"><![CDATA[<!--excerpt-->
+<h1 id="7月3日">7月3日</h1>
 
 <p>最近情绪依然低迷，组会找了个借口不汇报了…我实在是不想做了。希望明天的我有所改变吧。但是…我还是希望自己的Blog里少点忧郁的东西，以后少写点情感类吧（除了特殊情况）</p>
 
@@ -6,7 +338,7 @@
 
 <p>鬼灭之刃的打戏实在太好看啦，BGM与画面配合的也超棒！！！看完最后一集瞬间让我对前面的稀烂文戏失忆。真想跟朋友分享这些精致的打斗场景啊…但是我认识的熟悉的朋友里没一个能跟我聊这个的就是了。说到这个话题，突然想起一件很让人难受的事情。前几天和刚认识的女生聊天，她询问我的兴趣和是否喜欢出门。我回答我一般喜欢在家，不太喜欢出门，之后她就直接说：“你不会是二次元吧”。有一说一，事后回想起来，突然发现自己被轻易的贴上了标签，不喜欢出门=宅在家里=宅男=二次元，有种莫名其妙就受到了贬低的感觉。乐观点想想，说不定人家只是知道这个词随便用了下，不知道这个词的贬义成分罢了。而且我也没资格要求别人尊重他人的爱好就是了，因为我确实是阴沟里的老鼠捏。但是，那时候我的心情确实因此变差了许多，所以果然还是自己一个人比较好，不会因为话语伤害到别人，我暂时可以不用奢侈那么多了。（最后附上一张鬼灭的图吧）</p>
 
-<p><img src="/assets/img/006.jpg" alt="鬼灭之刃锻刀篇" /></p>
+<p><img src="/assets/img/Daily/006.jpg" alt="鬼灭之刃锻刀篇" /></p>
 
 <h2 id="2">#2</h2>
 
@@ -16,7 +348,57 @@
 
 <p>关于这本书，我确实被他的标题给吸引到了，读完后，确实有很多地方让人觉得逻辑有点牵强。第二章里，明明GaGa对主人公说会对那个女孩表示警惕，可还是吃了她推荐的药，药这玩意哪能乱吃。第一章内容有点让人犯困。最后，犯人没被绳之以法确实也让人有点恼火。但是我只能说作者成功了，他成功的塑造了个女儿形象。我一开始对GaGa这位主角是抱有厌恶的，她一开始的不尊重他人、蛮横不讲理，都让我觉得她是个要便当的角色。结果作者一步步塑造她的改变，让我这个读者都有种养女儿的感觉啦。特别是看到女儿赚钱赚的贼麻溜，我的天，我真是想当场去领个女儿养养，体会下真正当父亲的感觉啦（开个玩笑）。但是到后面，女儿被发现有抑郁症的时候，我这时候才发现女儿要被刀了，甚至有点不想往下看了。啊啊啊啊啊，我好不容易心动一次，你却让我输的XXXX（还是不玩烂梗了）。最后看到女儿自杀的消息，我也是准备好了的。但是！！！作者还放出了个线索，说女儿在自杀前还看着主人公的破案视频，安慰自己主人公作为神探一定会为自己爸爸讨回清白。我的天啊，真的破大防了，主人公真的是女主的第二个爸爸啊，到临死前都一直信赖主角…….我感觉我对这本书的评价因为GaGa一人上升了许多。呜呜呜。最后做个总结吧，读了很多悬疑作品的人估计对这本书不会很感冒，但是喜欢养女儿的可以看看第二章。….我为啥就喜欢推荐别人刀子呢。</p>
 
-<p><img src="/assets/img/005.jpg" alt="抑郁了，想去死一死" /></p>]]></content><author><name>LLGY</name></author><category term="Daily" /><category term="Daily" /><summary type="html"><![CDATA[7月3日]]></summary></entry><entry><title type="html">Jotting#2</title><link href="http://localhost:4000/daily/Jotting-2.html" rel="alternate" type="text/html" title="Jotting#2" /><published>2023-06-01T00:00:00+08:00</published><updated>2023-06-01T00:00:00+08:00</updated><id>http://localhost:4000/daily/Jotting#2</id><content type="html" xml:base="http://localhost:4000/daily/Jotting-2.html"><![CDATA[<h1 id="6月2日">6月2日</h1>
+<p><img src="/assets/img/Daily/005.jpg" alt="抑郁了，想去死一死" /></p>
+
+<h1 id="7月4日">7月4日</h1>
+
+<h2 id="1-1">#1</h2>
+
+<p>今天尝试往Blog里加新东西，但是大部分都看不懂，没有HTML基础是这样的，毕竟我也不是电脑专业的，还是花时间学习下基础吧。</p>
+
+<h1 id="7月6日">7月6日</h1>
+
+<h2 id="1-2">#1</h2>
+
+<p>难得这几天干了挺多事情的…今天帮老王装了新系统，解决了他电脑问题，嘿嘿，不愧是我。</p>
+
+<p><img src="/assets/img/Daily/009.jpg" alt="老王的新系统" /></p>
+
+<h2 id="2-1">#2</h2>
+
+<p>这几天重新用手柄通关了Celest的A面，只能说这个游戏对我的意义太大了，感谢能与你相逢捏，最后放两张我精心截的图。</p>
+
+<p><img src="/assets/img/Daily/007.png" alt="蔚蓝1" /></p>
+
+<p><img src="/assets/img/Daily/008.png" alt="蔚蓝2" /></p>
+
+<h2 id="3">#3</h2>
+
+<p>书接上文，今晚我试了下直播Celest，一个观众都没有，呜呜呜呜…</p>
+
+<p><img src="/assets/img/Daily/010.png" alt="第一次直播" /></p>
+
+<h1 id="7月7日">7月7日</h1>
+
+<h2 id="1-3">#1</h2>
+
+<p>今天中午老师把我拉到了连云港，然后晚上凌晨我把老师拉回了南京…但是，冷静想下吧，LLGY，虽然从结局上来看，你成功开到南京了。但是万一出什么意外了，你担当的起吗。以后不要再做多余的事情了，多点冷静的思考吧。哎~</p>
+
+<h1 id="7月9日">7月9日</h1>
+
+<p>这几天心好累，我要开始干正事了，活太多了…之后可能不会再更新Blog的功能了，等以后吧…明天估计又要去江宁做实验…想死。</p>
+
+<h1 id="7月10日">7月10日</h1>
+
+<p>去江宁的路上，身上沾了两只毛毛虫，这将会是我今年遭遇的最恐怖的事情。今天买到了茶百道与未定事件簿的联动贴纸…还行吧。希望这个暑假能回去…</p>
+
+<h1 id="7月15日">7月15日</h1>
+
+<p>举报了哥，你什么都没做错，全怪我那令人作呕的嫉妒和卑微的自尊心，看见你的文字我完全破防了，我直接丢盔弃甲了，看见你这话的那一秒，我满头大汗，浑身发冷，亿郁症瞬间发作了，生活仿佛没了颜色，像是被抓住尾巴的赛亚人，带着海楼石的能力者，抽离尾兽的人柱力，像是没了光的奥特曼，彻底断绝了生的希望。我几乎都快羡慕得疯了，倒在床上蒙住被子就开始抱着枕头尖叫流泪，嘴里一边喊着卧槽卧槽，一边又忍着，我边发边哭，打字的手都是抖的，后来我的手抖得越来越厉害，从心头涌起的思想、情怀和梦想，这份歆羡和悔恨交织在一起，我的笑还挂在脸上，可是眼泪一下子就掉下来了。求你了别发了，我生活再难再穷我都不会觉得难过。只有你发这种话来破我防的时候，我的心里像被刀割一样的痛。打着字眼泪就忍不住的往下流 我确乎是破防了，破个人之大防了，我这个防破得彻彻底底，我仿佛是被冲上海滩的咸鱼，是失去了任何反击的能力的败狗，直接精神错乱，求求你别发了，我真的哭了，因为你的三言两语我真的破防了。我本来就是网络新手，在网络上不懂装懂，手机屏幕面前的我，眼泪不由自主的流了下来。过去我扮演的高姿态，全都成为了笑话，成了一只供人取笑的败狗，我不想再玩网了😭😭😭😭😭</p>
+
+<h1 id="7月17日">7月17日</h1>
+
+<p>今天去医院做了下肝功能检测和真菌镜检，感谢自己身体依然很好（即使熬了这么多夜）</p>]]></content><author><name>LLGY</name></author><category term="Daily" /><category term="Daily" /><summary type="html"><![CDATA[7月3日]]></summary></entry><entry><title type="html">Jotting#2</title><link href="http://localhost:4000/daily/Jotting-2.html" rel="alternate" type="text/html" title="Jotting#2" /><published>2023-06-01T00:00:00+08:00</published><updated>2023-06-01T00:00:00+08:00</updated><id>http://localhost:4000/daily/Jotting#2</id><content type="html" xml:base="http://localhost:4000/daily/Jotting-2.html"><![CDATA[<h1 id="6月2日">6月2日</h1>
 
 <h2 id="1">#1</h2>
 <p>最近在放纵自己，找不到方向，不想管其他人了，不想管其他事情了，自己永远也不会拜托无能这个标签吧。</p>
@@ -121,9 +503,9 @@
 
 <h2 id="4-3">#4</h2>
 <p>6月16日晚上，与张老师以及她课题组的在校生吃了饭，地点是珠江路金鹰的泰国酒吧餐厅。因为实在太困了，没怎么好好尝味道…但是感觉上很好吃，可能也考虑到中国的饮食习惯，所以对原来的泰餐有所改编。印象最大的是各种咖喱与菠萝，以后<code class="language-plaintext highlighter-rouge">有空</code>以及<code class="language-plaintext highlighter-rouge">有钱</code>也可以来尝尝。最后放上大家合照，希望大家以后都好好的~（突然发现我没图,,,原来我不在群里,,,）
-<img src="/assets/img/001.jpg" alt="合照1" />
-<img src="/assets/img/002.jpg" alt="合照2" />
-<img src="/assets/img/003.jpg" alt="合照3" /></p>
+<img src="/assets/img/Daily/001.jpg" alt="合照1" />
+<img src="/assets/img/Daily/002.jpg" alt="合照2" />
+<img src="/assets/img/Daily/003.jpg" alt="合照3" /></p>
 
 <h1 id="6月20日">6月20日</h1>
 
@@ -133,7 +515,7 @@
 <h2 id="2-7">#2</h2>
 <p>2023年6月18日，我们的健美操比赛终于结束啦。最后拿到优胜奖（其实是四等奖），但是我们的得分是所有拿到该奖项的队伍中最高的（8.2分）。感觉已经是个完美的结局了，特别是得知其他学院经费那么高，老师指导的次数那么多之后。感觉环境学院好穷啊~~但是最后还是很开心的，而且也认识到好多人…虽然我现在都不知道她们叫啥233。</p>
 
-<p><img src="/assets/img/004.jpg" alt="挑了张自己能看的，抱歉啦大家" /></p>
+<p><img src="/assets/img/Daily/004.jpg" alt="挑了张自己能看的，抱歉啦大家" /></p>
 
 <h2 id="3-6">#3</h2>
 <p>发现自己和柔丝羽同一天生日，好耶，以后跟她狠狠地交流了。（拿到了友谊的羽毛×1）</p>
@@ -261,7 +643,7 @@
 
 <p>Jekyll刚好是GitHub Pages的引擎，所以你能够在GitHub的服务器上免费托管项目的Jekyll页面/博客/网站。</p>
 
-<h1 id="11-github--jekyll-工作机制">1.1 GitHub + Jekyll 工作机制</h1>
+<h2 id="11-github--jekyll-工作机制">1.1 GitHub + Jekyll 工作机制</h2>
 
 <p>简单地说，你在 GitHub 上有一个账号，名为<code class="language-plaintext highlighter-rouge">username</code>(任意)， 有一个项目，名为<code class="language-plaintext highlighter-rouge">username.github.io</code>(固定格式，<code class="language-plaintext highlighter-rouge">username</code>与账号名一致)， 项目分支名为 <code class="language-plaintext highlighter-rouge">master</code>(你可以自己改)。</p>
 
