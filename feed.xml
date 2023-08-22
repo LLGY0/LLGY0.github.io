@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-08-09T14:59:39+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LLGY</title><subtitle>个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</subtitle><author><name>LLGY</name></author><entry><title type="html">Jotting#4</title><link href="http://localhost:4000/daily/Jotting-4.html" rel="alternate" type="text/html" title="Jotting#4" /><published>2023-08-01T00:00:00+08:00</published><updated>2023-08-01T00:00:00+08:00</updated><id>http://localhost:4000/daily/Jotting#4</id><content type="html" xml:base="http://localhost:4000/daily/Jotting-4.html"><![CDATA[<!--excerpt-->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-08-23T05:45:47+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LLGY</title><subtitle>个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</subtitle><author><name>LLGY</name></author><entry><title type="html">Jotting#4</title><link href="http://localhost:4000/daily/Jotting-4.html" rel="alternate" type="text/html" title="Jotting#4" /><published>2023-08-01T00:00:00+08:00</published><updated>2023-08-01T00:00:00+08:00</updated><id>http://localhost:4000/daily/Jotting#4</id><content type="html" xml:base="http://localhost:4000/daily/Jotting-4.html"><![CDATA[<!--excerpt-->
 
 <p>好，各位满心期待的明纳桑，8月份的日记开始了，请原谅我漏了好几天日记的行为，毕竟这几天发生了太多事情，晚上只想躺在床上睡觉。唔，大家是不是觉得我的文字突然变得如此滑稽又生疏呢，是不是突然好奇这几天发生了什么事情呢…其实这几天也没发生啥，以我整个人生尺度中来看，这几天的经历依然是可以忽略不计。也许我说这话的时候有点在气头上，但相信我，朋友，不对你身边的人与事抱有任何期待绝对是件正确的事情。不要把他人的过错当做自己的疏漏，不要把他人给予你的重担当做自己的责任，不要把他人对你的希望以及期待当做你必须完成的使命。这就是我这几天学到的现实。虽然有人会指责我没有责任感，对他人不负责，但是…大家都不是小孩子了，谁会单纯的为他人着想。那些乐于无偿帮助他人的人迟早会因为尝到地位与财富的甜头，从而迷失原本的动力。当然，日记不是给我发泄负面情感的，日记应当是记录下我的生活以及情绪波动的工具，因此，现在记录下日记的我并没有任何错误。也许我现在中二的语句会让未来的我贻笑大方吧…不，坚决不会。</p>
 
@@ -63,7 +63,23 @@
 
 <p>“日常”摘抄：</p>
 
-<p>“没有人畏惧死亡，而是怕与死相连的生，如果不用受苦就能死掉的话，便没有人畏惧死亡了吧；死是本来的状态，而生是自体的一种病症，病症痊愈之时，生命也就消亡了；想让别人来干涉我的人生，这不就是爱这个词的含义吗？没有谁是按照自己的意愿来到这个世界上的，因别人干涉而死去，不就是不因自己意愿降世的一种本能欲求吗”</p>]]></content><author><name>LLGY</name></author><category term="Daily" /><category term="Daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">系统快捷键与命令</title><link href="http://localhost:4000/study/%E7%B3%BB%E7%BB%9F%E5%BF%AB%E6%8D%B7%E9%94%AE%E4%B8%8E%E5%91%BD%E4%BB%A4.html" rel="alternate" type="text/html" title="系统快捷键与命令" /><published>2023-07-11T00:00:00+08:00</published><updated>2023-07-11T00:00:00+08:00</updated><id>http://localhost:4000/study/%E7%B3%BB%E7%BB%9F%E5%BF%AB%E6%8D%B7%E9%94%AE%E4%B8%8E%E5%91%BD%E4%BB%A4</id><content type="html" xml:base="http://localhost:4000/study/%E7%B3%BB%E7%BB%9F%E5%BF%AB%E6%8D%B7%E9%94%AE%E4%B8%8E%E5%91%BD%E4%BB%A4.html"><![CDATA[<h1 id="1-windows">1. Windows</h1>
+<p>“没有人畏惧死亡，而是怕与死相连的生，如果不用受苦就能死掉的话，便没有人畏惧死亡了吧；死是本来的状态，而生是自体的一种病症，病症痊愈之时，生命也就消亡了；想让别人来干涉我的人生，这不就是爱这个词的含义吗？没有谁是按照自己的意愿来到这个世界上的，因别人干涉而死去，不就是不因自己意愿降世的一种本能欲求吗”</p>
+
+<h1 id="8月13日">8月13日</h1>
+
+<p>最近一直在改文章…害，希望我能继续学下去；最近买了喜茶的原神联动品…死宅的钱真好挣；最近迷上了MyGo乐队，好想自己去一次现场Live啊。说到Live，昨天是MyGo的5th Live。真好啊，真羡慕啊；最近也是原神的Fes，我去不了，但是朋友的朋友去了…真好啊真好啊；开始努力学习及省钱，为了早日去日本玩…希望我这次能坚持久点。</p>
+
+<h1 id="8月18日">8月18日</h1>
+
+<p>BangDream MyGo爆辣，真是太好看啦，希望每个读到这个帖子的人，都能去看看这玩意，呜呜呜，连我这种人都被他的第十集感动到了。</p>
+
+<h1 id="8月22日">8月22日</h1>
+
+<p>我的拖延症还是正常的犯了，离死线越来越近了，什么时候我才能真正的开始用全力干活呢…最近超级小桀的瓜好多，实在吃不完了，一开始只是电脑奸商，但后面甚至与犯罪同伙有联系，只能说互联网真神奇，啥事情都可以被挖出来；泛哥哥今天打完了法环的女武神，好厉害；期待周四的MyGo11话；又通宵熬夜了，身体好累；最后放几张MyGo的同人图吧。</p>
+
+<p><img src="/assets/img/Daily/011.jpg" alt="MyGo同人1" /></p>
+
+<p><img src="/assets/img/Daily/012.jpg" alt="MyGo同人2" /></p>]]></content><author><name>LLGY</name></author><category term="Daily" /><category term="Daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">系统快捷键与命令</title><link href="http://localhost:4000/study/%E7%B3%BB%E7%BB%9F%E5%BF%AB%E6%8D%B7%E9%94%AE%E4%B8%8E%E5%91%BD%E4%BB%A4.html" rel="alternate" type="text/html" title="系统快捷键与命令" /><published>2023-07-11T00:00:00+08:00</published><updated>2023-07-11T00:00:00+08:00</updated><id>http://localhost:4000/study/%E7%B3%BB%E7%BB%9F%E5%BF%AB%E6%8D%B7%E9%94%AE%E4%B8%8E%E5%91%BD%E4%BB%A4</id><content type="html" xml:base="http://localhost:4000/study/%E7%B3%BB%E7%BB%9F%E5%BF%AB%E6%8D%B7%E9%94%AE%E4%B8%8E%E5%91%BD%E4%BB%A4.html"><![CDATA[<h1 id="1-windows">1. Windows</h1>
 
 <p>Windows快捷键大全捏，后续可能更新（复制）linux系统的</p>
 
