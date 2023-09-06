@@ -5,9 +5,36 @@
     <description>个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 25 Aug 2023 21:14:02 +0800</pubDate>
-    <lastBuildDate>Fri, 25 Aug 2023 21:14:02 +0800</lastBuildDate>
+    <pubDate>Wed, 06 Sep 2023 19:05:09 +0800</pubDate>
+    <lastBuildDate>Wed, 06 Sep 2023 19:05:09 +0800</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
+    
+      <item>
+        <title>Jotting#5</title>
+        <description>&lt;!--excerpt--&gt;
+
+&lt;h1 id=&quot;9月4日&quot;&gt;9月4日&lt;/h1&gt;
+
+&lt;p&gt;不知不觉9月来了，正式开学了，感觉很多事情要去做，可是还是迟迟不想动身；今天上午与师弟又搞了下Fluent，一无所获…；这周还没MYGO看，想死…；不知道自己实验方向怎么规划，是放弃原来的材料，还是转战新的领域呢…今天晚上去当老王代驾，路上一边开车一边和老王讨论课题，可太刺激了，还好我车技高超，啊哈哈哈。&lt;/p&gt;
+
+&lt;h1 id=&quot;9月5日&quot;&gt;9月5日&lt;/h1&gt;
+
+&lt;p&gt;今天晚上第一次尝试直播看文献，我的评价是没活可以咬打火机。为啥我会自己这么评论自己呢。我的表妹好像打算要赛博飞升了，很惊讶，一开始觉得这玩意离我太遥远了，没想到身边的人开始以他为职业了，不了解，不发言，只是觉得现在做的人太多了…看来不管哪个领域都在卷。&lt;/p&gt;
+
+&lt;h1 id=&quot;9月6日&quot;&gt;9月6日&lt;/h1&gt;
+
+&lt;p&gt;感觉昨天学习过度了，今天完全不想学习，浪了一天了。&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Sep 2023 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/daily/Jotting-5.html</link>
+        <guid isPermaLink="true">http://localhost:4000/daily/Jotting-5.html</guid>
+        
+        <category>Daily</category>
+        
+        
+        <category>Daily</category>
+        
+      </item>
     
       <item>
         <title>Jotting#4</title>
@@ -107,6 +134,28 @@
 &lt;p&gt;最近喜欢看一部剧，叫活着（日剧），好像是V开头的，不记得了…我觉得很好看，甚至可以把这部剧当做龙傲天爽文看…我可太喜欢龙傲天了。&lt;/p&gt;
 
 &lt;p&gt;最近终于把ICPB的文章修改好了，我拖了好久了，感谢我的张老师对我不离不弃…真的很对不起她…&lt;/p&gt;
+
+&lt;h1 id=&quot;8月26日&quot;&gt;8月26日&lt;/h1&gt;
+
+&lt;p&gt;今天与赵博去吃海鲜自助，真的好饱啊；今天明日方舟一天内抽到叔叔和鸿雪，我的天，也太欧了吧；&lt;/p&gt;
+
+&lt;h1 id=&quot;8月28日&quot;&gt;8月28日&lt;/h1&gt;
+
+&lt;p&gt;还没想好课题怎么弄，好难啊，想退学；今天和赵博吃必胜客，买一送一披萨，只能说实在吃不下了，今天糖分摄取量有点过高了。&lt;/p&gt;
+
+&lt;h1 id=&quot;8月30日&quot;&gt;8月30日&lt;/h1&gt;
+
+&lt;p&gt;明日方舟最近抽到好多6星，我也是欧皇了，从今天起正式脱非入欧。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/013.png&quot; alt=&quot;欧皇的证明1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/014.png&quot; alt=&quot;欧皇的证明2&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;8月31日&quot;&gt;8月31日&lt;/h1&gt;
+
+&lt;p&gt;书籍预选：kirara杂志、沉默的螺旋、被讨厌的勇气、世界观、乌合之众、人类简史社会性动物、进化心理学、幸福的方法、沉默的螺旋、被讨厌的勇气、态度改变与社会影响、浪漫的谎言与小说的真实舆论、中国近代史1600-2000、中国的奋斗&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/015.webp&quot; alt=&quot;同人图&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 01 Aug 2023 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/daily/Jotting-4.html</link>
@@ -1152,27 +1201,6 @@ git push origin main （正式开始上传）
         
         
         <category>Study</category>
-        
-      </item>
-    
-      <item>
-        <title>第一次的POST</title>
-        <description>&lt;p&gt;第一次记录自己的日常生活，希望能在博士期间好好记录下自己的所学所见。之前试过在微博或者微信朋友圈匿名写日记，但在上述平台记录日常显然有两个弊端：一是我每天都在微博上记录自己的消极情绪，今后翻阅日记时难免会感受到一阵胃痛，但是微博也不可能在我回忆“青春”时过滤掉“过往的伤疤”；二是我很难在上述平台记录自己的学习过程，而这估计是我日后生活的一大部分（虽然我也想摸鱼）。&lt;/p&gt;
-
-&lt;p&gt;因此在Github上更新日记变得合理了起来：首先Github应该能用好久（千万别墙了）；其次通过Tag分类，能很好的让我定向回忆“悲痛文学”，但我想温习以前所学时，也不会被自己的日记搞二次抑郁（或者感到羞耻）。好！很有精神的LLGY，希望你能努力坚持记录日常，希望你即使找不到女朋友也不感到孤独，希望你即使多么绝望最终依然能站起来，希望你最终能自信起来。&lt;/p&gt;
-
-&lt;p&gt;第一次看到这里的旅客哟，如果你对我后续的Blog（或者我）感兴趣，欢迎给我发邮件与我交流，邮件内容包括不限于日常聊天、Blog优化、科研内容、相亲介绍（我还是想要个女朋友的）。&lt;/p&gt;
-
-&lt;p&gt;邮箱：luyin0731@outlook.com&lt;/p&gt;
-</description>
-        <pubDate>Tue, 23 May 2023 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/daily/First_post.html</link>
-        <guid isPermaLink="true">http://localhost:4000/daily/First_post.html</guid>
-        
-        <category>Daily</category>
-        
-        
-        <category>Daily</category>
         
       </item>
     
