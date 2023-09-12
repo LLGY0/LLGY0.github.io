@@ -5,8 +5,8 @@
     <description>个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 06 Sep 2023 19:14:40 +0800</pubDate>
-    <lastBuildDate>Wed, 06 Sep 2023 19:14:40 +0800</lastBuildDate>
+    <pubDate>Tue, 12 Sep 2023 23:11:40 +0800</pubDate>
+    <lastBuildDate>Tue, 12 Sep 2023 23:11:40 +0800</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -24,6 +24,18 @@
 &lt;h1 id=&quot;9月6日&quot;&gt;9月6日&lt;/h1&gt;
 
 &lt;p&gt;感觉昨天学习过度了，今天完全不想学习，浪了一天了。&lt;/p&gt;
+
+&lt;h1 id=&quot;9月9日&quot;&gt;9月9日&lt;/h1&gt;
+
+&lt;p&gt;今天和高中同学去看奥本海默，还挺好看的，我真想像影片里的天才…可惜我是个普通的庸才。&lt;/p&gt;
+
+&lt;h1 id=&quot;9月10日&quot;&gt;9月10日&lt;/h1&gt;
+
+&lt;p&gt;教师节，但是我老师对我的教师节祝福没有回话，哎，为了这事难受了好久，我果然不配啊。还是快点赶论文吧。&lt;/p&gt;
+
+&lt;h1 id=&quot;9月12日&quot;&gt;9月12日&lt;/h1&gt;
+
+&lt;p&gt;最近依然在疯狂赶论文+规划实验，每天循环春日影和迷星叫，希望一切都有回报吧；最近课题组来了位卷王，我的天，研究生发了5篇，太卷了，感觉经历和我也很像，是不是要把我平替了，我可太害怕了，以后估计没法摸鱼了；之前jekyll无法建立网站，原来是福昕阅读器搞得鬼，占用了4000的端口，我已经被坑了2次了，希望以后能记住吧。&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 Sep 2023 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/daily/Jotting-5.html</link>
