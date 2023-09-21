@@ -5,9 +5,82 @@
     <description>个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 16 Sep 2023 19:54:32 +0800</pubDate>
-    <lastBuildDate>Sat, 16 Sep 2023 19:54:32 +0800</lastBuildDate>
+    <pubDate>Fri, 22 Sep 2023 00:54:04 +0800</pubDate>
+    <lastBuildDate>Fri, 22 Sep 2023 00:54:04 +0800</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
+    
+      <item>
+        <title>MyGO专题</title>
+        <description>&lt;!--excerpt--&gt;
+
+&lt;p&gt;太喜欢MyGO这个动画了，以后玩游戏的时候，发现有趣的对话就在这个专题下保存下来。（BGM是壱雫空，即BangDream It’s MyGO片头曲）&lt;/p&gt;
+
+&lt;h1 id=&quot;官方宣传图&quot;&gt;官方宣传图&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/Pool_AD.PNG&quot; alt=&quot;卡池宣传图&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;游戏截图&quot;&gt;游戏截图&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_01.PNG&quot; alt=&quot;你春日影弹得真好&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_02.PNG&quot; alt=&quot;不太想弹春日影捏&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_03.PNG&quot; alt=&quot;不太想弹春日影捏2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_04.PNG&quot; alt=&quot;之后也要一起组乐队哦——乐！&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_05.PNG&quot; alt=&quot;破防&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_06.PNG&quot; alt=&quot;为什么要。。。1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_07.PNG&quot; alt=&quot;为什么要。。。1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_08.PNG&quot; alt=&quot;是什么意思捏——笑&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_09.PNG&quot; alt=&quot;是什么意思捏——笑2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_10.PNG&quot; alt=&quot;我是来结束这个乐队的&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_11.PNG&quot; alt=&quot;我是来结束这个乐队的2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_12.PNG&quot; alt=&quot;打情骂俏1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_13.PNG&quot; alt=&quot;那我呢&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_14.PNG&quot; alt=&quot;那我呢2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_15.PNG&quot; alt=&quot;那我呢3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_16.PNG&quot; alt=&quot;那我呢4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_17.PNG&quot; alt=&quot;那我呢5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_18.PNG&quot; alt=&quot;秀恩爱1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_19.PNG&quot; alt=&quot;打情骂俏2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_20.PNG&quot; alt=&quot;打情骂俏3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_21.PNG&quot; alt=&quot;打情骂俏4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_22.PNG&quot; alt=&quot;打情骂俏5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_23.PNG&quot; alt=&quot;重女发言&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;网络草图&quot;&gt;网络草图&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/WEB_01.JPG&quot; alt=&quot;四大名著&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 19 Sep 2023 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/daily/MyGO%E4%B8%93%E9%A2%98.html</link>
+        <guid isPermaLink="true">http://localhost:4000/daily/MyGO%E4%B8%93%E9%A2%98.html</guid>
+        
+        <category>Daily</category>
+        
+        
+        <category>Daily</category>
+        
+      </item>
     
       <item>
         <title>Jotting#5</title>
@@ -60,6 +133,22 @@
 &lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/3_1.png&quot; alt=&quot;灯_特训前&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/3_2.png&quot; alt=&quot;灯_特训后&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;9月17日&quot;&gt;9月17日&lt;/h1&gt;
+
+&lt;p&gt;今天没有组会，因为组会制度变了，工作量最低的一次周日；中午跟同届的毕业的同学吃饭了，最社恐的一次，很害怕，又让我回想起来了什么；一想到生活没了目标，而几个小时后又要开始工作，内心的恐惧就止不住的蔓延…&lt;/p&gt;
+
+&lt;h1 id=&quot;9月18日&quot;&gt;9月18日&lt;/h1&gt;
+
+&lt;p&gt;突然想把自己玩过的解谜推理本总结下：关于北原千夜的一切，云落北川（原名：风落北川），马丁内斯死在惊奇馆，月光下的持刀者，野の普薇，雾鸦馆，诡计博物馆，年轮，作者不详，死者在幻夜中醒来，漓川怪谈簿，案件重演，在逃公主，圣诞树上的诅咒开花了，死刑犯的独白，北海道·札幌之哀，校规，十年，三十二年春，古木吟…&lt;/p&gt;
+
+&lt;p&gt;记录下最近看到的生草图：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/016.png&quot; alt=&quot;XXX&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;9月19日&quot;&gt;9月19日&lt;/h1&gt;
+
+&lt;p&gt;收集了一大堆关于MYGO的图片，打算开个专题楼来纪念下，啧啧啧，激动；今天玩了We Were Here Together Expedition,幸好没花太多时间，要开始正式干活了。&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 Sep 2023 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/daily/Jotting-5.html</link>
@@ -956,287 +1045,6 @@ II型：性行为引起，需要口服抗病毒药：XX洛韦类&lt;/p&gt;
         
         
         <category>Daily</category>
-        
-      </item>
-    
-      <item>
-        <title>Jekyll学习</title>
-        <description>&lt;p&gt;进行个&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Jekyll&lt;/code&gt;的学~呜呜呜，搞成功后我真的是要泪崩了，为了弄这玩意多次学到凌晨6点，但感谢我的运气，感谢我的耐心。那么废话不多说，赶快把这次学到的一切以语言形式记录下来把~&lt;/p&gt;
-
-&lt;h1 id=&quot;1-软件介绍当然是复制别人的啦&quot;&gt;1. 软件介绍（&lt;a href=&quot;http://www.noobyard.com/article/p-nwnqarhl-gs.html&quot;&gt;当然是复制别人的啦&lt;/a&gt;）&lt;/h1&gt;
-
-&lt;p&gt;Jekyll是一个简单的，博客感知的静态站点生成器。&lt;/p&gt;
-
-&lt;p&gt;你将内容建立为文本文件（Markdown），并将其放到到文件夹中。而后，使用Liquid-enhanced HTML模板构建网站。Jekyll自动将内容和模板联系在一块儿，生成彻底由静态资源组成的网站，它适合上传到任何服务器。&lt;/p&gt;
-
-&lt;p&gt;Jekyll刚好是GitHub Pages的引擎，所以你能够在GitHub的服务器上免费托管项目的Jekyll页面/博客/网站。&lt;/p&gt;
-
-&lt;h2 id=&quot;11-github--jekyll-工作机制&quot;&gt;1.1 GitHub + Jekyll 工作机制&lt;/h2&gt;
-
-&lt;p&gt;简单地说，你在 GitHub 上有一个账号，名为&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;username&lt;/code&gt;(任意)， 有一个项目，名为&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;username.github.io&lt;/code&gt;(固定格式，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;username&lt;/code&gt;与账号名一致)， 项目分支名为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;master&lt;/code&gt;(你可以自己改)。&lt;/p&gt;
-
-&lt;p&gt;这样，当你访问&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;http://username.github.io/&lt;/code&gt;时，GitHub 会使用&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Jekyll&lt;/code&gt;解析用户 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;username&lt;/code&gt;名下的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;username.github.io&lt;/code&gt;项目中，分支为&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;master&lt;/code&gt;的源代码，为你构建一个静态网站，并将生成的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;index.html&lt;/code&gt;展示给你。&lt;/p&gt;
-
-&lt;p&gt;如果要搭建自己的博客，你可以选择建立名为&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;username.github.io&lt;/code&gt;的项目， 在master分支下存放网站源代码，也可以选择建立名为&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;blog&lt;/code&gt;的项目，在&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gh-pages&lt;/code&gt;分支下存放网站源代码。（推荐前者）&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.cnblogs.com/Eaglery/p/5126279.html&quot;&gt;具体工作原理可以看这个&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;2-总体流程&quot;&gt;2. 总体流程&lt;/h1&gt;
-
-&lt;h2 id=&quot;21-各软件的安装和升级msys2的安装&quot;&gt;2.1 各软件的安装和升级msys2的安装&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-msys2_install&quot;&gt;ridk install（该步之前请上官网下载安装软件，之后cmd自动安装）
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-install&quot;&gt;gem install jekyll bundler
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-jekyll_update&quot;&gt;gem update jekyll
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;24-jekyll相关指令&quot;&gt;2.4 jekyll相关指令&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-jekyll&quot;&gt;jekyll new XXX（该步是建立一个新的Jekyll站点，创建指令需要管理员下的CMD，不然各种错误）
-cd XXX （进入刚才创建的目录）
-bundle install（该步为安装Gefile内需要组件）
-bundle update
-bundle exec jekyll serve（开始构建本地网址）（如果发现4000被占用，可以[参考这个](https://blog.csdn.net/weixin_30666401/article/details/98372840)）
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&quot;language-jekyll_theme&quot;&gt;（主题下载网址：https://rubygems.org/search?query=jekyll-theme）
-（参考使用方法：将github上的文件全部下载覆盖自己的blog文件夹，之后再次bundle install）
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;25-写blog&quot;&gt;2.5 写Blog&lt;/h2&gt;
-
-&lt;p&gt;进入_post目录，开始你的创作吧，注意文件的格式必须为YEAR-MONTH-DAY-title.MARKUP，如：2019-02-13-blog.md。&lt;/p&gt;
-
-&lt;p&gt;为了后续编辑方便，这边推荐复制一下你Blog文件夹，以后你编辑内容时使用非上传文件夹（旧文件夹）。需要上传时复制一下整体，在新文件夹里把site文件夹里的文件全部拷贝到新文件夹里，上传步骤中上传新文件夹就不会出现Blog合集无法显示的问题了。&lt;/p&gt;
-
-&lt;h2 id=&quot;26-数据上传github全程必须有梯子或者改host&quot;&gt;2.6 数据上传github（全程必须有梯子，或者改host）&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-git_upload&quot;&gt;git init
-git checkout -b main
-git add .
-git commit -m &quot;XX&quot; （以XX名字上传github）
-git remote add origin https://github.com/LLGY0/LLGY0.github.io.git
-git push origin main （正式开始上传）
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&quot;language-other_git_deploy_option&quot;&gt;    （这一部分实战不需要，放在这是为了参考）
-    git checkout source
-    jekyll build
-    git add -A
-    git commit -m &quot;update source&quot;
-    cp -r _site/ /tmp/
-    git checkout master
-    rm -r ./*
-    cp -r /tmp/_site/* ./
-    git add -A
-    git commit -m &quot;deploy blog&quot;
-    git push origin master
-    git checkout source
-    echo &quot;deploy succeed&quot;
-    git push origin source
-    echo &quot;push source&quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;26-运行查看blog&quot;&gt;2.6 运行查看Blog&lt;/h2&gt;
-&lt;p&gt;直接访问项目名(&lt;username&gt;.github.io)就可以看你blog了，如：XXX.github.io&lt;/username&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;27-自定义域名要花钱的&quot;&gt;2.7 自定义域名（要花钱的）&lt;/h2&gt;
-&lt;p&gt;自定义域名需要有自己的域名，没有可以去阿里云注册购买个心意的域名；进入域名配置中心，配置域名解析；进入github项目设置，设置自己的域名并保存，开启Enforce HTTPS，就完成了自定义域名设置&lt;/p&gt;
-
-&lt;h1 id=&quot;3-其他事项&quot;&gt;3. 其他事项&lt;/h1&gt;
-
-&lt;h2 id=&quot;31-网址初始附加&quot;&gt;3.1 网址初始附加&lt;/h2&gt;
-
-&lt;h3 id=&quot;311-添加超链接文字&quot;&gt;3.1.1 添加超链接文字&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;language-Code&quot;&gt;[超链接文字→](https://github.com/kaeyleo/jekyll-theme-H2O)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/kaeyleo/jekyll-theme-H2O&quot;&gt;超链接文字→&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;312-插图片&quot;&gt;3.1.2 插图片&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;language-Code&quot;&gt;![图片名](http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-realhome.jpg)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&quot;http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-realhome.jpg&quot; alt=&quot;图片名&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;313-高亮文字&quot;&gt;3.1.3 高亮文字&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;language-Code&quot;&gt;`XXXXX`
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;XXXXX&lt;/code&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;314-代码&quot;&gt;3.1.4 代码&lt;/h3&gt;
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gt&quot;&gt;&amp;gt; ```markdown&lt;/span&gt;
-&lt;span class=&quot;gt&quot;&gt;&amp;gt; XXXX&lt;/span&gt;
-&lt;span class=&quot;gt&quot;&gt;&amp;gt; ```&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;315-变成原点&quot;&gt;3.1.5 变成原点&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;language-Code&quot;&gt;- X
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-  &lt;li&gt;X&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;316-前有竖线&quot;&gt;3.1.6 前有竖线&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;language-Code&quot;&gt; &amp;gt; A
-&lt;/code&gt;&lt;/pre&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;A&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;317-video-test&quot;&gt;3.1.7 Video Test&lt;/h3&gt;
-&lt;p&gt;（这一部分仍需解决视频自动播放问题，如果用沙盒会导致下面的文字不见）&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-Code&quot;&gt;&amp;lt;iframe id=&quot;video&quot; src=&quot;https://www.bilibili.com/video/BV1qs41157ZZ&quot; width=&quot;100%&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;allowfullscreen&quot; sandbox=&quot;&quot;&amp;gt;&amp;lt;/iframe&amp;gt;
-&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;document.getElementById(&quot;video&quot;).style.height=document.getElementById(&quot;video&quot;).scr
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&quot;318-加粗&quot;&gt;3.1.8 加粗&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;language-Code&quot;&gt;**A** 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;A&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;319-公式&quot;&gt;3.1.9 公式&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;这是一个不&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;align&lt;/code&gt;的公式&lt;/strong&gt;：&lt;/p&gt;
-
-\[\forall \alpha \in A, \quad a \cdot b = 0\]
-
-&lt;p&gt;&lt;strong&gt;这是一个&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;align&lt;/code&gt;的公式&lt;/strong&gt;：&lt;/p&gt;
-
-\[\begin{align}
-    \Phi(0,x) = \max_{u \in \mathcal{D}} \bigg[
-        \mathbb{E} &amp;amp; \Phi\left(1, 
-        x + \int_0^1 \sigma^2(s) \, \zeta(s) \, u_s \, ds
-        + \int_0^1 \sigma(s) \, dW_s
-    \right) \\
-        &amp;amp;- \frac{1}{2} \int_0^1 \sigma^2(s) \, \zeta(s) \,
-        \mathbb{E} u_s^2  \, ds
-    \bigg].
-\end{align}\]
-
-&lt;h3 id=&quot;3110-空2格&quot;&gt;3.1.10 空2格&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;language-Code&quot;&gt;&amp;amp;emsp;&amp;amp;emsp;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;  &lt;/p&gt;
-
-&lt;h3 id=&quot;3111-提示框&quot;&gt;3.1.11 提示框&lt;/h3&gt;
-&lt;div class=&quot;premonition note&quot;&gt; &lt;div class=&quot;header&quot;&gt; &lt;svg class=&quot;icon note&quot; aria-hidden=&quot;true&quot;&gt; &lt;use xlink:href=&quot;#icon-note&quot;&gt;&lt;/use&gt; &lt;/svg&gt; &lt;div class=&quot;title&quot;&gt; Note &lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;content&quot;&gt; &lt;p&gt;The body of the note goes here. Premonition allows you to write any &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Markdown&lt;/code&gt; inside the block.&lt;/p&gt;
-
-
-
- &lt;/div&gt; &lt;/div&gt;
-&lt;div class=&quot;premonition info&quot;&gt; &lt;div class=&quot;header&quot;&gt; &lt;svg class=&quot;icon info&quot; aria-hidden=&quot;true&quot;&gt; &lt;use xlink:href=&quot;#icon-info&quot;&gt;&lt;/use&gt; &lt;/svg&gt; &lt;div class=&quot;title&quot;&gt; 小提示 &lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;content&quot;&gt; &lt;p&gt;The body of the info goes here. Premonition allows you to write any &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Markdown&lt;/code&gt; inside the block.&lt;/p&gt;
-
-
-
- &lt;/div&gt; &lt;/div&gt;
-&lt;div class=&quot;premonition warning&quot;&gt; &lt;div class=&quot;header&quot;&gt; &lt;svg class=&quot;icon warning&quot; aria-hidden=&quot;true&quot;&gt; &lt;use xlink:href=&quot;#icon-warning&quot;&gt;&lt;/use&gt; &lt;/svg&gt; &lt;div class=&quot;title&quot;&gt; Warning &lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;content&quot;&gt; &lt;p&gt;The body of the warning goes here. Premonition allows you to write any &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Markdown&lt;/code&gt; inside the block.&lt;/p&gt;
-
-
-
- &lt;/div&gt; &lt;/div&gt;
-&lt;div class=&quot;premonition error&quot;&gt; &lt;div class=&quot;header&quot;&gt; &lt;svg class=&quot;icon error&quot; aria-hidden=&quot;true&quot;&gt; &lt;use xlink:href=&quot;#icon-error&quot;&gt;&lt;/use&gt; &lt;/svg&gt; &lt;div class=&quot;title&quot;&gt; Error &lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;content&quot;&gt; &lt;p&gt;The body of the error goes here. Premonition allows you to write any &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Markdown&lt;/code&gt; inside the block.&lt;/p&gt;
-
-
-
- &lt;/div&gt; &lt;/div&gt;
-&lt;div class=&quot;premonition citation&quot;&gt; &lt;div class=&quot;header&quot;&gt; &lt;svg class=&quot;icon citation&quot; aria-hidden=&quot;true&quot;&gt; &lt;use xlink:href=&quot;#icon-citation&quot;&gt;&lt;/use&gt; &lt;/svg&gt; &lt;/div&gt; &lt;div class=&quot;content&quot;&gt; &lt;p&gt;To be or not to be is a question.&lt;/p&gt;
-
-
-
- &lt;/div&gt; &lt;div class=&quot;ref&quot;&gt; ------ 莎士比亚 &lt;/div&gt; &lt;/div&gt;
-&lt;h3 id=&quot;3112-mermaid画&quot;&gt;3.1.12 Mermaid画&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-mermaid&quot;&gt;graph TD;
-    A--&amp;gt;B;
-    A--&amp;gt;C;
-    B--&amp;gt;D;
-    C--&amp;gt;D;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-mermaid2&quot;&gt;    graph TD;
-    A--&amp;gt;B;
-    A--&amp;gt;C;
-    B--&amp;gt;D;
-    C--&amp;gt;D;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-mermaid2&quot;&gt;    gantt
-      title A Gantt Diagram
-      dateFormat x
-      axisFormat %L
-      section Section
-      A task           :a1, 0, 30ms
-      Another task     :after a1, 20ms
-      section Another
-      Another another task      :b1, 20, 12ms
-      Another another another task     :after b1, 24ms
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-mermaid2&quot;&gt;    gantt
-    dateFormat  YYYY-MM-DD
-    title       Adding GANTT diagram functionality to mermaid
-    excludes    weekends
-    %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week (&quot;sunday&quot;) or &quot;weekends&quot;, but not the word &quot;weekdays&quot;.)
-
-    section A section
-    Completed task            :done,    des1, 2014-01-06,2014-01-08
-    Active task               :active,  des2, 2014-01-09, 3d
-    Future task               :         des3, after des2, 5d
-    Future task2              :         des4, after des3, 5d
-
-    section Critical tasks
-    Completed task in the critical line :crit, done, 2014-01-06,24h
-    Implement parser and jison          :crit, done, after des1, 2d
-    Create tests for parser             :crit, active, 3d
-    Future task in critical line        :crit, 5d
-    Create tests for renderer           :2d
-    Add to mermaid                      :1d
-    Functionality added                 :milestone, 2014-01-25, 0d
-
-    section Documentation
-    Describe gantt syntax               :active, a1, after des1, 3d
-    Add gantt diagram to demo page      :after a1  , 20h
-    Add another diagram to demo page    :doc1, after a1  , 48h
-
-    section Last section
-    Describe gantt syntax               :after doc1, 3d
-    Add gantt diagram to demo page      :20h
-    Add another diagram to demo page    :48h
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&quot;3113-其他&quot;&gt;3.1.13 其他&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;language-Code&quot;&gt;[pdf名字](https://用户名.github.io/....pdf)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;a href=&quot;https://用户名.github.io/....pdf&quot;&gt;pdf名字&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;32-注意事项&quot;&gt;3.2 注意事项&lt;/h2&gt;
-
-&lt;h3 id=&quot;321-事项1&quot;&gt;3.2.1 事项1&lt;/h3&gt;
-&lt;p&gt;注意git的时候千万不能用&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gh-pages&lt;/code&gt;（不然在github生成网站时会出错，错误提示：&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Action failed with &quot;You deploy from gh-pages to gh-pages；This operation is prohibited to protect your contents&lt;/code&gt;）&lt;/p&gt;
-
-&lt;h3 id=&quot;322-事项2&quot;&gt;3.2.2 事项2&lt;/h3&gt;
-&lt;p&gt;命名github的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;repository&lt;/code&gt;时，命名直接用&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;用户名+.github.io&lt;/code&gt;，这样设置用户文件夹里的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;时，就不用改&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;baseurl&lt;/code&gt;了。（如果改baseurl，很容易导致输入代码-jekyll serve时出错，出错代码：&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sw not found&lt;/code&gt;）&lt;/p&gt;
-
-&lt;h3 id=&quot;323-事项3&quot;&gt;3.2.3 事项3&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/pxyyoona/article/details/123150326&quot;&gt;关于&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;中&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;baseurl&lt;/code&gt;的介绍&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;324-事项4&quot;&gt;3.2.4 事项4&lt;/h3&gt;
-&lt;p&gt;上传时出现&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;The requested URL returned error: 403&lt;/code&gt;的解决方法
-&lt;a href=&quot;https://blog.csdn.net/weixin_45844049/article/details/123733065&quot;&gt;链接1&lt;/a&gt;
-&lt;a href=&quot;https://blog.csdn.net/qq_40226073/article/details/119801341&quot;&gt;链接2&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;325-事项5&quot;&gt;3.2.5 事项5&lt;/h3&gt;
-&lt;p&gt;.gitignore文件有可能将_site文件添加为忽略文件，以至于后续操作将该文件忽略，从而无法上传至远程仓库的问题。_site文件以及.sass-cache文件都不能被忽略。另一方面，site里面的文件内容需要上传到github来使重要元件显现。
-&lt;a href=&quot;https://blog.csdn.net/qq_43328313/article/details/124066785&quot;&gt;链接1&lt;/a&gt;
-&lt;a href=&quot;https://blog.csdn.net/qq_56914146/article/details/128994392&quot;&gt;链接2&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 24 May 2023 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/study/Jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/study/Jekyll.html</guid>
-        
-        <category>Study</category>
-        
-        
-        <category>Study</category>
         
       </item>
     
