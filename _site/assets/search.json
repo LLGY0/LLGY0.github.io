@@ -1,6 +1,12 @@
 [
   
     {
+      "title"    : "MyGO专题",
+      "tags"     : "Daily",
+      "url"      : "/daily/MyGO%E4%B8%93%E9%A2%98.html"
+    } ,
+  
+    {
       "title"    : "Jotting#5",
       "tags"     : "Daily",
       "url"      : "/daily/Jotting-5.html"
