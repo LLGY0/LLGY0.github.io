@@ -19,6 +19,10 @@ cover: 'assets/img/Background.jpg'
 
 &emsp;&emsp;[https://doi.org/10.1016/j.chemosphere.2021.132196](https://doi.org/10.1016/j.chemosphere.2021.132196)
 
+3. Lu Y, Zhang H, Li Y. Coupling FeMgAl-LDH and sludge biofilm for simultaneous and effective removal of nitrate and ammonium in water[J]. Journal of Water Process Engineering, 2023, 56: 104285.
+
+&emsp;&emsp;[https://doi.org/10.1016/j.jwpe.2023.104285](https://doi.org/10.1016/j.jwpe.2023.104285)
+
 # 沟通交流
 
 &emsp;&emsp;Email_1: luyin0731@outlook.com
