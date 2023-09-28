@@ -1,62 +1,84 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-09-25T09:30:43+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LLGY</title><subtitle>个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</subtitle><author><name>LLGY</name></author><entry><title type="html">MyGO专题</title><link href="http://localhost:4000/daily/MyGO%E4%B8%93%E9%A2%98.html" rel="alternate" type="text/html" title="MyGO专题" /><published>2023-09-19T00:00:00+08:00</published><updated>2023-09-19T00:00:00+08:00</updated><id>http://localhost:4000/daily/MyGO%E4%B8%93%E9%A2%98</id><content type="html" xml:base="http://localhost:4000/daily/MyGO%E4%B8%93%E9%A2%98.html"><![CDATA[<!--excerpt-->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-09-28T21:40:13+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LLGY</title><subtitle>个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</subtitle><author><name>LLGY</name></author><entry><title type="html">MyGO专题</title><link href="http://localhost:4000/daily/MyGO%E4%B8%93%E9%A2%98.html" rel="alternate" type="text/html" title="MyGO专题" /><published>2023-09-19T00:00:00+08:00</published><updated>2023-09-19T00:00:00+08:00</updated><id>http://localhost:4000/daily/MyGO%E4%B8%93%E9%A2%98</id><content type="html" xml:base="http://localhost:4000/daily/MyGO%E4%B8%93%E9%A2%98.html"><![CDATA[<!--excerpt-->
 
 <p>太喜欢MyGO这个动画了，以后玩游戏的时候，发现有趣的对话就在这个专题下保存下来。（BGM是壱雫空，即BangDream It’s MyGO片头曲）</p>
 
 <h1 id="官方宣传图">官方宣传图</h1>
 
-<p><img src="/assets/img/MyGO/Pool_AD.PNG" alt="卡池宣传图" /></p>
+<p><img src="/assets/img/MyGO/Pool_AD.jpg" alt="卡池宣传图" /></p>
 
 <h1 id="游戏截图">游戏截图</h1>
 
-<p><img src="/assets/img/MyGO/COM_01.PNG" alt="你春日影弹得真好" /></p>
+<p><img src="/assets/img/MyGO/COM_01.JPG" alt="你春日影弹得真好" /></p>
 
-<p><img src="/assets/img/MyGO/COM_02.PNG" alt="不太想弹春日影捏" /></p>
+<p><img src="/assets/img/MyGO/COM_02.JPG" alt="不太想弹春日影捏" /></p>
 
-<p><img src="/assets/img/MyGO/COM_03.PNG" alt="不太想弹春日影捏2" /></p>
+<p><img src="/assets/img/MyGO/COM_03.JPG" alt="不太想弹春日影捏2" /></p>
 
-<p><img src="/assets/img/MyGO/COM_04.PNG" alt="之后也要一起组乐队哦——乐！" /></p>
+<p><img src="/assets/img/MyGO/COM_04.JPG" alt="之后也要一起组乐队哦——乐！" /></p>
 
-<p><img src="/assets/img/MyGO/COM_05.PNG" alt="破防" /></p>
+<p><img src="/assets/img/MyGO/COM_05.JPG" alt="破防" /></p>
 
-<p><img src="/assets/img/MyGO/COM_06.PNG" alt="为什么要。。。1" /></p>
+<p><img src="/assets/img/MyGO/COM_06.JPG" alt="为什么要。。。1" /></p>
 
-<p><img src="/assets/img/MyGO/COM_07.PNG" alt="为什么要。。。1" /></p>
+<p><img src="/assets/img/MyGO/COM_07.JPG" alt="为什么要。。。1" /></p>
 
-<p><img src="/assets/img/MyGO/COM_08.PNG" alt="是什么意思捏——笑" /></p>
+<p><img src="/assets/img/MyGO/COM_08.JPG" alt="是什么意思捏——笑" /></p>
 
-<p><img src="/assets/img/MyGO/COM_09.PNG" alt="是什么意思捏——笑2" /></p>
+<p><img src="/assets/img/MyGO/COM_09.JPG" alt="是什么意思捏——笑2" /></p>
 
-<p><img src="/assets/img/MyGO/COM_10.PNG" alt="我是来结束这个乐队的" /></p>
+<p><img src="/assets/img/MyGO/COM_10.JPG" alt="我是来结束这个乐队的" /></p>
 
-<p><img src="/assets/img/MyGO/COM_11.PNG" alt="我是来结束这个乐队的2" /></p>
+<p><img src="/assets/img/MyGO/COM_11.JPG" alt="我是来结束这个乐队的2" /></p>
 
-<p><img src="/assets/img/MyGO/COM_12.PNG" alt="打情骂俏1" /></p>
+<p><img src="/assets/img/MyGO/COM_12.JPG" alt="打情骂俏1" /></p>
 
-<p><img src="/assets/img/MyGO/COM_13.PNG" alt="那我呢" /></p>
+<p><img src="/assets/img/MyGO/COM_13.JPG" alt="那我呢" /></p>
 
-<p><img src="/assets/img/MyGO/COM_14.PNG" alt="那我呢2" /></p>
+<p><img src="/assets/img/MyGO/COM_14.JPG" alt="那我呢2" /></p>
 
-<p><img src="/assets/img/MyGO/COM_15.PNG" alt="那我呢3" /></p>
+<p><img src="/assets/img/MyGO/COM_15.JPG" alt="那我呢3" /></p>
 
-<p><img src="/assets/img/MyGO/COM_16.PNG" alt="那我呢4" /></p>
+<p><img src="/assets/img/MyGO/COM_16.JPG" alt="那我呢4" /></p>
 
-<p><img src="/assets/img/MyGO/COM_17.PNG" alt="那我呢5" /></p>
+<p><img src="/assets/img/MyGO/COM_17.JPG" alt="那我呢5" /></p>
 
-<p><img src="/assets/img/MyGO/COM_18.PNG" alt="秀恩爱1" /></p>
+<p><img src="/assets/img/MyGO/COM_18.JPG" alt="秀恩爱1" /></p>
 
-<p><img src="/assets/img/MyGO/COM_19.PNG" alt="打情骂俏2" /></p>
+<p><img src="/assets/img/MyGO/COM_19.JPG" alt="打情骂俏2" /></p>
 
-<p><img src="/assets/img/MyGO/COM_20.PNG" alt="打情骂俏3" /></p>
+<p><img src="/assets/img/MyGO/COM_20.JPG" alt="打情骂俏3" /></p>
 
-<p><img src="/assets/img/MyGO/COM_21.PNG" alt="打情骂俏4" /></p>
+<p><img src="/assets/img/MyGO/COM_21.JPG" alt="打情骂俏4" /></p>
 
-<p><img src="/assets/img/MyGO/COM_22.PNG" alt="打情骂俏5" /></p>
+<p><img src="/assets/img/MyGO/COM_22.JPG" alt="打情骂俏5" /></p>
 
-<p><img src="/assets/img/MyGO/COM_23.PNG" alt="重女发言" /></p>
+<p><img src="/assets/img/MyGO/COM_23.JPG" alt="重女发言" /></p>
 
 <h1 id="网络草图">网络草图</h1>
 
-<p><img src="/assets/img/MyGO/WEB_01.JPG" alt="四大名著" /></p>]]></content><author><name>LLGY</name></author><category term="Daily" /><category term="Daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Jotting#5</title><link href="http://localhost:4000/daily/Jotting-5.html" rel="alternate" type="text/html" title="Jotting#5" /><published>2023-09-01T00:00:00+08:00</published><updated>2023-09-01T00:00:00+08:00</updated><id>http://localhost:4000/daily/Jotting#5</id><content type="html" xml:base="http://localhost:4000/daily/Jotting-5.html"><![CDATA[<!--excerpt-->
+<p><img src="/assets/img/MyGO/WEB_01.JPG" alt="四大名著" /></p>
+
+<p><img src="/assets/img/MyGO/WEB_02.JPG" alt="吃瓜1" /></p>
+
+<p><img src="/assets/img/MyGO/WEB_03.JPG" alt="吃瓜2" /></p>
+
+<p><img src="/assets/img/MyGO/WEB_04.JPG" alt="这是碰都不能碰的" /></p>
+
+<p><img src="/assets/img/MyGO/WEB_05.JPG" alt="为什么..." /></p>
+
+<p><img src="/assets/img/MyGO/WEB_06.JPG" alt="下头男" /></p>
+
+<p><img src="/assets/img/MyGO/WEB_07.JPG" alt="绿色" /></p>
+
+<p><img src="/assets/img/MyGO/WEB_08.JPG" alt="客服小祥" /></p>
+
+<p><img src="/assets/img/MyGO/WEB_09.JPG" alt="下头男*2" /></p>
+
+<p><img src="/assets/img/MyGO/WEB_10.JPG" alt="黄瓜" /></p>
+
+<p><img src="/assets/img/MyGO/WEB_11.JPG" alt="挺王" /></p>
+
+<p><img src="/assets/img/MyGO/WEB_12.JPG" alt="表情包1" /></p>]]></content><author><name>LLGY</name></author><category term="Daily" /><category term="Daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Jotting#5</title><link href="http://localhost:4000/daily/Jotting-5.html" rel="alternate" type="text/html" title="Jotting#5" /><published>2023-09-01T00:00:00+08:00</published><updated>2023-09-01T00:00:00+08:00</updated><id>http://localhost:4000/daily/Jotting#5</id><content type="html" xml:base="http://localhost:4000/daily/Jotting-5.html"><![CDATA[<!--excerpt-->
 
 <h1 id="9月4日">9月4日</h1>
 
@@ -124,7 +146,11 @@
 
 <h1 id="9月24日">9月24日</h1>
 
-<p>最近没发生啥好玩的，甚至还在看MyGO，虽然已经完结了；点外卖，商家送了茶，叫桂花九曲红梅，好高端的名字，赶快泡下尝尝…香气上跟我的祁红感觉差不多，但是有种甜甜的感觉…喝起来，还挺喜欢的，就是有点浓，但是却没有苦味，下次可能要放2g以下的茶叶了。</p>]]></content><author><name>LLGY</name></author><category term="Daily" /><category term="Daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Jotting#4</title><link href="http://localhost:4000/daily/Jotting-4.html" rel="alternate" type="text/html" title="Jotting#4" /><published>2023-08-01T00:00:00+08:00</published><updated>2023-08-01T00:00:00+08:00</updated><id>http://localhost:4000/daily/Jotting#4</id><content type="html" xml:base="http://localhost:4000/daily/Jotting-4.html"><![CDATA[<!--excerpt-->
+<p>最近没发生啥好玩的，甚至还在看MyGO，虽然已经完结了；点外卖，商家送了茶，叫桂花九曲红梅，好高端的名字，赶快泡下尝尝…香气上跟我的祁红感觉差不多，但是有种甜甜的感觉…喝起来，还挺喜欢的，就是有点浓，但是却没有苦味，下次可能要放2g以下的茶叶了。</p>
+
+<h1 id="9月28日">9月28日</h1>
+
+<p>好久没写日记了，最近的生活可以说没有什么波澜，项目结题快到了，文章要求在十一交，只能说以后会忙起来吧。最近又想到X了，我确实在心中将X过度升华了，哎.</p>]]></content><author><name>LLGY</name></author><category term="Daily" /><category term="Daily" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Jotting#4</title><link href="http://localhost:4000/daily/Jotting-4.html" rel="alternate" type="text/html" title="Jotting#4" /><published>2023-08-01T00:00:00+08:00</published><updated>2023-08-01T00:00:00+08:00</updated><id>http://localhost:4000/daily/Jotting#4</id><content type="html" xml:base="http://localhost:4000/daily/Jotting-4.html"><![CDATA[<!--excerpt-->
 
 <p>好，各位满心期待的明纳桑，8月份的日记开始了，请原谅我漏了好几天日记的行为，毕竟这几天发生了太多事情，晚上只想躺在床上睡觉。唔，大家是不是觉得我的文字突然变得如此滑稽又生疏呢，是不是突然好奇这几天发生了什么事情呢…其实这几天也没发生啥，以我整个人生尺度中来看，这几天的经历依然是可以忽略不计。也许我说这话的时候有点在气头上，但相信我，朋友，不对你身边的人与事抱有任何期待绝对是件正确的事情。不要把他人的过错当做自己的疏漏，不要把他人给予你的重担当做自己的责任，不要把他人对你的希望以及期待当做你必须完成的使命。这就是我这几天学到的现实。虽然有人会指责我没有责任感，对他人不负责，但是…大家都不是小孩子了，谁会单纯的为他人着想。那些乐于无偿帮助他人的人迟早会因为尝到地位与财富的甜头，从而迷失原本的动力。当然，日记不是给我发泄负面情感的，日记应当是记录下我的生活以及情绪波动的工具，因此，现在记录下日记的我并没有任何错误。也许我现在中二的语句会让未来的我贻笑大方吧…不，坚决不会。</p>
 
