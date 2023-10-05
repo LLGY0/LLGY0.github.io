@@ -7,15 +7,9 @@
     } ,
   
     {
-      "title"    : "Jotting#5",
+      "title"    : "Jotting#2",
       "tags"     : "Daily",
-      "url"      : "/daily/Jotting-5.html"
-    } ,
-  
-    {
-      "title"    : "Jotting#4",
-      "tags"     : "Daily",
-      "url"      : "/daily/Jotting-4.html"
+      "url"      : "/daily/Jotting-2.html"
     } ,
   
     {
@@ -40,18 +34,6 @@
       "title"    : "Jekyll学习#2",
       "tags"     : "Study",
       "url"      : "/study/Jekyll%E6%8F%92%E4%BB%B6%E4%B8%8E%E5%8A%9F%E8%83%BD%E4%BC%98%E5%8C%96.html"
-    } ,
-  
-    {
-      "title"    : "Jotting#3",
-      "tags"     : "Daily",
-      "url"      : "/daily/Jotting-3.html"
-    } ,
-  
-    {
-      "title"    : "Jotting#2",
-      "tags"     : "Daily",
-      "url"      : "/daily/Jotting-2.html"
     } ,
   
     {
