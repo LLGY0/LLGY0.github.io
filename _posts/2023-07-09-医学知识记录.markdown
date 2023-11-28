@@ -11,7 +11,6 @@ tags:
 - Study
 ---
 
-本页内容参考书籍《玩转虚拟机——基于VMware+Windows》
 
 # 1 药物使用
 
