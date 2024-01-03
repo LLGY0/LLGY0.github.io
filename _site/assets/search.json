@@ -1,6 +1,12 @@
 [
   
     {
+      "title"    : "Jotting#3",
+      "tags"     : "Daily",
+      "url"      : "/daily/Jotting-3.html"
+    } ,
+  
+    {
       "title"    : "读书笔记",
       "tags"     : "Study",
       "url"      : "/study/Reading.html"

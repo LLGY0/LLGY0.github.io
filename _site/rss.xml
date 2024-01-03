@@ -5,9 +5,33 @@
     <description>个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 31 Dec 2023 11:34:19 +0800</pubDate>
-    <lastBuildDate>Sun, 31 Dec 2023 11:34:19 +0800</lastBuildDate>
+    <pubDate>Wed, 03 Jan 2024 14:40:23 +0800</pubDate>
+    <lastBuildDate>Wed, 03 Jan 2024 14:40:23 +0800</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
+    
+      <item>
+        <title>Jotting#3</title>
+        <description>&lt;!--excerpt--&gt;
+
+&lt;h1 id=&quot;二四年一月&quot;&gt;二四年一月&lt;/h1&gt;
+
+&lt;h2 id=&quot;1月1日&quot;&gt;1月1日&lt;/h2&gt;
+&lt;p&gt;恐怖的一天，昨天喝酒喝到了次日7点，去办公室补交，只睡了4小时后，就急冲冲的回家陪老爸喝酒，但是因为是酒局就喝多了，吐了2次才清醒一点，这一天感觉过得生不如死…但是在醉酒之于确实见到了人生百态：有喝酒乱性的、有找不到手机甚至不在乎的、有一直在椅子上坐着睡觉的、有路都走不稳以为自己没醉的、有逞强表示能喝结果倒头就睡的…喝酒实在是罪恶的事情，它能让人痛苦，也能让人做错事。&lt;/p&gt;
+
+&lt;h2 id=&quot;1月2日&quot;&gt;1月2日&lt;/h2&gt;
+&lt;p&gt;今晚和师弟打本：《无法透光的人生小叙》，总体是个很高分的本。手法上不算新颖，师弟直接秒猜出，虽然我没想到…但是故事上确实不错，本的重点还是人物的关系还原和作案动机的推理，这也是这个本的魅力所在。其中最让我感到震惊的就是火红的稻草暗示了他是用的灭火器而不是点火的火把，我觉得太合理了，这是作者前期就提出的暗示，我虽然想到了，但是没细想。好，点评就是这样，因为写这日记的时候已经深夜了，打本打了7小时…睡觉去了。&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 01 Jan 2024 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/daily/Jotting-3.html</link>
+        <guid isPermaLink="true">http://localhost:4000/daily/Jotting-3.html</guid>
+        
+        <category>Daily</category>
+        
+        
+        <category>Daily</category>
+        
+      </item>
     
       <item>
         <title>读书笔记</title>
@@ -441,6 +465,7 @@
 &lt;p&gt;&lt;img src=&quot;/assets/img/Daily/028.png&quot; alt=&quot;ONE 女主&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;(今晚估计还要去陪她们去喝酒跨年，其实有那么一点点不想去，主要是因为要喝酒，还有…看到那么多年轻人在那边嗨，会让我觉得自己老的感觉)&lt;/p&gt;
+
 </description>
         <pubDate>Fri, 01 Sep 2023 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/daily/Jotting-2.html</link>
@@ -1581,27 +1606,6 @@ git push origin main （正式开始上传）
         
         
         <category>Study</category>
-        
-      </item>
-    
-      <item>
-        <title>第一次的POST</title>
-        <description>&lt;p&gt;第一次记录自己的日常生活，希望能在博士期间好好记录下自己的所学所见。之前试过在微博或者微信朋友圈匿名写日记，但在上述平台记录日常显然有两个弊端：一是我每天都在微博上记录自己的消极情绪，今后翻阅日记时难免会感受到一阵胃痛，但是微博也不可能在我回忆“青春”时过滤掉“过往的伤疤”；二是我很难在上述平台记录自己的学习过程，而这估计是我日后生活的一大部分（虽然我也想摸鱼）。&lt;/p&gt;
-
-&lt;p&gt;因此在Github上更新日记变得合理了起来：首先Github应该能用好久（千万别墙了）；其次通过Tag分类，能很好的让我定向回忆“悲痛文学”，但我想温习以前所学时，也不会被自己的日记搞二次抑郁（或者感到羞耻）。好！很有精神的LLGY，希望你能努力坚持记录日常，希望你即使找不到女朋友也不感到孤独，希望你即使多么绝望最终依然能站起来，希望你最终能自信起来。&lt;/p&gt;
-
-&lt;p&gt;第一次看到这里的旅客哟，如果你对我后续的Blog（或者我）感兴趣，欢迎给我发邮件与我交流，邮件内容包括不限于日常聊天、Blog优化、科研内容、相亲介绍（我还是想要个女朋友的）。&lt;/p&gt;
-
-&lt;p&gt;邮箱：luyin0731@outlook.com&lt;/p&gt;
-</description>
-        <pubDate>Tue, 23 May 2023 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/daily/First_post.html</link>
-        <guid isPermaLink="true">http://localhost:4000/daily/First_post.html</guid>
-        
-        <category>Daily</category>
-        
-        
-        <category>Daily</category>
         
       </item>
     
