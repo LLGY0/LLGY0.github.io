@@ -1,3 +1,1613 @@
----
-layout: rss
----
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LLGY</title>
+    <description>个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</description>
+    <link>http://localhost:4000//</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 03 Jan 2024 14:45:18 +0800</pubDate>
+    <lastBuildDate>Wed, 03 Jan 2024 14:45:18 +0800</lastBuildDate>
+    <generator>Jekyll v4.3.2</generator>
+    
+      <item>
+        <title>Jotting#3</title>
+        <description>&lt;!--excerpt--&gt;
+
+&lt;h1 id=&quot;二四年一月&quot;&gt;二四年一月&lt;/h1&gt;
+
+&lt;h2 id=&quot;1月1日&quot;&gt;1月1日&lt;/h2&gt;
+&lt;p&gt;恐怖的一天，昨天喝酒喝到了次日7点，去办公室补交，只睡了4小时后，就急冲冲的回家陪老爸喝酒，但是因为是酒局就喝多了，吐了2次才清醒一点，这一天感觉过得生不如死…但是在醉酒之于确实见到了人生百态：有喝酒乱性的、有找不到手机甚至不在乎的、有一直在椅子上坐着睡觉的、有路都走不稳以为自己没醉的、有逞强表示能喝结果倒头就睡的…喝酒实在是罪恶的事情，它能让人痛苦，也能让人做错事。&lt;/p&gt;
+
+&lt;h2 id=&quot;1月2日&quot;&gt;1月2日&lt;/h2&gt;
+&lt;p&gt;今晚和师弟打本：《无法透光的人生小叙》，总体是个很高分的本。手法上不算新颖，师弟直接秒猜出，虽然我没想到…但是故事上确实不错，本的重点还是人物的关系还原和作案动机的推理，这也是这个本的魅力所在。其中最让我感到震惊的就是火红的稻草暗示了他是用的灭火器而不是点火的火把，我觉得太合理了，这是作者前期就提出的暗示，我虽然想到了，但是没细想。好，点评就是这样，因为写这日记的时候已经深夜了，打本打了7小时…睡觉去了。&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 01 Jan 2024 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/daily/Jotting-3.html</link>
+        <guid isPermaLink="true">http://localhost:4000/daily/Jotting-3.html</guid>
+        
+        <category>Daily</category>
+        
+        
+        <category>Daily</category>
+        
+      </item>
+    
+      <item>
+        <title>读书笔记</title>
+        <description>&lt;!--excerpt--&gt;
+
+&lt;h2 id=&quot;11月27日&quot;&gt;11月27日&lt;/h2&gt;
+
+&lt;p&gt;今天看完《薛兆丰经济学讲义》，摘录几个有意思的话（但是该书对教育、医疗等是否该市场化的讨论偏少，有点可惜，而且不太赞成书中一些观点，比如贸易顺差与逆差、贸易报复、资本与劳力的关系）：&lt;/p&gt;
+
+&lt;p&gt;1、如果歧视带来的后果不太严重，人们就会很随便的歧视别人；&lt;/p&gt;
+
+&lt;p&gt;2、歧视不是问题，如何歧视才是问题：为了平等待人，必须待人有别；&lt;/p&gt;
+
+&lt;p&gt;3、稀缺是人类始终面临的基本约束，只要我们活在世上，就必须面对；&lt;/p&gt;
+
+&lt;p&gt;4、商业是最大的慈善：正是因为市场机制协调和鼓励人们分工合作，因此商业行为改进了人们的福利；&lt;/p&gt;
+
+&lt;p&gt;5、人们常常把“权力的行使应以不伤害别人的权利为界”这句话作为解决纠纷的金科玉律。但问题是，现实生活中，纠纷双方都可以拿这句话替自己辩护；&lt;/p&gt;
+
+&lt;p&gt;6、科斯定律：不管是资源还是权利，谁用得好归谁（一项有价值的资源，不管一开始他的产权归谁，最后这项资源都会流动到最善于利用它、最大化其价值的人手里）；&lt;/p&gt;
+
+&lt;p&gt;7、有人群就有交易费用，而这通常高不可攀；&lt;/p&gt;
+
+&lt;p&gt;8、边际：新增带来的新增；&lt;/p&gt;
+
+&lt;p&gt;9、需求定律是刻画人性的。人性的特点在于他能够寻找替代方案，而且时间越长，他能找到的方案越多；&lt;/p&gt;
+
+&lt;p&gt;10、人类社会要解决的问题，不是怎么让边际平衡的问题，而是发生了新的变化后，我们应该如何应对变化的问题；&lt;/p&gt;
+
+&lt;p&gt;11、如果有钱的人不享受任何优先待遇，那么他们就不会对价格信号做出反应，那整个价格机制就会失灵；&lt;/p&gt;
+
+&lt;p&gt;12、如何分饼决定了饼有多大————《拜杜法案》；&lt;/p&gt;
+
+&lt;p&gt;13、没有任何一个规则比别的规则更公平，每种竞争规则本身都会带来成本，但很多成本，其他人都难以得益；&lt;/p&gt;
+
+&lt;p&gt;14、在众多分配规则中，出价高低并不一定比其他规则公平。但是从效率的角度、从社会财富积累的角度、从如何减少竞争带来的无谓损失来看，出价高低比别的规则更效率；&lt;/p&gt;
+
+&lt;p&gt;15、过剩是价格被人为拔高的结果（教科书中资本家倒牛奶）；&lt;/p&gt;
+
+&lt;p&gt;16、价值管制必定导致价值损耗。人总是追求损失最小化；&lt;/p&gt;
+
+&lt;p&gt;17、权利是人赋的而非天赋；（权利也不来源于法律，因为法律是有了权利后对权利的体现）&lt;/p&gt;
+
+&lt;p&gt;18、有没有竞争性，决定是公用品还是私用品；&lt;/p&gt;
+
+&lt;p&gt;19、投资是在时间维度上的平衡消费；平衡消费：我们追求的不是一刹那的最高幸福，我们追求的是幸福总量的最大化；&lt;/p&gt;
+
+&lt;p&gt;20、在竞争之下，任何资源所能获得的回报，会接近于这个资源本身所能带来的边际收入；&lt;/p&gt;
+
+&lt;p&gt;21、价格歧视是一种能促进生产、减少浪费、增加消费者满足感的商业行为（虽然我不完全认同）；&lt;/p&gt;
+
+&lt;p&gt;22、汉德公式：只有在潜在的致害者预防未来事故的成本小于预期事故的可能性乘预期事故损失时，他才负过失侵权责任；&lt;/p&gt;
+
+&lt;p&gt;23、以剩余索取权来激励难以监督的合作者；&lt;/p&gt;
+
+&lt;p&gt;24、阿罗不可能性定理：人们在拥有多种不同选择的情况下，选举不一定能反映大多数人的意愿；&lt;/p&gt;
+
+&lt;p&gt;25、是否需要为自己的主张负直接责任，是市场决策与民主决策的根本区别；&lt;/p&gt;
+
+&lt;p&gt;26、戴雷科特定律:收入再分配,真正得益的并不是穷人而是中等收入的人；&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 28 Nov 2023 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/study/Reading.html</link>
+        <guid isPermaLink="true">http://localhost:4000/study/Reading.html</guid>
+        
+        <category>Study</category>
+        
+        
+        <category>Study</category>
+        
+      </item>
+    
+      <item>
+        <title>MyGO专题</title>
+        <description>&lt;!--excerpt--&gt;
+
+&lt;p&gt;太喜欢MyGO这个动画了，以后玩游戏的时候，发现有趣的对话就在这个专题下保存下来。（BGM是壱雫空，即BangDream It’s MyGO片头曲）&lt;/p&gt;
+
+&lt;h1 id=&quot;官方宣传图&quot;&gt;官方宣传图&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/Pool_AD.jpg&quot; alt=&quot;卡池宣传图&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;游戏截图&quot;&gt;游戏截图&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_01.png&quot; alt=&quot;你春日影弹得真好&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_02.png&quot; alt=&quot;不太想弹春日影捏&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_03.png&quot; alt=&quot;不太想弹春日影捏2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_04.png&quot; alt=&quot;之后也要一起组乐队哦——乐！&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_05.png&quot; alt=&quot;破防&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_06.png&quot; alt=&quot;为什么要。。。1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_07.png&quot; alt=&quot;为什么要。。。1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_08.png&quot; alt=&quot;是什么意思捏——笑&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_09.png&quot; alt=&quot;是什么意思捏——笑2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_10.png&quot; alt=&quot;我是来结束这个乐队的&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_11.png&quot; alt=&quot;我是来结束这个乐队的2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_12.png&quot; alt=&quot;打情骂俏1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_13.png&quot; alt=&quot;那我呢&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_14.png&quot; alt=&quot;那我呢2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_15.png&quot; alt=&quot;那我呢3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_16.png&quot; alt=&quot;那我呢4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_17.png&quot; alt=&quot;那我呢5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_18.png&quot; alt=&quot;秀恩爱1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_19.png&quot; alt=&quot;打情骂俏2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_20.png&quot; alt=&quot;打情骂俏3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_21.png&quot; alt=&quot;打情骂俏4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_22.png&quot; alt=&quot;打情骂俏5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/COM_23.png&quot; alt=&quot;重女发言&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;网络草图&quot;&gt;网络草图&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/WEB_01.png&quot; alt=&quot;四大名著&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/WEB_02.png&quot; alt=&quot;吃瓜1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/WEB_03.png&quot; alt=&quot;吃瓜2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/WEB_04.png&quot; alt=&quot;这是碰都不能碰的&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/WEB_05.png&quot; alt=&quot;为什么...&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/WEB_06.png&quot; alt=&quot;下头男&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/WEB_07.png&quot; alt=&quot;绿色&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/WEB_08.png&quot; alt=&quot;客服小祥&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/WEB_09.png&quot; alt=&quot;下头男*2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/WEB_10.png&quot; alt=&quot;黄瓜&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/WEB_11.png&quot; alt=&quot;挺王&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/WEB_12.png&quot; alt=&quot;表情包1&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 19 Sep 2023 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/daily/MyGO%E4%B8%93%E9%A2%98.html</link>
+        <guid isPermaLink="true">http://localhost:4000/daily/MyGO%E4%B8%93%E9%A2%98.html</guid>
+        
+        <category>Daily</category>
+        
+        
+        <category>Daily</category>
+        
+      </item>
+    
+      <item>
+        <title>Jotting#2</title>
+        <description>&lt;!--excerpt--&gt;
+
+&lt;h1 id=&quot;二三年九月&quot;&gt;二三年九月&lt;/h1&gt;
+
+&lt;h2 id=&quot;9月4日&quot;&gt;9月4日&lt;/h2&gt;
+
+&lt;p&gt;不知不觉9月来了，正式开学了，感觉很多事情要去做，可是还是迟迟不想动身；今天上午与师弟又搞了下Fluent，一无所获…；这周还没MYGO看，想死…；不知道自己实验方向怎么规划，是放弃原来的材料，还是转战新的领域呢…今天晚上去当老王代驾，路上一边开车一边和老王讨论课题，可太刺激了，还好我车技高超，啊哈哈哈。&lt;/p&gt;
+
+&lt;h2 id=&quot;9月5日&quot;&gt;9月5日&lt;/h2&gt;
+
+&lt;p&gt;今天晚上第一次尝试直播看文献，我的评价是没活可以咬打火机。为啥我会自己这么评论自己呢。我的表妹好像打算要赛博飞升了，很惊讶，一开始觉得这玩意离我太遥远了，没想到身边的人开始以他为职业了，不了解，不发言，只是觉得现在做的人太多了…看来不管哪个领域都在卷。&lt;/p&gt;
+
+&lt;h2 id=&quot;9月6日&quot;&gt;9月6日&lt;/h2&gt;
+
+&lt;p&gt;感觉昨天学习过度了，今天完全不想学习，浪了一天了。&lt;/p&gt;
+
+&lt;h2 id=&quot;9月9日&quot;&gt;9月9日&lt;/h2&gt;
+
+&lt;p&gt;今天和高中同学去看奥本海默，还挺好看的，我真想像影片里的天才…可惜我是个普通的庸才。&lt;/p&gt;
+
+&lt;h2 id=&quot;9月10日&quot;&gt;9月10日&lt;/h2&gt;
+
+&lt;p&gt;教师节，但是我老师对我的教师节祝福没有回话，哎，为了这事难受了好久，我果然不配啊。还是快点赶论文吧。&lt;/p&gt;
+
+&lt;h2 id=&quot;9月12日&quot;&gt;9月12日&lt;/h2&gt;
+
+&lt;p&gt;最近依然在疯狂赶论文+规划实验，每天循环春日影和迷星叫，希望一切都有回报吧；最近课题组来了位卷王，我的天，研究生发了5篇，太卷了，感觉经历和我也很像，是不是要把我平替了，我可太害怕了，以后估计没法摸鱼了；之前jekyll无法建立网站，原来是福昕阅读器搞得鬼，占用了4000的端口，我已经被坑了2次了，希望以后能记住吧。&lt;/p&gt;
+
+&lt;h2 id=&quot;9月13日&quot;&gt;9月13日&lt;/h2&gt;
+
+&lt;p&gt;今天去江宁做实验，要做的事情还有很多很多；又一个师姐结婚了…我啥时候才能获得幸福啊…越来越觉得自己没救了。&lt;/p&gt;
+
+&lt;h2 id=&quot;9月15日&quot;&gt;9月15日&lt;/h2&gt;
+
+&lt;p&gt;最近都在江宁干活，一下子每天都变得很累…希望能赶快把这文章写完，明天一天估计都要泡在这上面了；最近受了好多人帮助啊，我凭啥能得到这么多人好意呢…；决定把原神、云原神、崩铁彻底从手机卸载了，实在没空玩这些游戏了，而且他们占得内存太多了；晚上凌晨MYGO就要实装了，拭目以待。&lt;/p&gt;
+
+&lt;h2 id=&quot;9月16日&quot;&gt;9月16日&lt;/h2&gt;
+
+&lt;p&gt;今天休息了一天，总体上是堕落的一天，时间基本用来打音乐游戏了，只能说MyGO太香了，bangdream也把五个人抽出来了，花了300抽，甚至还在B站发了个抽奖视频来留恋…真不错。虽然不知道工作如何进展下去，但今天还是很开心。放几张卡图在下面吧。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/1_1.png&quot; alt=&quot;爱音_特训前&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/1_2.png&quot; alt=&quot;爱音_特训后&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/2_1.png&quot; alt=&quot;爽世_特训前&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/2_2.png&quot; alt=&quot;爽世_特训后&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/3_1.png&quot; alt=&quot;灯_特训前&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/MyGO/3_2.png&quot; alt=&quot;灯_特训后&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;9月17日&quot;&gt;9月17日&lt;/h2&gt;
+
+&lt;p&gt;今天没有组会，因为组会制度变了，工作量最低的一次周日；中午跟同届的毕业的同学吃饭了，最社恐的一次，很害怕，又让我回想起来了什么；一想到生活没了目标，而几个小时后又要开始工作，内心的恐惧就止不住的蔓延…&lt;/p&gt;
+
+&lt;h2 id=&quot;9月18日&quot;&gt;9月18日&lt;/h2&gt;
+
+&lt;p&gt;突然想把自己玩过的解谜推理本总结下：关于北原千夜的一切，夜行！惊奇卷，云落北川（原名：风落北川），马丁内斯死在惊奇馆，月光下的持刀者，野の普薇，雾鸦馆，诡计博物馆，年轮，作者不详，死者在幻夜中醒来，漓川怪谈簿，案件重演，在逃公主，圣诞树上的诅咒开花了，死刑犯的独白，北海道·札幌之哀，校规，十年，三十二年春，古木吟…&lt;/p&gt;
+
+&lt;p&gt;记录下最近看到的生草图：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/016.png&quot; alt=&quot;XXX&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;9月19日&quot;&gt;9月19日&lt;/h2&gt;
+
+&lt;p&gt;收集了一大堆关于MYGO的图片，打算开个专题楼来纪念下，啧啧啧，激动；今天玩了We Were Here Together Expedition,幸好没花太多时间，要开始正式干活了。&lt;/p&gt;
+
+&lt;h2 id=&quot;9月24日&quot;&gt;9月24日&lt;/h2&gt;
+
+&lt;p&gt;最近没发生啥好玩的，甚至还在看MyGO，虽然已经完结了；点外卖，商家送了茶，叫桂花九曲红梅，好高端的名字，赶快泡下尝尝…香气上跟我的祁红感觉差不多，但是有种甜甜的感觉…喝起来，还挺喜欢的，就是有点浓，但是却没有苦味，下次可能要放2g以下的茶叶了。&lt;/p&gt;
+
+&lt;h2 id=&quot;9月28日&quot;&gt;9月28日&lt;/h2&gt;
+
+&lt;p&gt;好久没写日记了，最近的生活可以说没有什么波澜，项目结题快到了，文章要求在十一交，只能说以后会忙起来吧。最近又想到X了，我确实在心中将X过度升华了，哎.&lt;/p&gt;
+
+&lt;h2 id=&quot;9月29日&quot;&gt;9月29日&lt;/h2&gt;
+
+&lt;p&gt;今天开车回老家，高速可太堵了，开了整整5小时，回到家真的啥都不想做了。听说家里的房间有老鼠，我可太害怕了。&lt;/p&gt;
+
+&lt;h1 id=&quot;二三年十月&quot;&gt;二三年十月&lt;/h1&gt;
+
+&lt;p&gt;最近又把Blog更新了下，Jotting版块再次缩减成2个，挺好，节约版面费了，浏览起来也方便多了。&lt;/p&gt;
+
+&lt;h2 id=&quot;10月5日&quot;&gt;10月5日&lt;/h2&gt;
+
+&lt;p&gt;最近爽玩，有喜也有悲，特来细细总结下最近所见所闻。&lt;/p&gt;
+
+&lt;p&gt;#1&lt;/p&gt;
+
+&lt;p&gt;9月29日早晨出发回老家，路上疯狂堵车，最后幸好安全到家，累得不行。之后的几天大部分时间都在打音乐游戏了，可太堕落了。10月1号就返回南京了，路上买了好多螃蟹，挺好吃的，虽然肉不是特别的多，但还是挺好的233。&lt;/p&gt;
+
+&lt;p&gt;#2&lt;/p&gt;
+
+&lt;p&gt;10月3日，回河海大学，继续开卷…个屁，陪舍友又玩了一天，罪过罪过。&lt;/p&gt;
+
+&lt;p&gt;#3&lt;/p&gt;
+
+&lt;p&gt;10月4日，simon回南京了，陪他继续玩了一天半，中午吃了泥炉烤肉，店里放的bgm全是前任分手题材，让我开始质疑店主的品味（不是，狗头保命）；下午打了剧本杀《风信子不开的夏天》，难得自己独自推出了作案手法，最后凶手还是推错了，呜呜呜，要是再谨慎点就好了；晚上吃的二十四单淮阳新味…这个没什么好说的，没像之前一样排很久的队伍挺好的，但是可能再也不会来这家店了；最后晚上去了酒吧，去按摩…只能说太刺激了，按完浑身上下都在疼，感觉腿已经不属于自己了，变得软塌塌的…第二天睡到了10点30分，太满足了，我的假期就这样结束也并无遗憾了吧。最后，我的任务就是去把办公室的蟑螂给彻底消灭，路上买了蟑螂药，希望今晚他们能饱餐一顿。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/017.jpg&quot; alt=&quot;剧本杀&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/019.jpg&quot; alt=&quot;刚哥&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/020.jpg&quot; alt=&quot;晚饭&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/018.jpg&quot; alt=&quot;蟑螂药&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/soyo_img.png&quot; alt=&quot;头像&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;10月8日&quot;&gt;10月8日&lt;/h2&gt;
+
+&lt;p&gt;和同门玩了小型剧本杀，评价是时间不够，线索不足，入门复杂。果然10多块钱的就是不能和100多的有DM主持引导的比啊。但是这两者是否差价太大了。听说下周日秋游…感觉很累。&lt;/p&gt;
+
+&lt;h2 id=&quot;10月16日&quot;&gt;10月16日&lt;/h2&gt;
+
+&lt;p&gt;已经好久没写日记了，最近破防了。果然我是个废物，区区CFD都搞不定。昨天在晚饭上被好好教育了，哎，我果然不行吗。&lt;/p&gt;
+
+&lt;p&gt;今晚和同级玩了剧本杀。7人 2狼3神2民。第一局拿了预言家，直接查杀了一狼，之后要验的也是狼，不过第二晚被杀了。。。最后狼人赢了。第二句是平民，跳猎人，真猎人没跟我对跳，而且第一白天我也点出7号狼，第二白天点出1号狼。第三局平民，突然想玩花的，直接跳预言家，查杀2号，然后说验4号，结果直接点出2狼，而且真预言家也没跟我跳，当天狼被投出去，虽然我第二晚被杀，但是女巫把4号毒走，游戏结束，太离谱了。第三局我是女巫，前置位2号直接上来跳女巫。。。实在有点绷不住，但考虑2号之前体验很差…这局我保了他，然后把平民毒走了，这局狼人获胜。我果然不太适合玩下去了。于是第四局我当上帝，然后观赏了一句预言家对跳，最后狼人很可惜，差点要赢，不过也难讲。感觉下次我还是适合玩剧本杀。仔细想想，我现在练出来的狼人杀技巧，应该归功于她吧，然而我再也没资格跟她玩了。&lt;/p&gt;
+
+&lt;h2 id=&quot;10月20日&quot;&gt;10月20日&lt;/h2&gt;
+
+&lt;p&gt;被人相信是件很难的事情，我也是那种不会轻易信任别人的人。但是每当听到有人对我能力进行质疑的时候，理性告诉我：我确实是个不行的人。但感性上，我依然会为自己没取得他人信任而感到失望和难受。&lt;/p&gt;
+
+&lt;h2 id=&quot;10月21日&quot;&gt;10月21日&lt;/h2&gt;
+
+&lt;p&gt;今天写完了臭氧论文，去跟师弟玩了最近抖音上的猫抓老鼠游戏，去玩了剧本杀《案件重演》，总体来说挺充实开心的。明天又有动力加油啦。&lt;/p&gt;
+
+&lt;h2 id=&quot;10月27日&quot;&gt;10月27日&lt;/h2&gt;
+
+&lt;p&gt;又浑浑噩噩度过了一天，昨天把论文修改好了，已经投了，真不容易，，，但是因为特刊，可能要白忙活了。今天睡了半个下午，不知道自己课题咋办，好难啊，我真的能毕业吗。感觉老师给出的方向毫无应用场景，研究生的时候还能做做，博士论文做这个方向根本内容量不足啊。话说，这次日记更新的好慢啊，虽然我最近也确实不在闲着就是了。啥时候能攒到钱呢，，，每天都要想一遍这问题。最近pf师弟沉迷玩纸嫁衣手游了，怎么说呢，哎，就是晚上有点吵，因为他老是被鬼吓到。说起来，pf的实验最近发现了问题，之前一直用的100w的紫外灯，可是最近才发现控制器是14w的，这下要为紫外平反了，毕竟谁能想到控制器还有功率限制呢。昨天26日，明日方舟终末地发布了pv，我的评价是：突然想玩星露谷物语了。昨天（怎么又是昨天）mygo官方开启测试直播，然后大家爆米爆到大约200舰了，只能说死宅钱真好赚，只是循环播放旧视频就能有钱赚…那我想想还能吐什么苦水，不知道了，哎，最近好无聊，这周周日要大组会汇报，也不知道会不会死。话说，我现在的课题有种往老爸那靠近的感觉，折某种方面也是好事把，我也想体验体验。&lt;/p&gt;
+
+&lt;h2 id=&quot;10月31日&quot;&gt;10月31日&lt;/h2&gt;
+
+&lt;p&gt;今天第一次和课题组同学去打麻将，最后我输得最多，虽然全程只点了2次炮（最后一次精准读出对方想要什么，然后点炮想快速结束战斗），但是因为被他们自摸亏麻了。打的其实很憋屈，毕竟中途肚子在疼，不过无所谓了，毕竟一群师弟师妹，玩玩就好。&lt;/p&gt;
+
+&lt;p&gt;我现在没有了奖学金，失去了10000，整天感觉生活没了希望，这就是生活的痛吗。真的，，，挺难受的。因为我的错误，白白丢失了1w。辅导员说了句可惜，她懂什么呢，我又不是故意不选课的，明明不是我的错，可是我却，，，算了，我胡乱花的钱还少吗。想起前几天自己开车带师妹采泥，想想就可笑，我又获得了什么呢，整天这样做好事，帮助他人。最后办公室的电还是我来冲，王老师也不掏钱，，，我有点稍稍后悔读博了，在这里，只能感觉到生活的绝望感。也许有人要说了，你要是走上社会，你会遇到比这更让人绝望的。。。但是，这份痛苦是真实的啊，并不会因为经历的差异而对自己的折磨有所不同啊，不管怎样，我们都是在卑微的看着别人脸色活下去啊。&lt;/p&gt;
+
+&lt;p&gt;好久没记日记了，又在抛洒负面情感了，希望我马上就好吧，再来几次也许精神要出问题了。&lt;/p&gt;
+
+&lt;h1 id=&quot;二三年十一月&quot;&gt;二三年十一月&lt;/h1&gt;
+
+&lt;h2 id=&quot;11月1日&quot;&gt;11月1日&lt;/h2&gt;
+
+&lt;p&gt;今天明日方舟开启周年活动，把手上的270左右的抽奖用了，虽然两up抽到了，但是没出德克萨斯，咬牙氪了198，还是没拿到，非常难受，但是明天早上就能拿了，，感觉很迷茫。&lt;/p&gt;
+
+&lt;p&gt;今天统计了下之前给401交的电费：10+50+50+50+30+30+30+30+50+50+50+50+20+100+100+180=880，其中有一次电费是大家集资的，每人20元，一共5人，之后我再也不会交钱了。&lt;/p&gt;
+
+&lt;h2 id=&quot;11月3日&quot;&gt;11月3日&lt;/h2&gt;
+
+&lt;p&gt;今天开了临时组会，巧的是我也是今天积极分子值班，因此值班过程偷偷溜出去开会了，实属罪过；在组会过程中，导师提到了我采样时的“找关系”，希望没下次了；然后下午办公室大扫除，大家都好积极，我在座位上看着她们打扫哈哈哈；打扫过程中发现死蟑螂和活臭虫…这真是，打扫卫生总能使奇怪的东西重见天日；晚上大家一起玩我是卧底，这次的活动还可以，大家心情好像都还是很好的样子，可能也是大家情商变高了，哈哈哈（不是）；在游戏过程中，还是有点有意思的事情发生的，比如，我在开局拿到“玫瑰”，然后说了句“鱼目混珠”，来暗指蔷薇与玫瑰。然后听完一圈，发现大家都好像在说牡丹花，绝了。然后，我师弟还对我笑，说知道我是啥了，他说重点是那个珠字，绝了，这都能凑到牡丹花上。但是最离谱的是，最后答案揭晓我是好人，说明大家都在互相骗人，都以为自己是卧底，笑到了；还有一次，大家的字分别是奶嘴和奶瓶，结果一个女生发出暴论：“第一个字男生女生都有”，我可不满意了，当场跳出来表示说的不对，然后我就被投出去了，结果显示我是卧底…我甚至都不知道我是卧底。&lt;/p&gt;
+
+&lt;h2 id=&quot;11月4日&quot;&gt;11月4日&lt;/h2&gt;
+
+&lt;p&gt;今天睡了半天，然后下午去和高中同学爬紫金山，真的好累；下山过程中碰到研究生同学和课题组同学，这可太巧了；爬山过程中，看到有人把狗带上了，说了句：“狗都爬不动”，笑死；我们到山上后，发现一片大雾，实在没拍到啥画面，但是师弟他们很幸运，直接拍到落日了，师弟还是幸运的；到山上后吃了甜筒和柠檬茶，可能今天的山白爬了吧；晚上回家休息了，把崩铁和原神下回来了，然后把书包洗了，今天可太充实了。&lt;/p&gt;
+
+&lt;h2 id=&quot;11月8日&quot;&gt;11月8日&lt;/h2&gt;
+
+&lt;p&gt;最近上午一直在睡觉，真的是堕落。当然还有更堕落的，今晚去玩了剧本杀…名字是请将我深埋，和PF师弟一起去的，再次帮师弟付了钱，这样也算买了他一晚（描述的好怪），我们打倒了0点左右就回去了。先说说感谢把，这是个偏还原的本子，标签是推理、新本格，确实有点意思。途中有叙诡部分，但是知道后还是挺有趣的。大约是中间流程开始推凶，但是时间很短，线索藏得不是很深但需要仔细才能发现。之后就发现为什么给推理的时间那么短了，是因为条件不足，后面有反转。最后故事整的跟东方快车一样，还算挺有意思的。但是推凶后基本可以不带脑子玩了，全程DM引导，这么看这本子还挺适合新手的。整体评价：案件过程、题材有趣，但是打过很多本子的人会觉得案件设计没意思，剧本套路，没啥新意（没错，我就是这么觉得的）。但是值得一玩把，看pf其实评价也没那么高，估计我跟他想的也差不多。&lt;/p&gt;
+
+&lt;p&gt;PS：中午，师姐请我们吃了3号门外的酸菜鱼，哈哈哈，pf没口福吃不到。但是吃饭过程中，我们一直在吐槽老王，有点心累了。中午也没得到啥休息。&lt;/p&gt;
+
+&lt;h2 id=&quot;11月9日&quot;&gt;11月9日&lt;/h2&gt;
+
+&lt;p&gt;今天依然起迟了，再也不敢在宿舍睡觉了，而且最近天气越来越冷了。又给明日方舟充钱了，罪过。晚上山上办公室的大家一起在办公室吃了火锅，真好啊。晚上21点后和师妹们打斗地主，基本没赢过，哎 最近运气不好啊。&lt;/p&gt;
+
+&lt;h2 id=&quot;11月13日&quot;&gt;11月13日&lt;/h2&gt;
+
+&lt;p&gt;今天和课题组同学玩剧本杀，无聊。&lt;/p&gt;
+
+&lt;h2 id=&quot;11月14日&quot;&gt;11月14日&lt;/h2&gt;
+
+&lt;p&gt;明日方舟出了异客，垃圾，无聊。&lt;/p&gt;
+
+&lt;h2 id=&quot;11月23日&quot;&gt;11月23日&lt;/h2&gt;
+
+&lt;p&gt;我好久没记日记了，可能是因为我目前仍对自己的生活和事业和爱情持有悲观态度…希望我能早点好起来。最近和课题组同学干了好多事情啊，打掼蛋、打王者荣耀、去酒吧喝酒、一起吃晚饭、打剧本杀、打狼人杀、打谁是卧底、打麻将。每天过得很精彩（尽管课题没进展），有大家陪在我身边真的很好，但是我也逐渐感觉自己与他们的身影越来越遥远，感觉他们已经快成为我将来遥不可及的幻想了。&lt;/p&gt;
+
+&lt;h2 id=&quot;11月24日&quot;&gt;11月24日&lt;/h2&gt;
+
+&lt;p&gt;今天玩了艾迪芬奇的记忆，英文名what remain of Edith。真的是很棒的作品，叙事非常有趣震撼，什么时候我也能写出这种东西就好了。&lt;/p&gt;
+
+&lt;h2 id=&quot;11月25日&quot;&gt;11月25日&lt;/h2&gt;
+
+&lt;p&gt;前天和师弟去玩了恐怖推理本《一点半》，勉勉强强的剧本，推理比较简单，就海龟汤有一点点的意思，72分及格分。话说，在玩的过程中，老师给我发消息，通知我论文被拒了，这才是最恐怖的。昨天晚上给师妹点外卖，用了下膨胀，竟然直接拿到14元的优惠券，突然感觉到师妹气运的强大。&lt;/p&gt;
+
+&lt;h2 id=&quot;11月26日&quot;&gt;11月26日&lt;/h2&gt;
+
+&lt;p&gt;平平无奇的一天，导师开组会，看文献，玩游戏，师弟从金坛回来，差不多把…虽然各有各的不开心，但是生活一如既往…这也是让人感觉无聊的地方把，一切都是不变的日常。写这个日记的时候是下午，打算装个linux，今晚不知道还有啥活动，有的话就写在明天的日记里吧。&lt;/p&gt;
+
+&lt;p&gt;晚上没有活动，因此把明日酱的水手服看完了，非常好看或者说好美的动画。每个人都画得好漂亮，场景也很细致。最让我觉得惊艳的就是12话，把跳舞和日常结合的很好，最后排球的分镜真好啊。看完了之后，也会不由得感叹青春真好啊。虽然一开始是因为知道是女同才补的，但是看完后虽然女同要素挺少的，但是整部作品表现出来的阳光仍让我觉得很温暖，特别是女主的笑容。这部作品也将成为我最喜欢的作品之一。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/021.png&quot; alt=&quot;明日酱的水手服1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/022.png&quot; alt=&quot;明日酱的水手服2&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;11月28日&quot;&gt;11月28日&lt;/h2&gt;
+
+&lt;p&gt;今天下了新软件：Power BI，微软的软件，很好用，很方便，可以扩展EXCEL的功能。晚上回去给老妈庆生，买了蛋糕回去，期待ing。&lt;/p&gt;
+
+&lt;h2 id=&quot;11月30日&quot;&gt;11月30日&lt;/h2&gt;
+
+&lt;p&gt;昨天晚上和pf出去玩剧本杀，因为特殊情况，连续玩了2个本，最后从29号下午16点玩到30号上午7点，真的要死了。第一个本是《63》，算是还原本，前面的推理算是铺垫，官方一开始就不想让你推出真理，通过后续关键的密码本以及2次反转，约翰这个人名出现的瞬间，使剧本可以得到不同的解读。真的是很棒的剧本，虽然推理要素没那么高，叙事太乱，且主角的愿望与现实错综复杂，但是剧本完成度和情感都让人觉得很满足。pf认为这个剧本太复杂了，但是我可能正好喜欢这个。第二个本《一去二三里》…只能说过誉了，玩的时候毫无波澜，可能我就是冷血把…特别是读到父亲死的那一部分，明显感觉大家都开始抽纸了…啊这，我一直在想，这又不是我老爸，可能我确实很难共情把。但是这个本子打到了7点，我觉得血亏，最后加班费收了60，亏上加亏。就这样吧。&lt;/p&gt;
+
+&lt;h1 id=&quot;二三年十二月&quot;&gt;二三年十二月&lt;/h1&gt;
+
+&lt;h2 id=&quot;12月1日&quot;&gt;12月1日&lt;/h2&gt;
+
+&lt;p&gt;今天晚上和LJ看了电影，吃了海底捞。看的是《涉过愤怒的海》。相比悬疑片，我更想用喜剧片来形容他。特别是黄渤在车祸现场碰到儿子的时候的癫狂。虽然我笑的挺开心的，但是电影后期也笑不出来了，又是无聊的家庭教育题材，整个电影最终也使女儿使受害者转为加害者。这可太老套了，都3202年了，这样升华感觉确实不好看。电影看完补了下知乎，也有很多人提出剧情上的漏洞啥的,或者说这个虚假宣传啥的。害，幸好我预期管理做到位了。之后是海底捞，大学生优惠真好啊，省了100多，真的便宜。&lt;/p&gt;
+
+&lt;h2 id=&quot;12月2日&quot;&gt;12月2日&lt;/h2&gt;
+
+&lt;p&gt;玩了一天，晚上看HN师妹搞R语言，我也掺了一脚。安装包的时候遇到了几个问题，解决方法如下：1、安装Rtools；2、用管理员运行；3、在包下载命令中加入下载二进制以及强制安装。希望我的师妹以后成为大佬带我飞。今天虽然啥都没干，但还是好累。&lt;/p&gt;
+
+&lt;h2 id=&quot;12月6日&quot;&gt;12月6日&lt;/h2&gt;
+
+&lt;p&gt;这几天跟同学一起去古林公园玩麻将掼蛋，有点无聊。然后吃烤肉，吃得还算饱。然后今天去南京各个河流看了下，没有看到排污口，没意思，白跑了。&lt;/p&gt;
+
+&lt;h2 id=&quot;12月8日&quot;&gt;12月8日&lt;/h2&gt;
+
+&lt;p&gt;最近总是跟课题组同学打牌打麻将，堕落…哎，我到现在还是在给他人做嫁衣，好难啊，读博。希望明天会有有意思的事情发生。&lt;/p&gt;
+
+&lt;h2 id=&quot;12月10日&quot;&gt;12月10日&lt;/h2&gt;
+
+&lt;p&gt;最近玩了两个本，大雪侦探和倒霉蛋、七日囚徒。第一个本很好捏，多次反转后文本依然挑不出大问题，很佩服这种需要让玩家不断转换思维的剧本。第二个本，，，烂中烂，虽然很多人说不玩病娇也能体验，但是没玩过的人大部分情节都会觉得不明所以，而且推理太过弱智，评价为今年玩过最烂的本。&lt;/p&gt;
+
+&lt;h2 id=&quot;12月13日&quot;&gt;12月13日&lt;/h2&gt;
+
+&lt;p&gt;有种好久没记日记的感觉，简要概括下这几天吧：（1）臭氧的文章进行了更改和重投，希望这次没问题了；（2）最近一直在打麻将和掼蛋，感觉水平上升了，心态也更好了（毕竟一直在跟欧洲人打牌），但是麻将最近一炮双响了…；（3）最近在忙着做压电相关PPT，我现在要帮2个本科生设计实验，很可能还要帮2个研究生完成课题…想死，但是有种挑战极限的感觉，可能还不错；（4）PF师弟这周周四出差，去重庆完成臭氧项目结题，祝他一路顺风，哈哈哈哈哈，但是我不用去，希望他成功归来，这样周末能去打剧本杀。&lt;/p&gt;
+
+&lt;h2 id=&quot;12月18日&quot;&gt;12月18日&lt;/h2&gt;
+
+&lt;p&gt;今天开完了组会，依旧水过了一天，哎，我会摆烂到啥时候呢。最近几天南京温度大跌，而且还下雪了，感觉是近几年最大的一次了。校园里好多人堆了雪人，真好啊。放几个图片在下面把，权当留恋。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/023.jpg&quot; alt=&quot;河海大学的雪1&quot; /&gt;
+&lt;img src=&quot;/assets/img/Daily/024.jpg&quot; alt=&quot;河海大学的雪2&quot; /&gt;
+&lt;img src=&quot;/assets/img/Daily/025.jpg&quot; alt=&quot;河海大学的雪3&quot; /&gt;
+&lt;img src=&quot;/assets/img/Daily/026.jpg&quot; alt=&quot;河海大学的雪4&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;12月20日&quot;&gt;12月20日&lt;/h2&gt;
+
+&lt;p&gt;今天玩了雪乡连环杀人案。我的评价是这个本烂中烂，逻辑各种漏洞，推理过程过于简单，看了朋友递来的小红书评价：只适合没打过5个本以上的新人玩…给新人玩这破东西估计会是劝退别人的。&lt;/p&gt;
+
+&lt;h2 id=&quot;12月22日&quot;&gt;12月22日&lt;/h2&gt;
+
+&lt;p&gt;今天和师弟师妹们去看电影《三大队》，（最近的娱乐活动确实有点太多了捏）然后在路上遇到老王了，说不出的尴尬。老王甚至跟我们说：你们还出来耍啊。哎，只能说运气背到一定境界了。好，接下来说电影的事情，我觉得是非常好看的电影，之前我是打算去看《怒潮》的，因为听UP主讲这是爽片，因此想去看个爽片解解压。没想到《三大队》才是真正的爽片，当王二勇被警察按在墙上的一瞬间，我整个人的心跳也跟主角呼吸共振了，太爽啦。虽然剧情老套，但是看的开心确实才是最重要的。&lt;/p&gt;
+
+&lt;h2 id=&quot;12月28日&quot;&gt;12月28日&lt;/h2&gt;
+
+&lt;p&gt;今年快结束了，有好多话想在日记里说可是又说不出口，可能是辞藻匮乏，也可能是懒得写下去了，即使我不写，我也能理解我此刻的心情吧。未来的日子只会更苦，这让我焦虑。自己的活一直没进度，这让我焦虑。运气不好，这让我焦虑。想干的事太多，一直看着别人进步而自己一直退步，口袋的钱越来越少，与父亲的差距越来越大，生活的热情越来越淡，记忆越来越差，身体越来越不好，害怕自己孤独终老，害怕自己被人瞧不起，害怕让自己家人老师失望，害怕做一事错一事，害怕努力后没有收获与反馈，害怕自己获得幸福的阈值越来越高…就因为如此，我才每天折磨自己，通过自己身体上的疲惫来欺骗自己以为很努力…我累了捏。。。我到底在干啥呢…&lt;/p&gt;
+
+&lt;h2 id=&quot;12月29日&quot;&gt;12月29日&lt;/h2&gt;
+
+&lt;p&gt;最近工作的热情稍微恢复了一点点，希望我能好起来…今天看到了之前新年晚会的小品节目，有点怀念以前可以正大光明站在台上的我，现在的我，怕是做不到了；最近帮老师写基金，我能做到吗…明日方舟抽苇草抽了120抽了，还没出，最近打牌也总是输，有的时候运气就是不好啊；跨年被师妹叫去喝酒，我确实最近也累了…；这个月宿舍充了2次电费了，果然冬天的空调电费就是贵啊；最近一直久坐，所以HN约我们去打羽毛球锻炼身体，回来后全身酸痛，持续了3天还这样，果然太久不锻炼了。&lt;/p&gt;
+
+&lt;h2 id=&quot;12月31日&quot;&gt;12月31日&lt;/h2&gt;
+&lt;p&gt;今天是2023年的最后一天，但是并不是太想把这天当做独特的一天，毕竟要是耶稣晚点出生，或者历史记载者有拖延症的话，那今天可能变成12月30号了呢…当然以上是诡辩啦。最近玩完了重置版的ONE,怎么说呢，剧情不是那么好，但是女主画得太好看了，实在不得不玩（这不是馋别人的身体吗），之前就听说女主线有牛，虽然最后做好心理准备了，但没想到是这么牛的，瞬间对男主降低100个好点度，就是因为这个原因，其他几条线我也不打算推了。当然究其原因，还是剧本编排的不行，男主在后期的心理转化太怪了，世界观和突然消失的事件讲的太不明不白了，看到各女主毫无准备的被抛下的时候真的有点气…但是奈何妹子画得还太好看了，这下我自己是小丑了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/027.png&quot; alt=&quot;ONE重置版 菜单&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/028.png&quot; alt=&quot;ONE 女主&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(今晚估计还要去陪她们去喝酒跨年，其实有那么一点点不想去，主要是因为要喝酒，还有…看到那么多年轻人在那边嗨，会让我觉得自己老的感觉)&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 01 Sep 2023 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/daily/Jotting-2.html</link>
+        <guid isPermaLink="true">http://localhost:4000/daily/Jotting-2.html</guid>
+        
+        <category>Daily</category>
+        
+        
+        <category>Daily</category>
+        
+      </item>
+    
+      <item>
+        <title>系统快捷键与命令</title>
+        <description>&lt;h1 id=&quot;1-windows&quot;&gt;1. Windows&lt;/h1&gt;
+
+&lt;p&gt;Windows快捷键大全捏，后续可能更新（复制）linux系统的&lt;/p&gt;
+
+&lt;h2 id=&quot;11-ctrl类&quot;&gt;1.1 Ctrl类&lt;/h2&gt;
+
+&lt;p&gt;Ctrl+A 全选；Ctrl+X 剪切；Ctrl+C 复制；Ctrl+X 剪切；Ctrl+V 粘贴；Ctrl+Z 撤销；&lt;/p&gt;
+
+&lt;p&gt;Ctrl+Y 恢复撤销操作；Ctrl+P 打印设置；Ctrl+S 保存；Crtl+D 删除；&lt;/p&gt;
+
+&lt;p&gt;Ctrl+滚轮 调节页面比例或者图标大小；Crtl+Shift+Esc 任务管理器；&lt;/p&gt;
+
+&lt;p&gt;Ctrl+小键盘’+’ 　页面放大10%；Ctrl+小键盘’-‘   页面缩小10%；&lt;/p&gt;
+
+&lt;h2 id=&quot;12-win类&quot;&gt;1.2 Win类&lt;/h2&gt;
+
+&lt;p&gt;Win+D 显示桌面；Win+E 打开我的电脑；Win+F 搜索；Win+R 运行；Win+L 锁定/切换用户；&lt;/p&gt;
+
+&lt;p&gt;Win+I 打开设置；Win+P 投影；Win+V 剪贴板；Win+分号 调出Emoji；&lt;/p&gt;
+
+&lt;p&gt;Win+各种方向键 最大化/最小化；Win+Home 除了当前窗口，其他都最小化；&lt;/p&gt;
+
+&lt;h2 id=&quot;13-f类&quot;&gt;1.3 F类&lt;/h2&gt;
+
+&lt;p&gt;F2 重命名；Alt+F4 关闭；F5刷新；F11 最大化/还原；&lt;/p&gt;
+
+&lt;h2 id=&quot;14-alt类&quot;&gt;1.4 Alt类&lt;/h2&gt;
+
+&lt;p&gt;Alt+Tab 切换应用；Alt+F4 关闭；Alt+Enter 显示属性；Alt+P 预览；&lt;/p&gt;
+
+&lt;p&gt;Alt+各种方向键 切换目录；Alt+Printscreen 活动窗口截图；&lt;/p&gt;
+
+&lt;h2 id=&quot;15-其他&quot;&gt;1.5 其他&lt;/h2&gt;
+
+&lt;p&gt;Crtl+Shift+Tab 切换选项/切换视图；Printscreen 整块屏幕截图；&lt;/p&gt;
+
+&lt;h2 id=&quot;16-常见命令&quot;&gt;1.6 常见命令&lt;/h2&gt;
+
+&lt;p&gt;ipconfig；netsh；ping；net user；shutdown；&lt;/p&gt;
+
+&lt;p&gt;services.msc；regedit；mstsc；msconfig；&lt;/p&gt;
+</description>
+        <pubDate>Tue, 11 Jul 2023 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/study/%E7%B3%BB%E7%BB%9F%E5%BF%AB%E6%8D%B7%E9%94%AE%E4%B8%8E%E5%91%BD%E4%BB%A4.html</link>
+        <guid isPermaLink="true">http://localhost:4000/study/%E7%B3%BB%E7%BB%9F%E5%BF%AB%E6%8D%B7%E9%94%AE%E4%B8%8E%E5%91%BD%E4%BB%A4.html</guid>
+        
+        <category>Study</category>
+        
+        
+        <category>Study</category>
+        
+      </item>
+    
+      <item>
+        <title>虚拟机学习</title>
+        <description>&lt;p&gt;本页内容参考书籍《玩转虚拟机——基于VMware+Windows》&lt;/p&gt;
+
+&lt;h1 id=&quot;1-基础知识&quot;&gt;1 基础知识&lt;/h1&gt;
+
+&lt;h2 id=&quot;11-虚拟机概念&quot;&gt;1.1 虚拟机概念&lt;/h2&gt;
+
+&lt;p&gt;如图3-1所示，虚拟机VM2和VM3连接到VMnet1交换机上，此时只要VM2和VM3计算机的IP地址设置成一个网段就能通信，虚拟机VMl和VM4连接到了不同的交换机，即便IP地址设置成一个网段也不能通信，连接到不同虚拟交换机的虚拟机之间是不能直接通信的。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/virtualmachine/3_1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;VMnet0不用规划IP地址，该网络的地址要和物理网络的地址在一个网段。&lt;/p&gt;
+
+&lt;p&gt;VMware DHCP Service服务可以为连接至VMnet的计算机白动分配IP地址。这样给虚拟机安装了操作系统，不配置IP地址，虚拟机也能够自动获得IP地址。&lt;/p&gt;
+
+&lt;p&gt;VMware Bridge Protocol让物理网卡连接到虚拟交换机VMnet。&lt;/p&gt;
+
+&lt;p&gt;VMware NAT Service 在你的计算机上虚拟出一个路由器，虚拟接口E0连接VMnet作为该网络计算机的网关，计算机的物理网卡作为该路由器的外网接口，该服务实现VMnet到物理网络的地址转换。VMware NAT Service 服务只能为一个VMnet提供网络地址转换服务。&lt;/p&gt;
+
+&lt;h2 id=&quot;12-nat&quot;&gt;1.2 NAT&lt;/h2&gt;
+
+&lt;p&gt;NAT即Network Address Translation（网络地址转换），是实现虚拟机上网的第二种方法。图3-78所示是使用了NAT技术后数据包的转发情况，A1计算机访问WebA资源，发送的数据包的目标地址是WebA源地址即A1的地址，经过路由器R1，数据包的源地址被R1的 公网地址替换，这样数据包的目标地址和源地址都是公网地址了，WebA发送返回的数据包的 目标地址是R1的地址，能够发送到R1路由器，R1路由器收到数据包，再把数据包的目标地址替换成Al计算机的发送到内网，这就是网络地址转换。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/virtualmachine/3_78.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;NAT技术的优点：&lt;/p&gt;
+
+&lt;p&gt;1、节省公网IP地址：NAT技术让使用私网地址的内网计算机能够访问Internet，这样能够大大节省公网IP地址。&lt;/p&gt;
+
+&lt;p&gt;2、内网安全：使用私网地址的内网可以访问Internet，但是Internet中的计算机不能主 动访问内网计算机。&lt;/p&gt;
+
+&lt;p&gt;缺点：由于R1路由器在内网和公网之间转发数据包时修改数据包的源地址或目标地址， 因此会稍微影响速度。&lt;/p&gt;
+
+&lt;h2 id=&quot;13-其他&quot;&gt;1.3 其他&lt;/h2&gt;
+
+&lt;p&gt;文件系统的分类：NTFS（Windows），支持最大分区2TB，最大文件2TB；FAT16（Windows）,支持最大分区2GB,最大文件2GB；FAT32（Windows）,支持最大分区128GB，最大文件4GB。&lt;/p&gt;
+
+&lt;p&gt;公网地址：整个Internet中，计算机和服务器的IP地址要统一规划，全球唯一，这些地址就是公网地 所有的IP地址都由国际组织NIC(Network Information Center)负责统一分配，目前全世址。全世界共有3个这样的网络信息中心：InterNIC，负责美国及其他地区；ENIC，负责欧洲地区：APNIC，负责亚太地区。我国申请IP地址要通过APNIC，APNIC的总部设在日本东京大学。 申请时要考虑申请哪一类的IP地址，然后向国内的代理机构提出。&lt;/p&gt;
+
+&lt;p&gt;私网地址：除了公网IP地址，还保留了一些私网地址，这些私网地址在Internet中没有被使用，企业、学校或政府的内网可以使用，不需要向国际组织注册。Internet上没有私网地址，因此Internet上的路由器也没有必要知道这些网段如何转发数据包。大家可以看到任何单位或企业的网络都可以使用这些私网地址，因为他们不需要相互访问网络，所以IP地址网段重合也没有关系。&lt;/p&gt;
+
+&lt;p&gt;私有网段保留了以下网段：&lt;/p&gt;
+
+&lt;p&gt;A类地址中有10.0.0.0~10.255.255.255.一个A类网段。&lt;/p&gt;
+
+&lt;p&gt;B类地址中有172.16.0.0~172.31.255.255，16个B类网段。&lt;/p&gt;
+
+&lt;p&gt;C类地址中有192.168.0.0～192.168.255.0，256个C类网段。&lt;/p&gt;
+
+&lt;h1 id=&quot;2-操作&quot;&gt;2 操作&lt;/h1&gt;
+
+&lt;h2 id=&quot;21-跳过内容&quot;&gt;2.1 跳过内容&lt;/h2&gt;
+
+&lt;p&gt;虚拟机软件的安装、虚拟机的构建、物理机与虚拟机之间的文件传输和共享（VMware Tool）、虚拟机快照、克隆虚拟机&lt;/p&gt;
+
+&lt;h2 id=&quot;22-虚拟机网络地址规划物理机添加网卡连接vmnet4&quot;&gt;2.2 虚拟机网络地址规划（物理机添加网卡连接VMnet4）&lt;/h2&gt;
+
+&lt;p&gt;具体步骤：进入“虚拟网络编辑器”，单击“更改设置”，单击“添加网络”，添加一个虚拟网络（虚拟交换机）。之后进入“虚拟机设置”，“网络连接”处选择“自定义”，选择所需的网络。&lt;/p&gt;
+
+&lt;h2 id=&quot;23-虚拟机访问物理机&quot;&gt;2.3 虚拟机访问物理机&lt;/h2&gt;
+
+&lt;p&gt;如图3-34所示，可以在物理机上添加一个网卡连接到VMnet4，VMware Network Adapter VMnct4的IP地址要设置成192.168.40.10，该IP地址一定要和VMnct4规划的网络地址在一个网段，虚拟机VM4的IP地址设置成192.168.40.20，这样VM4要想访问物理机，就要访问192.168.40.10，而不能访问物理网卡的地址10.7.10.212。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/virtualmachine/3_34.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;具体步骤：物理机添加网卡连接VMnet4，之后设置VMnet4的IP和掩码。之后打开物理机“网络连接”，设置VMnet4的IPV4的IP和掩码。之后打开虚拟机“网络连接”，设置网卡的IP和掩码。&lt;/p&gt;
+
+&lt;h2 id=&quot;24-虚拟机访问物理网络&quot;&gt;2.4 虚拟机访问物理网络&lt;/h2&gt;
+
+&lt;p&gt;具体步骤：进入“虚拟网络编辑器”，选择VMnet转换成“桥接模式”。之后设置虚拟机的IP地址，IP地址所在网段需要和物理网络中计算机的IP地址在同一个网段，子网掩码（255.255.255.0）、网关和DNS也要和物理网络中的计算机一样。&lt;/p&gt;
+
+&lt;h2 id=&quot;25-虚拟机通过nat访问物理网络&quot;&gt;2.5 虚拟机通过NAT访问物理网络&lt;/h2&gt;
+
+&lt;p&gt;原理：把某个VMnet所处的网络当作内网，把物理机 所的网络当作公网，并把物理机当作NAT路由器，让内网的虚拟机使用物理机的IP地址访问物理网络，这些虚拟机都使用私网地址，这样一来即使和其他物理机中虚拟机的IP地址相 同也没有关系。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/virtualmachine/3_79.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;具体步骤：进入“虚拟网络编辑器”，VMnet8调为NAT模式，单击“NAT设置”，记下网关IP（即虚拟路由器E0接口）。之后打开物理机“网络连接”，调VMnet8的IP（需要设置为与虚拟路由器E0接口同一网段下的IP，但不能相同，否则导致网关地址冲突。接着打开“虚拟机设置”，虚拟机连接到VMnet8。之后打开虚拟机“网络连接”，调本地连接IPV4的IP（与虚拟路由器E0接口同一网段）以及子网掩码以及默认网关（就是虚拟路由器E0接口），DNS设置为8.8.8.8与222.222.222.222。&lt;/p&gt;
+
+&lt;h2 id=&quot;26-端口映射&quot;&gt;2.6 端口映射&lt;/h2&gt;
+
+&lt;p&gt;服务器对外提供服务通常使用TCP或UDP协议侦听客户端的请求，客户端使用该端口访问对应的服务。远程桌面协议（RDP）默认使用TCP的3389端口。Web服务使用的http协议默认使用TCP的80端口。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/virtualmachine/3_94.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;具体步骤：进入“虚拟网络编辑器”，VMnet8调为NAT模式，单击“NAT设置”，单击“添加”，输入主机端口4000，选择TCP协议，输入虚拟机IP，制定虚拟机端口3389。接着打开“虚拟机设置”，虚拟机连接到VMnet8，选择“已连接”和“启动时连接”的复选框。设置虚拟机的IP、子网掩码、网关。打开虚拟机的“计算机-管理”，创建新用户。打开虚拟机的“远程桌面”的“允许…计算机连接”，单击“选择用户”，“添加”刚才创建的新用户。查看物理机的IP。物理网络上的计算机上启动“远程桌面连接”，输入物理机IP+冒号+端口（4000）。&lt;/p&gt;
+
+&lt;h2 id=&quot;27-网络实现虚拟机与物理机文件共享&quot;&gt;2.7 网络实现虚拟机与物理机文件共享&lt;/h2&gt;
+
+&lt;p&gt;具体步骤：打开“虚拟机设置”，虚拟机连接到VMnet8。设置虚拟机的IP、子网掩码、网关（网关与IP位于同一网段）。设置物理机的VMnet8的IP（与虚拟机的默认网关一致）。物理机在要共享的文件右键，点击“共享”和“特定用户”，设置权限。虚拟机“运行”（Win+R）中输入”\网关”，输入用户名和密码。&lt;/p&gt;
+</description>
+        <pubDate>Mon, 10 Jul 2023 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/study/%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AD%A6%E4%B9%A0.html</link>
+        <guid isPermaLink="true">http://localhost:4000/study/%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AD%A6%E4%B9%A0.html</guid>
+        
+        <category>Study</category>
+        
+        
+        <category>Study</category>
+        
+      </item>
+    
+      <item>
+        <title>医学知识记录</title>
+        <description>&lt;h1 id=&quot;1-药物使用&quot;&gt;1 药物使用&lt;/h1&gt;
+
+&lt;h2 id=&quot;11-感冒药&quot;&gt;1.1 感冒药&lt;/h2&gt;
+
+&lt;p&gt;单方药＞复方药＞二线解热镇痛药&lt;/p&gt;
+
+&lt;h3 id=&quot;111-单方药布洛芬对乙酰氨基酚扑热息痛洛索洛芬钠&quot;&gt;1.1.1 单方药：布洛芬，对乙酰氨基酚（扑热息痛），洛索洛芬钠&lt;/h3&gt;
+
+&lt;p&gt;在效果上，布洛芬的退热持久度和退热效果比对乙酰氨基酚好，对乙酰氨基酚的退热速度比布洛芬快。在大剂量使用的副作用上，布洛芬会对胃肠道产生刺激，对乙酰氨基酚会对肝脏产生伤害。洛索洛芬钠在国内属于较新的药，已有仿制，且对有急性上呼吸道感染引起的发热与炎症的患者效果更好。与布洛芬相比胃肠道刺激大幅减轻，但相对比较难买到。 使用缓释胶囊或者缓释片剂型的布洛芬可以有效降低胃肠道刺激。&lt;/p&gt;
+
+&lt;p&gt;24小时内口服对乙酰氨基酚≥150 mg/K歌（成人约≥ 7.5 g）会产生急性对乙酰氨基酚中毒。同时需要注意不可与含酒精的药物合用（如藿香正气液）。&lt;/p&gt;
+
+&lt;p&gt;### 1.1.2 复方感冒药：酚麻美敏、氨麻美敏、氨咖黄敏&lt;/p&gt;
+
+&lt;p&gt;使用酚麻美敏、氨麻美敏等含有右美沙芬的复方感冒药后，不需要选择止咳药。&lt;/p&gt;
+
+&lt;p&gt;含有右美沙芬（通常名字中带有“美”）、伪麻黄碱（通常名字中带有“麻”、“伪”）的感冒药，与精神类药物会产生相互作用，不可同时使用。 因此正在使用精神类药物或者有精神类药物使用史的人，购买复方感冒药时请咨询医师或药师。&lt;/p&gt;
+
+&lt;p&gt;含有马来酸氯苯那敏（通常名字中带有“敏”）的感冒药会与部分精神类药物产生相互作用，需要询问医生后使用。&lt;/p&gt;
+
+&lt;p&gt;一些中成药也含有对乙酰氨基酚，如三九感冒灵、维C银翘片。这些药物都具有稳定的退热效果。 这些含对乙酰氨基酚复方中成药感冒药，使用时不需且不应与其他类型感冒药重复使用，如需加量请确保在医生或说明书给出的最高用量以内。如果退热效果不明显需要换药，请按医生指导在下一剂次时再进行更换。&lt;/p&gt;
+
+&lt;p&gt;其他未明确列出对乙酰氨基酚的复方中成药感冒药，在使用时可以但不推荐与其他感冒药连用，以免产生毒副作用。这些中成药的退热效果因人而异，在退热有效时无需换药或加药。&lt;/p&gt;
+
+&lt;p&gt;复方药中特别需要注意「x洛芬待因x」。这是布洛芬和磷酸可待因组成的复方制剂，超剂量或长期使用可产生药物依赖性。使用洛芬待因后不需要选择止咳药。 带有「x金刚烷胺x」成分的感冒药在此不推荐使用，因为金刚烷胺仅对部分流感病毒有用；带有「x氨基比林x」「x安替比林x」成分的感冒药在此不推荐使用，副作用较大。含有这两种成分的感冒药仅作为其他药买不到时的选项。&lt;/p&gt;
+
+&lt;p&gt;在找不到以上药物时，如需急用，可以询问药店药师是否有库存并是否可以使用： 尼美舒利＞双氯芬酸钠＞吲哚美辛 一定要在执业医生和药师的指导下使用！ 「x尼美舒利x」禁止用于 12 岁以下儿童，作为其他抗炎镇痛药物无效时的二线用药。 「x双氯芬酸钠x」的不良反应发生率较布洛芬高得多，常见于胃肠道反应。但解热抗炎镇痛效果非常强，除紧急情况外不要使用。 「x吲哚美辛x」同上，副作用更高，解热抗炎效果很强，但持续时间短。建议使用栓剂以减少不良反应发生。 非甾体抗炎药类的其他部分，临床应用中副作用效果过大（或者主要使用它的副作用），因此个人不选入退热应急药物中。例如，阿司匹林目前主要作为抗血小板凝集药物来预防急性心肌梗死。 —————————— 化痰可以保证呼吸道通畅，且能有效减缓因痰液刺激导致的咳嗽。 如果出现有较大量或较浓痰液的症状，在化痰之前禁用中枢神经系统类镇咳药。市售常见的中成药，如止咳化痰糖浆或止咳化痰片，均不属于此处提到的溶解性祛痰药。当痰液有不透明、变色等细菌感染指征时，应尽早使用抗生素。 溶解性祛痰药没有优先级，「盐酸氨溴索」、「乙酰半胱氨酸」、「溴己新」、「桉柠蒎肠溶软胶囊（切诺）」、「愈创甘油醚」、「桃金娘油肠溶软胶囊（吉诺通）」均可。需要注意可能存在的过敏问题，备好抗过敏药。当之前选择了含有马来酸氯苯那敏（通常成分名含有“敏”字）的复方感冒药时，不需要选择抗过敏药。 —————————— 当之前选择的复方感冒药中含有右美沙芬（通常成分名含有“美”字）、可待因时，不需要选择止咳用药。 右美沙芬和可待因与精神类药物会产生相互作用，不可同时使用。 咳嗽的主要危害是喉咙充血和心血管压力增加，长期咳嗽会导致肺泡损伤。此处按照效用和副作用排列，推荐的止咳药按优先级： 右美沙芬愈创甘油醚＞右美沙芬片＞磷酸可待因糖浆＞甘草片，麻杏止咳片和其他中成药 「右美沙芬愈创甘油醚」属于右美沙芬与溶解性祛痰药的复方，且可以在线上药店直接购买。选择右美沙芬愈创甘油醚后，不需要选择溶解性祛痰药。 「右美沙芬片」属于仅可在线下购买的强力中枢神经镇咳药。镇咳效果强于可待因，成瘾性较低，但大剂量使用会造成精神亢奋。 磷酸可待因糖浆为阿片类药品，止咳效果较强，有轻微的呼吸抑制作用和成瘾性。不可长期使用，避免成瘾性副作用，运动员慎用。 甘草片，麻杏止咳片和其他止咳糖浆属于中成药类，有效成分通常为阿片类、伪麻类成分，注意事项同上。 —————————— 抗菌由抗生素实现，常见抗生素包括但不限于xx霉素、xx西林和头孢类药物。注意药物过敏及肝肾毒性、胃肠刺激等副作用。当出现细菌感染指征如咳嗽加重、脓痰液、乳浊或变色的鼻涕、高烧不退或者退热后再次发热时，应尽早按照医嘱及说明书使用抗生素。 头孢配酒或含酒精的药物（如藿香正气液）会产生严重的不良反应，甚至致命。 抗过敏药（抗组胺药），一般不吃。当且仅当鼻塞、红疹等过敏反应严重时，在医生指导下使用。 马来酸氯苯那敏（扑尔敏）与精神类药物会产 生相互作用，不可同时使用。 —————————— 对于留学生来说，尽管海外已有成熟的居家用药方案，但使用时仍需遵守 不使用未经医生即时确认过的药，以执业医生诊断为最优先。 如果选择了复方药，要根据含有的其他成分，在后面减去该成分的等效药。 特别需要注意防止对乙酰氨基酚的过量，这是一种常见且有效的退热药成分，如果应用过量会导致肝衰竭。 特别提醒某些国外流行的止痛药如EVE中，含有副作用较大的丙戊酰脲等成分 日系复方感冒药相对国内用药，在伪麻类、可待因、咖啡因成分上均常见大量使用，注意用药副作用及成瘾性。&lt;/p&gt;
+
+&lt;h1 id=&quot;2-疾病治疗&quot;&gt;2 疾病治疗&lt;/h1&gt;
+
+&lt;h2 id=&quot;22-脱发&quot;&gt;2.2 脱发&lt;/h2&gt;
+
+&lt;p&gt;口服：非那雄胺
+外用：米诺地尔酊&lt;/p&gt;
+
+&lt;h2 id=&quot;23-清黑头&quot;&gt;2.3 清黑头&lt;/h2&gt;
+
+&lt;p&gt;维A酸类药物:维A酸乳膏；阿达帕林；他扎罗汀。
+注意:在备孕期女性不可使用；只能晚上使用。具体用法:点涂/薄涂（从低浓度开始）；涂完洗手；护肤后使用；长期坚持使用。&lt;/p&gt;
+
+&lt;p&gt;酸类药物:维A酸；果酸；壬二酸；水杨酸。
+常见果酸:从杏仁提取的杏仁酸；从甘蔗里面提取的甘醇酸。
+医美果酸换肤大多用20%以上的甘醇酸来做，一定找专业人士做，不要自己尝试，可能会起水泡表皮全脱。
+也可以用8%的杏仁酸，品牌:dr.wu，温和不刺激
+用法:先在耳后实验是否过敏，拧开，洗出来，弄到手上，薄涂，10-15分钟以后基本会干，然后正常护肤，严重的可以多挤多拍，但要建议耐受
+杏仁酸特性:亲脂性；温和；敏感肌可用。&lt;/p&gt;
+
+&lt;p&gt;甲硝唑凝胶:抗生素药膏，没有临床研究证实，但确实有人有效果。&lt;/p&gt;
+
+&lt;h2 id=&quot;24-脚气&quot;&gt;2.4 脚气&lt;/h2&gt;
+
+&lt;p&gt;脚气类型：水疱型、浸渍糜烂型、角化鳞屑型&lt;/p&gt;
+
+&lt;p&gt;用药：达克宁、联苯苄唑溶液（喷雾型）&lt;/p&gt;
+
+&lt;h2 id=&quot;25-特应性皮炎&quot;&gt;2.5 特应性皮炎&lt;/h2&gt;
+
+&lt;p&gt;短期用药：激素类药物（外用）&lt;/p&gt;
+
+&lt;p&gt;长期用药：钙调磷酸酶抑制剂（他克莫斯软膏）、生物制剂（达必妥，用前需要系统的检查）&lt;/p&gt;
+
+&lt;h2 id=&quot;26-荨麻疹&quot;&gt;2.6 荨麻疹&lt;/h2&gt;
+
+&lt;h3 id=&quot;261-胆碱能荨麻疹&quot;&gt;2.6.1 胆碱能荨麻疹&lt;/h3&gt;
+
+&lt;p&gt;一代抗组胺药 - 酮替芬&lt;/p&gt;
+
+&lt;h3 id=&quot;262-丘疹性荨麻疹虫咬性皮炎&quot;&gt;2.6.2 丘疹性荨麻疹（虫咬性皮炎）&lt;/h3&gt;
+
+&lt;p&gt;轻症：1.使用肥皂水冲水中和酸性即可；2.外涂一些激素性的药膏（艾洛松、卤米松等）
+重症：1.抗组胺药物；2.外涂一些激素性的药膏（艾洛松、卤米松等）&lt;/p&gt;
+
+&lt;h2 id=&quot;27-花斑藓&quot;&gt;2.7 花斑藓&lt;/h2&gt;
+
+&lt;p&gt;外用抗真菌药：酮康唑；特比萘芬；环吡酮胺；联苯苄唑溶液&lt;/p&gt;
+
+&lt;h2 id=&quot;28-脂溢性皮炎&quot;&gt;2.8 脂溢性皮炎&lt;/h2&gt;
+
+&lt;p&gt;激素类药膏（不推荐）&lt;/p&gt;
+
+&lt;p&gt;他克莫司软膏；吡美莫司乳膏；酮康唑；二硫化硒（抑制剂，延缓角质细胞更新。因此停药后易复发产生头皮屑）&lt;/p&gt;
+
+&lt;h2 id=&quot;29-疱疹&quot;&gt;2.9 疱疹&lt;/h2&gt;
+
+&lt;h3 id=&quot;291-单纯疱疹&quot;&gt;2.9.1 单纯疱疹&lt;/h3&gt;
+
+&lt;p&gt;I型：具有传染性，治疗涂外用的抗病毒药膏：阿昔洛韦软膏
+II型：性行为引起，需要口服抗病毒药：XX洛韦类&lt;/p&gt;
+
+&lt;p&gt;老三：1少熬夜，2避免情绪压力，3避免过度劳累。
+新三：1洁身自好，2做好防护，3主动就医。&lt;/p&gt;
+
+&lt;h3 id=&quot;292-汗疱疹&quot;&gt;2.9.2 汗疱疹&lt;/h3&gt;
+
+&lt;p&gt;不能弄破，破皮后少沾水，不要接触洗涤剂及重金属材质物品。&lt;/p&gt;
+
+&lt;p&gt;炉甘石洗剂，蜕皮或红斑时糖皮质激素类药膏（卤米松/哈西耐得/曲安耐得），严重封包，涂药膏，带上一次性手套，30min-1h，每晚一次，持续一周，痒的厉害就服用第二代抗组胺药（开思亭，其成分为依巴斯汀）。&lt;/p&gt;
+
+&lt;h2 id=&quot;210-生长纹萎缩纹&quot;&gt;2.10 生长纹（萎缩纹）&lt;/h2&gt;
+
+&lt;p&gt;好发部位：臀部、后腰部、大腿等部位会呈现数条不规则的条纹。&lt;/p&gt;
+
+&lt;p&gt;生长纹，是指人体出现的不规则的条纹。生长纹一般出现于体重增加过快的人身上，因皮下脂肪增长太快，皮肤生长跟不上，真皮层的弱力纤维被拉断，从而开有成弯弯曲曲像“蚯蚓”一样的条纹。与孕妇肚子上的妊娠纹有相同的道理，许多人在发育期身高增长过快时也可能出现。（健身、生孩子都会导致）
+生长纹出现后，即使减肥成功恢复了原有的体形也无法消除。它开始是红色，慢慢可以逐渐变成紫红色，最后变成褐色的条纹。&lt;/p&gt;
+
+&lt;p&gt;治疗方法：减肥、激光&lt;/p&gt;
+
+&lt;h2 id=&quot;211-股藓&quot;&gt;2.11 股藓&lt;/h2&gt;
+
+&lt;p&gt;一大堆抗真菌药。&lt;/p&gt;
+
+&lt;p&gt;口服抗真菌：氟康唑、伊曲康唑&lt;/p&gt;
+
+&lt;p&gt;应对色素沉积：外用维生素E乳、激光、维A酸乳膏&lt;/p&gt;
+
+&lt;h2 id=&quot;212-细菌感染疾病&quot;&gt;2.12 细菌感染疾病&lt;/h2&gt;
+
+&lt;p&gt;针对需氧菌：红霉素、克拉霉素
+针对厌氧菌：甲硝唑&lt;/p&gt;
+
+&lt;h2 id=&quot;213-梅毒&quot;&gt;2.13 梅毒&lt;/h2&gt;
+
+&lt;p&gt;TPPA：梅毒螺旋体颗粒凝集试验，得过便永久阳性&lt;/p&gt;
+
+&lt;p&gt;RPR：快速血浆反应素环卡试验，活动期数值高，治愈后转为阴性&lt;/p&gt;
+
+&lt;h2 id=&quot;214灰指甲&quot;&gt;2.14灰指甲&lt;/h2&gt;
+
+&lt;p&gt;口服：
+盐酸特比萘芬片 0.25g/次/天 饭后服用 连续使用
+伊曲康唑胶囊   0.2g/次 2次/天 吃一周停三周 餐中服用&lt;/p&gt;
+
+&lt;p&gt;外用：
+盐酸阿莫罗芬搽剂、冰醋酸溶液&lt;/p&gt;
+
+&lt;h1 id=&quot;3-其他&quot;&gt;3 其他&lt;/h1&gt;
+
+&lt;h2 id=&quot;31-挂科问题&quot;&gt;3.1 挂科问题&lt;/h2&gt;
+
+&lt;p&gt;1.肚子疼（急性突发）急症外科
+（慢性持续）消化内科
+女性（无关饮食）妇产科&lt;/p&gt;
+
+&lt;p&gt;2.头疼（突发剧烈）神经外科
+常/偏头痛（三叉圣经疼神经内科）&lt;/p&gt;
+
+&lt;p&gt;3.头晕（天旋地转）耳鼻喉科
+（迷迷糊糊）神经内科&lt;/p&gt;
+
+&lt;p&gt;4.打呼噜（儿童，瘦）耳鼻喉科
+（呼吸暂停，胖）呼吸科&lt;/p&gt;
+
+&lt;p&gt;5.痔疮   肛肠科&lt;/p&gt;
+
+&lt;p&gt;6.乳腺   乳腺科（普外科）&lt;/p&gt;
+</description>
+        <pubDate>Sun, 09 Jul 2023 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/study/%E5%8C%BB%E5%AD%A6%E7%9F%A5%E8%AF%86%E8%AE%B0%E5%BD%95.html</link>
+        <guid isPermaLink="true">http://localhost:4000/study/%E5%8C%BB%E5%AD%A6%E7%9F%A5%E8%AF%86%E8%AE%B0%E5%BD%95.html</guid>
+        
+        <category>Study</category>
+        
+        
+        <category>Study</category>
+        
+      </item>
+    
+      <item>
+        <title>Jekyll学习#2</title>
+        <description>&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Jekyll&lt;/code&gt;学习第二弹&lt;/p&gt;
+
+&lt;h1 id=&quot;1-插件&quot;&gt;1. 插件&lt;/h1&gt;
+
+&lt;h2 id=&quot;11-jimoji&quot;&gt;1.1 jimoji&lt;/h2&gt;
+
+&lt;p&gt;具体emoji代码参考 https://www.webfx.com/tools/emoji-cheat-sheet/&lt;/p&gt;
+
+&lt;p&gt;展示：&lt;/p&gt;
+
+&lt;p&gt;:+1:
+:dog:
+:cat:&lt;/p&gt;
+
+&lt;h2 id=&quot;12-网易云音乐插件&quot;&gt;1.2 网易云音乐插件&lt;/h2&gt;
+
+&lt;p&gt;代码参考：
+在每个页面抬头添加music-id: XXXX&lt;/p&gt;
+
+&lt;h2 id=&quot;13-为jekyll博客添加目录与scrollspy效果&quot;&gt;1.3 为Jekyll博客添加目录与ScrollSpy效果&lt;/h2&gt;
+
+&lt;p&gt;代码参考：http://t.hengwei.me/post/%E4%B8%BAjekyll%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E7%9B%AE%E5%BD%95%E4%B8%8Escrollspy%E6%95%88%E6%9E%9C.html&lt;/p&gt;
+
+&lt;h2 id=&quot;14-个人博客中添加点击爱心效果&quot;&gt;1.4 个人博客中添加点击爱心效果&lt;/h2&gt;
+
+&lt;p&gt;代码参考：https://yizibi.github.io/2018/10/18/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%B7%BB%E5%8A%A0%E7%82%B9%E5%87%BB%E7%88%B1%E5%BF%83%E6%95%88%E6%9E%9C/&lt;/p&gt;
+
+&lt;p&gt;代码2参考：https://blog.51cto.com/u_15127588/2807647&lt;/p&gt;
+
+&lt;h2 id=&quot;15-添加阅读量统计功能&quot;&gt;1.5 添加阅读量统计功能&lt;/h2&gt;
+
+&lt;p&gt;代码参考：https://blog.csdn.net/qq_32507255/article/details/89068958?ops_request_misc=&amp;amp;request_id=&amp;amp;biz_id=102&amp;amp;utm_term=jekyll%20%E7%82%B9%E5%87%BB&amp;amp;utm_medium=distribute.pc_search_result.none-task-blog-2~blog~sobaiduweb~default-4-89068958.268^v1^koosearch&amp;amp;spm=1018.2226.3001.4450&lt;/p&gt;
+
+&lt;h2 id=&quot;16-gitalk&quot;&gt;1.6 gitalk&lt;/h2&gt;
+
+&lt;p&gt;代码参考：https://www.pianshen.com/article/4404354477/  https://blog.csdn.net/zy13651953784/article/details/104813021  https://blog.csdn.net/sinat_32873711/article/details/129192910  https://github.com/gitalk/gitalk/blob/master/readme-cn.md  https://gitalk.github.io/  https://github.com/gitalk/gitalk#install&lt;/p&gt;
+
+&lt;h2 id=&quot;17-随机bgm与全局bgm&quot;&gt;1.7 随机BGM与全局BGM&lt;/h2&gt;
+
+&lt;p&gt;代码参考：https://www.jianshu.com/p/b2306e9b7ba7   https://szhshp.org/tech/2016/11/19/whynotaddabgmforurblog.html&lt;/p&gt;
+
+&lt;h2 id=&quot;18-添加站点访客数及文章浏览量添加中英文字数统计&quot;&gt;1.8 添加站点访客数及文章浏览量、添加中英文字数统计&lt;/h2&gt;
+
+&lt;p&gt;代码参考：https://blog.csdn.net/ds19991999/article/details/81293467&lt;/p&gt;
+
+&lt;h2 id=&quot;19-live2d小人&quot;&gt;1.9 Live2D小人&lt;/h2&gt;
+
+&lt;p&gt;代码参考：https://github.com/stevenjoezhang/live2d-widget&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 03 Jul 2023 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/study/Jekyll%E6%8F%92%E4%BB%B6%E4%B8%8E%E5%8A%9F%E8%83%BD%E4%BC%98%E5%8C%96.html</link>
+        <guid isPermaLink="true">http://localhost:4000/study/Jekyll%E6%8F%92%E4%BB%B6%E4%B8%8E%E5%8A%9F%E8%83%BD%E4%BC%98%E5%8C%96.html</guid>
+        
+        <category>Study</category>
+        
+        
+        <category>Study</category>
+        
+      </item>
+    
+      <item>
+        <title>Jotting#1</title>
+        <description>&lt;h1 id=&quot;二三年五月&quot;&gt;二三年五月&lt;/h1&gt;
+
+&lt;h2 id=&quot;5月25日&quot;&gt;5月25日&lt;/h2&gt;
+
+&lt;p&gt;又到了日记时间，虽然就只是第二次日记，但能让Blog的日期连续确实是很让人激动的一件事，今天正好也发生了不少好玩的事情，值得一记。&lt;/p&gt;
+
+&lt;p&gt;#1
+今天一天基本都在学Ansys_Fluent，虽然我一开始还是对这玩意挺感兴趣的，但是当他变成一项老师的任务时，我的拖延症就会又开始犯了。但还好，今天我跑了一个相对不怎么失败的模型，尽管他耗费了我人生7小时以上才跑完（我真想有好电脑啊！）。等我对这玩意再熟悉点，说不定还能把他写进博客里。Ansys的教程不太好用文字来描述，大部分人都用视频来记录自己的学习过程。但很明显，我这个懒人并不想花时间录制和剪辑，而且谁知道哪次能跑出来呢。所以之后写Ansys相关的Blog时，恐怕就写写学习的心得和为了学他的一系列遭遇吧（为了能开始学他，折腾的时间不比Jekyll短）。最后这边放张我更新求解时巨卡无比的进度条…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/2023052501.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;#2
+今天听师妹兴奋地讲了她哥哥的故事。她哥跟我一样博士期间都没找到女盆友，家人亲戚介绍的对象也没成。但是他毕业时，有个女生主动追他，然后他们直接闪婚了。师妹讲到这也是&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;缘分&lt;/code&gt;什么的时候，颇有种眼睛亮光的感觉，恐怕每个人都期待能遇到“注定的那个人”吧。虽然师妹也对我未来的爱情旅程给予了祝福，但恐怕这实现难度堪比我按时毕业、彩票中奖、被闪电劈死、被陨石砸死、坐飞机失事、打模拟宇宙获得全部BUFF…吧（老天，请狠狠地打我脸）。&lt;/p&gt;
+
+&lt;p&gt;#3
+今天去酒吧喝酒了，算是兑现诺言，点了一杯椰林飘香。这算是我最喜欢的酒了，酒精度数不算太高，在喝出果味的时候还能感受到浓浓的奶油味。但是如果加菠萝味碎冰以及酒精度数提高点就更好了，但我估计没胆子和老板提要求吧，怕对方觉得自己逼事真多，呜呼~以及椰林飘香还有一点特别好，那就是喝完我还能继续回去加班  : )  ，针不戳！&lt;/p&gt;
+
+&lt;p&gt;#4
+今天上班摸鱼看了刀剑神域进击篇黯淡黄昏的谐谑曲（我在打字时才发现这标题够长的），虽然我看过小说了，但不得不说SAO的剧场版还是可以的，虽然说不上神作之类的，但是打斗已经让我很满意了，BGM也不错，真滴不戳！（让我加班更有动力了）&lt;/p&gt;
+
+&lt;p&gt;#5
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;完全不知道Blog的评论系统怎么加，有没有dalao帮帮忙。&lt;/code&gt;（我还把这句话标注了）&lt;/p&gt;
+
+&lt;p&gt;#6
+如果世界上的蚊子有鸟这么大的话，那这个世界多恐怖啊，所以活在这种蚊子对我们没有什么生命威胁的世界里说不定其实是个幸福的奇迹呢。（在加班时饱受蚊子折磨的我如此麻痹自己）&lt;/p&gt;
+
+&lt;h2 id=&quot;5月27日&quot;&gt;5月27日&lt;/h2&gt;
+
+&lt;p&gt;醉酒回到办公室，一开灯三只蚊子在门口欢迎我，谢谢你们，我才不会在深夜里感到孤单，真的很谢谢你们（啪~啪~啪~）。&lt;/p&gt;
+
+&lt;p&gt;#1
+你问我今天学了什么，答案就是什么也没学。我的电脑今天一直在跑Fluent，最后发现自己电脑内存不足，根本跑不了。软件还直接报错闪退了，我甚至设置都没保存，这下连模型都要重画了。太好了，谢谢你，我的电脑，但你年事可能已高。&lt;/p&gt;
+
+&lt;p&gt;#2
+今天见到了自己的师兄师姐，还是挺怀念的，毕竟研究生期间我多次想在师兄的怀里哭诉我的实验多不易（开玩笑的）。大家都好成熟啊，感觉自己一个人被甩在了后面，甚至再也爬不起来了。&lt;/p&gt;
+
+&lt;p&gt;#3
+晚上吃的饭店，有一款特殊的饮品，好奇尝了下味道…挺好喝的，真的很不错，希望下次有人给我买杯正版（指茶颜悦色）的尝尝（别想了，怎么可能呢）。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/2023052701.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;#4
+在写这个Blog的时候，耳边突然传来嗡嗡的声音，原来是第四只&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;小伙伴&lt;/code&gt;来了，我可要好好招待一下…&lt;/p&gt;
+
+&lt;p&gt;#5
+晚上发了酒疯，去把前几天看的刀剑神域剧场版又看了一遍。这次是在电影院看的，至少算是支持正版了…但是电影院屏幕好小啊，屏幕还很脏，看的时候脏斑很明显…而且还有情侣一起看，我酸了。&lt;/p&gt;
+
+&lt;p&gt;#6
+今天的我不太正常，早点睡觉吧，明天还有组会呢…&lt;/p&gt;
+
+&lt;h2 id=&quot;5月29日&quot;&gt;5月29日&lt;/h2&gt;
+
+&lt;p&gt;今天下午就开始记日记了，最大的原因是我晚上要好好玩游戏捏，所以提前开搞Blog应该没什么大问题吧~~~&lt;/p&gt;
+
+&lt;p&gt;#1
+上午睡觉，下午做实验+准备日语课考试+写Blog+找老师签字，晚上玩游戏。你看，我一天工作效率最高就是在下午，把今天这个下午去掉，我就什么都不是捏，白白虚度一天光阴捏。&lt;/p&gt;
+
+&lt;p&gt;#2
+最近干啥都没动力~~~有必要锻炼自己的意志了…但该干什么呢，把自己电脑砸了重买新的吗。&lt;/p&gt;
+
+&lt;p&gt;#3
+昨天组会意外没被老师质疑（指我的垃圾仿真），可能我就装样子很在行吧，也许以后我适合当传销头子。&lt;/p&gt;
+
+&lt;p&gt;#4
+大家都好强，都在卷，可是我卷不动了，现在我可能只有更新Blog还算积极点。&lt;/p&gt;
+
+&lt;p&gt;#5
+现在看到马路上情侣在秀恩爱，我也不会有任何想法了呢，真的。&lt;/p&gt;
+
+&lt;p&gt;#6
+今天看到有救护车120进学校了…我自以为是个冷漠至极的人，不会对不认识的人产生一丝一毫的共情…但当我看到路边的学生对进学校的120笑着指指点点，仿佛在看新乐子的时候，莫名产生一种很难受的感觉…等哪天我陷入绝望了，在学校楼上一跃而下的时候，周边的人会笑着指着我的尸体说“看！又是一个想不开的”吗？&lt;/p&gt;
+
+&lt;p&gt;#7
+写完第6条时，突然感觉我可能才是格格不入的不正常的人，为啥总嘲讽伤害自己呢。果然还是学习好啊。&lt;/p&gt;
+
+&lt;h2 id=&quot;5月31日&quot;&gt;5月31日&lt;/h2&gt;
+
+&lt;p&gt;#1
+打羽毛球挺开心的，但一想到明天继续做实验好难受。每天都过的好晕啊~好累啊~我是不是快感冒了~可能只是累了&lt;/p&gt;
+
+&lt;p&gt;#2
+又犯错了，以后可千万不能自以为是地解读别人的话了，这次还好运气好，下次会酿成大祸的。&lt;/p&gt;
+
+&lt;p&gt;#3
+Blog的评论弄完了才发现要开梯子才能查阅和发表评论…我是废物，都没发现这点…还有挽救方法吗。&lt;/p&gt;
+
+&lt;p&gt;#4
+31号，今天真是大悲大喜的一天，去江宁做实验做到想吐（物理上，因为万恶的臭氧），之后还发现自己耳机盒丢了。原本今天应该成为我的噩梦的，但是后来在校车找到了，而且我去的校车和我回来的校车竟然同一辆。有时命运就是如此捉弄人吧，但我只希望我的心脏好受点。&lt;/p&gt;
+
+&lt;p&gt;#5
+初体验“重返1999”，只能说几年前的我肯定因为他画面而入坑，但可惜现在的我只想摆烂，已经玩不下去啥手游了。&lt;/p&gt;
+
+&lt;h1 id=&quot;二三年六月&quot;&gt;二三年六月&lt;/h1&gt;
+
+&lt;h2 id=&quot;6月2日&quot;&gt;6月2日&lt;/h2&gt;
+
+&lt;p&gt;#1
+最近在放纵自己，找不到方向，不想管其他人了，不想管其他事情了，自己永远也不会拜托无能这个标签吧。&lt;/p&gt;
+
+&lt;p&gt;#2
+最近办公室的蚊子又多了许多，每天晚上都能闻到他们尸体烤糊的味道，在这个房间里，我是他们的自助餐，他们是我的噩梦…我已经有点受不了他们煽动翅膀的声音。&lt;/p&gt;
+
+&lt;p&gt;#3
+今天知道了不该知道的事情。很久以前我就喜欢擅自揣测别人的意图，以为他人对自己有所期待，自己不能辜负他人信任。但实际上每个人都看出我是个半桶水。对我的关心与鼓励言语，会不会也是你们扮演身份时的仿作之辞呢。如果是这样，那我也没必要对自身的不完美感到难受了吧。&lt;/p&gt;
+
+&lt;p&gt;#4
+还是好好完成任务吧，至少不要给别人带来不必要的麻烦。&lt;/p&gt;
+
+&lt;h2 id=&quot;6月4日&quot;&gt;6月4日&lt;/h2&gt;
+
+&lt;p&gt;#1
+今天和高中同学看了银河护卫队3，吃了本家韩国烤肉，很满足捏。电影能吐槽的地方可太多了：反派BOSS莫名被杀，影片结尾像极了各位演员要杀青了，匆忙挨个说出下线台词。但是还是挺开心的一天。&lt;/p&gt;
+
+&lt;p&gt;#2
+果然自己的心态还有待磨砺，希望以后的自己至少保住本心，享受活着的感觉。技不如人，被人贬低也无所谓了，只要自己善始善终就最好了。加油！以后尽量多更些技术博客，别搁着水日记了。&lt;/p&gt;
+
+&lt;h2 id=&quot;6月5日&quot;&gt;6月5日&lt;/h2&gt;
+
+&lt;p&gt;#1
+振作后的第一天，LLGY啊，你要好起来啊！（今天睡的觉真多，每天见到这么多美女，开心点啊）&lt;/p&gt;
+
+&lt;p&gt;#2
+今天讲个趣事：今晚我在熬夜时，突然想去外面烧个水。在我打开房门的一瞬间，我瞥见旁边墙壁上扶着一只蚊子。我本打算开完门去好好收拾它，没想到他直接飞出去了…啊这，只能说蚊子都比我惜命。&lt;/p&gt;
+
+&lt;p&gt;#3
+以后真可以在别人面前说：我打死过得蚊子比你今天吃的饭都多。&lt;/p&gt;
+
+&lt;h2 id=&quot;6月7日&quot;&gt;6月7日&lt;/h2&gt;
+
+&lt;p&gt;#1
+最近网络上发生的事情真不少啊，HL与LLG的绝交又和解，HL与JY的冲突，Tokyo Dome与ice sugar的复活…最近我看贴吧的时长也提高了，可怕，我果然是乐子人了。&lt;/p&gt;
+
+&lt;p&gt;#2
+坐校车时，那位收钱的保安向我吐槽了一位不停插队的黑人，并且表示美国被枪杀以及窒息的黑人都…本人不做任何评价吧…只能说这个世界是多彩的，人也是，我也是？&lt;/p&gt;
+
+&lt;p&gt;#3
+舍友给我买了茶颜悦色！！！这是我人生中喝的第一杯，感恩！！！&lt;/p&gt;
+
+&lt;p&gt;#4
+师弟最近沉迷蔚蓝，我是不是不该告诉他这款游戏呢…希望不要耽误他的学习和进度吧。&lt;/p&gt;
+
+&lt;p&gt;#5
+不知道为啥，对组内的氛围感到一丝的不对劲，有点害怕人们之间微妙的疏远感，但希望这是我错觉吧。&lt;/p&gt;
+
+&lt;p&gt;#6
+最近又有点学习的热情了，我想学MMD，想学Jekyll，想学HTML，想学PrAe，想学MAYA…估计没啥时间吧。时间真的好少啊。&lt;/p&gt;
+
+&lt;p&gt;#7
+这个周末和舍友以及同级去吃饭啦…期待，可是有点害怕，自己已经因为心理问题变得冷漠了。&lt;/p&gt;
+
+&lt;h2 id=&quot;6月9日&quot;&gt;6月9日&lt;/h2&gt;
+
+&lt;p&gt;#1
+额额，今天是星期五，原本是万众瞩目的一天，哎~乐子人的末日，一直期待的直播这下被鸽了…这次的事件我甚至想好好整理下，这次的乐子虽然不如几年前的天国莫离事件，但充分让我体会到成为小丑的感觉…命名为啥呢，XGJY事件？&lt;/p&gt;
+
+&lt;p&gt;#2
+大家星期六要去聚餐了…我太羡慕了…但还是有工作要做…加油啊，LLGY，你还有好多债没还。&lt;/p&gt;
+
+&lt;p&gt;#3
+这周也是沐浴于臭氧之中，我现在鼻子已经闻不出来低浓度臭氧了。但是…算了吧，LLGY，你迟早会为你每天熬夜通宵做实验付出代价的，又何差这一时呢。&lt;/p&gt;
+
+&lt;p&gt;#4
+安定看完泛式直播，也算是今晚没看到乐子的代餐了，希望我关心的大家的日子都能安定下来吧。毕竟我虽然是个乐子人，也不想看到熟人的乐子。&lt;/p&gt;
+
+&lt;p&gt;#5
+好像这周没啥好玩的事情，今晚也想躺着，就这样吧，对了…我赶快要去买一桶无水乙醇，以后做实验要用。&lt;/p&gt;
+
+&lt;p&gt;#SP
+冰糖与大蛋老师的瓜又更新了，果然互联网上不能站队，站队只会变小丑。毕竟大家都是在用小孔看人捏。&lt;/p&gt;
+
+&lt;h2 id=&quot;6月13日&quot;&gt;6月13日&lt;/h2&gt;
+
+&lt;p&gt;好久没写Blog，虽然最近确实挺忙的，但是果然不写日记浑身难受啊&lt;/p&gt;
+
+&lt;p&gt;#1
+感觉Youtube上教学视频还是很多的，以后看来要汲取全世界人民的智慧了。&lt;/p&gt;
+
+&lt;p&gt;#2
+最近花了一点时间在二游私服上，感觉确实不应该花那么多时间研究数值游戏，虽然研究起来确实挺快乐的&lt;/p&gt;
+
+&lt;p&gt;#3
+现在我越来越不想管人际关系了…已经完全变成自私自利的人了呢，LLGY。毕竟我一直珍视的友谊随着时间飞逝都会慢慢消散，反正几年后就没人会主动跟我说话了，我现在还维护友谊干嘛呢，让别人开心和舒服好累啊，我不想努力了。虽然我知道我这想法不好，但这个想法逐渐根深蒂固…毕竟，从前的我就是这样背叛友谊活到了现在的嘛。&lt;/p&gt;
+
+&lt;h2 id=&quot;6月16日&quot;&gt;6月16日&lt;/h2&gt;
+&lt;p&gt;庆贺&lt;del&gt;恭喜&lt;/del&gt;这是第10次的日记回捏。说实在的，以前从来没记过这么多天的日记，现在我能坚持下来，想必是做好了以后没人倾诉持续一个人的准备吧（应该）。&lt;/p&gt;
+
+&lt;p&gt;最近几天既有倒霉事，也有让人开心的事情。在16号的晚上25点，我进行个简短的汇总&lt;/p&gt;
+
+&lt;p&gt;#1
+首先，在所有记录之前，我首先要深刻地批评我们课题组的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;潘姓同志&lt;/code&gt;，那是因为他通过借走我的钥匙，打断了我的熬夜做实验计划。尽管我自愿借给他钥匙，尽管他在离开办公室前把钥匙放到了我的座位上…但是，因为我未发达的大脑忘记了这件事情，所以我白去了环境楼一趟。尽管对他谴责有失公平，但是谴责别人的时候那种高高在上的感觉确实让我很爽。（同时他这一举动让我多睡了一会觉，可能还要稍微地表扬他一下…）&lt;/p&gt;
+
+&lt;p&gt;#2
+6月15日晚上，这是应被铭记的一晚。当天晚上，王老师请在校生恰饭，庆祝本科生顺利毕业（苟富贵，勿相忘，毕竟有个保研到南大了）。然后，因为喝了远超我承受能力的白酒，我手臂以及手上全部变红（因为酒精过敏），吃饭吃到一半已经合不上眼睛了…最要命的是，回到办公室，本来想简单加个班后睡觉，结果2点闭眼一直到7点都没睡着。当时的我心态估计全碎了，毕竟从来没失眠到这种程度。哎，以后要少喝品质较差的酒了。&lt;/p&gt;
+
+&lt;p&gt;#3
+6月16日上午，虽然我当时还是睡过去了，但是我们实验室又被孙老师骂了，紧急被王老师叫过去并被谴责，看来我们实验室不得不装上监控摄像头了。&lt;/p&gt;
+
+&lt;p&gt;#4
+6月16日晚上，与张老师以及她课题组的在校生吃了饭，地点是珠江路金鹰的泰国酒吧餐厅。因为实在太困了，没怎么好好尝味道…但是感觉上很好吃，可能也考虑到中国的饮食习惯，所以对原来的泰餐有所改编。印象最大的是各种咖喱与菠萝，以后&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;有空&lt;/code&gt;以及&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;有钱&lt;/code&gt;也可以来尝尝。最后放上大家合照，希望大家以后都好好的~（突然发现我没图,,,原来我不在群里,,,）
+&lt;img src=&quot;/assets/img/Daily/001.jpg&quot; alt=&quot;合照1&quot; /&gt;
+&lt;img src=&quot;/assets/img/Daily/002.jpg&quot; alt=&quot;合照2&quot; /&gt;
+&lt;img src=&quot;/assets/img/Daily/003.jpg&quot; alt=&quot;合照3&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;6月20日&quot;&gt;6月20日&lt;/h2&gt;
+
+&lt;p&gt;#1
+已经好久没干自己的活了，感觉自己忙不过来了，什么都不会…哎，这项目什么时候能结束啊。&lt;/p&gt;
+
+&lt;p&gt;#2
+2023年6月18日，我们的健美操比赛终于结束啦。最后拿到优胜奖（其实是四等奖），但是我们的得分是所有拿到该奖项的队伍中最高的（8.2分）。感觉已经是个完美的结局了，特别是得知其他学院经费那么高，老师指导的次数那么多之后。感觉环境学院好穷啊~~但是最后还是很开心的，而且也认识到好多人…虽然我现在都不知道她们叫啥233。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/004.jpg&quot; alt=&quot;挑了张自己能看的，抱歉啦大家&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;#3
+发现自己和柔丝羽同一天生日，好耶，以后跟她狠狠地交流了。（拿到了友谊的羽毛×1）&lt;/p&gt;
+
+&lt;p&gt;#4
+给张老师的礼物买好了，该怎么送呢，哎…直接找人在她不在的时候放办公室吧。&lt;/p&gt;
+
+&lt;h2 id=&quot;6月26日&quot;&gt;6月26日&lt;/h2&gt;
+
+&lt;p&gt;#1
+连续好久没写Blog了，以后估计周期还是会很长吧…最近也不知道写什么，每天依然很低气压，控制不住自己消极情绪…&lt;/p&gt;
+
+&lt;p&gt;#2
+让我想想最近有啥好玩的…给老师买了生日礼物，与舍友喝了好几次茶颜悦色（好像都是他请的我），于27号开始投STE（不过没什么希望罢了，哎），最近开始做紫外试验了（无聊到记实验内容了），开始玩蔚蓝档案了，开始会测COD了，开始会用手柄玩蔚蓝了，开始正式看HTML的书了，最近推子漫画里兄妹相认了…希望以后能好好的。&lt;/p&gt;
+
+&lt;h2 id=&quot;6月29日&quot;&gt;6月29日&lt;/h2&gt;
+
+&lt;p&gt;今天把过去所有的日记以10天为周期进行了整理，不然jotting的数字上升的太快了…我早该知道的，我可做不到瞻前顾后。&lt;/p&gt;
+
+&lt;p&gt;#1
+文章又重投了，很绝望，啥时候是尽头啊。老师的礼物还没送出去，好害怕再也送不出去了。不想考虑那些让人难受的事情了，自闭ing…&lt;/p&gt;
+
+&lt;p&gt;#2
+老爸把相亲对象微信强制推我了，对方也太可怜了，遇到我这个烂人…她一开始聊天还不停夸我很厉害，读博很强…哎，我只能感到羞愧。&lt;/p&gt;
+
+&lt;p&gt;#3
+回顾了下以往的日记，真的是打脸大集合。我现在手游玩的依然很多，还是没办法迅速走出悲观情绪，事情依然做不好做不完…我到底在干啥呢。&lt;/p&gt;
+
+&lt;p&gt;#4
+最近做实验也不顺利，加了紫外灯依然污染物降解效率很差，运气也不是很好。我不想再去江宁了，要疯啦！！！！&lt;/p&gt;
+
+&lt;h1 id=&quot;二三年七月&quot;&gt;二三年七月&lt;/h1&gt;
+
+&lt;h2 id=&quot;7月3日&quot;&gt;7月3日&lt;/h2&gt;
+
+&lt;p&gt;最近情绪依然低迷，组会找了个借口不汇报了…我实在是不想做了。希望明天的我有所改变吧。但是…我还是希望自己的Blog里少点忧郁的东西，以后少写点情感类吧（除了特殊情况）
+#1&lt;/p&gt;
+
+&lt;p&gt;鬼灭之刃的打戏实在太好看啦，BGM与画面配合的也超棒！！！看完最后一集瞬间让我对前面的稀烂文戏失忆。真想跟朋友分享这些精致的打斗场景啊…但是我认识的熟悉的朋友里没一个能跟我聊这个的就是了。说到这个话题，突然想起一件很让人难受的事情。前几天和刚认识的女生聊天，她询问我的兴趣和是否喜欢出门。我回答我一般喜欢在家，不太喜欢出门，之后她就直接说：“你不会是二次元吧”。有一说一，事后回想起来，突然发现自己被轻易的贴上了标签，不喜欢出门=宅在家里=宅男=二次元，有种莫名其妙就受到了贬低的感觉。乐观点想想，说不定人家只是知道这个词随便用了下，不知道这个词的贬义成分罢了。而且我也没资格要求别人尊重他人的爱好就是了，因为我确实是阴沟里的老鼠捏。但是，那时候我的心情确实因此变差了许多，所以果然还是自己一个人比较好，不会因为话语伤害到别人，我暂时可以不用奢侈那么多了。（最后附上一张鬼灭的图吧）&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/006.jpg&quot; alt=&quot;鬼灭之刃锻刀篇&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;#2&lt;/p&gt;
+
+&lt;p&gt;最近把研究生同学送我的一本书看完了，《抑郁了，想去死一死》悬疑类。原本是想单独开个Blog来讲讲，但是还是觉得放日记里更随和点，学习教程啥的再开新Blog。好，然后我来发表下我读完这部作品的感想……以下感谢是片面的不客观的感想汇报，请勿当真…..以下涉及剧透，没看过这部作品不想被透的可以快速撤退…………………………&lt;/p&gt;
+
+&lt;p&gt;首先简单讲讲这书内容吧，主要分为两个大章。第一章为重金属中毒案件，讲了下虫草掺重金属卖给富人的现象；第二章是涉及笑面虎对一对父女的杀害。这两章都是主人公经历的案子，但是并没有什么直接联系，所以我单方面把第一章理解为作者的开胃菜，让读者跟着作者的思路解开案件真相。虽然第一章的案件没那么玄乎，最后读到真相也没有让人感觉过瘾或者茅塞顿开，但是开胃菜嘛，能理解。重点是第二章，本章剧情主要围绕一位叫GaGa的女孩展开，该女主的父亲在家中死亡，警方认定是因为喝酒后误食药物的意外事件。于是女孩为了了解真相（虽然一开始有为了钱的目的），找上主人公请求其帮助查案。当然，一开始主角也觉得是女孩的想法天真，毕竟警方已经把所有的线索都已经找到了，也排查了所有嫌疑人的作案可能性。但是，主人公在后续依次发现了事件的可疑之处，而且当时所有疑点都指向一家福利院的院长。当然，在调查过程中，女主与主人公关系越来越好，主人公开始把她当成第二个女儿来养，也给予她经济以及医疗上的帮助。后来，女主也开始独当一面，利用她小时候得来的奢侈经验，在服装业站稳了脚跟。（这之中跳过一大段情节）但是，当读者看到女主在主人公的帮助下从爱哭到独立而感到感动时，当剧中人物以为女主终于要走向光明时，“啪”作者这时候把刀发给了你。我们的GaGa在有一天突然割腕自杀了，当然这个情节之前是有铺垫的，比如女主有好几天连续不上班啥的，然后被心理医生鉴定为抑郁症的…但是最让人破防的是，最后作者分析，是福利院的院长派的一位女生，接近了女主，把一瓶副作用有导致抑郁的药包装为祛痘药推荐给女主，这才是女主自杀的真正原因。而女主老爸也极有可能被这位院长害死，比如在当晚打电话给喝醉酒的老爸，提醒他多吃药。这位院长在害死了女主父亲后且认出了女主后，赶尽杀绝，不择手段。好，以上就是主要内容，主人公在最后把这第二章故事讲给他亲女儿听，痛恨他自己没有救下GaGa，痛恨他没法通过这些说辞把院长定罪。&lt;/p&gt;
+
+&lt;p&gt;关于这本书，我确实被他的标题给吸引到了，读完后，确实有很多地方让人觉得逻辑有点牵强。第二章里，明明GaGa对主人公说会对那个女孩表示警惕，可还是吃了她推荐的药，药这玩意哪能乱吃。第一章内容有点让人犯困。最后，犯人没被绳之以法确实也让人有点恼火。但是我只能说作者成功了，他成功的塑造了个女儿形象。我一开始对GaGa这位主角是抱有厌恶的，她一开始的不尊重他人、蛮横不讲理，都让我觉得她是个要便当的角色。结果作者一步步塑造她的改变，让我这个读者都有种养女儿的感觉啦。特别是看到女儿赚钱赚的贼麻溜，我的天，我真是想当场去领个女儿养养，体会下真正当父亲的感觉啦（开个玩笑）。但是到后面，女儿被发现有抑郁症的时候，我这时候才发现女儿要被刀了，甚至有点不想往下看了。啊啊啊啊啊，我好不容易心动一次，你却让我输的XXXX（还是不玩烂梗了）。最后看到女儿自杀的消息，我也是准备好了的。但是！！！作者还放出了个线索，说女儿在自杀前还看着主人公的破案视频，安慰自己主人公作为神探一定会为自己爸爸讨回清白。我的天啊，真的破大防了，主人公真的是女主的第二个爸爸啊，到临死前都一直信赖主角…….我感觉我对这本书的评价因为GaGa一人上升了许多。呜呜呜。最后做个总结吧，读了很多悬疑作品的人估计对这本书不会很感冒，但是喜欢养女儿的可以看看第二章。….我为啥就喜欢推荐别人刀子呢。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/005.jpg&quot; alt=&quot;抑郁了，想去死一死&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;7月4日&quot;&gt;7月4日&lt;/h2&gt;
+
+&lt;p&gt;#1&lt;/p&gt;
+
+&lt;p&gt;今天尝试往Blog里加新东西，但是大部分都看不懂，没有HTML基础是这样的，毕竟我也不是电脑专业的，还是花时间学习下基础吧。&lt;/p&gt;
+
+&lt;h2 id=&quot;7月6日&quot;&gt;7月6日&lt;/h2&gt;
+
+&lt;p&gt;#1&lt;/p&gt;
+
+&lt;p&gt;难得这几天干了挺多事情的…今天帮老王装了新系统，解决了他电脑问题，嘿嘿，不愧是我。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/009.jpg&quot; alt=&quot;老王的新系统&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;#2&lt;/p&gt;
+
+&lt;p&gt;这几天重新用手柄通关了Celest的A面，只能说这个游戏对我的意义太大了，感谢能与你相逢捏，最后放两张我精心截的图。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/007.png&quot; alt=&quot;蔚蓝1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/008.png&quot; alt=&quot;蔚蓝2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;#3&lt;/p&gt;
+
+&lt;p&gt;书接上文，今晚我试了下直播Celest，一个观众都没有，呜呜呜呜…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/010.png&quot; alt=&quot;第一次直播&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;7月7日&quot;&gt;7月7日&lt;/h2&gt;
+
+&lt;p&gt;#1&lt;/p&gt;
+
+&lt;p&gt;今天中午老师把我拉到了连云港，然后晚上凌晨我把老师拉回了南京…但是，冷静想下吧，LLGY，虽然从结局上来看，你成功开到南京了。但是万一出什么意外了，你担当的起吗。以后不要再做多余的事情了，多点冷静的思考吧。哎~&lt;/p&gt;
+
+&lt;h2 id=&quot;7月9日&quot;&gt;7月9日&lt;/h2&gt;
+
+&lt;p&gt;这几天心好累，我要开始干正事了，活太多了…之后可能不会再更新Blog的功能了，等以后吧…明天估计又要去江宁做实验…想死。&lt;/p&gt;
+
+&lt;h2 id=&quot;7月10日&quot;&gt;7月10日&lt;/h2&gt;
+
+&lt;p&gt;去江宁的路上，身上沾了两只毛毛虫，这将会是我今年遭遇的最恐怖的事情。今天买到了茶百道与未定事件簿的联动贴纸…还行吧。希望这个暑假能回去…&lt;/p&gt;
+
+&lt;h2 id=&quot;7月15日&quot;&gt;7月15日&lt;/h2&gt;
+
+&lt;p&gt;举报了哥，你什么都没做错，全怪我那令人作呕的嫉妒和卑微的自尊心，看见你的文字我完全破防了，我直接丢盔弃甲了，看见你这话的那一秒，我满头大汗，浑身发冷，亿郁症瞬间发作了，生活仿佛没了颜色，像是被抓住尾巴的赛亚人，带着海楼石的能力者，抽离尾兽的人柱力，像是没了光的奥特曼，彻底断绝了生的希望。我几乎都快羡慕得疯了，倒在床上蒙住被子就开始抱着枕头尖叫流泪，嘴里一边喊着卧槽卧槽，一边又忍着，我边发边哭，打字的手都是抖的，后来我的手抖得越来越厉害，从心头涌起的思想、情怀和梦想，这份歆羡和悔恨交织在一起，我的笑还挂在脸上，可是眼泪一下子就掉下来了。求你了别发了，我生活再难再穷我都不会觉得难过。只有你发这种话来破我防的时候，我的心里像被刀割一样的痛。打着字眼泪就忍不住的往下流 我确乎是破防了，破个人之大防了，我这个防破得彻彻底底，我仿佛是被冲上海滩的咸鱼，是失去了任何反击的能力的败狗，直接精神错乱，求求你别发了，我真的哭了，因为你的三言两语我真的破防了。我本来就是网络新手，在网络上不懂装懂，手机屏幕面前的我，眼泪不由自主的流了下来。过去我扮演的高姿态，全都成为了笑话，成了一只供人取笑的败狗，我不想再玩网了😭😭😭😭😭&lt;/p&gt;
+
+&lt;h2 id=&quot;7月17日&quot;&gt;7月17日&lt;/h2&gt;
+
+&lt;p&gt;今天去医院做了下肝功能检测和真菌镜检，感谢自己身体依然很好（即使熬了这么多夜）。从今天开始吃盐酸特比萘芬片了，希望能治好捏。&lt;/p&gt;
+
+&lt;h2 id=&quot;7月22日&quot;&gt;7月22日&lt;/h2&gt;
+
+&lt;p&gt;好久没写日记了，最近一直没在干活…觉得自己对未来的期望已经消耗殆尽了，不想做实验、不想玩游戏、不想看文献…我感觉自己并没有抑郁症，可是却跟抑郁症患者一样，失去了对未来的憧憬和渴望，虽然至少不会去自杀吧…人类今天也在绝赞衰退中。&lt;/p&gt;
+
+&lt;p&gt;（话说回来，我定期写Blog这种行为，是不是类似cross channel和非自然九人组里的男主啊，一遍一遍发出说不定别人听不到的声音，说不定我是希望别人能看到这几篇文章的吧，然后,,,这个世界上也会出现关心我的人吧。不过，目前估计没有吧，毕竟有谁会看一个阴暗的人的Blog并坚持看到现在的呢）&lt;/p&gt;
+
+&lt;h2 id=&quot;7月26日&quot;&gt;7月26日&lt;/h2&gt;
+
+&lt;p&gt;今天去机场接机，来者是位来自法国的教授…飞机还延误了6小时…深切感到自己口语能力的匮乏。从今天起开始赶ppt和实验。期待方舟夏活的羊。隽恒酒店的饭也不好吃嘛。看完了来自新世界…emm，其实个人不是太感冒。瓶子君152因为骂人被封了7天哈哈哈哈哈。最近好像有关于“芭比”这个电影的节奏，不过不是很感兴趣了。&lt;/p&gt;
+
+&lt;h2 id=&quot;7月31日&quot;&gt;7月31日&lt;/h2&gt;
+
+&lt;p&gt;今天是我生日，我收到了朋友的洗护套装，，，感动，没想到我这个年纪还能收到礼物。最近跟赵博吃了好多饭，很满足,,,明天5点多就要起床去赶飞机了。希望这次旅行令人满意。&lt;/p&gt;
+
+&lt;h1 id=&quot;二三年八月&quot;&gt;二三年八月&lt;/h1&gt;
+
+&lt;p&gt;好，各位满心期待的明纳桑，8月份的日记开始了，请原谅我漏了好几天日记的行为，毕竟这几天发生了太多事情，晚上只想躺在床上睡觉。唔，大家是不是觉得我的文字突然变得如此滑稽又生疏呢，是不是突然好奇这几天发生了什么事情呢…其实这几天也没发生啥，以我整个人生尺度中来看，这几天的经历依然是可以忽略不计。也许我说这话的时候有点在气头上，但相信我，朋友，不对你身边的人与事抱有任何期待绝对是件正确的事情。不要把他人的过错当做自己的疏漏，不要把他人给予你的重担当做自己的责任，不要把他人对你的希望以及期待当做你必须完成的使命。这就是我这几天学到的现实。虽然有人会指责我没有责任感，对他人不负责，但是…大家都不是小孩子了，谁会单纯的为他人着想。那些乐于无偿帮助他人的人迟早会因为尝到地位与财富的甜头，从而迷失原本的动力。当然，日记不是给我发泄负面情感的，日记应当是记录下我的生活以及情绪波动的工具，因此，现在记录下日记的我并没有任何错误。也许我现在中二的语句会让未来的我贻笑大方吧…不，坚决不会。&lt;/p&gt;
+
+&lt;p&gt;#SP&lt;/p&gt;
+
+&lt;p&gt;❤ 最起码能不能让我当面向你道歉呢？❤
+❤ 我没想到事情会变成那样 ❤
+❤ 我也吓了一跳… ❤
+❤ 所以希望能听我好好向你说明清楚 ❤
+❤ 要是事先知道我就阻止了 ❤
+❤ 曲目都结束了，她们却突然开始演奏 ❤
+❤ 对不起，没能阻止她们… ❤
+❤ 小祥，你一定很生气吧… ❤
+❤ 但请你相信我 ❤
+❤ 我们原本真的没有要演奏春日影 ❤
+❤ 真的对不起 ❤
+❤ 我保证我不会再擅自演奏那首歌了 ❤
+❤ 我也会要其他人以后绝对不要再演奏那首歌的 ❤
+❤ 可以稍微谈谈吗？ ❤
+❤ 我真的很珍惜CRYCHIC ❤
+❤ 所以春日影擅自被人拿去演奏 ❤
+❤ 我也和小祥一样难受 ❤
+❤ 希望你能了解我的心情 ❤
+❤ 拜托了，约在哪里我都去 ❤
+❤ 我不得不组乐队的理由 ❤
+❤ 也会好好和你说清楚的 ❤
+❤ 只要你愿意当面听我说，你一定能理解的 ❤
+❤ 我是站着小祥你那边的 ❤
+❤ 我想见你 ❤&lt;/p&gt;
+
+&lt;h2 id=&quot;8月1日&quot;&gt;8月1日&lt;/h2&gt;
+
+&lt;p&gt;这一天，我早早的起了床（5点40分），赶往机场飞往湛江，舅舅来机场接我，谢谢捏，我中途想起来荀shu的生日快到了，在机场买了180的星巴克杯子，我在脑海中不断的想象着以下场面：哇，哥！你竟然还记得我的生日！我太爱你了！哥！。然后我妹妹亲自跟我说明天是她生日…我脑海中的小剧场直接崩塌了，原谅我是个卑微的妹控吧…晚上，到舅舅家了，妹妹老样子，舅舅很忙，他儿子很聪明，就是不喜欢做作业，婆婆很开心…这就是我第一天来湛江的初体验。&lt;/p&gt;
+
+&lt;h2 id=&quot;8月2日&quot;&gt;8月2日&lt;/h2&gt;
+
+&lt;p&gt;妹妹今天要举办生日party。上午，我和妹妹在那边肝手游，下午，我则开车带她和她同学去商场…中间妹妹吐槽了我开车技术，我瞬间不开心了，毕竟我是个该死的妹控，被自己爱的妹妹瞧不起，天哪，可太伤心了。根本原因还是湛江地太绕了，加上第一次开舅舅车把握不住加油的力度…之后下午加晚上都在商场闲逛，等待妹妹结束party带她回去。但是21点的时候，妹妹跟我说朋友家长带她回去了…哎，仔细想想，这也是假期难受的开始。。。&lt;/p&gt;
+
+&lt;h2 id=&quot;8月3日&quot;&gt;8月3日&lt;/h2&gt;
+
+&lt;p&gt;今天上午陪婆婆买东西，下午肝手游，没啥好说的。（再次感觉到弟弟的可怕）&lt;/p&gt;
+
+&lt;h2 id=&quot;8月4日&quot;&gt;8月4日&lt;/h2&gt;
+
+&lt;p&gt;最难受的一天来了…昨天，舅舅让我上午送几位“美女”出去玩，他骗我说只需要花上午的时间，因此下午我约了妹妹出去玩…结果根本不是上午。我这天6点30被舅舅叫醒，昏昏沉沉的去接那几位舅舅的朋友，到了目的地还发现公园没开门…之后陪她们去了各种怪地方…我受不了了…最后她们去的南极第一庄…笑死，她们想看落日，结果阴天根本看不到…最后，一行人在车上睡的挺舒服的，我则走小路加高速急速开回湛江。为了完成与妹妹的约定，晚上没吃饭陪她去看电影（巨齿鲨2），电影挺好看的，但是送她回家时，我真的是再也没力气开车了。晚上回家睡觉的时候，满脑子放送撞车的场面…我害怕开车了…更令人生气的是，妹妹跟我说她问舅舅（她爸）为啥跟我说只有一个上午，舅舅说：不骗骗他能出去吗。对不起，我受不了了，再也不来你们家了，这样也不用给您们添麻烦了，给你当工具人就算了，还骗人是吧。谢谢您，您这个风水宝地就不来打扰了….&lt;/p&gt;
+
+&lt;h2 id=&quot;8月5日&quot;&gt;8月5日&lt;/h2&gt;
+
+&lt;p&gt;昨晚是直接昏睡在床上的，但我定了闹钟和机票，8点多早早离开他家，再见！事后，老妈批评我说走的时候不打招呼不礼貌，确实，我也觉得不礼貌，但谁叫我在气头上呢。我并不觉得这次湛江之行是休假，8月4号差点把我搞得回不来…希望下次我可别对任何人这么信任了。&lt;/p&gt;
+
+&lt;h2 id=&quot;8月6日&quot;&gt;8月6日&lt;/h2&gt;
+
+&lt;p&gt;晚上回学校，我的假期正式结束，该收收心了…收个屁，继续玩，管老师怎么批评我呢，反正我一肚子火…&lt;/p&gt;
+
+&lt;h2 id=&quot;8月7日&quot;&gt;8月7日&lt;/h2&gt;
+
+&lt;p&gt;大家都还在卷，卷死了。今天办公室的冰箱终于清了…今天运气好，修好了实验室的氙灯套装，但也不能算修，只是操作了几个按钮，有点得意了23333。但是不希望得知此事的老板对我有什么期待，认为我啥都会修。&lt;/p&gt;
+
+&lt;h2 id=&quot;8月9日&quot;&gt;8月9日&lt;/h2&gt;
+
+&lt;p&gt;不嫉妒比自己优秀的人是种优秀的品质吗,,,不管怎么样，我都不太能做到。&lt;/p&gt;
+
+&lt;p&gt;“日常”摘抄：&lt;/p&gt;
+
+&lt;p&gt;“没有人畏惧死亡，而是怕与死相连的生，如果不用受苦就能死掉的话，便没有人畏惧死亡了吧；死是本来的状态，而生是自体的一种病症，病症痊愈之时，生命也就消亡了；想让别人来干涉我的人生，这不就是爱这个词的含义吗？没有谁是按照自己的意愿来到这个世界上的，因别人干涉而死去，不就是不因自己意愿降世的一种本能欲求吗”&lt;/p&gt;
+
+&lt;h2 id=&quot;8月13日&quot;&gt;8月13日&lt;/h2&gt;
+
+&lt;p&gt;最近一直在改文章…害，希望我能继续学下去；最近买了喜茶的原神联动品…死宅的钱真好挣；最近迷上了MyGo乐队，好想自己去一次现场Live啊。说到Live，昨天是MyGo的5th Live。真好啊，真羡慕啊；最近也是原神的Fes，我去不了，但是朋友的朋友去了…真好啊真好啊；开始努力学习及省钱，为了早日去日本玩…希望我这次能坚持久点。&lt;/p&gt;
+
+&lt;h2 id=&quot;8月18日&quot;&gt;8月18日&lt;/h2&gt;
+
+&lt;p&gt;BangDream MyGo爆辣，真是太好看啦，希望每个读到这个帖子的人，都能去看看这玩意，呜呜呜，连我这种人都被他的第十集感动到了。&lt;/p&gt;
+
+&lt;h2 id=&quot;8月22日&quot;&gt;8月22日&lt;/h2&gt;
+
+&lt;p&gt;我的拖延症还是正常的犯了，离死线越来越近了，什么时候我才能真正的开始用全力干活呢…最近超级小桀的瓜好多，实在吃不完了，一开始只是电脑奸商，但后面甚至与犯罪同伙有联系，只能说互联网真神奇，啥事情都可以被挖出来；泛哥哥今天打完了法环的女武神，好厉害；期待周四的MyGo11话；又通宵熬夜了，身体好累；最后放几张MyGo的同人图吧。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/011.jpg&quot; alt=&quot;MyGo同人1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/012.jpg&quot; alt=&quot;MyGo同人2&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;8月25日&quot;&gt;8月25日&lt;/h2&gt;
+
+&lt;p&gt;今天是重点研发进展研讨会…很尴尬的一次会议，好想去死，做的实验不够，准备不足，感觉被其他学校的老师无情嘲讽，不过也挺正常的吧，哎；&lt;/p&gt;
+
+&lt;p&gt;我看我日记没提《奥伯拉丁的回归》，有点可惜，今天补下，这个游戏是一种解谜类游戏，是8月初通过的，我觉得是个很好的游戏。你作为主角，需要用一个可以死亡回溯的钟表来了解死者生前的经历，进而来推理船上发生的事情。真的是很有新意的玩法，故事也讲得很全。如果我有儿子，估计也会推荐他去玩把。在这里诚心推荐给喜欢玩解谜类游戏的玩家。&lt;/p&gt;
+
+&lt;p&gt;MYGO11集，太好看了，原本以为Live后的日常回会很平淡，结果没想到也这么乐，我越来越喜欢soyo女士了！&lt;/p&gt;
+
+&lt;p&gt;不知不觉8月要过去了，我这个月又干了啥呢，不知道，很绝望…&lt;/p&gt;
+
+&lt;p&gt;最近喜欢看一部剧，叫活着（日剧），好像是V开头的，不记得了…我觉得很好看，甚至可以把这部剧当做龙傲天爽文看…我可太喜欢龙傲天了。&lt;/p&gt;
+
+&lt;p&gt;最近终于把ICPB的文章修改好了，我拖了好久了，感谢我的张老师对我不离不弃…真的很对不起她…&lt;/p&gt;
+
+&lt;h2 id=&quot;8月26日&quot;&gt;8月26日&lt;/h2&gt;
+
+&lt;p&gt;今天与赵博去吃海鲜自助，真的好饱啊；今天明日方舟一天内抽到叔叔和鸿雪，我的天，也太欧了吧；&lt;/p&gt;
+
+&lt;h2 id=&quot;8月28日&quot;&gt;8月28日&lt;/h2&gt;
+
+&lt;p&gt;还没想好课题怎么弄，好难啊，想退学；今天和赵博吃必胜客，买一送一披萨，只能说实在吃不下了，今天糖分摄取量有点过高了。&lt;/p&gt;
+
+&lt;h2 id=&quot;8月30日&quot;&gt;8月30日&lt;/h2&gt;
+
+&lt;p&gt;明日方舟最近抽到好多6星，我也是欧皇了，从今天起正式脱非入欧。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/013.png&quot; alt=&quot;欧皇的证明1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/014.png&quot; alt=&quot;欧皇的证明2&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;8月31日&quot;&gt;8月31日&lt;/h2&gt;
+
+&lt;p&gt;书籍预选：kirara杂志、沉默的螺旋、被讨厌的勇气、世界观、乌合之众、人类简史社会性动物、进化心理学、幸福的方法、沉默的螺旋、被讨厌的勇气、态度改变与社会影响、浪漫的谎言与小说的真实舆论、中国近代史1600-2000、中国的奋斗&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Daily/015.webp&quot; alt=&quot;同人图&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 25 May 2023 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/daily/Jotting-1.html</link>
+        <guid isPermaLink="true">http://localhost:4000/daily/Jotting-1.html</guid>
+        
+        <category>Daily</category>
+        
+        
+        <category>Daily</category>
+        
+      </item>
+    
+      <item>
+        <title>Jekyll学习</title>
+        <description>&lt;p&gt;进行个&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Jekyll&lt;/code&gt;的学~呜呜呜，搞成功后我真的是要泪崩了，为了弄这玩意多次学到凌晨6点，但感谢我的运气，感谢我的耐心。那么废话不多说，赶快把这次学到的一切以语言形式记录下来把~&lt;/p&gt;
+
+&lt;h1 id=&quot;1-软件介绍当然是复制别人的啦&quot;&gt;1. 软件介绍（&lt;a href=&quot;http://www.noobyard.com/article/p-nwnqarhl-gs.html&quot;&gt;当然是复制别人的啦&lt;/a&gt;）&lt;/h1&gt;
+
+&lt;p&gt;Jekyll是一个简单的，博客感知的静态站点生成器。&lt;/p&gt;
+
+&lt;p&gt;你将内容建立为文本文件（Markdown），并将其放到到文件夹中。而后，使用Liquid-enhanced HTML模板构建网站。Jekyll自动将内容和模板联系在一块儿，生成彻底由静态资源组成的网站，它适合上传到任何服务器。&lt;/p&gt;
+
+&lt;p&gt;Jekyll刚好是GitHub Pages的引擎，所以你能够在GitHub的服务器上免费托管项目的Jekyll页面/博客/网站。&lt;/p&gt;
+
+&lt;h2 id=&quot;11-github--jekyll-工作机制&quot;&gt;1.1 GitHub + Jekyll 工作机制&lt;/h2&gt;
+
+&lt;p&gt;简单地说，你在 GitHub 上有一个账号，名为&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;username&lt;/code&gt;(任意)， 有一个项目，名为&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;username.github.io&lt;/code&gt;(固定格式，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;username&lt;/code&gt;与账号名一致)， 项目分支名为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;master&lt;/code&gt;(你可以自己改)。&lt;/p&gt;
+
+&lt;p&gt;这样，当你访问&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;http://username.github.io/&lt;/code&gt;时，GitHub 会使用&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Jekyll&lt;/code&gt;解析用户 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;username&lt;/code&gt;名下的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;username.github.io&lt;/code&gt;项目中，分支为&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;master&lt;/code&gt;的源代码，为你构建一个静态网站，并将生成的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;index.html&lt;/code&gt;展示给你。&lt;/p&gt;
+
+&lt;p&gt;如果要搭建自己的博客，你可以选择建立名为&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;username.github.io&lt;/code&gt;的项目， 在master分支下存放网站源代码，也可以选择建立名为&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;blog&lt;/code&gt;的项目，在&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gh-pages&lt;/code&gt;分支下存放网站源代码。（推荐前者）&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.cnblogs.com/Eaglery/p/5126279.html&quot;&gt;具体工作原理可以看这个&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;2-总体流程&quot;&gt;2. 总体流程&lt;/h1&gt;
+
+&lt;h2 id=&quot;21-各软件的安装和升级msys2的安装&quot;&gt;2.1 各软件的安装和升级msys2的安装&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-msys2_install&quot;&gt;ridk install（该步之前请上官网下载安装软件，之后cmd自动安装）
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-install&quot;&gt;gem install jekyll bundler
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-jekyll_update&quot;&gt;gem update jekyll
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;24-jekyll相关指令&quot;&gt;2.4 jekyll相关指令&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-jekyll&quot;&gt;jekyll new XXX（该步是建立一个新的Jekyll站点，创建指令需要管理员下的CMD，不然各种错误）
+cd XXX （进入刚才创建的目录）
+bundle install（该步为安装Gefile内需要组件）
+bundle update
+bundle exec jekyll serve（开始构建本地网址）（如果发现4000被占用，可以[参考这个](https://blog.csdn.net/weixin_30666401/article/details/98372840)）
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&quot;language-jekyll_theme&quot;&gt;（主题下载网址：https://rubygems.org/search?query=jekyll-theme）
+（参考使用方法：将github上的文件全部下载覆盖自己的blog文件夹，之后再次bundle install）
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;25-写blog&quot;&gt;2.5 写Blog&lt;/h2&gt;
+
+&lt;p&gt;进入_post目录，开始你的创作吧，注意文件的格式必须为YEAR-MONTH-DAY-title.MARKUP，如：2019-02-13-blog.md。&lt;/p&gt;
+
+&lt;p&gt;为了后续编辑方便，这边推荐复制一下你Blog文件夹，以后你编辑内容时使用非上传文件夹（旧文件夹）。需要上传时复制一下整体，在新文件夹里把site文件夹里的文件全部拷贝到新文件夹里，上传步骤中上传新文件夹就不会出现Blog合集无法显示的问题了。&lt;/p&gt;
+
+&lt;h2 id=&quot;26-数据上传github全程必须有梯子或者改host&quot;&gt;2.6 数据上传github（全程必须有梯子，或者改host）&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-git_upload&quot;&gt;git init
+git checkout -b main
+git add .
+git commit -m &quot;XX&quot; （以XX名字上传github）
+git remote add origin https://github.com/LLGY0/LLGY0.github.io.git
+git push origin main （正式开始上传）
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&quot;language-other_git_deploy_option&quot;&gt;    （这一部分实战不需要，放在这是为了参考）
+    git checkout source
+    jekyll build
+    git add -A
+    git commit -m &quot;update source&quot;
+    cp -r _site/ /tmp/
+    git checkout master
+    rm -r ./*
+    cp -r /tmp/_site/* ./
+    git add -A
+    git commit -m &quot;deploy blog&quot;
+    git push origin master
+    git checkout source
+    echo &quot;deploy succeed&quot;
+    git push origin source
+    echo &quot;push source&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;26-运行查看blog&quot;&gt;2.6 运行查看Blog&lt;/h2&gt;
+&lt;p&gt;直接访问项目名(&lt;username&gt;.github.io)就可以看你blog了，如：XXX.github.io&lt;/username&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;27-自定义域名要花钱的&quot;&gt;2.7 自定义域名（要花钱的）&lt;/h2&gt;
+&lt;p&gt;自定义域名需要有自己的域名，没有可以去阿里云注册购买个心意的域名；进入域名配置中心，配置域名解析；进入github项目设置，设置自己的域名并保存，开启Enforce HTTPS，就完成了自定义域名设置&lt;/p&gt;
+
+&lt;h1 id=&quot;3-其他事项&quot;&gt;3. 其他事项&lt;/h1&gt;
+
+&lt;h2 id=&quot;31-网址初始附加&quot;&gt;3.1 网址初始附加&lt;/h2&gt;
+
+&lt;h3 id=&quot;311-添加超链接文字&quot;&gt;3.1.1 添加超链接文字&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-Code&quot;&gt;[超链接文字→](https://github.com/kaeyleo/jekyll-theme-H2O)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/kaeyleo/jekyll-theme-H2O&quot;&gt;超链接文字→&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;312-插图片&quot;&gt;3.1.2 插图片&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-Code&quot;&gt;![图片名](http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-realhome.jpg)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&quot;http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-realhome.jpg&quot; alt=&quot;图片名&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;313-高亮文字&quot;&gt;3.1.3 高亮文字&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-Code&quot;&gt;`XXXXX`
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;XXXXX&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;314-代码&quot;&gt;3.1.4 代码&lt;/h3&gt;
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gt&quot;&gt;&amp;gt; ```markdown&lt;/span&gt;
+&lt;span class=&quot;gt&quot;&gt;&amp;gt; XXXX&lt;/span&gt;
+&lt;span class=&quot;gt&quot;&gt;&amp;gt; ```&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;315-变成原点&quot;&gt;3.1.5 变成原点&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-Code&quot;&gt;- X
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+  &lt;li&gt;X&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;316-前有竖线&quot;&gt;3.1.6 前有竖线&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-Code&quot;&gt; &amp;gt; A
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;A&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;317-video-test&quot;&gt;3.1.7 Video Test&lt;/h3&gt;
+&lt;p&gt;（这一部分仍需解决视频自动播放问题，如果用沙盒会导致下面的文字不见）&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-Code&quot;&gt;&amp;lt;iframe id=&quot;video&quot; src=&quot;https://www.bilibili.com/video/BV1qs41157ZZ&quot; width=&quot;100%&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;allowfullscreen&quot; sandbox=&quot;&quot;&amp;gt;&amp;lt;/iframe&amp;gt;
+&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;document.getElementById(&quot;video&quot;).style.height=document.getElementById(&quot;video&quot;).scr
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;318-加粗&quot;&gt;3.1.8 加粗&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-Code&quot;&gt;**A** 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;A&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;319-公式&quot;&gt;3.1.9 公式&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;这是一个不&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;align&lt;/code&gt;的公式&lt;/strong&gt;：&lt;/p&gt;
+
+\[\forall \alpha \in A, \quad a \cdot b = 0\]
+
+&lt;p&gt;&lt;strong&gt;这是一个&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;align&lt;/code&gt;的公式&lt;/strong&gt;：&lt;/p&gt;
+
+\[\begin{align}
+    \Phi(0,x) = \max_{u \in \mathcal{D}} \bigg[
+        \mathbb{E} &amp;amp; \Phi\left(1, 
+        x + \int_0^1 \sigma^2(s) \, \zeta(s) \, u_s \, ds
+        + \int_0^1 \sigma(s) \, dW_s
+    \right) \\
+        &amp;amp;- \frac{1}{2} \int_0^1 \sigma^2(s) \, \zeta(s) \,
+        \mathbb{E} u_s^2  \, ds
+    \bigg].
+\end{align}\]
+
+&lt;h3 id=&quot;3110-空2格&quot;&gt;3.1.10 空2格&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-Code&quot;&gt;&amp;amp;emsp;&amp;amp;emsp;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;  &lt;/p&gt;
+
+&lt;h3 id=&quot;3111-提示框&quot;&gt;3.1.11 提示框&lt;/h3&gt;
+&lt;div class=&quot;premonition note&quot;&gt; &lt;div class=&quot;header&quot;&gt; &lt;svg class=&quot;icon note&quot; aria-hidden=&quot;true&quot;&gt; &lt;use xlink:href=&quot;#icon-note&quot;&gt;&lt;/use&gt; &lt;/svg&gt; &lt;div class=&quot;title&quot;&gt; Note &lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;content&quot;&gt; &lt;p&gt;The body of the note goes here. Premonition allows you to write any &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Markdown&lt;/code&gt; inside the block.&lt;/p&gt;
+
+
+
+ &lt;/div&gt; &lt;/div&gt;
+&lt;div class=&quot;premonition info&quot;&gt; &lt;div class=&quot;header&quot;&gt; &lt;svg class=&quot;icon info&quot; aria-hidden=&quot;true&quot;&gt; &lt;use xlink:href=&quot;#icon-info&quot;&gt;&lt;/use&gt; &lt;/svg&gt; &lt;div class=&quot;title&quot;&gt; 小提示 &lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;content&quot;&gt; &lt;p&gt;The body of the info goes here. Premonition allows you to write any &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Markdown&lt;/code&gt; inside the block.&lt;/p&gt;
+
+
+
+ &lt;/div&gt; &lt;/div&gt;
+&lt;div class=&quot;premonition warning&quot;&gt; &lt;div class=&quot;header&quot;&gt; &lt;svg class=&quot;icon warning&quot; aria-hidden=&quot;true&quot;&gt; &lt;use xlink:href=&quot;#icon-warning&quot;&gt;&lt;/use&gt; &lt;/svg&gt; &lt;div class=&quot;title&quot;&gt; Warning &lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;content&quot;&gt; &lt;p&gt;The body of the warning goes here. Premonition allows you to write any &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Markdown&lt;/code&gt; inside the block.&lt;/p&gt;
+
+
+
+ &lt;/div&gt; &lt;/div&gt;
+&lt;div class=&quot;premonition error&quot;&gt; &lt;div class=&quot;header&quot;&gt; &lt;svg class=&quot;icon error&quot; aria-hidden=&quot;true&quot;&gt; &lt;use xlink:href=&quot;#icon-error&quot;&gt;&lt;/use&gt; &lt;/svg&gt; &lt;div class=&quot;title&quot;&gt; Error &lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;content&quot;&gt; &lt;p&gt;The body of the error goes here. Premonition allows you to write any &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Markdown&lt;/code&gt; inside the block.&lt;/p&gt;
+
+
+
+ &lt;/div&gt; &lt;/div&gt;
+&lt;div class=&quot;premonition citation&quot;&gt; &lt;div class=&quot;header&quot;&gt; &lt;svg class=&quot;icon citation&quot; aria-hidden=&quot;true&quot;&gt; &lt;use xlink:href=&quot;#icon-citation&quot;&gt;&lt;/use&gt; &lt;/svg&gt; &lt;/div&gt; &lt;div class=&quot;content&quot;&gt; &lt;p&gt;To be or not to be is a question.&lt;/p&gt;
+
+
+
+ &lt;/div&gt; &lt;div class=&quot;ref&quot;&gt; ------ 莎士比亚 &lt;/div&gt; &lt;/div&gt;
+&lt;h3 id=&quot;3112-mermaid画&quot;&gt;3.1.12 Mermaid画&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-mermaid&quot;&gt;graph TD;
+    A--&amp;gt;B;
+    A--&amp;gt;C;
+    B--&amp;gt;D;
+    C--&amp;gt;D;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-mermaid2&quot;&gt;    graph TD;
+    A--&amp;gt;B;
+    A--&amp;gt;C;
+    B--&amp;gt;D;
+    C--&amp;gt;D;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-mermaid2&quot;&gt;    gantt
+      title A Gantt Diagram
+      dateFormat x
+      axisFormat %L
+      section Section
+      A task           :a1, 0, 30ms
+      Another task     :after a1, 20ms
+      section Another
+      Another another task      :b1, 20, 12ms
+      Another another another task     :after b1, 24ms
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-mermaid2&quot;&gt;    gantt
+    dateFormat  YYYY-MM-DD
+    title       Adding GANTT diagram functionality to mermaid
+    excludes    weekends
+    %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week (&quot;sunday&quot;) or &quot;weekends&quot;, but not the word &quot;weekdays&quot;.)
+
+    section A section
+    Completed task            :done,    des1, 2014-01-06,2014-01-08
+    Active task               :active,  des2, 2014-01-09, 3d
+    Future task               :         des3, after des2, 5d
+    Future task2              :         des4, after des3, 5d
+
+    section Critical tasks
+    Completed task in the critical line :crit, done, 2014-01-06,24h
+    Implement parser and jison          :crit, done, after des1, 2d
+    Create tests for parser             :crit, active, 3d
+    Future task in critical line        :crit, 5d
+    Create tests for renderer           :2d
+    Add to mermaid                      :1d
+    Functionality added                 :milestone, 2014-01-25, 0d
+
+    section Documentation
+    Describe gantt syntax               :active, a1, after des1, 3d
+    Add gantt diagram to demo page      :after a1  , 20h
+    Add another diagram to demo page    :doc1, after a1  , 48h
+
+    section Last section
+    Describe gantt syntax               :after doc1, 3d
+    Add gantt diagram to demo page      :20h
+    Add another diagram to demo page    :48h
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;3113-其他&quot;&gt;3.1.13 其他&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-Code&quot;&gt;[pdf名字](https://用户名.github.io/....pdf)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&quot;https://用户名.github.io/....pdf&quot;&gt;pdf名字&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;32-注意事项&quot;&gt;3.2 注意事项&lt;/h2&gt;
+
+&lt;h3 id=&quot;321-事项1&quot;&gt;3.2.1 事项1&lt;/h3&gt;
+&lt;p&gt;注意git的时候千万不能用&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gh-pages&lt;/code&gt;（不然在github生成网站时会出错，错误提示：&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Action failed with &quot;You deploy from gh-pages to gh-pages；This operation is prohibited to protect your contents&lt;/code&gt;）&lt;/p&gt;
+
+&lt;h3 id=&quot;322-事项2&quot;&gt;3.2.2 事项2&lt;/h3&gt;
+&lt;p&gt;命名github的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;repository&lt;/code&gt;时，命名直接用&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;用户名+.github.io&lt;/code&gt;，这样设置用户文件夹里的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;时，就不用改&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;baseurl&lt;/code&gt;了。（如果改baseurl，很容易导致输入代码-jekyll serve时出错，出错代码：&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sw not found&lt;/code&gt;）&lt;/p&gt;
+
+&lt;h3 id=&quot;323-事项3&quot;&gt;3.2.3 事项3&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/pxyyoona/article/details/123150326&quot;&gt;关于&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;中&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;baseurl&lt;/code&gt;的介绍&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;324-事项4&quot;&gt;3.2.4 事项4&lt;/h3&gt;
+&lt;p&gt;上传时出现&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;The requested URL returned error: 403&lt;/code&gt;的解决方法
+&lt;a href=&quot;https://blog.csdn.net/weixin_45844049/article/details/123733065&quot;&gt;链接1&lt;/a&gt;
+&lt;a href=&quot;https://blog.csdn.net/qq_40226073/article/details/119801341&quot;&gt;链接2&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;325-事项5&quot;&gt;3.2.5 事项5&lt;/h3&gt;
+&lt;p&gt;.gitignore文件有可能将_site文件添加为忽略文件，以至于后续操作将该文件忽略，从而无法上传至远程仓库的问题。_site文件以及.sass-cache文件都不能被忽略。另一方面，site里面的文件内容需要上传到github来使重要元件显现。
+&lt;a href=&quot;https://blog.csdn.net/qq_43328313/article/details/124066785&quot;&gt;链接1&lt;/a&gt;
+&lt;a href=&quot;https://blog.csdn.net/qq_56914146/article/details/128994392&quot;&gt;链接2&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 24 May 2023 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/study/Jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/study/Jekyll.html</guid>
+        
+        <category>Study</category>
+        
+        
+        <category>Study</category>
+        
+      </item>
+    
+  </channel>
+</rss>
