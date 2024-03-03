@@ -1,12 +1,6 @@
 [
   
     {
-      "title"    : "Jotting#3",
-      "tags"     : "Daily",
-      "url"      : "/daily/Jotting-3.html"
-    } ,
-  
-    {
       "title"    : "读书笔记",
       "tags"     : "Study",
       "url"      : "/study/Reading.html"
@@ -16,12 +10,6 @@
       "title"    : "MyGO专题",
       "tags"     : "Daily",
       "url"      : "/daily/MyGO%E4%B8%93%E9%A2%98.html"
-    } ,
-  
-    {
-      "title"    : "Jotting#2",
-      "tags"     : "Daily",
-      "url"      : "/daily/Jotting-2.html"
     } ,
   
     {
@@ -49,21 +37,9 @@
     } ,
   
     {
-      "title"    : "Jotting#1",
-      "tags"     : "Daily",
-      "url"      : "/daily/Jotting-1.html"
-    } ,
-  
-    {
       "title"    : "Jekyll学习",
       "tags"     : "Study",
       "url"      : "/study/Jekyll.html"
-    } ,
-  
-    {
-      "title"    : "第一次的POST",
-      "tags"     : "Daily",
-      "url"      : "/daily/First_post.html"
     } 
   
 ]
