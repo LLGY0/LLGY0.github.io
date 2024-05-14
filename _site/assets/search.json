@@ -43,9 +43,9 @@
     } ,
   
     {
-      "title"    : "第一次的POST",
+      "title"    : "Daily_Life",
       "tags"     : "Daily",
-      "url"      : "/daily/First_Post_And_Daily_Life.html"
+      "url"      : "/daily/Daily_Life.html"
     } 
   
 ]

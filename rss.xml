@@ -5,8 +5,8 @@
     <description>个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 12 May 2024 17:51:25 +0800</pubDate>
-    <lastBuildDate>Sun, 12 May 2024 17:51:25 +0800</lastBuildDate>
+    <pubDate>Tue, 14 May 2024 12:45:15 +0800</pubDate>
+    <lastBuildDate>Tue, 14 May 2024 12:45:15 +0800</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -848,7 +848,7 @@ git push origin main （正式开始上传）
       </item>
     
       <item>
-        <title>第一次的POST</title>
+        <title>Daily_Life</title>
         <description>&lt;p&gt;第一次记录自己的日常生活，希望能在博士期间好好记录下自己的所学所见。之前试过在微博或者微信朋友圈匿名写日记，但在上述平台记录日常显然有两个弊端：一是我每天都在微博上记录自己的消极情绪，今后翻阅日记时难免会感受到一阵胃痛，但是微博也不可能在我回忆“青春”时过滤掉“过往的伤疤”；二是我很难在上述平台记录自己的学习过程，而这估计是我日后生活的一大部分（虽然我也想摸鱼）。&lt;/p&gt;
 
 &lt;p&gt;因此在Github上更新日记变得合理了起来：首先Github应该能用好久（千万别墙了）；其次通过Tag分类，能很好的让我定向回忆“悲痛文学”，但我想温习以前所学时，也不会被自己的日记搞二次抑郁（或者感到羞耻）。好！很有精神的LLGY，希望你能努力坚持记录日常，希望你即使找不到女朋友也不感到孤独，希望你即使多么绝望最终依然能站起来，希望你最终能自信起来。&lt;/p&gt;
@@ -1737,10 +1737,13 @@ PS后记：下午陪老妈吃了石锅饭，晚上跟同门在办公室喝了酒
 &lt;p&gt;PS：昨天上午去洗了牙，十几分钟搞定；下午老王孩子来办公室了，果然我不喜欢小屁孩，但是这个孩子说出不喜欢我的时候，我想起来以前姚总的儿子也说我欺负他，当时整晚我都在反思自己，我到底啥时候霸凌他了，我基本上好像也没惹过他啊…现在我感觉也许这些人的想法就是狗屁，我不该为了他人的过失和误解而不断委屈自己，无所谓，他们对我的印象毫不重要…嗯，是这样的；晚上和同级去吃了烤肉，但是明显没吃饱，接着又吃了点和府捞面，还行吧。&lt;/p&gt;
 
 &lt;p&gt;PSS：陈庭跃今天下午骂我了，说正常人哪写日记了。狠狠的调侃她。&lt;/p&gt;
+
+&lt;h2 id=&quot;5月14日&quot;&gt;5月14日&lt;/h2&gt;
+&lt;p&gt;昨天组会，被老师狠狠地说了，不过进度慢，确实我的，好难…今天领了盐酸硝酸硫酸，实验室终于有易制爆易制毒了，感谢实验室杜老师；今天知道了我的师弟挂科，跟我之前想的一样，但是感觉无法挽救了，申请延毕过期了，估计他多半要造假数据了…&lt;/p&gt;
 </description>
         <pubDate>Tue, 23 May 2023 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/daily/First_Post_And_Daily_Life.html</link>
-        <guid isPermaLink="true">http://localhost:4000/daily/First_Post_And_Daily_Life.html</guid>
+        <link>http://localhost:4000/daily/Daily_Life.html</link>
+        <guid isPermaLink="true">http://localhost:4000/daily/Daily_Life.html</guid>
         
         <category>Daily</category>
         
