@@ -208,7 +208,7 @@
                 <use xlink:href="#icon-words"></use>
               </svg>
               
-              本文总共  5.0k  字
+              本文总共  5.2k  字
             </span>
             <span class="post-meta-item">
               <svg class="icon time" aria-hidden="true">
@@ -267,6 +267,8 @@
 
 <h2 id="21-各软件的安装和升级msys2的安装">2.1 各软件的安装和升级msys2的安装</h2>
 
+<p>https://jekyllrb.com/docs/installation/windows/   官方教程</p>
+
 <pre><code class="language-msys2_install">ridk install（该步之前请上官网下载安装软件，之后cmd自动安装）
 </code></pre>
 
@@ -275,6 +277,9 @@
 
 <pre><code class="language-jekyll_update">gem update jekyll
 </code></pre>
+<p>gem sources -r https://rubygems.org/
+gem sources –add https://mirrors.tuna.tsinghua.edu.cn/rubygems/
+gem sources -l</p>
 
 <h2 id="24-jekyll相关指令">2.4 jekyll相关指令</h2>
 
@@ -282,7 +287,11 @@
 cd XXX （进入刚才创建的目录）
 bundle install（该步为安装Gefile内需要组件）
 bundle update
-bundle exec jekyll serve（开始构建本地网址）（如果发现4000被占用，可以[参考这个](https://blog.csdn.net/weixin_30666401/article/details/98372840)）
+bundle exec jekyll serve（开始构建本地网址）（如果发现4000被占用，可以[参考这个](https://blog.csdn.net/weixin_30666401/article/details/98372840)） https://blog.csdn.net/oneby1314/article/details/113710763
+
+netstat -ano|findstr "4000"
+taskkill -F -PID 4772
+
 </code></pre>
 <pre><code class="language-jekyll_theme">（主题下载网址：https://rubygems.org/search?query=jekyll-theme）
 （参考使用方法：将github上的文件全部下载覆盖自己的blog文件夹，之后再次bundle install）

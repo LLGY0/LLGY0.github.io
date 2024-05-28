@@ -32,6 +32,8 @@ Jekyll刚好是GitHub Pages的引擎，所以你能够在GitHub的服务器上�
 
 ## 2.1 各软件的安装和升级msys2的安装
 
+https://jekyllrb.com/docs/installation/windows/   官方教程
+
 ```msys2_install
 ridk install（该步之前请上官网下载安装软件，之后cmd自动安装）
 ```
@@ -43,6 +45,9 @@ gem install jekyll bundler
 ```jekyll_update
 gem update jekyll
 ```
+gem sources -r https://rubygems.org/
+gem sources --add https://mirrors.tuna.tsinghua.edu.cn/rubygems/
+gem sources -l
 
 ## 2.4 jekyll相关指令
 
@@ -51,7 +56,11 @@ jekyll new XXX（该步是建立一个新的Jekyll站点，创建指令需要管
 cd XXX （进入刚才创建的目录）
 bundle install（该步为安装Gefile内需要组件）
 bundle update
-bundle exec jekyll serve（开始构建本地网址）（如果发现4000被占用，可以[参考这个](https://blog.csdn.net/weixin_30666401/article/details/98372840)）
+bundle exec jekyll serve（开始构建本地网址）（如果发现4000被占用，可以[参考这个](https://blog.csdn.net/weixin_30666401/article/details/98372840)） https://blog.csdn.net/oneby1314/article/details/113710763
+
+netstat -ano|findstr "4000"
+taskkill -F -PID 4772
+
 ```
 ```jekyll_theme
 （主题下载网址：https://rubygems.org/search?query=jekyll-theme）

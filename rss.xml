@@ -5,9 +5,9 @@
     <description>个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 23 May 2024 12:42:08 +0800</pubDate>
-    <lastBuildDate>Thu, 23 May 2024 12:42:08 +0800</lastBuildDate>
-    <generator>Jekyll v4.3.2</generator>
+    <pubDate>Tue, 28 May 2024 21:08:34 +0800</pubDate>
+    <lastBuildDate>Tue, 28 May 2024 21:08:34 +0800</lastBuildDate>
+    <generator>Jekyll v4.3.3</generator>
     
       <item>
         <title>读书笔记</title>
@@ -592,6 +592,8 @@ II型：性行为引起，需要口服抗病毒药：XX洛韦类&lt;/p&gt;
 
 &lt;h2 id=&quot;21-各软件的安装和升级msys2的安装&quot;&gt;2.1 各软件的安装和升级msys2的安装&lt;/h2&gt;
 
+&lt;p&gt;https://jekyllrb.com/docs/installation/windows/   官方教程&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&quot;language-msys2_install&quot;&gt;ridk install（该步之前请上官网下载安装软件，之后cmd自动安装）
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -600,6 +602,9 @@ II型：性行为引起，需要口服抗病毒药：XX洛韦类&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&quot;language-jekyll_update&quot;&gt;gem update jekyll
 &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;gem sources -r https://rubygems.org/
+gem sources –add https://mirrors.tuna.tsinghua.edu.cn/rubygems/
+gem sources -l&lt;/p&gt;
 
 &lt;h2 id=&quot;24-jekyll相关指令&quot;&gt;2.4 jekyll相关指令&lt;/h2&gt;
 
@@ -607,7 +612,11 @@ II型：性行为引起，需要口服抗病毒药：XX洛韦类&lt;/p&gt;
 cd XXX （进入刚才创建的目录）
 bundle install（该步为安装Gefile内需要组件）
 bundle update
-bundle exec jekyll serve（开始构建本地网址）（如果发现4000被占用，可以[参考这个](https://blog.csdn.net/weixin_30666401/article/details/98372840)）
+bundle exec jekyll serve（开始构建本地网址）（如果发现4000被占用，可以[参考这个](https://blog.csdn.net/weixin_30666401/article/details/98372840)） https://blog.csdn.net/oneby1314/article/details/113710763
+
+netstat -ano|findstr &quot;4000&quot;
+taskkill -F -PID 4772
+
 &lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code class=&quot;language-jekyll_theme&quot;&gt;（主题下载网址：https://rubygems.org/search?query=jekyll-theme）
 （参考使用方法：将github上的文件全部下载覆盖自己的blog文件夹，之后再次bundle install）
@@ -1756,6 +1765,12 @@ PS：笑，我去年4月买的硬盘竟然还涨价了，原本548涨到609了�
 
 &lt;h2 id=&quot;5月23日&quot;&gt;5月23日&lt;/h2&gt;
 &lt;p&gt;最近诸事不顺，我实在没啥动力了，我最近还是远离办公室吧，感觉，，，会影响到他人。我。。。想找到一个目标，咋办呢，，，，要不要去南极呢。&lt;/p&gt;
+
+&lt;h2 id=&quot;5月24日&quot;&gt;5月24日&lt;/h2&gt;
+&lt;p&gt;重新装了系统，很难崩。&lt;/p&gt;
+
+&lt;h2 id=&quot;5月28日&quot;&gt;5月28日&lt;/h2&gt;
+&lt;p&gt;今天与阚海铭去安徽蚌埠取样，一开始以为是难度最高的一次采样，结果因为有大佬相助，结果意外很顺利…但是在下车时发现身份证丢了，有幸运也有不幸吧。&lt;/p&gt;
 </description>
         <pubDate>Tue, 23 May 2023 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/daily/Daily_Life.html</link>
