@@ -1,12 +1,6 @@
 [
   
     {
-      "title"    : "过去的事情",
-      "tags"     : "Daily",
-      "url"      : "/daily/Review.html"
-    } ,
-  
-    {
       "title"    : "读书笔记",
       "tags"     : "Study",
       "url"      : "/study/Reading.html"
