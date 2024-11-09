@@ -5,8 +5,8 @@
     <description>个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 08 Nov 2024 14:07:04 +0800</pubDate>
-    <lastBuildDate>Fri, 08 Nov 2024 14:07:04 +0800</lastBuildDate>
+    <pubDate>Sun, 10 Nov 2024 02:50:53 +0800</pubDate>
+    <lastBuildDate>Sun, 10 Nov 2024 02:50:53 +0800</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
     
       <item>
@@ -1968,6 +1968,9 @@ PS：最近看了地错，好喜欢希儿啊…&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/img/Daily/057.JPG&quot; alt=&quot;师妹送的泡芙&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;PS:重点研发的技术路线要写具体，写基金可以写：项目遵循“规律机制—方法理论—技术研发—应用验证”的研究思路，在规律机制方面XXX，采用XXX方法，揭示XX机制；在方法理论方面，通过XXX建立XXX方法，明确XXX；在技术研发方面，结合XXXX，耦合XXX多学科，研发XXX装备；在应用验证方面，XXX提出XXX策略。&lt;/p&gt;
+
+&lt;h2 id=&quot;11月10日&quot;&gt;11月10日&lt;/h2&gt;
+&lt;p&gt;好笑的夜晚…凌晨做实验，做到一大半，发现臭氧发生器坏了，臭氧检测仪也坏了，昨天也是，做了一半做断电…难受的回到办公室，发现CFD又报错，想去打个水，被地上的小强吓了一跳…原本很想抱怨…突然一想，我这人好像就这样，运气不好，也没能力，啥事都干不好，这人生也就这样了，想找人倾诉一下，结果凌晨2点30也找不到人，不忍心打扰别人睡觉…我到底在干什么呢，老天真的不想让我毕业吗，难道我的最佳选项是赶快退学成为啃老族吗，还是从河海的图书馆跳下去开启下一世的人生…事到如今也就这样了，我累了。&lt;/p&gt;
 </description>
         <pubDate>Tue, 23 May 2023 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/daily/Daily_Life.html</link>
