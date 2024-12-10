@@ -297,3 +297,53 @@ graph TD;
 .gitignore文件有可能将_site文件添加为忽略文件，以至于后续操作将该文件忽略，从而无法上传至远程仓库的问题。_site文件以及.sass-cache文件都不能被忽略。另一方面，site里面的文件内容需要上传到github来使重要元件显现。
 [链接1](https://blog.csdn.net/qq_43328313/article/details/124066785)
 [链接2](https://blog.csdn.net/qq_56914146/article/details/128994392)
+
+# 4. 插件
+
+## 4.1 jimoji
+
+具体emoji代码参考 https://www.webfx.com/tools/emoji-cheat-sheet/
+
+展示：
+
+:+1:
+:dog:
+:cat:
+
+## 4.2 网易云音乐插件
+
+代码参考：
+在每个页面抬头添加music-id: XXXX
+
+## 4.3 为Jekyll博客添加目录与ScrollSpy效果
+
+代码参考：http://t.hengwei.me/post/%E4%B8%BAjekyll%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E7%9B%AE%E5%BD%95%E4%B8%8Escrollspy%E6%95%88%E6%9E%9C.html
+
+## 4.4 个人博客中添加点击爱心效果
+
+代码参考：https://yizibi.github.io/2018/10/18/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%B7%BB%E5%8A%A0%E7%82%B9%E5%87%BB%E7%88%B1%E5%BF%83%E6%95%88%E6%9E%9C/
+
+代码2参考：https://blog.51cto.com/u_15127588/2807647
+
+## 4.5 添加阅读量统计功能
+
+代码参考：https://blog.csdn.net/qq_32507255/article/details/89068958?ops_request_misc=&request_id=&biz_id=102&utm_term=jekyll%20%E7%82%B9%E5%87%BB&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~sobaiduweb~default-4-89068958.268^v1^koosearch&spm=1018.2226.3001.4450
+
+## 4.6 gitalk
+
+代码参考：https://www.pianshen.com/article/4404354477/  https://blog.csdn.net/zy13651953784/article/details/104813021  https://blog.csdn.net/sinat_32873711/article/details/129192910  https://github.com/gitalk/gitalk/blob/master/readme-cn.md  https://gitalk.github.io/  https://github.com/gitalk/gitalk#install
+
+## 4.7 随机BGM与全局BGM
+
+代码参考：https://www.jianshu.com/p/b2306e9b7ba7   https://szhshp.org/tech/2016/11/19/whynotaddabgmforurblog.html
+
+## 4.8 添加站点访客数及文章浏览量、添加中英文字数统计
+
+代码参考：https://blog.csdn.net/ds19991999/article/details/81293467
+
+## 4.9 Live2D小人
+
+代码参考：https://github.com/stevenjoezhang/live2d-widget
+
+
+
