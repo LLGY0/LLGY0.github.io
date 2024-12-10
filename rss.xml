@@ -5,15 +5,15 @@
     <description>个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 07 Dec 2024 23:16:40 +0800</pubDate>
-    <lastBuildDate>Sat, 07 Dec 2024 23:16:40 +0800</lastBuildDate>
+    <pubDate>Wed, 11 Dec 2024 02:30:56 +0800</pubDate>
+    <lastBuildDate>Wed, 11 Dec 2024 02:30:56 +0800</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
     
       <item>
         <title>读书笔记</title>
         <description>&lt;!--excerpt--&gt;
 
-&lt;h2 id=&quot;11月27日&quot;&gt;11月27日&lt;/h2&gt;
+&lt;h1 id=&quot;2023年11月27日-薛兆丰经济学讲义摘抄&quot;&gt;2023年11月27日 《薛兆丰经济学讲义》摘抄&lt;/h1&gt;
 
 &lt;p&gt;今天看完《薛兆丰经济学讲义》，摘录几个有意思的话（但是该书对教育、医疗等是否该市场化的讨论偏少，有点可惜，而且不太赞成书中一些观点，比如贸易顺差与逆差、贸易报复、资本与劳力的关系）：&lt;/p&gt;
 
@@ -68,6 +68,126 @@
 &lt;p&gt;25、是否需要为自己的主张负直接责任，是市场决策与民主决策的根本区别；&lt;/p&gt;
 
 &lt;p&gt;26、戴雷科特定律:收入再分配,真正得益的并不是穷人而是中等收入的人；&lt;/p&gt;
+
+&lt;h1 id=&quot;2023年7月10日玩转虚拟机基于vmwarewindows&quot;&gt;2023年7月10日《玩转虚拟机——基于VMware+Windows》&lt;/h1&gt;
+
+&lt;h2 id=&quot;11-基础虚拟机概念&quot;&gt;1.1 基础：虚拟机概念&lt;/h2&gt;
+
+&lt;p&gt;如图3-1所示，虚拟机VM2和VM3连接到VMnet1交换机上，此时只要VM2和VM3计算机的IP地址设置成一个网段就能通信，虚拟机VMl和VM4连接到了不同的交换机，即便IP地址设置成一个网段也不能通信，连接到不同虚拟交换机的虚拟机之间是不能直接通信的。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/virtualmachine/3_1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;VMnet0不用规划IP地址，该网络的地址要和物理网络的地址在一个网段。&lt;/p&gt;
+
+&lt;p&gt;VMware DHCP Service服务可以为连接至VMnet的计算机白动分配IP地址。这样给虚拟机安装了操作系统，不配置IP地址，虚拟机也能够自动获得IP地址。&lt;/p&gt;
+
+&lt;p&gt;VMware Bridge Protocol让物理网卡连接到虚拟交换机VMnet。&lt;/p&gt;
+
+&lt;p&gt;VMware NAT Service 在你的计算机上虚拟出一个路由器，虚拟接口E0连接VMnet作为该网络计算机的网关，计算机的物理网卡作为该路由器的外网接口，该服务实现VMnet到物理网络的地址转换。VMware NAT Service 服务只能为一个VMnet提供网络地址转换服务。&lt;/p&gt;
+
+&lt;h2 id=&quot;12-基础nat&quot;&gt;1.2 基础：NAT&lt;/h2&gt;
+
+&lt;p&gt;NAT即Network Address Translation（网络地址转换），是实现虚拟机上网的第二种方法。图3-78所示是使用了NAT技术后数据包的转发情况，A1计算机访问WebA资源，发送的数据包的目标地址是WebA源地址即A1的地址，经过路由器R1，数据包的源地址被R1的 公网地址替换，这样数据包的目标地址和源地址都是公网地址了，WebA发送返回的数据包的 目标地址是R1的地址，能够发送到R1路由器，R1路由器收到数据包，再把数据包的目标地址替换成Al计算机的发送到内网，这就是网络地址转换。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/virtualmachine/3_78.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;NAT技术的优点：&lt;/p&gt;
+
+&lt;p&gt;1、节省公网IP地址：NAT技术让使用私网地址的内网计算机能够访问Internet，这样能够大大节省公网IP地址。&lt;/p&gt;
+
+&lt;p&gt;2、内网安全：使用私网地址的内网可以访问Internet，但是Internet中的计算机不能主 动访问内网计算机。&lt;/p&gt;
+
+&lt;p&gt;缺点：由于R1路由器在内网和公网之间转发数据包时修改数据包的源地址或目标地址， 因此会稍微影响速度。&lt;/p&gt;
+
+&lt;h2 id=&quot;13-基础其他&quot;&gt;1.3 基础：其他&lt;/h2&gt;
+
+&lt;p&gt;文件系统的分类：NTFS（Windows），支持最大分区2TB，最大文件2TB；FAT16（Windows）,支持最大分区2GB,最大文件2GB；FAT32（Windows）,支持最大分区128GB，最大文件4GB。&lt;/p&gt;
+
+&lt;p&gt;公网地址：整个Internet中，计算机和服务器的IP地址要统一规划，全球唯一，这些地址就是公网地 所有的IP地址都由国际组织NIC(Network Information Center)负责统一分配，目前全世址。全世界共有3个这样的网络信息中心：InterNIC，负责美国及其他地区；ENIC，负责欧洲地区：APNIC，负责亚太地区。我国申请IP地址要通过APNIC，APNIC的总部设在日本东京大学。 申请时要考虑申请哪一类的IP地址，然后向国内的代理机构提出。&lt;/p&gt;
+
+&lt;p&gt;私网地址：除了公网IP地址，还保留了一些私网地址，这些私网地址在Internet中没有被使用，企业、学校或政府的内网可以使用，不需要向国际组织注册。Internet上没有私网地址，因此Internet上的路由器也没有必要知道这些网段如何转发数据包。大家可以看到任何单位或企业的网络都可以使用这些私网地址，因为他们不需要相互访问网络，所以IP地址网段重合也没有关系。&lt;/p&gt;
+
+&lt;p&gt;私有网段保留了以下网段：&lt;/p&gt;
+
+&lt;p&gt;A类地址中有10.0.0.0~10.255.255.255.一个A类网段。&lt;/p&gt;
+
+&lt;p&gt;B类地址中有172.16.0.0~172.31.255.255，16个B类网段。&lt;/p&gt;
+
+&lt;p&gt;C类地址中有192.168.0.0～192.168.255.0，256个C类网段。&lt;/p&gt;
+
+&lt;h2 id=&quot;21-操作跳过内容&quot;&gt;2.1 操作：跳过内容&lt;/h2&gt;
+
+&lt;p&gt;虚拟机软件的安装、虚拟机的构建、物理机与虚拟机之间的文件传输和共享（VMware Tool）、虚拟机快照、克隆虚拟机&lt;/p&gt;
+
+&lt;h2 id=&quot;22-操作虚拟机网络地址规划物理机添加网卡连接vmnet4&quot;&gt;2.2 操作：虚拟机网络地址规划（物理机添加网卡连接VMnet4）&lt;/h2&gt;
+
+&lt;p&gt;具体步骤：进入“虚拟网络编辑器”，单击“更改设置”，单击“添加网络”，添加一个虚拟网络（虚拟交换机）。之后进入“虚拟机设置”，“网络连接”处选择“自定义”，选择所需的网络。&lt;/p&gt;
+
+&lt;h2 id=&quot;23-操作虚拟机访问物理机&quot;&gt;2.3 操作：虚拟机访问物理机&lt;/h2&gt;
+
+&lt;p&gt;如图3-34所示，可以在物理机上添加一个网卡连接到VMnet4，VMware Network Adapter VMnct4的IP地址要设置成192.168.40.10，该IP地址一定要和VMnct4规划的网络地址在一个网段，虚拟机VM4的IP地址设置成192.168.40.20，这样VM4要想访问物理机，就要访问192.168.40.10，而不能访问物理网卡的地址10.7.10.212。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/virtualmachine/3_34.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;具体步骤：物理机添加网卡连接VMnet4，之后设置VMnet4的IP和掩码。之后打开物理机“网络连接”，设置VMnet4的IPV4的IP和掩码。之后打开虚拟机“网络连接”，设置网卡的IP和掩码。&lt;/p&gt;
+
+&lt;h2 id=&quot;24-操作虚拟机访问物理网络&quot;&gt;2.4 操作：虚拟机访问物理网络&lt;/h2&gt;
+
+&lt;p&gt;具体步骤：进入“虚拟网络编辑器”，选择VMnet转换成“桥接模式”。之后设置虚拟机的IP地址，IP地址所在网段需要和物理网络中计算机的IP地址在同一个网段，子网掩码（255.255.255.0）、网关和DNS也要和物理网络中的计算机一样。&lt;/p&gt;
+
+&lt;h2 id=&quot;25-操作虚拟机通过nat访问物理网络&quot;&gt;2.5 操作：虚拟机通过NAT访问物理网络&lt;/h2&gt;
+
+&lt;p&gt;原理：把某个VMnet所处的网络当作内网，把物理机 所的网络当作公网，并把物理机当作NAT路由器，让内网的虚拟机使用物理机的IP地址访问物理网络，这些虚拟机都使用私网地址，这样一来即使和其他物理机中虚拟机的IP地址相 同也没有关系。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/virtualmachine/3_79.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;具体步骤：进入“虚拟网络编辑器”，VMnet8调为NAT模式，单击“NAT设置”，记下网关IP（即虚拟路由器E0接口）。之后打开物理机“网络连接”，调VMnet8的IP（需要设置为与虚拟路由器E0接口同一网段下的IP，但不能相同，否则导致网关地址冲突。接着打开“虚拟机设置”，虚拟机连接到VMnet8。之后打开虚拟机“网络连接”，调本地连接IPV4的IP（与虚拟路由器E0接口同一网段）以及子网掩码以及默认网关（就是虚拟路由器E0接口），DNS设置为8.8.8.8与222.222.222.222。&lt;/p&gt;
+
+&lt;h2 id=&quot;26-操作端口映射&quot;&gt;2.6 操作：端口映射&lt;/h2&gt;
+
+&lt;p&gt;服务器对外提供服务通常使用TCP或UDP协议侦听客户端的请求，客户端使用该端口访问对应的服务。远程桌面协议（RDP）默认使用TCP的3389端口。Web服务使用的http协议默认使用TCP的80端口。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/virtualmachine/3_94.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;具体步骤：进入“虚拟网络编辑器”，VMnet8调为NAT模式，单击“NAT设置”，单击“添加”，输入主机端口4000，选择TCP协议，输入虚拟机IP，制定虚拟机端口3389。接着打开“虚拟机设置”，虚拟机连接到VMnet8，选择“已连接”和“启动时连接”的复选框。设置虚拟机的IP、子网掩码、网关。打开虚拟机的“计算机-管理”，创建新用户。打开虚拟机的“远程桌面”的“允许…计算机连接”，单击“选择用户”，“添加”刚才创建的新用户。查看物理机的IP。物理网络上的计算机上启动“远程桌面连接”，输入物理机IP+冒号+端口（4000）。&lt;/p&gt;
+
+&lt;h2 id=&quot;27-操作网络实现虚拟机与物理机文件共享&quot;&gt;2.7 操作：网络实现虚拟机与物理机文件共享&lt;/h2&gt;
+
+&lt;p&gt;具体步骤：打开“虚拟机设置”，虚拟机连接到VMnet8。设置虚拟机的IP、子网掩码、网关（网关与IP位于同一网段）。设置物理机的VMnet8的IP（与虚拟机的默认网关一致）。物理机在要共享的文件右键，点击“共享”和“特定用户”，设置权限。虚拟机“运行”（Win+R）中输入”\网关”，输入用户名和密码。&lt;/p&gt;
+
+&lt;h1 id=&quot;2024年12月10日-经济学原理-摘抄&quot;&gt;2024年12月10日 《经济学原理》 摘抄&lt;/h1&gt;
+
+&lt;p&gt;1、市场经济：经济学家亚当?斯密（Adam Smith）在他1776年的著作《国富论》中提出了全部经济学中最有名的观察结果：家庭和企业在市场上相互交易，他们仿佛被一只“看不见的手”所指引，引起了合意的市场结果。&lt;/p&gt;
+
+&lt;p&gt;2、看不见的手通常会使市场有效地配置资源。但是，由于各种原因，有时看不见的手不起作用。经济学家用市场失灵这个词来指市场本身不能有效配置资源的情况。市场失灵的一个可能原因是外部性，是一个人的行动对旁观者福利的影响。另一个可能原因是市场势力，是指一个人（或一小群人）不适当地影响市场价格的能力。&lt;/p&gt;
+
+&lt;p&gt;3、如果通货膨胀这么容易解释，为什么决策者有时却在使经济免受通货膨胀之苦上遇到麻烦呢？一个原因是人们通常认为降低通货膨胀会引起失业暂时增加。通货膨胀与失业之间的这种交替关系被称为菲利普斯曲线。&lt;/p&gt;
+
+&lt;p&gt;4、“生产可能性边界”表明，经济所能生产的产量。经济可以生产该边界线上或该边界线之内的任何组合。在经济的资源既定时，边界线以外的各点是不能实现的。&lt;/p&gt;
+
+&lt;p&gt;5、某种东西的成本是为了得到它所放弃的东西。这被称为机会成本。机会成本(opportunity cost) 是指企业为从事某项经营活动而放弃另一项经营活动的机会，或利用一定资源获得某种收入时所放弃的另一种收入。越低效率越高。&lt;/p&gt;
+
+&lt;p&gt;6、微观经济学(microeco-nomics)研究家庭和企业如何做出决策,以及它们如何在特定市场上相互交易。宏观经济学(macroeconomics)研究整体经济现象。一个微观经济学家可能研究租金控制对纽约市住房的影响、外国竞争对美国汽车行业的影响,或者接受义务教育对工人收入的影响。一个宏观经济学家可能研究联邦政府借债的影响、经济中失业率随时间推移的变动,或者提高一国生活水平的不同政策。&lt;/p&gt;
+
+&lt;p&gt;7、绝对优势与比较优势理论Absolute Advantage Theory：绝对优势：一个国家在某个产品上拥有高于另一个国家的绝对生产效率；比较优势：一个国家即使在所有产品上的生产效率都低于另一个国家，但仍可以在某种产品上拥有比较优势，即生产该产品的相对机会成本较低。&lt;/p&gt;
+
+&lt;p&gt;8、当我们分析农业技术或农业政策的影响时,记住下面这点很重要:对农民有利的不一定对整个社会也有利。农业技术进步对农民而言可能是坏事,因为它使农民逐渐变得不必要,但对能以低价买到食物的消费者而言肯定是好事。同样,旨在减少农产品供给的政策可以增加农民的收入,但必然会以损害消费者的利益为代价。&lt;/p&gt;
+
+&lt;p&gt;9、在经济学家看来,价格并不是某些偶然过程的结果。他们认为,价格是隐藏在供给曲线和需求曲线背后的千百万企业和消费者决策的结果。价格有平衡供求从而协调经济活动的关键作用。当决策者通过法令确定价格时,他们就模糊了正常情况下指引社会资源配置的信号。&lt;/p&gt;
+
+&lt;p&gt;10、对一种物品的征税是在买者支付的价格和卖者得到的价格之间打入的一个楔子。当市场向新均衡变动时,买者为该物品支付的价格高了,而卖者从该物品得到的价格低了。从这种意义上说,买者与卖者分摊了税收负担。税收归宿(也就是说,税收负担的分摊)并不取决于是向买者征税,还是向卖者征税；税收归宿取决于供给和需求的价格弹性。税收负担更多地落在缺乏弹性的市场一方,因为市场的这一方较难通过改变购买量或销售量来对税收做出反应。&lt;/p&gt;
+
+&lt;p&gt;11、消费者剩余,即买者愿意为一种物品支付的量减去他们实际支付的量,衡量了买者从一种物品中得到的自己感觉到的利益。因此,如果决策者想尊重买者的偏好,那么消费者剩余不失为经济福利的一种好的衡量标准；生产者剩余等于卖者出售其物品得到的量减去其生产成本,它衡量卖者从参与市场中得到的利益。可以通过找出价格以下和供给曲线以上的面积,来计算生产者剩余。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Study/study001.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;12、税收带来无谓损失是因为它使买者少消费,使卖者少生产,而且,这种行为变动使市场规模缩小到使总剩余最大化的水平之下。由于供给弹性和需求弹性衡量市场参与者对市场状况变动的反应程度,所以,弹性越大意味着无谓损失越大。&lt;/p&gt;
+
+&lt;p&gt;13、拉弗曲线描绘了政府的税收收入与税率之间的关系，当税率在一定的限度以下时，提高税率能增加政府税收收入，但超过这一限度时，再提高税率反而导致政府税收收入减少。因为较高的税率将抑制经济的增长，使税基减小，税收收入下降，反之，减税可以刺激经济增长，扩大税基，税收收入增加。&lt;/p&gt;
+
+&lt;p&gt;14、除了关税之外,有时各国限制国际贸易的另一种方法是对进口某种物品的数量实行限制。在本书中,我们对这种政策不做出分析,仅仅是给出结论:进口配额和关税很相似。无论关税还是进口配额都减少了进口品的数量,提高了该物品的国内价格,减少了国内消费者的福利,增加了国内生产者的福利,并引起无谓损失。&lt;/p&gt;
+
+&lt;p&gt;15、一国可以用两种方法来实现自由贸易。它可以用单边的方法取消自己的贸易限制,这是英国在19世纪采取的方法,也是近年来智利和韩国所采取的方法。或者,一国也可以采取多边的方法,在其他国家减少贸易限制时自己也这样做。换句话说,它可以与自己的各个贸易伙伴谈判,以便在全世界减少贸易限制。&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 28 Nov 2023 00:00:00 +0800</pubDate>
@@ -177,166 +297,9 @@
       </item>
     
       <item>
-        <title>系统快捷键与命令</title>
-        <description>&lt;h1 id=&quot;1-windows&quot;&gt;1. Windows&lt;/h1&gt;
-
-&lt;p&gt;Windows快捷键大全捏，后续可能更新（复制）linux系统的&lt;/p&gt;
-
-&lt;h2 id=&quot;11-ctrl类&quot;&gt;1.1 Ctrl类&lt;/h2&gt;
-
-&lt;p&gt;Ctrl+A 全选；Ctrl+X 剪切；Ctrl+C 复制；Ctrl+X 剪切；Ctrl+V 粘贴；Ctrl+Z 撤销；&lt;/p&gt;
-
-&lt;p&gt;Ctrl+Y 恢复撤销操作；Ctrl+P 打印设置；Ctrl+S 保存；Crtl+D 删除；&lt;/p&gt;
-
-&lt;p&gt;Ctrl+滚轮 调节页面比例或者图标大小；Crtl+Shift+Esc 任务管理器；&lt;/p&gt;
-
-&lt;p&gt;Ctrl+小键盘’+’ 　页面放大10%；Ctrl+小键盘’-‘   页面缩小10%；&lt;/p&gt;
-
-&lt;h2 id=&quot;12-win类&quot;&gt;1.2 Win类&lt;/h2&gt;
-
-&lt;p&gt;Win+D 显示桌面；Win+E 打开我的电脑；Win+F 搜索；Win+R 运行；Win+L 锁定/切换用户；&lt;/p&gt;
-
-&lt;p&gt;Win+I 打开设置；Win+P 投影；Win+V 剪贴板；Win+分号 调出Emoji；&lt;/p&gt;
-
-&lt;p&gt;Win+各种方向键 最大化/最小化；Win+Home 除了当前窗口，其他都最小化；&lt;/p&gt;
-
-&lt;h2 id=&quot;13-f类&quot;&gt;1.3 F类&lt;/h2&gt;
-
-&lt;p&gt;F2 重命名；Alt+F4 关闭；F5刷新；F11 最大化/还原；&lt;/p&gt;
-
-&lt;h2 id=&quot;14-alt类&quot;&gt;1.4 Alt类&lt;/h2&gt;
-
-&lt;p&gt;Alt+Tab 切换应用；Alt+F4 关闭；Alt+Enter 显示属性；Alt+P 预览；&lt;/p&gt;
-
-&lt;p&gt;Alt+各种方向键 切换目录；Alt+Printscreen 活动窗口截图；&lt;/p&gt;
-
-&lt;h2 id=&quot;15-其他&quot;&gt;1.5 其他&lt;/h2&gt;
-
-&lt;p&gt;Crtl+Shift+Tab 切换选项/切换视图；Printscreen 整块屏幕截图；&lt;/p&gt;
-
-&lt;h2 id=&quot;16-常见命令&quot;&gt;1.6 常见命令&lt;/h2&gt;
-
-&lt;p&gt;ipconfig；netsh；ping；net user；shutdown；&lt;/p&gt;
-
-&lt;p&gt;services.msc；regedit；mstsc；msconfig；&lt;/p&gt;
-</description>
-        <pubDate>Tue, 11 Jul 2023 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/study/%E7%B3%BB%E7%BB%9F%E5%BF%AB%E6%8D%B7%E9%94%AE%E4%B8%8E%E5%91%BD%E4%BB%A4.html</link>
-        <guid isPermaLink="true">http://localhost:4000/study/%E7%B3%BB%E7%BB%9F%E5%BF%AB%E6%8D%B7%E9%94%AE%E4%B8%8E%E5%91%BD%E4%BB%A4.html</guid>
-        
-        <category>Study</category>
-        
-        
-        <category>Study</category>
-        
-      </item>
-    
-      <item>
-        <title>虚拟机学习</title>
-        <description>&lt;p&gt;本页内容参考书籍《玩转虚拟机——基于VMware+Windows》&lt;/p&gt;
-
-&lt;h1 id=&quot;1-基础知识&quot;&gt;1 基础知识&lt;/h1&gt;
-
-&lt;h2 id=&quot;11-虚拟机概念&quot;&gt;1.1 虚拟机概念&lt;/h2&gt;
-
-&lt;p&gt;如图3-1所示，虚拟机VM2和VM3连接到VMnet1交换机上，此时只要VM2和VM3计算机的IP地址设置成一个网段就能通信，虚拟机VMl和VM4连接到了不同的交换机，即便IP地址设置成一个网段也不能通信，连接到不同虚拟交换机的虚拟机之间是不能直接通信的。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/virtualmachine/3_1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;VMnet0不用规划IP地址，该网络的地址要和物理网络的地址在一个网段。&lt;/p&gt;
-
-&lt;p&gt;VMware DHCP Service服务可以为连接至VMnet的计算机白动分配IP地址。这样给虚拟机安装了操作系统，不配置IP地址，虚拟机也能够自动获得IP地址。&lt;/p&gt;
-
-&lt;p&gt;VMware Bridge Protocol让物理网卡连接到虚拟交换机VMnet。&lt;/p&gt;
-
-&lt;p&gt;VMware NAT Service 在你的计算机上虚拟出一个路由器，虚拟接口E0连接VMnet作为该网络计算机的网关，计算机的物理网卡作为该路由器的外网接口，该服务实现VMnet到物理网络的地址转换。VMware NAT Service 服务只能为一个VMnet提供网络地址转换服务。&lt;/p&gt;
-
-&lt;h2 id=&quot;12-nat&quot;&gt;1.2 NAT&lt;/h2&gt;
-
-&lt;p&gt;NAT即Network Address Translation（网络地址转换），是实现虚拟机上网的第二种方法。图3-78所示是使用了NAT技术后数据包的转发情况，A1计算机访问WebA资源，发送的数据包的目标地址是WebA源地址即A1的地址，经过路由器R1，数据包的源地址被R1的 公网地址替换，这样数据包的目标地址和源地址都是公网地址了，WebA发送返回的数据包的 目标地址是R1的地址，能够发送到R1路由器，R1路由器收到数据包，再把数据包的目标地址替换成Al计算机的发送到内网，这就是网络地址转换。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/virtualmachine/3_78.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;NAT技术的优点：&lt;/p&gt;
-
-&lt;p&gt;1、节省公网IP地址：NAT技术让使用私网地址的内网计算机能够访问Internet，这样能够大大节省公网IP地址。&lt;/p&gt;
-
-&lt;p&gt;2、内网安全：使用私网地址的内网可以访问Internet，但是Internet中的计算机不能主 动访问内网计算机。&lt;/p&gt;
-
-&lt;p&gt;缺点：由于R1路由器在内网和公网之间转发数据包时修改数据包的源地址或目标地址， 因此会稍微影响速度。&lt;/p&gt;
-
-&lt;h2 id=&quot;13-其他&quot;&gt;1.3 其他&lt;/h2&gt;
-
-&lt;p&gt;文件系统的分类：NTFS（Windows），支持最大分区2TB，最大文件2TB；FAT16（Windows）,支持最大分区2GB,最大文件2GB；FAT32（Windows）,支持最大分区128GB，最大文件4GB。&lt;/p&gt;
-
-&lt;p&gt;公网地址：整个Internet中，计算机和服务器的IP地址要统一规划，全球唯一，这些地址就是公网地 所有的IP地址都由国际组织NIC(Network Information Center)负责统一分配，目前全世址。全世界共有3个这样的网络信息中心：InterNIC，负责美国及其他地区；ENIC，负责欧洲地区：APNIC，负责亚太地区。我国申请IP地址要通过APNIC，APNIC的总部设在日本东京大学。 申请时要考虑申请哪一类的IP地址，然后向国内的代理机构提出。&lt;/p&gt;
-
-&lt;p&gt;私网地址：除了公网IP地址，还保留了一些私网地址，这些私网地址在Internet中没有被使用，企业、学校或政府的内网可以使用，不需要向国际组织注册。Internet上没有私网地址，因此Internet上的路由器也没有必要知道这些网段如何转发数据包。大家可以看到任何单位或企业的网络都可以使用这些私网地址，因为他们不需要相互访问网络，所以IP地址网段重合也没有关系。&lt;/p&gt;
-
-&lt;p&gt;私有网段保留了以下网段：&lt;/p&gt;
-
-&lt;p&gt;A类地址中有10.0.0.0~10.255.255.255.一个A类网段。&lt;/p&gt;
-
-&lt;p&gt;B类地址中有172.16.0.0~172.31.255.255，16个B类网段。&lt;/p&gt;
-
-&lt;p&gt;C类地址中有192.168.0.0～192.168.255.0，256个C类网段。&lt;/p&gt;
-
-&lt;h1 id=&quot;2-操作&quot;&gt;2 操作&lt;/h1&gt;
-
-&lt;h2 id=&quot;21-跳过内容&quot;&gt;2.1 跳过内容&lt;/h2&gt;
-
-&lt;p&gt;虚拟机软件的安装、虚拟机的构建、物理机与虚拟机之间的文件传输和共享（VMware Tool）、虚拟机快照、克隆虚拟机&lt;/p&gt;
-
-&lt;h2 id=&quot;22-虚拟机网络地址规划物理机添加网卡连接vmnet4&quot;&gt;2.2 虚拟机网络地址规划（物理机添加网卡连接VMnet4）&lt;/h2&gt;
-
-&lt;p&gt;具体步骤：进入“虚拟网络编辑器”，单击“更改设置”，单击“添加网络”，添加一个虚拟网络（虚拟交换机）。之后进入“虚拟机设置”，“网络连接”处选择“自定义”，选择所需的网络。&lt;/p&gt;
-
-&lt;h2 id=&quot;23-虚拟机访问物理机&quot;&gt;2.3 虚拟机访问物理机&lt;/h2&gt;
-
-&lt;p&gt;如图3-34所示，可以在物理机上添加一个网卡连接到VMnet4，VMware Network Adapter VMnct4的IP地址要设置成192.168.40.10，该IP地址一定要和VMnct4规划的网络地址在一个网段，虚拟机VM4的IP地址设置成192.168.40.20，这样VM4要想访问物理机，就要访问192.168.40.10，而不能访问物理网卡的地址10.7.10.212。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/virtualmachine/3_34.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;具体步骤：物理机添加网卡连接VMnet4，之后设置VMnet4的IP和掩码。之后打开物理机“网络连接”，设置VMnet4的IPV4的IP和掩码。之后打开虚拟机“网络连接”，设置网卡的IP和掩码。&lt;/p&gt;
-
-&lt;h2 id=&quot;24-虚拟机访问物理网络&quot;&gt;2.4 虚拟机访问物理网络&lt;/h2&gt;
-
-&lt;p&gt;具体步骤：进入“虚拟网络编辑器”，选择VMnet转换成“桥接模式”。之后设置虚拟机的IP地址，IP地址所在网段需要和物理网络中计算机的IP地址在同一个网段，子网掩码（255.255.255.0）、网关和DNS也要和物理网络中的计算机一样。&lt;/p&gt;
-
-&lt;h2 id=&quot;25-虚拟机通过nat访问物理网络&quot;&gt;2.5 虚拟机通过NAT访问物理网络&lt;/h2&gt;
-
-&lt;p&gt;原理：把某个VMnet所处的网络当作内网，把物理机 所的网络当作公网，并把物理机当作NAT路由器，让内网的虚拟机使用物理机的IP地址访问物理网络，这些虚拟机都使用私网地址，这样一来即使和其他物理机中虚拟机的IP地址相 同也没有关系。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/virtualmachine/3_79.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;具体步骤：进入“虚拟网络编辑器”，VMnet8调为NAT模式，单击“NAT设置”，记下网关IP（即虚拟路由器E0接口）。之后打开物理机“网络连接”，调VMnet8的IP（需要设置为与虚拟路由器E0接口同一网段下的IP，但不能相同，否则导致网关地址冲突。接着打开“虚拟机设置”，虚拟机连接到VMnet8。之后打开虚拟机“网络连接”，调本地连接IPV4的IP（与虚拟路由器E0接口同一网段）以及子网掩码以及默认网关（就是虚拟路由器E0接口），DNS设置为8.8.8.8与222.222.222.222。&lt;/p&gt;
-
-&lt;h2 id=&quot;26-端口映射&quot;&gt;2.6 端口映射&lt;/h2&gt;
-
-&lt;p&gt;服务器对外提供服务通常使用TCP或UDP协议侦听客户端的请求，客户端使用该端口访问对应的服务。远程桌面协议（RDP）默认使用TCP的3389端口。Web服务使用的http协议默认使用TCP的80端口。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/virtualmachine/3_94.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;具体步骤：进入“虚拟网络编辑器”，VMnet8调为NAT模式，单击“NAT设置”，单击“添加”，输入主机端口4000，选择TCP协议，输入虚拟机IP，制定虚拟机端口3389。接着打开“虚拟机设置”，虚拟机连接到VMnet8，选择“已连接”和“启动时连接”的复选框。设置虚拟机的IP、子网掩码、网关。打开虚拟机的“计算机-管理”，创建新用户。打开虚拟机的“远程桌面”的“允许…计算机连接”，单击“选择用户”，“添加”刚才创建的新用户。查看物理机的IP。物理网络上的计算机上启动“远程桌面连接”，输入物理机IP+冒号+端口（4000）。&lt;/p&gt;
-
-&lt;h2 id=&quot;27-网络实现虚拟机与物理机文件共享&quot;&gt;2.7 网络实现虚拟机与物理机文件共享&lt;/h2&gt;
-
-&lt;p&gt;具体步骤：打开“虚拟机设置”，虚拟机连接到VMnet8。设置虚拟机的IP、子网掩码、网关（网关与IP位于同一网段）。设置物理机的VMnet8的IP（与虚拟机的默认网关一致）。物理机在要共享的文件右键，点击“共享”和“特定用户”，设置权限。虚拟机“运行”（Win+R）中输入”\网关”，输入用户名和密码。&lt;/p&gt;
-</description>
-        <pubDate>Mon, 10 Jul 2023 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/study/%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AD%A6%E4%B9%A0.html</link>
-        <guid isPermaLink="true">http://localhost:4000/study/%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AD%A6%E4%B9%A0.html</guid>
-        
-        <category>Study</category>
-        
-        
-        <category>Study</category>
-        
-      </item>
-    
-      <item>
-        <title>医学知识记录</title>
-        <description>&lt;h1 id=&quot;1-药物使用&quot;&gt;1 药物使用&lt;/h1&gt;
+        <title>知识记录</title>
+        <description>&lt;h1 id=&quot;1-医学&quot;&gt;1 医学&lt;/h1&gt;
+&lt;h2 id=&quot;11-药物使用&quot;&gt;1.1 药物使用&lt;/h2&gt;
 
 &lt;h2 id=&quot;11-感冒药&quot;&gt;1.1 感冒药&lt;/h2&gt;
 
@@ -364,7 +327,7 @@
 
 &lt;p&gt;在找不到以上药物时，如需急用，可以询问药店药师是否有库存并是否可以使用： 尼美舒利＞双氯芬酸钠＞吲哚美辛 一定要在执业医生和药师的指导下使用！ 「x尼美舒利x」禁止用于 12 岁以下儿童，作为其他抗炎镇痛药物无效时的二线用药。 「x双氯芬酸钠x」的不良反应发生率较布洛芬高得多，常见于胃肠道反应。但解热抗炎镇痛效果非常强，除紧急情况外不要使用。 「x吲哚美辛x」同上，副作用更高，解热抗炎效果很强，但持续时间短。建议使用栓剂以减少不良反应发生。 非甾体抗炎药类的其他部分，临床应用中副作用效果过大（或者主要使用它的副作用），因此个人不选入退热应急药物中。例如，阿司匹林目前主要作为抗血小板凝集药物来预防急性心肌梗死。 —————————— 化痰可以保证呼吸道通畅，且能有效减缓因痰液刺激导致的咳嗽。 如果出现有较大量或较浓痰液的症状，在化痰之前禁用中枢神经系统类镇咳药。市售常见的中成药，如止咳化痰糖浆或止咳化痰片，均不属于此处提到的溶解性祛痰药。当痰液有不透明、变色等细菌感染指征时，应尽早使用抗生素。 溶解性祛痰药没有优先级，「盐酸氨溴索」、「乙酰半胱氨酸」、「溴己新」、「桉柠蒎肠溶软胶囊（切诺）」、「愈创甘油醚」、「桃金娘油肠溶软胶囊（吉诺通）」均可。需要注意可能存在的过敏问题，备好抗过敏药。当之前选择了含有马来酸氯苯那敏（通常成分名含有“敏”字）的复方感冒药时，不需要选择抗过敏药。 —————————— 当之前选择的复方感冒药中含有右美沙芬（通常成分名含有“美”字）、可待因时，不需要选择止咳用药。 右美沙芬和可待因与精神类药物会产生相互作用，不可同时使用。 咳嗽的主要危害是喉咙充血和心血管压力增加，长期咳嗽会导致肺泡损伤。此处按照效用和副作用排列，推荐的止咳药按优先级： 右美沙芬愈创甘油醚＞右美沙芬片＞磷酸可待因糖浆＞甘草片，麻杏止咳片和其他中成药 「右美沙芬愈创甘油醚」属于右美沙芬与溶解性祛痰药的复方，且可以在线上药店直接购买。选择右美沙芬愈创甘油醚后，不需要选择溶解性祛痰药。 「右美沙芬片」属于仅可在线下购买的强力中枢神经镇咳药。镇咳效果强于可待因，成瘾性较低，但大剂量使用会造成精神亢奋。 磷酸可待因糖浆为阿片类药品，止咳效果较强，有轻微的呼吸抑制作用和成瘾性。不可长期使用，避免成瘾性副作用，运动员慎用。 甘草片，麻杏止咳片和其他止咳糖浆属于中成药类，有效成分通常为阿片类、伪麻类成分，注意事项同上。 —————————— 抗菌由抗生素实现，常见抗生素包括但不限于xx霉素、xx西林和头孢类药物。注意药物过敏及肝肾毒性、胃肠刺激等副作用。当出现细菌感染指征如咳嗽加重、脓痰液、乳浊或变色的鼻涕、高烧不退或者退热后再次发热时，应尽早按照医嘱及说明书使用抗生素。 头孢配酒或含酒精的药物（如藿香正气液）会产生严重的不良反应，甚至致命。 抗过敏药（抗组胺药），一般不吃。当且仅当鼻塞、红疹等过敏反应严重时，在医生指导下使用。 马来酸氯苯那敏（扑尔敏）与精神类药物会产 生相互作用，不可同时使用。 —————————— 对于留学生来说，尽管海外已有成熟的居家用药方案，但使用时仍需遵守 不使用未经医生即时确认过的药，以执业医生诊断为最优先。 如果选择了复方药，要根据含有的其他成分，在后面减去该成分的等效药。 特别需要注意防止对乙酰氨基酚的过量，这是一种常见且有效的退热药成分，如果应用过量会导致肝衰竭。 特别提醒某些国外流行的止痛药如EVE中，含有副作用较大的丙戊酰脲等成分 日系复方感冒药相对国内用药，在伪麻类、可待因、咖啡因成分上均常见大量使用，注意用药副作用及成瘾性。&lt;/p&gt;
 
-&lt;h1 id=&quot;2-疾病治疗&quot;&gt;2 疾病治疗&lt;/h1&gt;
+&lt;h2 id=&quot;12-疾病治疗&quot;&gt;1.2 疾病治疗&lt;/h2&gt;
 
 &lt;h2 id=&quot;22-脱发&quot;&gt;2.2 脱发&lt;/h2&gt;
 
@@ -471,10 +434,7 @@ II型：性行为引起，需要口服抗病毒药：XX洛韦类&lt;/p&gt;
 &lt;p&gt;外用：
 盐酸阿莫罗芬搽剂、冰醋酸溶液&lt;/p&gt;
 
-&lt;h1 id=&quot;3-其他&quot;&gt;3 其他&lt;/h1&gt;
-
-&lt;h2 id=&quot;31-挂科问题&quot;&gt;3.1 挂科问题&lt;/h2&gt;
-
+&lt;h2 id=&quot;13-挂科问题&quot;&gt;1.3 挂科问题&lt;/h2&gt;
 &lt;p&gt;1.肚子疼（急性突发）急症外科
 （慢性持续）消化内科
 女性（无关饮食）妇产科&lt;/p&gt;
@@ -492,75 +452,53 @@ II型：性行为引起，需要口服抗病毒药：XX洛韦类&lt;/p&gt;
 
 &lt;p&gt;6.乳腺   乳腺科（普外科）&lt;/p&gt;
 
-&lt;h2 id=&quot;32-兼容问题&quot;&gt;3.2 兼容问题&lt;/h2&gt;
+&lt;h2 id=&quot;14-兼容问题&quot;&gt;1.4 兼容问题&lt;/h2&gt;
 &lt;p&gt;藿香正气水+头孢=乙醛中毒；布洛芬+萘普生+阿司匹林=胃肠道出血；感冒药+退烧药+镇痛药=肝衰竭；84+洁厕灵=氯气；降压药+柚子=血压骤降；蜂蜜+感冒药=药效减退；碘酒+红药水=碘化汞；阿司匹林+银杏叶类药=胃肠道出血；防晒霜+驱蚊液=过敏；&lt;/p&gt;
+
+&lt;h1 id=&quot;2-计算机&quot;&gt;2 计算机&lt;/h1&gt;
+
+&lt;h2 id=&quot;21-快捷键与命令&quot;&gt;2.1 快捷键与命令&lt;/h2&gt;
+&lt;p&gt;Ctrl类&lt;/p&gt;
+
+&lt;p&gt;Ctrl+A 全选；Ctrl+X 剪切；Ctrl+C 复制；Ctrl+X 剪切；Ctrl+V 粘贴；Ctrl+Z 撤销；&lt;/p&gt;
+
+&lt;p&gt;Ctrl+Y 恢复撤销操作；Ctrl+P 打印设置；Ctrl+S 保存；Crtl+D 删除；&lt;/p&gt;
+
+&lt;p&gt;Ctrl+滚轮 调节页面比例或者图标大小；Crtl+Shift+Esc 任务管理器；&lt;/p&gt;
+
+&lt;p&gt;Ctrl+小键盘’+’ 　页面放大10%；Ctrl+小键盘’-‘   页面缩小10%；&lt;/p&gt;
+
+&lt;p&gt;Win类&lt;/p&gt;
+
+&lt;p&gt;Win+D 显示桌面；Win+E 打开我的电脑；Win+F 搜索；Win+R 运行；Win+L 锁定/切换用户；&lt;/p&gt;
+
+&lt;p&gt;Win+I 打开设置；Win+P 投影；Win+V 剪贴板；Win+分号 调出Emoji；&lt;/p&gt;
+
+&lt;p&gt;Win+各种方向键 最大化/最小化；Win+Home 除了当前窗口，其他都最小化；&lt;/p&gt;
+
+&lt;p&gt;F类&lt;/p&gt;
+
+&lt;p&gt;F2 重命名；Alt+F4 关闭；F5刷新；F11 最大化/还原；&lt;/p&gt;
+
+&lt;p&gt;Alt类&lt;/p&gt;
+
+&lt;p&gt;Alt+Tab 切换应用；Alt+F4 关闭；Alt+Enter 显示属性；Alt+P 预览；&lt;/p&gt;
+
+&lt;p&gt;Alt+各种方向键 切换目录；Alt+Printscreen 活动窗口截图；&lt;/p&gt;
+
+&lt;p&gt;其他&lt;/p&gt;
+
+&lt;p&gt;Crtl+Shift+Tab 切换选项/切换视图；Printscreen 整块屏幕截图；&lt;/p&gt;
+
+&lt;p&gt;常见命令&lt;/p&gt;
+
+&lt;p&gt;ipconfig；netsh；ping；net user；shutdown；&lt;/p&gt;
+
+&lt;p&gt;services.msc；regedit；mstsc；msconfig；&lt;/p&gt;
 </description>
         <pubDate>Sun, 09 Jul 2023 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/study/%E5%8C%BB%E5%AD%A6%E7%9F%A5%E8%AF%86%E8%AE%B0%E5%BD%95.html</link>
-        <guid isPermaLink="true">http://localhost:4000/study/%E5%8C%BB%E5%AD%A6%E7%9F%A5%E8%AF%86%E8%AE%B0%E5%BD%95.html</guid>
-        
-        <category>Study</category>
-        
-        
-        <category>Study</category>
-        
-      </item>
-    
-      <item>
-        <title>Jekyll学习#2</title>
-        <description>&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Jekyll&lt;/code&gt;学习第二弹&lt;/p&gt;
-
-&lt;h1 id=&quot;1-插件&quot;&gt;1. 插件&lt;/h1&gt;
-
-&lt;h2 id=&quot;11-jimoji&quot;&gt;1.1 jimoji&lt;/h2&gt;
-
-&lt;p&gt;具体emoji代码参考 https://www.webfx.com/tools/emoji-cheat-sheet/&lt;/p&gt;
-
-&lt;p&gt;展示：&lt;/p&gt;
-
-&lt;p&gt;:+1:
-:dog:
-:cat:&lt;/p&gt;
-
-&lt;h2 id=&quot;12-网易云音乐插件&quot;&gt;1.2 网易云音乐插件&lt;/h2&gt;
-
-&lt;p&gt;代码参考：
-在每个页面抬头添加music-id: XXXX&lt;/p&gt;
-
-&lt;h2 id=&quot;13-为jekyll博客添加目录与scrollspy效果&quot;&gt;1.3 为Jekyll博客添加目录与ScrollSpy效果&lt;/h2&gt;
-
-&lt;p&gt;代码参考：http://t.hengwei.me/post/%E4%B8%BAjekyll%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E7%9B%AE%E5%BD%95%E4%B8%8Escrollspy%E6%95%88%E6%9E%9C.html&lt;/p&gt;
-
-&lt;h2 id=&quot;14-个人博客中添加点击爱心效果&quot;&gt;1.4 个人博客中添加点击爱心效果&lt;/h2&gt;
-
-&lt;p&gt;代码参考：https://yizibi.github.io/2018/10/18/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%B7%BB%E5%8A%A0%E7%82%B9%E5%87%BB%E7%88%B1%E5%BF%83%E6%95%88%E6%9E%9C/&lt;/p&gt;
-
-&lt;p&gt;代码2参考：https://blog.51cto.com/u_15127588/2807647&lt;/p&gt;
-
-&lt;h2 id=&quot;15-添加阅读量统计功能&quot;&gt;1.5 添加阅读量统计功能&lt;/h2&gt;
-
-&lt;p&gt;代码参考：https://blog.csdn.net/qq_32507255/article/details/89068958?ops_request_misc=&amp;amp;request_id=&amp;amp;biz_id=102&amp;amp;utm_term=jekyll%20%E7%82%B9%E5%87%BB&amp;amp;utm_medium=distribute.pc_search_result.none-task-blog-2~blog~sobaiduweb~default-4-89068958.268^v1^koosearch&amp;amp;spm=1018.2226.3001.4450&lt;/p&gt;
-
-&lt;h2 id=&quot;16-gitalk&quot;&gt;1.6 gitalk&lt;/h2&gt;
-
-&lt;p&gt;代码参考：https://www.pianshen.com/article/4404354477/  https://blog.csdn.net/zy13651953784/article/details/104813021  https://blog.csdn.net/sinat_32873711/article/details/129192910  https://github.com/gitalk/gitalk/blob/master/readme-cn.md  https://gitalk.github.io/  https://github.com/gitalk/gitalk#install&lt;/p&gt;
-
-&lt;h2 id=&quot;17-随机bgm与全局bgm&quot;&gt;1.7 随机BGM与全局BGM&lt;/h2&gt;
-
-&lt;p&gt;代码参考：https://www.jianshu.com/p/b2306e9b7ba7   https://szhshp.org/tech/2016/11/19/whynotaddabgmforurblog.html&lt;/p&gt;
-
-&lt;h2 id=&quot;18-添加站点访客数及文章浏览量添加中英文字数统计&quot;&gt;1.8 添加站点访客数及文章浏览量、添加中英文字数统计&lt;/h2&gt;
-
-&lt;p&gt;代码参考：https://blog.csdn.net/ds19991999/article/details/81293467&lt;/p&gt;
-
-&lt;h2 id=&quot;19-live2d小人&quot;&gt;1.9 Live2D小人&lt;/h2&gt;
-
-&lt;p&gt;代码参考：https://github.com/stevenjoezhang/live2d-widget&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 03 Jul 2023 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/study/Jekyll%E6%8F%92%E4%BB%B6%E4%B8%8E%E5%8A%9F%E8%83%BD%E4%BC%98%E5%8C%96.html</link>
-        <guid isPermaLink="true">http://localhost:4000/study/Jekyll%E6%8F%92%E4%BB%B6%E4%B8%8E%E5%8A%9F%E8%83%BD%E4%BC%98%E5%8C%96.html</guid>
+        <link>http://localhost:4000/study/%E7%9F%A5%E8%AF%86%E8%AE%B0%E5%BD%95.html</link>
+        <guid isPermaLink="true">http://localhost:4000/study/%E7%9F%A5%E8%AF%86%E8%AE%B0%E5%BD%95.html</guid>
         
         <category>Study</category>
         
@@ -847,6 +785,54 @@ git push origin main （正式开始上传）
 &lt;p&gt;.gitignore文件有可能将_site文件添加为忽略文件，以至于后续操作将该文件忽略，从而无法上传至远程仓库的问题。_site文件以及.sass-cache文件都不能被忽略。另一方面，site里面的文件内容需要上传到github来使重要元件显现。
 &lt;a href=&quot;https://blog.csdn.net/qq_43328313/article/details/124066785&quot;&gt;链接1&lt;/a&gt;
 &lt;a href=&quot;https://blog.csdn.net/qq_56914146/article/details/128994392&quot;&gt;链接2&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;4-插件&quot;&gt;4. 插件&lt;/h1&gt;
+
+&lt;h2 id=&quot;41-jimoji&quot;&gt;4.1 jimoji&lt;/h2&gt;
+
+&lt;p&gt;具体emoji代码参考 https://www.webfx.com/tools/emoji-cheat-sheet/&lt;/p&gt;
+
+&lt;p&gt;展示：&lt;/p&gt;
+
+&lt;p&gt;:+1:
+:dog:
+:cat:&lt;/p&gt;
+
+&lt;h2 id=&quot;42-网易云音乐插件&quot;&gt;4.2 网易云音乐插件&lt;/h2&gt;
+
+&lt;p&gt;代码参考：
+在每个页面抬头添加music-id: XXXX&lt;/p&gt;
+
+&lt;h2 id=&quot;43-为jekyll博客添加目录与scrollspy效果&quot;&gt;4.3 为Jekyll博客添加目录与ScrollSpy效果&lt;/h2&gt;
+
+&lt;p&gt;代码参考：http://t.hengwei.me/post/%E4%B8%BAjekyll%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E7%9B%AE%E5%BD%95%E4%B8%8Escrollspy%E6%95%88%E6%9E%9C.html&lt;/p&gt;
+
+&lt;h2 id=&quot;44-个人博客中添加点击爱心效果&quot;&gt;4.4 个人博客中添加点击爱心效果&lt;/h2&gt;
+
+&lt;p&gt;代码参考：https://yizibi.github.io/2018/10/18/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%B7%BB%E5%8A%A0%E7%82%B9%E5%87%BB%E7%88%B1%E5%BF%83%E6%95%88%E6%9E%9C/&lt;/p&gt;
+
+&lt;p&gt;代码2参考：https://blog.51cto.com/u_15127588/2807647&lt;/p&gt;
+
+&lt;h2 id=&quot;45-添加阅读量统计功能&quot;&gt;4.5 添加阅读量统计功能&lt;/h2&gt;
+
+&lt;p&gt;代码参考：https://blog.csdn.net/qq_32507255/article/details/89068958?ops_request_misc=&amp;amp;request_id=&amp;amp;biz_id=102&amp;amp;utm_term=jekyll%20%E7%82%B9%E5%87%BB&amp;amp;utm_medium=distribute.pc_search_result.none-task-blog-2~blog~sobaiduweb~default-4-89068958.268^v1^koosearch&amp;amp;spm=1018.2226.3001.4450&lt;/p&gt;
+
+&lt;h2 id=&quot;46-gitalk&quot;&gt;4.6 gitalk&lt;/h2&gt;
+
+&lt;p&gt;代码参考：https://www.pianshen.com/article/4404354477/  https://blog.csdn.net/zy13651953784/article/details/104813021  https://blog.csdn.net/sinat_32873711/article/details/129192910  https://github.com/gitalk/gitalk/blob/master/readme-cn.md  https://gitalk.github.io/  https://github.com/gitalk/gitalk#install&lt;/p&gt;
+
+&lt;h2 id=&quot;47-随机bgm与全局bgm&quot;&gt;4.7 随机BGM与全局BGM&lt;/h2&gt;
+
+&lt;p&gt;代码参考：https://www.jianshu.com/p/b2306e9b7ba7   https://szhshp.org/tech/2016/11/19/whynotaddabgmforurblog.html&lt;/p&gt;
+
+&lt;h2 id=&quot;48-添加站点访客数及文章浏览量添加中英文字数统计&quot;&gt;4.8 添加站点访客数及文章浏览量、添加中英文字数统计&lt;/h2&gt;
+
+&lt;p&gt;代码参考：https://blog.csdn.net/ds19991999/article/details/81293467&lt;/p&gt;
+
+&lt;h2 id=&quot;49-live2d小人&quot;&gt;4.9 Live2D小人&lt;/h2&gt;
+
+&lt;p&gt;代码参考：https://github.com/stevenjoezhang/live2d-widget&lt;/p&gt;
+
 </description>
         <pubDate>Wed, 24 May 2023 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/study/Jekyll.html</link>
@@ -2045,7 +2031,7 @@ PS：最近看了地错，好喜欢希儿啊…&lt;/p&gt;
 &lt;p&gt;仔细想想，现在的社会真无聊啊，全都在笑里藏刀，全都在背地里吐槽对方，全都在转移压力，全都在阿谀奉承，只是为了活下去…活下去真那么重要吗，如果不是为了我的父母以及外婆，我还会在这个世界上嘛。也许我嘴上这么说，实际上还会自私的活下去吧…但是我不想丢失自我…酒局上新的老师说，如果你不自信能干出大事，那你这辈子完了…我很好奇，师兄他自己真的信这些话吗，还是说为了生存，他已经不得不告诉自己必须相信这些…还是说他认为这套说辞最适合在酒场上说给boss听…不管是哪种都很无聊，无趣。师兄他们也曾抗争过，但是都失败了，，，都老了，或者是都有软肋了，那只要自己没有软肋不就行了。。。&lt;/p&gt;
 
 &lt;h2 id=&quot;12月07日&quot;&gt;12月07日&lt;/h2&gt;
-&lt;p&gt;晚上吃了羊肉和羊蝎子，好吃，虽然我没吃多少，而且有点贵…；今天组会老师又没来，又是水了一节，昨晚白担心了；吃完饭听师妹们聊天，感觉…好寂寞，我终究还会是孤独一个人，好孤独。。。我真正的心情是怎么样的呢。。。&lt;/p&gt;
+&lt;p&gt;晚上吃了羊肉和羊蝎子，好吃，虽然我没吃多少，而且有点贵…；今天组会老师又没来，又是水了一节，昨晚白担心了；吃完饭听师妹们聊天，感觉…好寂寞，我终究还会是孤独一个人，好孤独。。。我真正的心情是怎么样的呢。。。看了小桃中之人的新视频，终于开始发声了，果然是霸王条款问题，虽然我主张绝不站队，但是看到恶心资本家还是有种窝火的感觉….&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 23 May 2023 00:00:00 +0800</pubDate>
