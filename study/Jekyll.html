@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+
+<html lang="zh-Hans">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jekyll学习 - LLGY</title>
+    <meta name="author"  content="LLGY">
+    <meta name="description" content="Jekyll学习">
+    <meta name="keywords"  content="Study">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Jekyll学习 - LLGY">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://localhost:4000/study/Jekyll.html">
+    <meta property="og:baseurl" content="">
+    <meta property="og:description" content="个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。">
+    <meta property="og:site_name" content="LLGY">
+    <meta property="og:gray" content="false">
+    
+    <meta property="og:previous_url" content="/study/%E7%9F%A5%E8%AF%86%E8%AE%B0%E5%BD%95.html">
+    
+    
+    <meta property="og:next_url" content="/daily/Daily_Life.html">
+    
+    <meta property="post-date-format" content="0">
+    
+    <meta property="post-date" content="2023-05-24 00:00:00 +0800" />
+    
+    
+    <meta name="alivestart" content="05/24/2023">
+    
+    
+    <meta name="theme-color" content="#81BBFF" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/assets/img/touch/apple-touch-icon.png"/>
+    <link rel="Shortcut Icon" href="/favicon.ico">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="bookmark" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@5.2.0/github-markdown-light.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js@1.0.16/dist/css/share.min.css">
+    
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-themes@1.9.0/themes/prism-one-light.min.css" />
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/plugins/line-numbers/prism-line-numbers.min.css">
+    
+    <link rel="stylesheet" href="/assets/css/app.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@waline/client/dist/waline.css" />
+    <script src="//cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+</head>
+
+
+
+<body class="line-numbers" ontouchstart="">
+
+
+
+
+  <!--[if lt IE 10]>
+  <div class="alert-danger" role="alert">你的浏览器实在太太太旧了，放学别走，升级完浏览器再说！<a target="_blank" class="alert-link" href="http://browsehappy.com">立即升级</a></div>
+  <![endif]-->
+  
+  <div id="all" class="post">
+  
+    <div class="alert-tip" id="no-previous">
+      已经是最新一篇文章了！
+    </div>
+    <div class="alert-tip" id="no-next">
+      已经是最后一篇文章了！
+    </div>
+    <input id="nm-switch" type="hidden" value="false"> <header class="g-header">
+    <div class="g-logo">
+      <a href="/" aria-label="logo"></a>
+    </div>
+    <!-- <i id="menu-toggle" class="iconfont icon-menu"></i> -->
+    <div id="mode-toggle">
+        <svg class="icon icon-day" aria-hidden="true">
+            <use xlink:href="#icon-day"></use>
+        </svg>
+        <svg class="icon icon-night" aria-hidden="true">
+            <use xlink:href="#icon-night"></use>
+        </svg>
+    </div>
+    <svg id="menu-toggle" class="icon-menu" aria-hidden="true">
+        <use xlink:href="#icon-menu"></use>
+    </svg>
+    <nav class="g-nav">
+        <ul>
+            
+                
+                <li>
+                    <a href="/" aria-label="home">
+                        home
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a href="/blog/index.html" aria-label="blog">
+                        blog
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a href="/archives.html" aria-label="archives">
+                        archives
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a href="/tags.html" aria-label="tags">
+                        tags
+                    </a>
+                </li>
+                
+            
+                
+                <li class="dropdown">
+                    <a class="dropdown-toggle"> about </a>
+                    <ul class="dropdown-menu">
+                    
+                        <li>
+                            <a href="/logs.html" aria-label="logs">
+                                logs
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/tos.html" aria-label="tos">
+                                tos
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/links.html" aria-label="links">
+                                links
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/feed.xml" aria-label="RSS">
+                                RSS
+                            </a>
+                        </li>
+                    
+                    </ul> 
+                </li>
+                
+            
+            <li class="mode">
+                <svg class="icon day" aria-hidden="true">
+                    <use xlink:href="#icon-day"></use>
+                </svg>
+                <svg class="icon night" aria-hidden="true">
+                    <use xlink:href="#icon-night"></use>
+                </svg>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+    <header class="g-banner post-header post-pattern-circuitBoard bgcolor-default post-no-cover" data-theme="default">
+      <div class="post-wrapper">
+        <div class="post-tags">
+          
+            
+              <a href="/tags.html#Study" class="post-tag">Study</a>
+            
+          
+        </div>
+        <h1>Jekyll学习</h1>
+        <div class="post-meta">
+          <span class="post-meta-item">
+            <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-user"></use>
+            </svg>
+            LLGY
+          </span>
+          <time class="post-meta-item" datetime="23-05-24">
+            <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-calendar"></use>
+            </svg>
+            <span class="create-at"></span>
+          </time>
+          <time class="post-meta-item" datetime="23-05-24">
+            <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-update"></use>
+            </svg>
+            <span class="update-at"></span>
+          </time>
+            <span class="post-meta-item">
+              <svg class="icon words" aria-hidden="true">
+                <use xlink:href="#icon-words"></use>
+              </svg>
+              
+              本文总共  6.6k  字
+            </span>
+            <span class="post-meta-item">
+              <svg class="icon time" aria-hidden="true">
+                <use xlink:href="#icon-time"></use>
+              </svg>
+              阅读全文大约需要 19 分钟
+            </span>
+            
+              <span class="post-meta-item">
+                <svg class="icon pv" aria-hidden="true">
+                  <use xlink:href="#icon-pv"></use>
+                </svg>
+                本文总阅读量 <span id="busuanzi_value_page_pv"></span> 次
+              </span>
+            
+            
+        </div>
+      </div>
+      
+    </header>
+
+        <!-- 在正文开头添加网易云音乐插件 -->
+         
+
+    <div class="post-content visible">
+      
+      <h2 class="post-subtitle">软件与环境的简单安装与调试</h2>
+      
+
+      
+      
+      <div class="container">  
+        <div class="contents">
+          <article class="markdown-body">
+            <p>进行个<code class="language-plaintext highlighter-rouge">Jekyll</code>的学~呜呜呜，搞成功后我真的是要泪崩了，为了弄这玩意多次学到凌晨6点，但感谢我的运气，感谢我的耐心。那么废话不多说，赶快把这次学到的一切以语言形式记录下来把~</p>
+
+<h1 id="1-软件介绍当然是复制别人的啦">1. 软件介绍（<a href="http://www.noobyard.com/article/p-nwnqarhl-gs.html">当然是复制别人的啦</a>）</h1>
+
+<p>Jekyll是一个简单的，博客感知的静态站点生成器。</p>
+
+<p>你将内容建立为文本文件（Markdown），并将其放到到文件夹中。而后，使用Liquid-enhanced HTML模板构建网站。Jekyll自动将内容和模板联系在一块儿，生成彻底由静态资源组成的网站，它适合上传到任何服务器。</p>
+
+<p>Jekyll刚好是GitHub Pages的引擎，所以你能够在GitHub的服务器上免费托管项目的Jekyll页面/博客/网站。</p>
+
+<h2 id="11-github--jekyll-工作机制">1.1 GitHub + Jekyll 工作机制</h2>
+
+<p>简单地说，你在 GitHub 上有一个账号，名为<code class="language-plaintext highlighter-rouge">username</code>(任意)， 有一个项目，名为<code class="language-plaintext highlighter-rouge">username.github.io</code>(固定格式，<code class="language-plaintext highlighter-rouge">username</code>与账号名一致)， 项目分支名为 <code class="language-plaintext highlighter-rouge">master</code>(你可以自己改)。</p>
+
+<p>这样，当你访问<code class="language-plaintext highlighter-rouge">http://username.github.io/</code>时，GitHub 会使用<code class="language-plaintext highlighter-rouge">Jekyll</code>解析用户 <code class="language-plaintext highlighter-rouge">username</code>名下的<code class="language-plaintext highlighter-rouge">username.github.io</code>项目中，分支为<code class="language-plaintext highlighter-rouge">master</code>的源代码，为你构建一个静态网站，并将生成的<code class="language-plaintext highlighter-rouge">index.html</code>展示给你。</p>
+
+<p>如果要搭建自己的博客，你可以选择建立名为<code class="language-plaintext highlighter-rouge">username.github.io</code>的项目， 在master分支下存放网站源代码，也可以选择建立名为<code class="language-plaintext highlighter-rouge">blog</code>的项目，在<code class="language-plaintext highlighter-rouge">gh-pages</code>分支下存放网站源代码。（推荐前者）</p>
+
+<p><a href="https://www.cnblogs.com/Eaglery/p/5126279.html">具体工作原理可以看这个</a></p>
+
+<h1 id="2-总体流程">2. 总体流程</h1>
+
+<h2 id="21-各软件的安装和升级msys2的安装">2.1 各软件的安装和升级msys2的安装</h2>
+
+<p>https://jekyllrb.com/docs/installation/windows/   官方教程</p>
+
+<pre><code class="language-msys2_install">ridk install（该步之前请上官网下载安装软件，之后cmd自动安装）
+</code></pre>
+
+<pre><code class="language-install">gem install jekyll bundler
+</code></pre>
+
+<pre><code class="language-jekyll_update">gem update jekyll
+</code></pre>
+<p>gem sources -r https://rubygems.org/
+gem sources –add https://mirrors.tuna.tsinghua.edu.cn/rubygems/
+gem sources -l</p>
+
+<h2 id="24-jekyll相关指令">2.4 jekyll相关指令</h2>
+
+<pre><code class="language-jekyll">jekyll new XXX（该步是建立一个新的Jekyll站点，创建指令需要管理员下的CMD，不然各种错误）
+cd XXX （进入刚才创建的目录）
+bundle install（该步为安装Gefile内需要组件）
+bundle update
+bundle exec jekyll serve（开始构建本地网址）（如果发现4000被占用，可以[参考这个](https://blog.csdn.net/weixin_30666401/article/details/98372840)） https://blog.csdn.net/oneby1314/article/details/113710763
+
+netstat -ano|findstr "4000"
+taskkill -F -PID 5632
+
+</code></pre>
+<pre><code class="language-jekyll_theme">（主题下载网址：https://rubygems.org/search?query=jekyll-theme）
+（参考使用方法：将github上的文件全部下载覆盖自己的blog文件夹，之后再次bundle install）
+</code></pre>
+
+<h2 id="25-写blog">2.5 写Blog</h2>
+
+<p>进入_post目录，开始你的创作吧，注意文件的格式必须为YEAR-MONTH-DAY-title.MARKUP，如：2019-02-13-blog.md。</p>
+
+<p>为了后续编辑方便，这边推荐复制一下你Blog文件夹，以后你编辑内容时使用非上传文件夹（旧文件夹）。需要上传时复制一下整体，在新文件夹里把site文件夹里的文件全部拷贝到新文件夹里，上传步骤中上传新文件夹就不会出现Blog合集无法显示的问题了。</p>
+
+<h2 id="26-数据上传github全程必须有梯子或者改host">2.6 数据上传github（全程必须有梯子，或者改host）</h2>
+
+<pre><code class="language-git_upload">git init
+git checkout -b main
+git add .
+git commit -m "XX" （以XX名字上传github）
+git remote add origin https://github.com/LLGY0/LLGY0.github.io.git
+git push origin main （正式开始上传）
+</code></pre>
+<pre><code class="language-other_git_deploy_option">    （这一部分实战不需要，放在这是为了参考）
+    git checkout source
+    jekyll build
+    git add -A
+    git commit -m "update source"
+    cp -r _site/ /tmp/
+    git checkout master
+    rm -r ./*
+    cp -r /tmp/_site/* ./
+    git add -A
+    git commit -m "deploy blog"
+    git push origin master
+    git checkout source
+    echo "deploy succeed"
+    git push origin source
+    echo "push source"
+</code></pre>
+
+<h2 id="26-运行查看blog">2.6 运行查看Blog</h2>
+<p>直接访问项目名(<username>.github.io)就可以看你blog了，如：XXX.github.io</username></p>
+
+<h2 id="27-自定义域名要花钱的">2.7 自定义域名（要花钱的）</h2>
+<p>自定义域名需要有自己的域名，没有可以去阿里云注册购买个心意的域名；进入域名配置中心，配置域名解析；进入github项目设置，设置自己的域名并保存，开启Enforce HTTPS，就完成了自定义域名设置</p>
+
+<h1 id="3-其他事项">3. 其他事项</h1>
+
+<h2 id="31-网址初始附加">3.1 网址初始附加</h2>
+
+<h3 id="311-添加超链接文字">3.1.1 添加超链接文字</h3>
+<pre><code class="language-Code">[超链接文字→](https://github.com/kaeyleo/jekyll-theme-H2O)
+</code></pre>
+<p><a href="https://github.com/kaeyleo/jekyll-theme-H2O">超链接文字→</a></p>
+
+<h3 id="312-插图片">3.1.2 插图片</h3>
+<pre><code class="language-Code">![图片名](http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-realhome.jpg)
+</code></pre>
+<p><img src="http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-realhome.jpg" alt="图片名"></p>
+
+<h3 id="313-高亮文字">3.1.3 高亮文字</h3>
+<pre><code class="language-Code">`XXXXX`
+</code></pre>
+<p><code class="language-plaintext highlighter-rouge">XXXXX</code></p>
+
+<h3 id="314-代码">3.1.4 代码</h3>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; ```markdown</span>
+<span class="gt">&gt; XXXX</span>
+<span class="gt">&gt; ```</span>
+</code></pre></div></div>
+
+<h3 id="315-变成原点">3.1.5 变成原点</h3>
+<pre><code class="language-Code">- X
+</code></pre>
+<ul>
+  <li>X</li>
+</ul>
+
+<h3 id="316-前有竖线">3.1.6 前有竖线</h3>
+<pre><code class="language-Code"> &gt; A
+</code></pre>
+<blockquote>
+  <p>A</p>
+</blockquote>
+
+<h3 id="317-video-test">3.1.7 Video Test</h3>
+<p>（这一部分仍需解决视频自动播放问题，如果用沙盒会导致下面的文字不见）</p>
+<pre><code class="language-Code">&lt;iframe id="video" src="https://www.bilibili.com/video/BV1qs41157ZZ" width="100%" frameborder="0" allowfullscreen="allowfullscreen" sandbox=""&gt;&lt;/iframe&gt;
+&lt;script type="text/javascript"&gt;document.getElementById("video").style.height=document.getElementById("video").scr
+</code></pre>
+
+<h3 id="318-加粗">3.1.8 加粗</h3>
+<pre><code class="language-Code">**A** 
+</code></pre>
+<p><strong>A</strong></p>
+
+<h3 id="319-公式">3.1.9 公式</h3>
+<p><strong>这是一个不<code class="language-plaintext highlighter-rouge">align</code>的公式</strong>：</p>
+
+\[\forall \alpha \in A, \quad a \cdot b = 0\]
+
+<p><strong>这是一个<code class="language-plaintext highlighter-rouge">align</code>的公式</strong>：</p>
+
+\[\begin{align}
+    \Phi(0,x) = \max_{u \in \mathcal{D}} \bigg[
+        \mathbb{E} &amp; \Phi\left(1, 
+        x + \int_0^1 \sigma^2(s) \, \zeta(s) \, u_s \, ds
+        + \int_0^1 \sigma(s) \, dW_s
+    \right) \\
+        &amp;- \frac{1}{2} \int_0^1 \sigma^2(s) \, \zeta(s) \,
+        \mathbb{E} u_s^2  \, ds
+    \bigg].
+\end{align}\]
+
+<h3 id="3110-空2格">3.1.10 空2格</h3>
+<pre><code class="language-Code">&amp;emsp;&amp;emsp;
+</code></pre>
+<p>  </p>
+
+<h3 id="3111-提示框">3.1.11 提示框</h3>
+<div class="premonition note"> <div class="header"> <svg class="icon note" aria-hidden="true"> <use xlink:href="#icon-note"></use> </svg> <div class="title"> Note </div> </div> <div class="content"> <p>The body of the note goes here. Premonition allows you to write any <code class="language-plaintext highlighter-rouge">Markdown</code> inside the block.</p>
+
+
+
+ </div> </div>
+<div class="premonition info"> <div class="header"> <svg class="icon info" aria-hidden="true"> <use xlink:href="#icon-info"></use> </svg> <div class="title"> 小提示 </div> </div> <div class="content"> <p>The body of the info goes here. Premonition allows you to write any <code class="language-plaintext highlighter-rouge">Markdown</code> inside the block.</p>
+
+
+
+ </div> </div>
+<div class="premonition warning"> <div class="header"> <svg class="icon warning" aria-hidden="true"> <use xlink:href="#icon-warning"></use> </svg> <div class="title"> Warning </div> </div> <div class="content"> <p>The body of the warning goes here. Premonition allows you to write any <code class="language-plaintext highlighter-rouge">Markdown</code> inside the block.</p>
+
+
+
+ </div> </div>
+<div class="premonition error"> <div class="header"> <svg class="icon error" aria-hidden="true"> <use xlink:href="#icon-error"></use> </svg> <div class="title"> Error </div> </div> <div class="content"> <p>The body of the error goes here. Premonition allows you to write any <code class="language-plaintext highlighter-rouge">Markdown</code> inside the block.</p>
+
+
+
+ </div> </div>
+<div class="premonition citation"> <div class="header"> <svg class="icon citation" aria-hidden="true"> <use xlink:href="#icon-citation"></use> </svg> </div> <div class="content"> <p>To be or not to be is a question.</p>
+
+
+
+ </div> <div class="ref"> ------ 莎士比亚 </div> </div>
+<h3 id="3112-mermaid画">3.1.12 Mermaid画</h3>
+
+<pre><code class="language-mermaid">graph TD;
+    A--&gt;B;
+    A--&gt;C;
+    B--&gt;D;
+    C--&gt;D;
+</code></pre>
+
+<pre><code class="language-mermaid2">    graph TD;
+    A--&gt;B;
+    A--&gt;C;
+    B--&gt;D;
+    C--&gt;D;
+</code></pre>
+
+<pre><code class="language-mermaid2">    gantt
+      title A Gantt Diagram
+      dateFormat x
+      axisFormat %L
+      section Section
+      A task           :a1, 0, 30ms
+      Another task     :after a1, 20ms
+      section Another
+      Another another task      :b1, 20, 12ms
+      Another another another task     :after b1, 24ms
+</code></pre>
+
+<pre><code class="language-mermaid2">    gantt
+    dateFormat  YYYY-MM-DD
+    title       Adding GANTT diagram functionality to mermaid
+    excludes    weekends
+    %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week ("sunday") or "weekends", but not the word "weekdays".)
+
+    section A section
+    Completed task            :done,    des1, 2014-01-06,2014-01-08
+    Active task               :active,  des2, 2014-01-09, 3d
+    Future task               :         des3, after des2, 5d
+    Future task2              :         des4, after des3, 5d
+
+    section Critical tasks
+    Completed task in the critical line :crit, done, 2014-01-06,24h
+    Implement parser and jison          :crit, done, after des1, 2d
+    Create tests for parser             :crit, active, 3d
+    Future task in critical line        :crit, 5d
+    Create tests for renderer           :2d
+    Add to mermaid                      :1d
+    Functionality added                 :milestone, 2014-01-25, 0d
+
+    section Documentation
+    Describe gantt syntax               :active, a1, after des1, 3d
+    Add gantt diagram to demo page      :after a1  , 20h
+    Add another diagram to demo page    :doc1, after a1  , 48h
+
+    section Last section
+    Describe gantt syntax               :after doc1, 3d
+    Add gantt diagram to demo page      :20h
+    Add another diagram to demo page    :48h
+</code></pre>
+<h3 id="3113-其他">3.1.13 其他</h3>
+<pre><code class="language-Code">[pdf名字](https://用户名.github.io/....pdf)
+</code></pre>
+<p><a href="https://%E7%94%A8%E6%88%B7%E5%90%8D.github.io/....pdf">pdf名字</a></p>
+
+<h2 id="32-注意事项">3.2 注意事项</h2>
+
+<h3 id="321-事项1">3.2.1 事项1</h3>
+<p>注意git的时候千万不能用<code class="language-plaintext highlighter-rouge">gh-pages</code>（不然在github生成网站时会出错，错误提示：<code class="language-plaintext highlighter-rouge">Action failed with "You deploy from gh-pages to gh-pages；This operation is prohibited to protect your contents</code>）</p>
+
+<h3 id="322-事项2">3.2.2 事项2</h3>
+<p>命名github的<code class="language-plaintext highlighter-rouge">repository</code>时，命名直接用<code class="language-plaintext highlighter-rouge">用户名+.github.io</code>，这样设置用户文件夹里的<code class="language-plaintext highlighter-rouge">_config.yml</code>时，就不用改<code class="language-plaintext highlighter-rouge">baseurl</code>了。（如果改baseurl，很容易导致输入代码-jekyll serve时出错，出错代码：<code class="language-plaintext highlighter-rouge">sw not found</code>）</p>
+
+<h3 id="323-事项3">3.2.3 事项3</h3>
+<p><a href="https://blog.csdn.net/pxyyoona/article/details/123150326">关于<code class="language-plaintext highlighter-rouge">_config.yml</code>中<code class="language-plaintext highlighter-rouge">baseurl</code>的介绍</a></p>
+
+<h3 id="324-事项4">3.2.4 事项4</h3>
+<p>上传时出现<code class="language-plaintext highlighter-rouge">The requested URL returned error: 403</code>的解决方法
+<a href="https://blog.csdn.net/weixin_45844049/article/details/123733065">链接1</a>
+<a href="https://blog.csdn.net/qq_40226073/article/details/119801341">链接2</a></p>
+
+<h3 id="325-事项5">3.2.5 事项5</h3>
+<p>.gitignore文件有可能将_site文件添加为忽略文件，以至于后续操作将该文件忽略，从而无法上传至远程仓库的问题。_site文件以及.sass-cache文件都不能被忽略。另一方面，site里面的文件内容需要上传到github来使重要元件显现。
+<a href="https://blog.csdn.net/qq_43328313/article/details/124066785">链接1</a>
+<a href="https://blog.csdn.net/qq_56914146/article/details/128994392">链接2</a></p>
+
+<h1 id="4-插件">4. 插件</h1>
+
+<h2 id="41-jimoji">4.1 jimoji</h2>
+
+<p>具体emoji代码参考 https://www.webfx.com/tools/emoji-cheat-sheet/</p>
+
+<p>展示：</p>
+
+<p><img class="emoji" title=":+1:" alt=":+1:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20">
+<img class="emoji" title=":dog:" alt=":dog:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f436.png" height="20" width="20">
+<img class="emoji" title=":cat:" alt=":cat:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f431.png" height="20" width="20"></p>
+
+<h2 id="42-网易云音乐插件">4.2 网易云音乐插件</h2>
+
+<p>代码参考：
+在每个页面抬头添加music-id: XXXX</p>
+
+<h2 id="43-为jekyll博客添加目录与scrollspy效果">4.3 为Jekyll博客添加目录与ScrollSpy效果</h2>
+
+<p>代码参考：http://t.hengwei.me/post/%E4%B8%BAjekyll%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E7%9B%AE%E5%BD%95%E4%B8%8Escrollspy%E6%95%88%E6%9E%9C.html</p>
+
+<h2 id="44-个人博客中添加点击爱心效果">4.4 个人博客中添加点击爱心效果</h2>
+
+<p>代码参考：https://yizibi.github.io/2018/10/18/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%B7%BB%E5%8A%A0%E7%82%B9%E5%87%BB%E7%88%B1%E5%BF%83%E6%95%88%E6%9E%9C/</p>
+
+<p>代码2参考：https://blog.51cto.com/u_15127588/2807647</p>
+
+<h2 id="45-添加阅读量统计功能">4.5 添加阅读量统计功能</h2>
+
+<p>代码参考：https://blog.csdn.net/qq_32507255/article/details/89068958?ops_request_misc=&amp;request_id=&amp;biz_id=102&amp;utm_term=jekyll%20%E7%82%B9%E5%87%BB&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~blog~sobaiduweb~default-4-89068958.268^v1^koosearch&amp;spm=1018.2226.3001.4450</p>
+
+<h2 id="46-gitalk">4.6 gitalk</h2>
+
+<p>代码参考：https://www.pianshen.com/article/4404354477/  https://blog.csdn.net/zy13651953784/article/details/104813021  https://blog.csdn.net/sinat_32873711/article/details/129192910  https://github.com/gitalk/gitalk/blob/master/readme-cn.md  https://gitalk.github.io/  https://github.com/gitalk/gitalk#install</p>
+
+<h2 id="47-随机bgm与全局bgm">4.7 随机BGM与全局BGM</h2>
+
+<p>代码参考：https://www.jianshu.com/p/b2306e9b7ba7   https://szhshp.org/tech/2016/11/19/whynotaddabgmforurblog.html</p>
+
+<h2 id="48-添加站点访客数及文章浏览量添加中英文字数统计">4.8 添加站点访客数及文章浏览量、添加中英文字数统计</h2>
+
+<p>代码参考：https://blog.csdn.net/ds19991999/article/details/81293467</p>
+
+<h2 id="49-live2d小人">4.9 Live2D小人</h2>
+
+<p>代码参考：https://github.com/stevenjoezhang/live2d-widget</p>
+
+
+            <div class="post-copyright">
+              <p>
+                <span>版权声明：</span>
+                如无特别声明，本文版权归
+                <a href="http://localhost:4000">LLGY</a>
+                所有，转载请注明本文链接。 
+              </p>
+              
+                <p> 
+                  （采用 
+                  <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" class="extlinks">CC BY-NC-SA 4.0</a> 
+                  许可协议进行授权）
+                </p>
+              
+              <p><span>本文标题：</span>《 Jekyll学习 》</p>
+              <p><span>本文链接：</span><a href="http://localhost:4000/study/Jekyll.html">http://localhost:4000/study/Jekyll.html</a></p>
+              <p class="tips">本文最后一次更新为 <span></span> 天前，文章中的某些内容可能已过时！</p>
+            </div>
+          </article>
+        </div>   
+        <div class="table-of-contents">
+          <h2>目录</h2>
+          <ul>
+<li>
+<a href="#1-%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%E5%BD%93%E7%84%B6%E6%98%AF%E5%A4%8D%E5%88%B6%E5%88%AB%E4%BA%BA%E7%9A%84%E5%95%A6">1. 软件介绍（</a><a href="http://www.noobyard.com/article/p-nwnqarhl-gs.html">当然是复制别人的啦</a>）<ul><li><a href="#11-github--jekyll-%E5%B7%A5%E4%BD%9C%E6%9C%BA%E5%88%B6">1.1 GitHub + Jekyll 工作机制</a></li></ul>
+</li>
+<li>
+<a href="#2-%E6%80%BB%E4%BD%93%E6%B5%81%E7%A8%8B">2. 总体流程</a><ul>
+<li><a href="#21-%E5%90%84%E8%BD%AF%E4%BB%B6%E7%9A%84%E5%AE%89%E8%A3%85%E5%92%8C%E5%8D%87%E7%BA%A7msys2%E7%9A%84%E5%AE%89%E8%A3%85">2.1 各软件的安装和升级msys2的安装</a></li>
+<li><a href="#24-jekyll%E7%9B%B8%E5%85%B3%E6%8C%87%E4%BB%A4">2.4 jekyll相关指令</a></li>
+<li><a href="#25-%E5%86%99blog">2.5 写Blog</a></li>
+<li><a href="#26-%E6%95%B0%E6%8D%AE%E4%B8%8A%E4%BC%A0github%E5%85%A8%E7%A8%8B%E5%BF%85%E9%A1%BB%E6%9C%89%E6%A2%AF%E5%AD%90%E6%88%96%E8%80%85%E6%94%B9host">2.6 数据上传github（全程必须有梯子，或者改host）</a></li>
+<li><a href="#26-%E8%BF%90%E8%A1%8C%E6%9F%A5%E7%9C%8Bblog">2.6 运行查看Blog</a></li>
+<li><a href="#27-%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D%E8%A6%81%E8%8A%B1%E9%92%B1%E7%9A%84">2.7 自定义域名（要花钱的）</a></li>
+</ul>
+</li>
+<li>
+<a href="#3-%E5%85%B6%E4%BB%96%E4%BA%8B%E9%A1%B9">3. 其他事项</a><ul>
+<li>
+<a href="#31-%E7%BD%91%E5%9D%80%E5%88%9D%E5%A7%8B%E9%99%84%E5%8A%A0">3.1 网址初始附加</a><ul>
+<li><a href="#311-%E6%B7%BB%E5%8A%A0%E8%B6%85%E9%93%BE%E6%8E%A5%E6%96%87%E5%AD%97">3.1.1 添加超链接文字</a></li>
+<li><a href="#312-%E6%8F%92%E5%9B%BE%E7%89%87">3.1.2 插图片</a></li>
+<li><a href="#313-%E9%AB%98%E4%BA%AE%E6%96%87%E5%AD%97">3.1.3 高亮文字</a></li>
+<li><a href="#314-%E4%BB%A3%E7%A0%81">3.1.4 代码</a></li>
+<li><a href="#315-%E5%8F%98%E6%88%90%E5%8E%9F%E7%82%B9">3.1.5 变成原点</a></li>
+<li><a href="#316-%E5%89%8D%E6%9C%89%E7%AB%96%E7%BA%BF">3.1.6 前有竖线</a></li>
+<li><a href="#317-video-test">3.1.7 Video Test</a></li>
+<li><a href="#318-%E5%8A%A0%E7%B2%97">3.1.8 加粗</a></li>
+<li><a href="#319-%E5%85%AC%E5%BC%8F">3.1.9 公式</a></li>
+<li><a href="#3110-%E7%A9%BA2%E6%A0%BC">3.1.10 空2格</a></li>
+<li><a href="#3111-%E6%8F%90%E7%A4%BA%E6%A1%86">3.1.11 提示框</a></li>
+<li><a href="#3112-mermaid%E7%94%BB">3.1.12 Mermaid画</a></li>
+<li><a href="#3113-%E5%85%B6%E4%BB%96">3.1.13 其他</a></li>
+</ul>
+</li>
+<li>
+<a href="#32-%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9">3.2 注意事项</a><ul>
+<li><a href="#321-%E4%BA%8B%E9%A1%B91">3.2.1 事项1</a></li>
+<li><a href="#322-%E4%BA%8B%E9%A1%B92">3.2.2 事项2</a></li>
+<li><a href="#323-%E4%BA%8B%E9%A1%B93">3.2.3 事项3</a></li>
+<li><a href="#324-%E4%BA%8B%E9%A1%B94">3.2.4 事项4</a></li>
+<li><a href="#325-%E4%BA%8B%E9%A1%B95">3.2.5 事项5</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<a href="#4-%E6%8F%92%E4%BB%B6">4. 插件</a><ul>
+<li><a href="#41-jimoji">4.1 jimoji</a></li>
+<li><a href="#42-%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E6%8F%92%E4%BB%B6">4.2 网易云音乐插件</a></li>
+<li><a href="#43-%E4%B8%BAjekyll%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E7%9B%AE%E5%BD%95%E4%B8%8Escrollspy%E6%95%88%E6%9E%9C">4.3 为Jekyll博客添加目录与ScrollSpy效果</a></li>
+<li><a href="#44-%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%B7%BB%E5%8A%A0%E7%82%B9%E5%87%BB%E7%88%B1%E5%BF%83%E6%95%88%E6%9E%9C">4.4 个人博客中添加点击爱心效果</a></li>
+<li><a href="#45-%E6%B7%BB%E5%8A%A0%E9%98%85%E8%AF%BB%E9%87%8F%E7%BB%9F%E8%AE%A1%E5%8A%9F%E8%83%BD">4.5 添加阅读量统计功能</a></li>
+<li><a href="#46-gitalk">4.6 gitalk</a></li>
+<li><a href="#47-%E9%9A%8F%E6%9C%BAbgm%E4%B8%8E%E5%85%A8%E5%B1%80bgm">4.7 随机BGM与全局BGM</a></li>
+<li><a href="#48-%E6%B7%BB%E5%8A%A0%E7%AB%99%E7%82%B9%E8%AE%BF%E5%AE%A2%E6%95%B0%E5%8F%8A%E6%96%87%E7%AB%A0%E6%B5%8F%E8%A7%88%E9%87%8F%E6%B7%BB%E5%8A%A0%E4%B8%AD%E8%8B%B1%E6%96%87%E5%AD%97%E6%95%B0%E7%BB%9F%E8%AE%A1">4.8 添加站点访客数及文章浏览量、添加中英文字数统计</a></li>
+<li><a href="#49-live2d%E5%B0%8F%E4%BA%BA">4.9 Live2D小人</a></li>
+</ul>
+</li>
+</ul>
+        </div>
+      </div>
+      
+
+      
+      <div class="social-share-wrapper">
+        <div class="social-share"></div>
+      </div>
+      
+    </div>
+
+    <section class="author-detail">
+      <section class="post-footer-item author-card">
+        <div class="avatar">
+          <img src="/assets/img/profile1.webp" alt="">
+        </div>
+        <div class="author-name" rel="author">LLGY</div>
+        <div class="bio">
+          <p>Garbage</p>
+        </div>
+        
+      </section>
+      <section class="post-footer-item read-next">
+        
+        <div class="read-next-item">
+          <a href="/study/%E7%9F%A5%E8%AF%86%E8%AE%B0%E5%BD%95.html" class="read-next-link" aria-label="知识记录"></a>
+          <section>
+            <span>知识记录</span>
+            <p>1 医学1.1 药物使用</p>
+          </section>
+          
+      </div>
+        
+
+        
+        <div class="read-next-item">
+          <a href="/daily/Daily_Life.html" class="read-next-link" aria-label="Daily_Life"></a>
+            <section>
+              <span>Daily_Life</span>
+              <p>第一次记录自己的日常生活，希望能在博士期间好好记录下自己的所学所见。之前试过在微博或者微信朋友圈匿名写日记，但在上...</p>
+            </section>
+            
+        </div>
+        
+      </section>
+      
+      <section class="post-footer-item comment">
+        <div class="comments-headline">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-comment"></use>
+          </svg>
+          <span>评论</span>
+        </div>
+        
+      </section>      
+      
+
+    <!--主题原本使用的disqus评论相关代码 -->
+    
+    <section class="post-footer-item comment">
+        <div id="disqus_thread"></div>
+    </section>
+    
+    <!--增加引入comments的代码 -->
+    
+
+      
+      <section class="post-footer-item comment">
+          <div id="disqus_thread"></div>
+      </section>
+      
+
+      
+    </section>
+
+    
+
+
+<footer class="g-footer">
+  <section class="links">LLGY ©
+  
+  
+    2023
+    -
+  
+  2025
+  
+    <a href="https://beian.miit.gov.cn/" target="_blank" class="extlinks">沪ICP备xxxxxxxx号</a>
+  
+  </section>
+  <section class="links">
+    本站由 <a href="//jekyllrb.com" target="_blank" class="extlinks">Jekyll</a> 和 (基于 <a href="https://github.com/kaeyleo/jekyll-theme-H2O" target="_blank" class="extlinks">H2O</a> 的) <a href="https://github.com/zhonger/jekyll-theme-H2O-ac" target="_blank" class="extlinks">H2O-ac</a> 强力驱动
+     (<a href="https://github.com/zhonger/jekyll-theme-H2O-ac/releases/tag/v.1.2.0" target="_blank" class="extlinks">v1.2.0</a>)  
+    
+  </section>
+  
+  
+  <section>
+    <span id="busuanzi_container_site_pv">
+      👁️ 总浏览量 <span id="busuanzi_value_site_pv"></span> <b>·</b>
+    </span>
+    <span id="busuanzi_container_site_uv">
+      👤 总访问量 <span id="busuanzi_value_site_uv"></span>
+    </span>
+  </section>
+  
+  
+  <section>
+    
+      本站已运行 
+      <span class="alivetime_days"></span> 天
+      <span class="alivetime_hours"></span> 小时
+      <span class="alivetime_minutes"></span> 分
+      <span class="alivetime_seconds"></span> 秒
+    
+    
+    
+    
+  </section>
+</footer>
+<div class="cookie-tip">
+   为了提升本站的使用体验和必要功能的正常使用，本站会使用本地 Cookie。详细请查看「 <a href="/tos.html">本站使用条款</a> 」了解更多。
+
+  <button id="accept-tos">同意</button>
+</div>
+<button id="list" aria-label="Scroll back to top" class="mobile-list" type="button">
+  <svg class="icon list day" aria-hidden="true">
+    <use xlink:href="#icon-list-day"></use>
+  </svg>
+  <svg class="icon list night" aria-hidden="true">
+    <use xlink:href="#icon-list-night"></use>
+  </svg>
+  <svg class="icon exit day" aria-hidden="true">
+    <use xlink:href="#icon-exit-day"></use>
+  </svg>
+  <svg class="icon exit night" aria-hidden="true">
+    <use xlink:href="#icon-exit-night"></use>
+  </svg>
+</button>
+<button id="bttb" aria-label="Scroll back to top" class="bttb" type="button">
+  <svg class="icon up day" aria-hidden="true">
+    <use xlink:href="#icon-up-day"></use>
+  </svg>
+  <svg class="icon up night" aria-hidden="true">
+    <use xlink:href="#icon-up-night"></use>
+  </svg>
+</button>
+
+
+    
+    <div class="modal">
+        <div class="modal-content">
+          <header>
+            <span class="close">×</span>
+          </header>
+          <div class="container"></div>
+        </div>
+    </div>
+    
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/social-share.js@1.0.16/dist/js/social-share.min.js"></script>
+  <script>
+    socialShare('.social-share', {
+      sites: [
+        
+          'wechat'
+          ,
+          
+        
+          'weibo'
+          ,
+          
+        
+          'douban'
+          ,
+          
+        
+          'twitter'
+          
+        
+      ],
+      wechatQrcodeTitle: "分享到微信朋友圈",
+      wechatQrcodeHelper: '<p>扫码后点击右上角</p><p>将本文分享至朋友圈</p>'
+    });
+    $("a.social-share-icon").each(function() {
+      $(this).attr("aria-label", $(this).attr("class").split(' ')[1])
+    });
+  </script>
+
+  
+  <script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+    /*
+    var disqus_config = function () {
+    this.page.url = "https://llgy0.github.io//study/Jekyll.html";  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = "https://llgy0.github.io//study/Jekyll.html"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://llgy.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+
+  </script>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+  <script src="/assets/js/app.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/clipboard/dist/clipboard.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/hotkeys-js/dist/hotkeys.min.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js" async></script>
+  <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.2/dayjs.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.2/plugin/customParseFormat.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.2/plugin/relativeTime.js"></script>
+  <script>
+      // 给图片添加链接
+      $(document).ready(function() {
+          var baseurl = $("meta[property='og:baseurl']").attr('content');
+          $("p img").each(function() {
+              $(this).attr('data-src', $(this).attr('src')).removeAttr('src').addClass("lazyload").attr('src', baseurl + '/assets/img/loading.gif');
+              var strA = "<a data-fancybox='gallery' ref='gallery' href='" + $(this).attr('data-src') + "' data-caption='" + $(this).attr('alt') + "'></a>";
+              $(this).wrapAll(strA);
+              var caption = $(this)[0].alt;
+              $(this).parent().after('<span class="caption">' + caption + '</span>');
+          });
+
+          Fancybox.bind('[data-fancybox]', {
+            on: {
+              load: (fancybox, slide) => {
+                var gray = $("meta[property='og:gray']").attr('content');
+                if(gray == "true"){
+                    $(".fancybox__content img").addClass("gray");
+                    $(".carousel__track .fancybox__thumb").addClass("gray");
+                }
+              }
+            }
+          });   
+          
+          
+
+          if($("#comments-switch").length > 0){
+            var comment_status = $("#cmn-toggle-4")[0].checked;
+            if(comment_status){
+              $("#waline").addClass("active");
+            }else {
+              $("#disqus_thread").addClass("active");
+            }
+            $("#cmn-toggle-4").click(function(){
+              $("#disqus_thread").toggleClass("active");
+              $("#waline").toggleClass("active");
+            })
+          }else {
+            if($("#disqus_thread").length > 0) {
+              $("#disqus_thread").addClass("active");
+            }else if($("#waline").length > 0) {
+              $("#waline").addClass("active");
+            }
+          }
+
+          var time_formats = ['YYYY-MM-DD HH:mm:ss ZZ', 'YYYY DD MMM HH:mm:ss ZZ', 'YYYY年MM月DD日 HH:mm:ss ZZ'];
+          function dateFormat(date, format){
+            var date_org = dayjs(date, time_formats[format]);
+            var date     = date_org.format(time_formats[format]);
+            return {"date_org": date_org, "date": date}
+          }
+
+          dayjs.extend(window.dayjs_plugin_customParseFormat);
+          dayjs.extend(window.dayjs_plugin_relativeTime);
+          var post_date = $("meta[property='post-date']").attr('content');
+          var post_date_format = $("meta[property='post-date-format']").attr('content');
+          var local_post_date = dateFormat(post_date, post_date_format);
+
+          $(".post time span.create-at").html(local_post_date["date"]);
+
+          fetch("https://api.github.com/repos///commits?path=_posts/2023-05-24-Jekyll.markdown")
+          .then((response) => {
+            return response.json();
+          })
+          .then((commits) => {
+            if(commits.length != 0){
+              var update_at = dayjs(commits[0]['commit']['committer']['date']);
+            }else {
+              var update_at = post_date
+            }
+
+            var local_update_at = dateFormat(update_at, post_date_format);
+            $('.post time span.update-at').html(local_update_at["date"]);
+
+            var relative_time = dayjs().diff(local_update_at["date_org"], 'day');
+            $(".post-copyright .tips span").append(relative_time);
+            if(relative_time > 365){
+              $(".post-copyright .tips").addClass("active");
+            }
+          });   
+          
+          /*
+          * Keyboard shortcut bind: left and right
+          */
+
+          var previous_url = $("meta[property='og:previous_url']").attr('content');
+          var next_url = $("meta[property='og:next_url']").attr('content');
+
+          hotkeys('left', function(event, handler){
+              // Prevent the default refresh event under WINDOWS system
+              event.preventDefault();
+              if(previous_url){
+                  console.log('you pressed left!');
+                  window.location.href = previous_url;
+              }else {
+                  $("#no-previous").addClass("active");
+                  setTimeout(function(){$("#no-previous").removeClass("active");}, 1500);
+              }
+          });
+
+          hotkeys('right', function(event, handler){
+              // Prevent the default refresh event under WINDOWS system
+              event.preventDefault();
+              if(next_url){
+                  console.log('you pressed right!');
+                  window.location.href = next_url;
+              }else {
+                  $("#no-next").addClass("active");
+                  setTimeout(function(){$("#no-next").removeClass("active");}, 1500);
+              }
+          });
+      });
+  </script>
+  <script src="https://at.alicdn.com/t/font_3046306_skfh9jzzbbf.js"></script>
+  
+  
+  
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  <script>
+    if ("serviceWorker" in navigator) {
+        if (navigator.serviceWorker.controller) {
+            console.log("An active service worker found, no need to register");
+        } else {
+            // Register the service worker
+            navigator.serviceWorker
+            .register("/sw.js", {
+                scope: "/"
+            })
+            .then(function (reg) {
+                console.log("Service worker has been registered for scope: " + reg.scope);
+            });
+        }
+    }
+
+// 检测浏览器是否支持SW
+// if(navigator.serviceWorker != null){
+//     navigator.serviceWorker.register("/sw.js")
+//         .then(function(registartion){
+//             console.log('支持sw:',registartion.scope)
+//         })
+// } else {
+//     console.log('不支持sw')
+// }
+</script>
+	<!--
+Author: Ray-Eldath
+refer to:
+ - http://docs.mathjax.org/en/latest/options/index.html
+-->
+
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+		jax: ["input/TeX", "output/HTML-CSS"],
+		tex2jax: {
+			inlineMath: [ ["$", "$"] ],
+			displayMath: [ ["$$", "$$"] ],
+			skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+		},
+		"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
+      });
+    </script>
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@9.1.6/dist/mermaid.min.js"></script>
+    <script>
+        $(document).ready(function (){
+            mermaid.initialize({
+                startOnLoad:true,
+                theme: "default",
+            });
+            mermaid.init(undefined, $('.mermaid2'));
+        });
+    </script>
+ 
+   
+<!--鼠标点击爱心动画-->
+<script type="text/javascript" src="/js/src/love.js"></script>
+<script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+</body>
+
+</html>
