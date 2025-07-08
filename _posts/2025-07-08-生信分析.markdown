@@ -1,0 +1,92 @@
+---
+layout: post
+title:  "生信分析"
+date:   2025-07-08
+subtitle: '学习'
+categories: Study
+comments: true
+music-id: 485612935
+published: true
+tags: 
+- Study
+---
+<!--excerpt-->
+
+全文默认linux系统下操作，使用 Ubunte LTS 系列系统，
+
+# 1.0 Qiime2 专题
+
+## 1.1 安装
+
+参考：
+https://amplicon-docs.qiime2.org/en/latest/
+
+### 1.1.1 前置安装-miniconda
+
+代码：
+```markdown
+    mkdir -p ~/miniconda3
+    wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+    bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+    rm ~/miniconda3/miniconda.sh
+    # 关闭终端后再开
+    source ~/miniconda3/bin/activate
+    conda init --all
+```
+### 1.1.2 更新miniconda
+
+```markdown
+    conda update conda
+```
+
+### 1.1.3 安装qiime2
+
+参考：https://www.anaconda.com/docs/getting-started/miniconda/install#quickstart-install-instructions
+
+```markdown
+    conda env create \
+  --name qiime2-amplicon-2025.4 \
+  --file https://raw.githubusercontent.com/qiime2/distributions/refs/heads/dev/2025.4/amplicon/released/qiime2-amplicon-ubuntu-latest-conda.yml
+```
+
+测试：
+
+```markdown
+    conda deactivate    # 脱除环境
+    conda activate qiime2-amplicon-2025.4   # conda activate qiime2-版本号
+    qiime info
+```
+
+# 2.0 Picrust2 专题
+
+## 2.1 安装
+
+# 3.0 Kraken2 专题
+
+## 3.1 安装
+
+## 3.2 使用
+
+```markdown
+    # 下载数据库，先设置存放位置
+
+    DBNAME=~/db/kraken2/202506
+    mkdir -p DBNAME
+    cd $DBNAME
+ 
+    # 下载物种注释，259
+    kraken2-build --download-taxonomy --threads 10 --db $DBNAME
+ 
+    # 下载非默认数据库中的真菌库 1.33G
+    kraken2-build --download-library fungi --threads 10 --db $DBNAME
+ 
+    # 批量下载，非标准数据库
+    for i in archaea bacteria plasmid viral human fungi plant protozoa nr nt env_nr env_nt UniVec; do
+    kraken2-build --download-library $i --threads 10 --db $DBNAME
+
+    for i in archaea bacteria viral fungi plant protozoa; do
+    kraken2-build --download-library $i --threads 10 --db $DBNAME
+
+    # 确定的库建索引
+    kraken2-build --build --threads 10 --db $DBNAME
+```

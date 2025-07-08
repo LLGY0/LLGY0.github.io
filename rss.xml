@@ -5,9 +5,98 @@
     <description>个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 04 Jul 2025 20:30:58 +0800</pubDate>
-    <lastBuildDate>Fri, 04 Jul 2025 20:30:58 +0800</lastBuildDate>
+    <pubDate>Tue, 08 Jul 2025 15:32:41 +0800</pubDate>
+    <lastBuildDate>Tue, 08 Jul 2025 15:32:41 +0800</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
+    
+      <item>
+        <title>生信分析</title>
+        <description>&lt;!--excerpt--&gt;
+
+&lt;p&gt;全文默认linux系统下操作，使用 Ubunte LTS 系列系统，&lt;/p&gt;
+
+&lt;h1 id=&quot;10-qiime2-专题&quot;&gt;1.0 Qiime2 专题&lt;/h1&gt;
+
+&lt;h2 id=&quot;11-安装&quot;&gt;1.1 安装&lt;/h2&gt;
+
+&lt;p&gt;参考：
+https://amplicon-docs.qiime2.org/en/latest/&lt;/p&gt;
+
+&lt;h3 id=&quot;111-前置安装-miniconda&quot;&gt;1.1.1 前置安装-miniconda&lt;/h3&gt;
+
+&lt;p&gt;代码：&lt;/p&gt;
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    mkdir -p ~/miniconda3
+    wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+    bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+    rm ~/miniconda3/miniconda.sh
+    # 关闭终端后再开
+    source ~/miniconda3/bin/activate
+    conda init --all
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;112-更新miniconda&quot;&gt;1.1.2 更新miniconda&lt;/h3&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    conda update conda
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;113-安装qiime2&quot;&gt;1.1.3 安装qiime2&lt;/h3&gt;
+
+&lt;p&gt;参考：https://www.anaconda.com/docs/getting-started/miniconda/install#quickstart-install-instructions&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    conda env create &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;
+  --name qiime2-amplicon-2025.4 &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;
+  --file https://raw.githubusercontent.com/qiime2/distributions/refs/heads/dev/2025.4/amplicon/released/qiime2-amplicon-ubuntu-latest-conda.yml
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;测试：&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    conda deactivate    # 脱除环境
+    conda activate qiime2-amplicon-2025.4   # conda activate qiime2-版本号
+    qiime info
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;20-picrust2-专题&quot;&gt;2.0 Picrust2 专题&lt;/h1&gt;
+
+&lt;h2 id=&quot;21-安装&quot;&gt;2.1 安装&lt;/h2&gt;
+
+&lt;h1 id=&quot;30-kraken2-专题&quot;&gt;3.0 Kraken2 专题&lt;/h1&gt;
+
+&lt;h2 id=&quot;31-安装&quot;&gt;3.1 安装&lt;/h2&gt;
+
+&lt;h2 id=&quot;32-使用&quot;&gt;3.2 使用&lt;/h2&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    # 下载数据库，先设置存放位置&lt;span class=&quot;sb&quot;&gt;
+
+    DBNAME=~/db/kraken2/202506
+    mkdir -p DBNAME
+    cd $DBNAME
+&lt;/span&gt; 
+    # 下载物种注释，259
+    kraken2-build --download-taxonomy --threads 10 --db $DBNAME
+ 
+    # 下载非默认数据库中的真菌库 1.33G
+    kraken2-build --download-library fungi --threads 10 --db $DBNAME
+ 
+    # 批量下载，非标准数据库
+    for i in archaea bacteria plasmid viral human fungi plant protozoa nr nt env_nr env_nt UniVec; do
+    kraken2-build --download-library $i --threads 10 --db $DBNAME&lt;span class=&quot;sb&quot;&gt;
+
+    for i in archaea bacteria viral fungi plant protozoa; do
+    kraken2-build --download-library $i --threads 10 --db $DBNAME
+
+    # 确定的库建索引
+    kraken2-build --build --threads 10 --db $DBNAME
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Tue, 08 Jul 2025 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/study/%E7%94%9F%E4%BF%A1%E5%88%86%E6%9E%90.html</link>
+        <guid isPermaLink="true">http://localhost:4000/study/%E7%94%9F%E4%BF%A1%E5%88%86%E6%9E%90.html</guid>
+        
+        <category>Study</category>
+        
+        
+        <category>Study</category>
+        
+      </item>
     
       <item>
         <title>读书笔记</title>
