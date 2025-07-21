@@ -205,8 +205,11 @@ https://amplicon-docs.qiime2.org/en/latest/
 
 ## 1.4 数据使用
 1.otu_table: table-dada2.qza/data/feature-table.biom
+
 2.tax_table: taxonomy-dada2.qza/data/taxonomy.tsv
-3.sample_data: metadata.tsv?
+
+3.sample_data: metadata.tsv
+
 4.phy_tree: rooted-tree-dada2.qza/data/tree.nwk
 
 # 2.0 Picrust2 专题
@@ -229,7 +232,6 @@ pytest
 ```
 
 ## 2.2 使用
-
 ```markdown
     source activate picrust2
     source deactivate
@@ -270,13 +272,25 @@ pytest
 # 3.0 Kraken2 专题
 
 ## 3.1 安装
-
 ```markdown
     conda install kraken2
+    kraken2 --version
+
+    #KrakenTools安装
+    #在https://github.com/jenniferlu717/KrakenTools下载所有python代码
+    chmod +x （代码绝对路径）
+    （代码绝对路径）-h
 ```
 
 ## 3.2 使用
+### 3.2.1 创建数据库文件夹
+```markdown
+mkdir database
+cd database
+mkdir kraken2
+```
 
+### 3.2.2 创建数据库
 ```markdown
     # 下载数据库，先设置存放位置
 
