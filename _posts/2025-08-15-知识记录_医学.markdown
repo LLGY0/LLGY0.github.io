@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "知识记录"
-subtitle: '朝花夕拾'
-date: 2023-07-09
+title:  "医学"
+subtitle: ''
+date: 2025-08-15
 categories: Study
 published: true
 comments: true
@@ -170,44 +170,3 @@ RPR：快速血浆反应素环卡试验，活动期数值高，治愈后转为�
 
 ## 1.4 兼容问题
 藿香正气水+头孢=乙醛中毒；布洛芬+萘普生+阿司匹林=胃肠道出血；感冒药+退烧药+镇痛药=肝衰竭；84+洁厕灵=氯气；降压药+柚子=血压骤降；蜂蜜+感冒药=药效减退；碘酒+红药水=碘化汞；阿司匹林+银杏叶类药=胃肠道出血；防晒霜+驱蚊液=过敏；
-
-# 2 计算机
-
-## 2.1 快捷键与命令
-Ctrl类
-
-Ctrl+A 全选；Ctrl+X 剪切；Ctrl+C 复制；Ctrl+X 剪切；Ctrl+V 粘贴；Ctrl+Z 撤销；
-
-Ctrl+Y 恢复撤销操作；Ctrl+P 打印设置；Ctrl+S 保存；Crtl+D 删除；
-
-Ctrl+滚轮 调节页面比例或者图标大小；Crtl+Shift+Esc 任务管理器；
-
-Ctrl+小键盘'+' 　页面放大10%；Ctrl+小键盘'-'   页面缩小10%；
-
-Win类
-
-Win+D 显示桌面；Win+E 打开我的电脑；Win+F 搜索；Win+R 运行；Win+L 锁定/切换用户；
-
-Win+I 打开设置；Win+P 投影；Win+V 剪贴板；Win+分号 调出Emoji；
-
-Win+各种方向键 最大化/最小化；Win+Home 除了当前窗口，其他都最小化；
-
-F类
-
-F2 重命名；Alt+F4 关闭；F5刷新；F11 最大化/还原；
-
-Alt类
-
-Alt+Tab 切换应用；Alt+F4 关闭；Alt+Enter 显示属性；Alt+P 预览；
-
-Alt+各种方向键 切换目录；Alt+Printscreen 活动窗口截图；
-
-其他
-
-Crtl+Shift+Tab 切换选项/切换视图；Printscreen 整块屏幕截图；
-
-常见命令
-
-ipconfig；netsh；ping；net user；shutdown；
-
-services.msc；regedit；mstsc；msconfig；

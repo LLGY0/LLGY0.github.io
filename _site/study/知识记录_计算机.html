@@ -5,27 +5,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>生信分析 - LLGY</title>
+    <title>计算机类 - LLGY</title>
     <meta name="author"  content="LLGY">
-    <meta name="description" content="生信分析">
+    <meta name="description" content="计算机类">
     <meta name="keywords"  content="Study">
     <!-- Open Graph -->
-    <meta property="og:title" content="生信分析 - LLGY">
+    <meta property="og:title" content="计算机类 - LLGY">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://localhost:4000/study/%E7%94%9F%E4%BF%A1%E5%88%86%E6%9E%90.html">
+    <meta property="og:url" content="http://localhost:4000/study/%E7%9F%A5%E8%AF%86%E8%AE%B0%E5%BD%95_%E8%AE%A1%E7%AE%97%E6%9C%BA.html">
     <meta property="og:baseurl" content="">
     <meta property="og:description" content="个人的一个休闲兼技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。">
     <meta property="og:site_name" content="LLGY">
     <meta property="og:gray" content="false">
     
-    <meta property="og:previous_url" content="/study/%E7%9F%A5%E8%AF%86%E8%AE%B0%E5%BD%95_%E5%8C%BB%E5%AD%A6.html">
     
-    
-    <meta property="og:next_url" content="/study/Reading.html">
+    <meta property="og:next_url" content="/study/%E7%9F%A5%E8%AF%86%E8%AE%B0%E5%BD%95_%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6.html">
     
     <meta property="post-date-format" content="0">
     
-    <meta property="post-date" content="2025-07-08 00:00:00 +0800" />
+    <meta property="post-date" content="2025-08-15 00:00:00 +0800" />
     
     
     <meta name="alivestart" content="05/24/2023">
@@ -183,7 +181,7 @@
             
           
         </div>
-        <h1>生信分析</h1>
+        <h1>计算机类</h1>
         <div class="post-meta">
           <span class="post-meta-item">
             <svg class="icon" aria-hidden="true">
@@ -191,13 +189,13 @@
             </svg>
             LLGY
           </span>
-          <time class="post-meta-item" datetime="25-07-08">
+          <time class="post-meta-item" datetime="25-08-15">
             <svg class="icon" aria-hidden="true">
               <use xlink:href="#icon-calendar"></use>
             </svg>
             <span class="create-at"></span>
           </time>
-          <time class="post-meta-item" datetime="25-07-08">
+          <time class="post-meta-item" datetime="25-08-15">
             <svg class="icon" aria-hidden="true">
               <use xlink:href="#icon-update"></use>
             </svg>
@@ -208,13 +206,13 @@
                 <use xlink:href="#icon-words"></use>
               </svg>
               
-              本文总共  9.1k  字
+              本文总共  566  字
             </span>
             <span class="post-meta-item">
               <svg class="icon time" aria-hidden="true">
                 <use xlink:href="#icon-time"></use>
               </svg>
-              阅读全文大约需要 27 分钟
+              阅读全文大约需要 2 分钟
             </span>
             
               <span class="post-meta-item">
@@ -235,13 +233,13 @@
         <!-- cloud music -->
 <!-- auto=1 可以控制自动播放与否，当值为 1 即打开网页就自动播放，值为 0 时需要访客手动点击播放 -->
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86
-        src="//music.163.com/outchain/player?type=2&id=485612935&auto=0&height=66">
+        src="//music.163.com/outchain/player?type=2&id=1341338793&auto=0&height=66">
 </iframe>
        
 
     <div class="post-content visible">
       
-      <h2 class="post-subtitle">学习</h2>
+      <h2 class="post-subtitle"></h2>
       
 
       
@@ -249,299 +247,46 @@
       <div class="container">  
         <div class="contents">
           <article class="markdown-body">
-            <!--excerpt-->
+            <h1 id="1-日常使用类">1 日常使用类</h1>
 
-<p>全文默认linux系统下操作，使用 Ubunte LTS 系列系统，</p>
+<h2 id="11-快捷键与命令">1.1 快捷键与命令</h2>
+<p>Ctrl类</p>
 
-<h1 id="10-qiime2-专题">1.0 Qiime2 专题</h1>
+<p>Ctrl+A 全选；Ctrl+X 剪切；Ctrl+C 复制；Ctrl+X 剪切；Ctrl+V 粘贴；Ctrl+Z 撤销；</p>
 
-<h2 id="11-安装">1.1 安装</h2>
+<p>Ctrl+Y 恢复撤销操作；Ctrl+P 打印设置；Ctrl+S 保存；Crtl+D 删除；</p>
 
-<p>参考：
-https://amplicon-docs.qiime2.org/en/latest/</p>
+<p>Ctrl+滚轮 调节页面比例或者图标大小；Crtl+Shift+Esc 任务管理器；</p>
 
-<h3 id="111-前置安装-miniconda">1.1.1 前置安装-miniconda</h3>
+<p>Ctrl+小键盘’+’ 　页面放大10%；Ctrl+小键盘’-‘   页面缩小10%；</p>
 
-<p>代码：</p>
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    mkdir -p ~/miniconda3
-    wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
-    bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
-    rm ~/miniconda3/miniconda.sh
-    # 关闭终端后再开
-    source ~/miniconda3/bin/activate
-    conda init --all
-</code></pre></div></div>
-<h3 id="112-更新miniconda">1.1.2 更新miniconda</h3>
+<p>Win类</p>
 
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    conda update conda
-</code></pre></div></div>
+<p>Win+D 显示桌面；Win+E 打开我的电脑；Win+F 搜索；Win+R 运行；Win+L 锁定/切换用户；</p>
 
-<h3 id="113-安装qiime2">1.1.3 安装qiime2</h3>
+<p>Win+I 打开设置；Win+P 投影；Win+V 剪贴板；Win+分号 调出Emoji；</p>
 
-<p>参考：https://www.anaconda.com/docs/getting-started/miniconda/install#quickstart-install-instructions</p>
+<p>Win+各种方向键 最大化/最小化；Win+Home 除了当前窗口，其他都最小化；</p>
 
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    conda env create <span class="err">\</span>
-  --name qiime2-amplicon-2025.4 <span class="err">\</span>
-  --file https://raw.githubusercontent.com/qiime2/distributions/refs/heads/dev/2025.4/amplicon/released/qiime2-amplicon-ubuntu-latest-conda.yml
-</code></pre></div></div>
+<p>F类</p>
 
-<p>测试：</p>
+<p>F2 重命名；Alt+F4 关闭；F5刷新；F11 最大化/还原；</p>
 
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    conda deactivate    # 脱除环境
-    conda activate qiime2-amplicon-2025.4   # conda activate qiime2-版本号
-    qiime info
-</code></pre></div></div>
-<h2 id="12-准备数据">1.2 准备数据</h2>
-<p>生成原始数据的file path文件，该文件包含首行、每个样本的ID、rawreads文件路径、forward或reverse信息首行必须是:sample-id,absolute-filepath,direction</p>
+<p>Alt类</p>
 
-<h2 id="13-开始">1.3 开始</h2>
+<p>Alt+Tab 切换应用；Alt+F4 关闭；Alt+Enter 显示属性；Alt+P 预览；</p>
 
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    conda activate qiime2-amplicon-2024.10
-    #单端数据使用命令：(如报错尝试删除下面的V2)
-    qiime tools import --type 'SampleData[PairedEndSequencesWithQuality]' --input-path manifest.csv --output-path demux-summary.qza --input-format PairedEndFastqManifestPhred33V2
-    #双端数据使用命令：
-    qiime tools import --type 'SampleData[SequencesWithQuality]'  --input-path manifest.csv --output-path single-end-demux.qza  --input-format SingleEndFastqManifestPhred33V2
-    
-    #生成qzv可视化文件查看数据质量：
-    qiime demux summarize <span class="err">\</span>
-    --i-data single-end-demux.qza <span class="err">\</span>
-    --o-visualization demux.qzv
-    qiime tools view demux.qzv<span class="sb">
+<p>Alt+各种方向键 切换目录；Alt+Printscreen 活动窗口截图；</p>
 
-    #dada2降噪
-    qiime dada2 denoise-single \
-    --i-demultiplexed-seqs single-end-demux.qza \
-    --p-trim-left 0 \
-    --p-trunc-len 0 \
-    --p-n-threads 0 \
-    --o-representative-sequences rep-seqs-dada2.qza \
-    --o-table table-dada2.qza \
-    --o-denoising-stats stats-dada2.qza
-    #查看序列质量控制后的统计表格
-    qiime metadata tabulate \
-    --m-input-file stats-dada2.qza \
-    --o-visualization stats-dada2.qzv
-    qiime tools view stats-dada2.qzv
+<p>其他</p>
 
-    #生成发育树
-    qiime feature-table summarize \
-    --i-table table-dada2.qza \
-    --o-visualization table-dada2.qzv \
-    --m-sample-metadata-file metadata.tsv
-    qiime feature-table tabulate-seqs \
-    --i-data rep-seqs-dada2.qza \
-    --o-visualization rep-seqs-dada2.qzv
-    qiime phylogeny align-to-tree-mafft-fasttree \
-    --i-sequences rep-seqs-dada2.qza \
-    --o-alignment aligned-rep-seqs-dada2.qza \
-    --o-masked-alignment masked-aligned-rep-seqs-dada2.qza \
-    --o-tree unrooted-tree-dada2.qza \
-    --o-rooted-tree rooted-tree-dada2.qza
-    qiime tools view table-dada2.qzv
-    qiime tools view rep-seqs-dada2.qzv
+<p>Crtl+Shift+Tab 切换选项/切换视图；Printscreen 整块屏幕截图；</p>
 
-    #多样性分析
-    #先查看最小的序列数量，再决定将测序深度统一到多少。use qiime tools view table-dada2.qzv to check the minimun sequencing depth, and use this value to set --p-sampling-depth in the following step
-    qiime tools view table-dada2.qzv
+<p>常见命令</p>
 
-    qiime diversity core-metrics-phylogenetic \
-    --i-phylogeny rooted-tree-dada2.qza \
-    --i-table table-dada2.qza \
-    --p-sampling-depth 21591 \
-    --m-metadata-file metadata.tsv \
-    --output-dir core-metrics-results-dada2
-    qiime diversity alpha-group-significance \
-    --i-alpha-diversity core-metrics-results-dada2/faith_pd_vector.qza \
-    --m-metadata-file metadata.tsv \
-    --o-visualization core-metrics-results-dada2/faith-pd-group-significance.qzv
-    qiime diversity alpha-group-significance \
-    --i-alpha-diversity core-metrics-results-dada2/evenness_vector.qza \
-    --m-metadata-file metadata.tsv \
-    --o-visualization core-metrics-results-dada2/evenness-group-significance.qzv
+<p>ipconfig；netsh；ping；net user；shutdown；</p>
 
-    qiime diversity beta-group-significance \
-    --i-distance-matrix core-metrics-results-dada2/unweighted_unifrac_distance_matrix.qza \
-    --m-metadata-file metadata.tsv \
-    --m-metadata-column SampleType \
-    --o-visualization core-metrics-results-dada2/unweighted-unifrac-sampletype-significance.qzv \
-    --p-pairwise
-    qiime tools view core-metrics-results-dada2/unweighted-unifrac-sampletype-significance.qzv
-    qiime diversity beta-group-significance \
-    --i-distance-matrix core-metrics-results-dada2/unweighted_unifrac_distance_matrix.qza \
-    --m-metadata-file metadata.tsv \
-    --m-metadata-column Position \
-    --o-visualization core-metrics-results-dada2/unweighted-unifrac-position-significance.qzv \
-    --p-pairwise
-    qiime tools view core-metrics-results-dada2/unweighted-unifrac-position-significance.qzv
-
-    #(PCoA) using emperor with a custom axes(Depth as example):
-    qiime emperor plot \
-    --i-pcoa core-metrics-results-dada2/unweighted_unifrac_pcoa_results.qza \
-    --m-metadata-file metadata.tsv \
-    --p-custom-axes Depth \
-    --o-visualization core-metrics-results-dada2/unweighted-unifrac-emperor-depth.qzv
-    qiime tools view core-metrics-results-dada2/unweighted-unifrac-emperor-depth.qzv
-    qiime emperor plot \
-    --i-pcoa core-metrics-results-dada2/bray_curtis_pcoa_results.qza \
-    --m-metadata-file metadata.tsv \
-    --p-custom-axes Depth \
-    --o-visualization core-metrics-results-dada2/bray-curtis-emperor-depth.qzv
-    qiime tools view core-metrics-results-dada2/bray-curtis-emperor-depth.qzv
-
-    #alpha 多样性的稀释曲线use qiime tools view table-dada2.qzv to check the median sequencing depth, and use this value (slightly larger than this value) to set --p-max-depth in the following step.e.g. :median frequency: 37,648.5, set to 40000
-    qiime diversity alpha-rarefaction \
-    --i-table table-dada2.qza \
-    --i-phylogeny rooted-tree-dada2.qza \
-    --p-max-depth 35000 \
-    --m-metadata-file metadata.tsv \
-    --o-visualization alpha-rarefaction-dada2.qzv
-
-    #物种注释分析
-    #visit this [resource page](https://www.arb-silva.de/no_cache/download/archive/qiime/) and download the latest( [Silva_132_release.zip](https://www.arb-silva.de/fileadmin/silva_databases/qiime/Silva_132_release.zip)) silva release which is compartible with qiime/qiime2, and extract
-    #1. /rep_set/rep_set_16S_only/99/silva_132_99_16S.fna
-    #2. /taxonomy/16S_only/99/consensus_taxonomy_7_levels.txt
-
-    #Train the feature classifier
-    qiime tools import \
-    --type 'FeatureData[Sequence]' \
-    --input-path silva_132_99_16S.fna \
-    --output-path silva_132_99_16S.qza
-    qiime tools import \
-    --type 'FeatureData[Taxonomy]' \
-    --input-format HeaderlessTSVTaxonomyFormat \
-    --input-path consensus_taxonomy_7_levels.txt \
-    --output-path consensus_taxonomy_7_levels.qza
-    qiime feature-classifier extract-reads \
-    --i-sequences silva_132_99_16S.qza \
-    --p-f-primer CCTAYGGGRBGCASCAG \
-    --p-r-primer GGACTACNNGGGTATCTAAT \
-    --p-n-jobs 8\
-    --o-reads ref_seqs_341F_806R_silva_132_99_16S.qza
-    qiime feature-classifier fit-classifier-naive-bayes \
-    --i-reference-reads ref_seqs_341F_806R_silva_132_99_16S.qza \
-    --i-reference-taxonomy consensus_taxonomy_7_levels.qza \
-    --o-classifier classifier_341F_806R_silva_132_99_16S.qza
-
-    #Assign taxonomy
-    qiime feature-classifier classify-sklearn \
-    --i-classifier classifier_341F_806R_silva_132_99_16S.qza \
-    --i-reads rep-seqs-dada2.qza \
-    --o-classification taxonomy-dada2.qza
-    qiime metadata tabulate \
-    --m-input-file taxonomy-dada2.qza \
-    --o-visualization taxonomy-dada2.qzv
-    qiime taxa barplot \
-    --i-table table-dada2.qza \
-    --i-taxonomy taxonomy-dada2.qza \
-    --m-metadata-file metadata.tsv \
-    --o-visualization taxa-bar-plots-dada2.qzv
-</span></code></pre></div></div>
-
-<h2 id="14-数据使用">1.4 数据使用</h2>
-<p>1.otu_table: table-dada2.qza/data/feature-table.biom</p>
-
-<p>2.tax_table: taxonomy-dada2.qza/data/taxonomy.tsv</p>
-
-<p>3.sample_data: metadata.tsv</p>
-
-<p>4.phy_tree: rooted-tree-dada2.qza/data/tree.nwk</p>
-
-<h1 id="20-picrust2-专题">2.0 Picrust2 专题</h1>
-
-<h2 id="21-安装">2.1 安装</h2>
-<p>方法1：</p>
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda create -n picrust2 -c bioconda -c conda-forge picrust2=2.3.0_b
-</code></pre></div></div>
-
-<p>方法2：</p>
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget https://github.com/picrust/picrust2/archive/refs/tags/v2.4.1.tar.gz
-tar xvzf  v2.4.1.tar.gz
-cd picrust2-2.4.1/
-conda env create -f picrust2-env.yaml
-source activate picrust2
-pip install --editable .
-pytest
-</code></pre></div></div>
-
-<h2 id="22-使用">2.2 使用</h2>
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    source activate picrust2
-    source deactivate<span class="sb">
-
-    #一键命令
-    picrust2_pipeline.py -s otu.fasta  -i otu_table.txt -o picrust2_out_pipeline -p 20 \
-    -r default_files/prokaryotic/pro_ref/pro_ref --in_traits COG,EC,KO,PFAM,TIGRFAM
-
-    picrust2_pipeline.py -s otu.fasta  -i otu_taxa_table.txt -o picrust2_out_pipeline -p 20 \
-    -r /home/llgy/miniconda3/envs/qiime2-2021.2/lib/python3.6/site-packages/picrust2/default_files/prokaryotic/pro_ref --in_traits COG,EC,KO,PFAM,TIGRFAM
-
-    picrust2_pipeline.py -s otu.fasta  -i otu_table.txt -o picrust2_out_pipeline -p 20 \
-    -r /home/llgy/miniconda3/envs/qiime2-2021.11/lib/python3.8/site-packages/picrust2/default_files/prokaryotic/pro_ref
-    --in_traits COG,EC,KO,PFAM,TIGRFAM
-
-    #注释
-    add_descriptions.py -i EC_metagenome_out/pred_metagenome_unstrat.tsv.gz -m EC \
-    -o EC_metagenome_out/pred_metagenome_unstrat_descrip.tsv.gz
-
-    add_descriptions.py -i KO_metagenome_out/pred_metagenome_unstrat.tsv.gz -m KO \
-    -o KO_metagenome_out/pred_metagenome_unstrat_descrip.tsv.gz
-                    
-    add_descriptions.py -i COG_metagenome_out/pred_metagenome_unstrat.tsv.gz -m COG \
-    -o COG_metagenome_out/pred_metagenome_unstrat_descrip.tsv.gz
-                    
-    add_descriptions.py -i PFAM_metagenome_out/pred_metagenome_unstrat.tsv.gz -m PFAM \
-    -o PFAM_metagenome_out/pred_metagenome_unstrat_descrip.tsv.gz
-                    
-    add_descriptions.py -i TIGRFAM_metagenome_out/pred_metagenome_unstrat.tsv.gz -m TIGRFAM \
-    -o TIGRFAM_metagenome_out/pred_metagenome_unstrat_descrip.tsv.gz
-                    
-    add_descriptions.py -i pathways_out/path_abun_unstrat.tsv.gz -m METACYC \
-    -o pathways_out/path_abun_unstrat_descrip.tsv.gz
-
-    add_descriptions.py -i KEGG_pathways/path_abun_unstrat.tsv.gz --custom_map_table /home/llgy/KEGG_pathways_info.tsv.gz -o KEGG_pathways/path_abun_unstrat_descrip.tsv.gz
-</span></code></pre></div></div>
-
-<h1 id="30-kraken2-专题">3.0 Kraken2 专题</h1>
-
-<h2 id="31-安装">3.1 安装</h2>
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    conda install kraken2
-    kraken2 --version<span class="sb">
-
-    #KrakenTools安装
-    #在https://github.com/jenniferlu717/KrakenTools下载所有python代码
-    chmod +x （代码绝对路径）
-    （代码绝对路径）-h
-</span></code></pre></div></div>
-
-<h2 id="32-使用">3.2 使用</h2>
-<h3 id="321-创建数据库文件夹">3.2.1 创建数据库文件夹</h3>
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mkdir database
-cd database
-mkdir kraken2
-</code></pre></div></div>
-
-<h3 id="322-创建数据库">3.2.2 创建数据库</h3>
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    # 下载数据库，先设置存放位置<span class="sb">
-
-    DBNAME=~/db/kraken2/202506
-    mkdir -p DBNAME
-    cd $DBNAME
-</span> 
-    # 下载物种注释，259
-    kraken2-build --download-taxonomy --threads 10 --db $DBNAME
- 
-    # 下载非默认数据库中的真菌库 1.33G
-    kraken2-build --download-library fungi --threads 10 --db $DBNAME
- 
-    # 批量下载，非标准数据库
-    for i in archaea bacteria plasmid viral human fungi plant protozoa nr nt env_nr env_nt UniVec; do
-    kraken2-build --download-library $i --threads 10 --db $DBNAME<span class="sb">
-
-    for i in archaea bacteria viral fungi plant protozoa; do
-    kraken2-build --download-library $i --threads 10 --db $DBNAME
-
-    # 确定的库建索引
-    kraken2-build --build --threads 10 --db $DBNAME
-</span></code></pre></div></div>
+<p>services.msc；regedit；mstsc；msconfig；</p>
 
             <div class="post-copyright">
               <p>
@@ -557,15 +302,15 @@ mkdir kraken2
                   许可协议进行授权）
                 </p>
               
-              <p><span>本文标题：</span>《 生信分析 》</p>
-              <p><span>本文链接：</span><a href="http://localhost:4000/study/%E7%94%9F%E4%BF%A1%E5%88%86%E6%9E%90.html">http://localhost:4000/study/%E7%94%9F%E4%BF%A1%E5%88%86%E6%9E%90.html</a></p>
+              <p><span>本文标题：</span>《 计算机类 》</p>
+              <p><span>本文链接：</span><a href="http://localhost:4000/study/%E7%9F%A5%E8%AF%86%E8%AE%B0%E5%BD%95_%E8%AE%A1%E7%AE%97%E6%9C%BA.html">http://localhost:4000/study/%E7%9F%A5%E8%AF%86%E8%AE%B0%E5%BD%95_%E8%AE%A1%E7%AE%97%E6%9C%BA.html</a></p>
               <p class="tips">本文最后一次更新为 <span></span> 天前，文章中的某些内容可能已过时！</p>
             </div>
           </article>
         </div>   
         <div class="table-of-contents">
           <h2>目录</h2>
-          <ul><li><a href="#10-qiime2-专题">1.0 Qiime2 专题</a><ul><li><a href="#11-安装">1.1 安装</a><ul><li><a href="#111-前置安装-miniconda">1.1.1 前置安装-miniconda</a></li><li><a href="#112-更新miniconda">1.1.2 更新miniconda</a></li><li><a href="#113-安装qiime2">1.1.3 安装qiime2</a></li></ul></li><li><a href="#12-准备数据">1.2 准备数据</a></li><li><a href="#13-开始">1.3 开始</a></li><li><a href="#14-数据使用">1.4 数据使用</a></li></ul></li><li><a href="#20-picrust2-专题">2.0 Picrust2 专题</a><ul><li><a href="#21-安装">2.1 安装</a></li><li><a href="#22-使用">2.2 使用</a></li></ul></li><li><a href="#30-kraken2-专题">3.0 Kraken2 专题</a><ul><li><a href="#31-安装">3.1 安装</a></li><li><a href="#32-使用">3.2 使用</a><ul><li><a href="#321-创建数据库文件夹">3.2.1 创建数据库文件夹</a></li><li><a href="#322-创建数据库">3.2.2 创建数据库</a></li></ul></li></ul></li></ul>
+          <ul><li><a href="#1-日常使用类">1 日常使用类</a><ul><li><a href="#11-快捷键与命令">1.1 快捷键与命令</a></li></ul></li></ul>
         </div>
       </div>
       
@@ -590,22 +335,13 @@ mkdir kraken2
       </section>
       <section class="post-footer-item read-next">
         
-        <div class="read-next-item">
-          <a href="/study/%E7%9F%A5%E8%AF%86%E8%AE%B0%E5%BD%95_%E5%8C%BB%E5%AD%A6.html" class="read-next-link" aria-label="医学"></a>
-          <section>
-            <span>医学</span>
-            <p>1 医学1.1 药物使用</p>
-          </section>
-          
-      </div>
-        
 
         
         <div class="read-next-item">
-          <a href="/study/Reading.html" class="read-next-link" aria-label="读书笔记"></a>
+          <a href="/study/%E7%9F%A5%E8%AF%86%E8%AE%B0%E5%BD%95_%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6.html" class="read-next-link" aria-label="社会科学"></a>
             <section>
-              <span>读书笔记</span>
-              <p></p>
+              <span>社会科学</span>
+              <p>社会主义</p>
             </section>
             
         </div>
@@ -763,8 +499,8 @@ mkdir kraken2
      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
     /*
     var disqus_config = function () {
-    this.page.url = "https://llgy0.github.io//study/%E7%94%9F%E4%BF%A1%E5%88%86%E6%9E%90.html";  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = "https://llgy0.github.io//study/%E7%94%9F%E4%BF%A1%E5%88%86%E6%9E%90.html"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    this.page.url = "https://llgy0.github.io//study/%E7%9F%A5%E8%AF%86%E8%AE%B0%E5%BD%95_%E8%AE%A1%E7%AE%97%E6%9C%BA.html";  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = "https://llgy0.github.io//study/%E7%9F%A5%E8%AF%86%E8%AE%B0%E5%BD%95_%E8%AE%A1%E7%AE%97%E6%9C%BA.html"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
     */
     (function() { // DON'T EDIT BELOW THIS LINE
@@ -849,7 +585,7 @@ mkdir kraken2
 
           $(".post time span.create-at").html(local_post_date["date"]);
 
-          fetch("https://api.github.com/repos///commits?path=_posts/2025-07-08-生信分析.markdown")
+          fetch("https://api.github.com/repos///commits?path=_posts/2025-08-15-知识记录_计算机.markdown")
           .then((response) => {
             return response.json();
           })
