@@ -1,18 +1,4 @@
 ---
 
-## How to Apply
+## 因为没多少朋友甚至不知道这里放啥，以后可能放些二次元老婆，毕竟精神支柱也算朋友
 
-Please send your website information to: xxx@xxx.com
-
-Email Subject:
-```
-Request to Add Friend
-```
-
-Email Content (Template):
-```
-Site Name: [Your Site Name]
-Site Desc: [Your Site Description]
-Site Link: [Your Site Link]
-Avatar Link: [Your Avatar Link]
-```

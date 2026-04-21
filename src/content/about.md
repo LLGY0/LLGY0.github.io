@@ -1,24 +1,23 @@
-# About This Site
+# 自我介绍
 
-Twilight is a CMS integrated static blog template built with [Astro](https://astro.build) framework.
+I am garbage from Hohai University
 
-::github{repo="Spr-Aachen/Twilight"}
+# 论文情况
 
+Zhang H, Lu Y, Li Y, et al. Bacterial contribution to 17β-estradiol mineralization in lake sediment as revealed by 13C-DNA stable isotope probing[J]. Environ. Pollut. 2021, 286: 117505.
 
-## Milestones
+Zhang H, Lu Y, Li Y, et al. Propelling the practical application of the intimate coupling of photocatalysis and biodegradation system: system amelioration, environmental influences and analytical strategies[J]. Chemosphere. 2022, 287: 132196. 
 
-- Integrated content management system in [#1](https://github.com/Spr-Aachen/Twilight/pull/1)
-- Seamless wallpaper mode switching in [#2](https://github.com/Spr-Aachen/Twilight/pull/2)
-- Dynamic content container response in [#47](https://github.com/Spr-Aachen/Twilight/pull/47)
-- Seamless page component loading in [#48](https://github.com/Spr-Aachen/Twilight/pull/48)
-- Smart music playback handling in [#49](https://github.com/Spr-Aachen/Twilight/pull/49)
-- Infinite-level navigation system in [#50](https://github.com/Spr-Aachen/Twilight/pull/50)
-- Comprehensive statistics dashboard in [#51](https://github.com/Spr-Aachen/Twilight/pull/51)
-- Low-barrier configuration scheme in [#58](https://github.com/Spr-Aachen/Twilight/pull/58)
-- Dynamic breakpoint handling in [#68](https://github.com/Spr-Aachen/Twilight/pull/68)
-- Advanced content management in [#73](https://github.com/Spr-Aachen/Twilight/pull/73)
-- Nested category support in [#74](https://github.com/Spr-Aachen/Twilight/pull/74)
-- Comprehensive music card plugin in [#81](https://github.com/Spr-Aachen/Twilight/pull/81)
-- Refactored DecapCMS OAuth integration in [#107](https://github.com/Spr-Aachen/Twilight/pull/107)
-- Non-breaking PagesCMS support in [#114](https://github.com/Spr-Aachen/Twilight/pull/114)
-- Tree view directory component in [#117](https://github.com/Spr-Aachen/Twilight/pull/117)
+Lu Y, Zhang H, Li Y. Coupling FeMgAl-LDH and sludge biofilm for simultaneous and effective removal of nitrate and ammonium in water[J]. J. Water Process Eng. 2023, 56: 104285. 
+
+Lu Y, Yuan X, Kan H, et al. Unveiling the effects of reactor configurations on the performance of lignin removal in the ozone micro-nano-bubble system[J]. Chem. Eng. J. 2025: 171771. 
+
+# 爱好及待办
+
+学习：Fluent/Mike、分子动力学模型、DFT理论计算、HTML5
+
+游玩：模拟人生4全DLC、城市天际线2（建南京）、戴森球计划（100W白糖）、幸福工厂、明日方舟终末地（全物品满仓）、明日方舟（主线剧情出完）
+
+品鉴：海市蜃楼之馆、海猫鸣泣之时、素晴日、变态监狱、秽翼的尤斯蒂娅、兰斯10、生死永相伴永相随、若生命于明天落幕、水仙 1 + 2、樱之诗、樱之刻、死馆、时钟机关的leyline、你所期望的永远、黄昏禁忌之药、
+
+观看：经济学园、PA饭、爱情怎么翻译、

@@ -1,0 +1,17 @@
+{
+    "title": "河海大学第一届城市水环境与水生态科普创意大赛",
+    "description": "最终也未能走出学校的一次尝试，但现在后悔自己出的力太少了有点矫情呢",
+    "image": "./cover/P1.png",
+    "category": "竞赛",
+    "techStack": [
+        "Construct3"
+    ],
+    "status": "completed",
+    "liveDemo": "https://www.bilibili.com/video/BV1igCDYnEKn/?spm_id_from=0.0.favlist.content.click",
+    "startDate": "2024-10-01",
+    "endDate": "",
+    "featured": true,
+    "tags": [
+       "游戏制作" 
+    ]
+}

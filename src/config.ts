@@ -19,7 +19,7 @@ import rawConfig from "../twilight.config.yaml?raw";
 
 
 type ConfigFile = {
-    site: 'https://llgy0.github.io';
+    site: SiteConfig;
     analytics: AnalyticsConfig;
     navbar: {
         links: Array<NavbarLink | LinkPreset | string>;
