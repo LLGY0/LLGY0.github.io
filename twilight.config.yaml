@@ -56,10 +56,12 @@ site:
                 - "/assets/images/B1.jpg"
                 - "/assets/images/B2.jpg"
                 - "/assets/images/B3.jpg"
+                - "/assets/images/B4.jpg"            
             # 移动壁纸图片 (相对于 /public 目录; 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播)
             mobile:
                 - "/assets/images/B1.jpg"
                 - "/assets/images/B2.jpg"
+                - "/assets/images/B3.jpg"
         # 壁纸位置 ('top' | 'center' | 'bottom')
         position: "center"
         # 轮播配置 (fullscreen 和 banner 模式共享)
