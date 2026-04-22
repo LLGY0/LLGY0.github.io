@@ -71,8 +71,8 @@ export const zh: Translation = {
     [Key.backToHome]: "返回首页",
 
     // 项目展示页面
-    [Key.projects]: "项目展示",
-    [Key.projectsSubtitle]: "我的开发项目作品集",
+    [Key.projects]: "项目",
+    [Key.projectsSubtitle]: "我参与的项目",
     [Key.projectsAll]: "全部",
     [Key.projectsWeb]: "网页应用",
     [Key.projectsMobile]: "移动应用",

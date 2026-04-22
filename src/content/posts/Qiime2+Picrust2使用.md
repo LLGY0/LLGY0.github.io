@@ -4,8 +4,8 @@ published: 2026-04-21    # 发布日期
 updated: 2026-04-21       # 更新日期（可选）
 description: 记录生信分析相关操作     # 显示在列表页的摘要
 cover: "./cover/C2.png"    # 文章封面图（可选）
-tags: [Study]      # 标签
-category: BioInfo   # 分类
+tags: [BioInfo]      # 标签
+category: Study   # 分类
 draft: false             # 是否为草稿
 ---
 
