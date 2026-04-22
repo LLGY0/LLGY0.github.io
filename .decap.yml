@@ -1,9 +1,9 @@
 # 后台系统配置
 backend:
     name: github
-    repo: llgy0.github.io # 请替换为您的 GitHub 仓库
+    repo: LLGY0/llgy0.github.io # 请替换为您的 GitHub 仓库
     branch: main # 请替换为您的分支名称
-    site_domain: https://llgy0.github.io # 请替换为您的域名
+    site_domain: llgy0.github.io # 请替换为您的域名
     base_url: https://llgy0.github.io  # 请替换为您的 URL
     auth_endpoint: oauth # OAuth 路由由集成提供
 
