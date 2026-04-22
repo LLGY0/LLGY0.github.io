@@ -1,19 +1,21 @@
 ---
 title: Qiime2+Picrust2使用
-published: 2026-04-21    # 发布日期
-updated: 2026-04-21       # 更新日期（可选）
-description: 记录生信分析相关操作     # 显示在列表页的摘要
-cover: "./cover/C2.png"    # 文章封面图（可选）
-tags: [BioInfo]      # 标签
-category: Study   # 分类
-draft: false             # 是否为草稿
+published: 2026-04-21
+updated: 2026-04-21
+description: 记录生信分析相关操作
+cover: cover/C2.png
+category:
+  - Study
+tags:
+  - BioInfo
+draft: false
 ---
-
 Tips：以下全程在Ubuntu系统进行
 
 # 1.0 Qiime2 专题
 
 ## 1.1 安装及更新
+
 ```yaml
 #参考文档：https://amplicon-docs.qiime2.org/en/latest/
 
@@ -177,8 +179,10 @@ Tips：以下全程在Ubuntu系统进行
     --i-taxonomy taxonomy-dada2.qza \
     --m-metadata-file metadata.tsv \
     --o-visualization taxa-bar-plots-dada2.qzv
-```    
+```
+
 ## 1.2 数据使用
+
 1.otu_table: table-dada2.qza/data/feature-table.biom
 
 2.tax_table: taxonomy-dada2.qza/data/taxonomy.tsv
@@ -188,6 +192,7 @@ Tips：以下全程在Ubuntu系统进行
 4.phy_tree: rooted-tree-dada2.qza/data/tree.nwk
 
 # 2.0 Picrust2 专题
+
 ```yaml
 #安装方法1
     conda create -n picrust2 -c bioconda -c conda-forge picrust2=2.3.0_b 
@@ -239,6 +244,7 @@ Tips：以下全程在Ubuntu系统进行
 ```
 
 # 3.0 Kraken2 专题
+
 ```yaml
 #安装
     conda install kraken2
@@ -276,3 +282,4 @@ Tips：以下全程在Ubuntu系统进行
     # 确定的库建索引
     kraken2-build --build --threads 10 --db $DBNAME
 ```
+
