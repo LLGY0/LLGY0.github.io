@@ -1,0 +1,88 @@
+---
+title: LC-MS测试方法
+published: 2026-04-25
+updated: 2026-04-25
+description: 记录LC-MS测试流程
+cover: cover/C3.jpg
+category:
+  - Study
+tags:
+  - Environment
+draft: false
+---
+# 1.0 准备工作
+1、仪器型号：液相色谱+三重四级杆线性质谱仪 SCIEX TRIPLE QUADTM 4500
+
+2、LC包括组件：色谱柱、排液阀、进样板（96孔 1.5mL）；MS包括组分：进样针、Peek管、针头、转接头
+
+3、机器准备工作：打开氮气发生器，等待5——10min，确认氮气压力正常并稳定；打开机械泵电源开关，等待15——30min；(抽质谱真空，若很久没开机，建议抽几个小时以上)；打开质谱主机左后侧面板上电源开关，打开液相色谱仪所有开关；打开工作站，进入Analyst软件；（注意：若软件中LC-MS或者MS-only激活（activate）失败，则考虑计算机重启）；LC装上色谱柱，色谱柱流向从左至右；（安装时用扳手拧紧，防止漏水导致管道压力过低）；排气操作：LC上2个排液阀（旋钮）往open方向转半圈，按下2个purge，等待purge完成（确保pump灯是灭的），完成后将2个旋钮往close方向拧紧；按顺序放置样品于LC进样板上
+
+4、样品准备方面：配置流动相样品，【本次实验需要准备乙腈溶液（100%）、甲醇水溶液（1：1）、乙酸铵水溶液（2 mM，154.16 mg/L）】；准备测试样品，【本次实验使用1:1甲醇水稀释样品，并使样品pH=5】
+
+5、结束工作：设置色谱柱冲洗程序，进行管路清洗；工作站中灭活（deactivate）LC与MS，退出程序，关闭电脑；按住MS左后侧面板上的Vent按钮约3分钟，分子涡轮泵慢慢停下，等待15——30 min；关闭质谱仪电源；等15 min，关闭分子涡轮泵电源；关闭氮气发生器，关闭LC
+
+# 2.0 软件界面介绍
+1、hardware connfiguration：LC-MS与MassOnly两种模式，用于激活/灭活仪器（必做的第一步）
+
+2、Tune and calibrate：调谐和校准模块，用于确定母离子、子离子质荷比，优化DP和CE（可以使用文献中的数据，但仍需要优化DP和CE）
+
+3、build acquistion method：使用上个步骤得来的信息构建测样方法，需要设置洗脱程序、进样速度、进样体积等
+
+4、build acquistion batch：构建测样序列，写入待测样品信息、所在LC样品版编号，最后submit到测样队列中（注意：若方法之前已经构建好，可以直接开始这一步，无需tune和build method）
+
+5、explore：可以边测试边看图谱
+
+6、quantite：定量计算峰面积，建议使用MultiQuant软件分析数据，因此这个模块可以不用管
+
+# 3.0 调谐步骤 Tuning
+1、洗针，用注射器吸取相应的待测样品，连接针泵（详细流程与操作见备注视频 https://www.bilibili.com/video/BV1y6Z3YtEVP?p=2 ）
+
+2、运行Analyst软件，”Tools”菜单→”project” →”creat project”新建项目；新窗口中，填入项目名称（project name），点击”OK”；双击打开”Hardware Configuration”，选择质谱模式（Mass-only），点击”activate profile”，使绿勾出现
+
+3、双击进入”manual tuning”模式，使用Q1 MS模式（scan type）确定母离子质荷比，准确度到小数点后一位：具体做法：先计算目标污染物相对分子质量，之后计算可能的加合离子质量（单位Da），并将其范围填入表格中的”start”与” stop ”，根据选取的正负离子设置”polarity”。之后设置”scan rate” [一般200Da/s ]，针流速选5μl/min最后选择上方的”syringe pump method”并点击”start syringe pump ”，此时”针”会推样进去。然后用”ms method”点”start”。在测试出的TIC谱图中确认母离子质荷比 
+
+4、使用MS 2模式（scan type）确定确定子离子的质量数，至少选取2个子离子，确定小数点后一位：具体做法：一开始设置大范围（单位Da），并将其范围填入表格中的”start”与” stop ” 。最后选择上方的”syringe pump method”并点击”start syringe pump ”。之后，在TIC谱图中确认子离子质量数）（建议子离子与母离子质量差20Da以上）
+
+5、使用MRM模式（scan type），开始优化DP和CE参数：（若有文献提供数据，则可以跳过之前步骤，直接开始此步）（DP和CE不需要保留小数）具体做法：表格中输入母离子（Q1 mass）与子离子（Q3 mass）质量，输入dwell time（默认先100，后续需要优化），输入ID（物质名词-1/- 2），点击上面的”edit ramp”，”parameter”分别选择”declustering potentia”和”collision energy”，分别输入下面三个参数。最后选择上方的 ”ms method” 并点击 ”start ”，具体如何选择最佳DP和CE看视频（https://www.bilibili.com/video/BV1y6Z3YtEVP?p=2）
+
+6、最后点击”file”的”save as”，保存成dam文件，此时一个物质的tuning就完成了（结束时记得stop syringe pump ）
+
+# 4.0 方法构建步骤 Acquire——build method
+1、调谐和校准构建好后，将peek管（红线）连接LC与MS，双击”Build Acquisition Method”，”Synchronization Mode”选”LC sync”
+
+2、进入MS模块，”scan type” 选MRM；”polarity”根据待测物质特性，选择【测PFAS选负离子”negative”】，设置测样时间Duration 【12 min】 ，点击”Edit parameters”，设置”pause between mass ranges” 【5 ms】，
+
+3、表格中输入母离子Q1 mass、子离子 Q3 mass、dwell time、待测物质名字、DP、CE，后两个需要自行右键添加）
+
+4、进入液相模块，在”binary gradient”页面里 设置 进样流速flow、进样时间stop time、最大压力、梯度洗脱程序 在”autosampler”页面里 设置 取样速度sampling speed、冷却温度cooler temperature 在”column oven”页面里 设置 柱温【40℃】和温度上限【160 ℃ 】 在左侧”injection”页面里 设置 进样体积injection volume 【2 μL，若野外样品可提高】 。最后命名并保存构建的测样方法
+
+# 5.0 样品测试流程 Acquire--build batch 
+1、软件里，选择“Configurare Mode”模式，双击左侧“Hardware Configuration”选项，在新窗口中点击“LC-MS”，然后点击窗口右侧“activate profile”按钮，出现绿勾代表成功；（如果报错则需要重启电脑，电脑密码与用户名一样）
+
+2、点击左侧“Acquire”中的“Build acquisition Batch”，在新窗口中，为自己的“set”命名（建议日期加姓名），之后点击“add set”，再点击“add sample”，新窗口中，前缀命名可以不动，修改样品数量；
+
+3、修改样品名字，选择测试方法，更改datafile（命名方法），以及在“Vial position”填写各样品在样品盘的编号，确认无误后submit（可以分批submit）；
+
+4、点左上角（第三行第一个）按钮，打开“Queue Manager”窗口，选倒数第六各按钮，进行液质平衡，平衡3——5 min；
+
+5、右下角双击图标可以查看LC与MS状态，确认LC压力稳定后（0.4ml/min情况下最大压力约16Mpa），直接点击左上角“start”按钮，开始测样
+
+6、跑的过程中实时查看数据：Explore——Open Data File，图中右键使用extra ion可以查看单个子离子的图
+
+# 6.0 数据分析及定量 Quantitate 
+1、参考：https://www.bilibili.com/video/BV1y6Z3YtEVP?p=4
+
+2、点击下图中的图标，弹出的窗口中选择测试结果所在文件夹，并将文件弄入右侧栏中，进行下一步，建立并命名新的定量方法（不建议用过去的方法）；选择代表性样本，选择中等浓度样品
+
+3、在左上图中，IS栏代表是否内标，然后把一个物质对应的2个子物质行都设为一个group，若该物质不是内标，不用写is name。
+
+4、检查各个化合物的积分情况，若有错误则调整；后续直接保持默认，并finish
+
+5、若要做标曲（右上图），则在sample type选择standard，在actual concentration输入浓度，然后点这个按钮，若拟合不好，则调整weighing type【1/x2】；若要导出数据，点击file中的create report
+
+
+
+
+
+
+
