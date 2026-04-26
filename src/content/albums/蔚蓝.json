@@ -7,12 +7,19 @@
     "columns": 3,
     "photos": [
         {
-            "src": "",
+            "src": "./img/3.png",
             "alt": "",
             "title": "",
             "description": "",
             "tags": [""]
-        }
+        },
+        {
+            "src": "./img/4.png",
+            "alt": "",
+            "title": "",
+            "description": "",
+            "tags": [""]
+        }   
     ],
     "visible": true
 }

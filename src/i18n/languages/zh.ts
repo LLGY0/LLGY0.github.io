@@ -168,14 +168,14 @@ export const zh: Translation = {
     [Key.albumsSubtitle]: "安利一切我觉得有意思的人物事",
     [Key.albumsEmpty]: "暂无内容",
     [Key.albumsEmptyDesc]: "还没有创建任何相册，快去添加一些美好的回忆吧！",
-    [Key.albumsBackToList]: "返回相册",
+    [Key.albumsBackToList]: "返回安利页面",
     [Key.albumsPhotoCount]: "张照片",
     [Key.albumsPhotosCount]: "张照片",
 
     // 番剧页面
     [Key.anime]: "追番",
     [Key.animeTitle]: "我的追番记录",
-    [Key.animeSubtitle]: "记录我的二次元之旅",
+    [Key.animeSubtitle]: "二~次~元~",
     [Key.animeList]: "追番列表",
     [Key.animeTotal]: "总数",
     [Key.animeWatching]: "追番中",
