@@ -1,0 +1,13 @@
+{
+  "title": "LiYi Group",
+<<<<<<< HEAD
+  "imgurl": "Cover/2.jpg",
+=======
+  "imgurl": "src/content/friends/Cover/2.jpg",
+>>>>>>> a8ffaa179c8cccf0794f0253ad0191af07e9b200
+  "desc": "课题组网站，感谢各位老师的关心和付出",
+  "siteurl": "http://liyigroup.hhu.edu.cn/",
+  "tags": [
+    "Study"
+  ]
+}
