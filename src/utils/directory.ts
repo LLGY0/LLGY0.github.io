@@ -47,20 +47,20 @@ export async function getDirectoryTree(): Promise<DirectoryNode[]> {
         addNode(paths, post.data.title || fileName, `/posts/${post.id}/`);
     }
 
-    // for (const album of sortedAlbums) {
-    //     if (!album.visible) continue;
-    //     const basePathParts = album.basePath?.split('/') || [];
-    //     if (basePathParts[0] === 'content') basePathParts.shift();
-    //     if (basePathParts[0] === 'albums') basePathParts[0] = rootMap.albums;
-    //     addNode(basePathParts, album.title || album.id, `/albums/${album.id}/`);
-    // }
-
-    for (const moment of sortedMoments) {
-        const basePathParts = moment.basePath?.split('/') || [];
+    for (const album of sortedAlbums) {
+        if (!album.visible) continue;
+        const basePathParts = album.basePath?.split('/') || [];
         if (basePathParts[0] === 'content') basePathParts.shift();
-        if (basePathParts[0] === 'diary') basePathParts[0] = rootMap.diary;
-        addNode(basePathParts, moment.title || moment.id, `/diary/`);
+        if (basePathParts[0] === 'albums') basePathParts[0] = rootMap.albums;
+        addNode(basePathParts, album.title || album.id, `/albums/${album.id}/`);
     }
+
+    // for (const moment of sortedMoments) {
+    //     const basePathParts = moment.basePath?.split('/') || [];
+    //     if (basePathParts[0] === 'content') basePathParts.shift();
+    //     if (basePathParts[0] === 'diary') basePathParts[0] = rootMap.diary;
+    //     addNode(basePathParts, moment.title || moment.id, `/diary/`);
+    // }
 
     for (const project of projectsData) {
         const basePathParts = project.basePath?.split('/') || [];

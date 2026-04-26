@@ -154,18 +154,18 @@ export const zh: Translation = {
 
     // 短文页面
     [Key.diary]: "日记",
-    [Key.diarySubtitle]: "说是日记，其实是安利页面",
+    [Key.diarySubtitle]: "日记",
     [Key.diaryCount]: "条短文",
     [Key.diaryImage]: "图片",
     [Key.diaryReply]: "回复",
-    [Key.diaryTips]: "我有好多老婆",
+    [Key.diaryTips]: "未完待续",
     [Key.diaryMinutesAgo]: "分钟前",
     [Key.diaryHoursAgo]: "小时前",
     [Key.diaryDaysAgo]: "天前",
 
     // 相册页面
-    [Key.albums]: "相册",
-    [Key.albumsSubtitle]: "记录生活中的美好瞬间",
+    [Key.albums]: "安利",
+    [Key.albumsSubtitle]: "安利一切我觉得有意思的人物事",
     [Key.albumsEmpty]: "暂无内容",
     [Key.albumsEmptyDesc]: "还没有创建任何相册，快去添加一些美好的回忆吧！",
     [Key.albumsBackToList]: "返回相册",

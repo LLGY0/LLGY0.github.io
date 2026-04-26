@@ -2,16 +2,6 @@
 
 I am garbage from Hohai University
 
-# 论文情况
-
-Zhang H, Lu Y, Li Y, et al. Bacterial contribution to 17β-estradiol mineralization in lake sediment as revealed by 13C-DNA stable isotope probing[J]. Environ. Pollut. 2021, 286: 117505.
-
-Zhang H, Lu Y, Li Y, et al. Propelling the practical application of the intimate coupling of photocatalysis and biodegradation system: system amelioration, environmental influences and analytical strategies[J]. Chemosphere. 2022, 287: 132196. 
-
-Lu Y, Zhang H, Li Y. Coupling FeMgAl-LDH and sludge biofilm for simultaneous and effective removal of nitrate and ammonium in water[J]. J. Water Process Eng. 2023, 56: 104285. 
-
-Lu Y, Yuan X, Kan H, et al. Unveiling the effects of reactor configurations on the performance of lignin removal in the ozone micro-nano-bubble system[J]. Chem. Eng. J. 2025: 171771. 
-
 # 爱好及待办
 
 学习：Fluent/Mike、分子动力学模型、DFT理论计算、HTML5

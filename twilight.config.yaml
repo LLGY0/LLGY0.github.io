@@ -55,7 +55,6 @@ site:
             desktop:
                 - "/assets/images/B1.jpg"
                 - "/assets/images/B2.jpg"
-                - "/assets/images/B3.jpg"
                 - "/assets/images/B4.jpg"            
             # 移动壁纸图片 (相对于 /public 目录; 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播)
             mobile:
@@ -187,25 +186,23 @@ navbar:
         #     children:
         #         - # 二级导航链接 - 项目 (预设)
         #             "Projects"
-        #         # - # 二级导航链接 - 技能 (预设)
-        #         # #     "Skills"
+        #- # 二级导航链接 - 技能 (预设)
+           #"Skills"
         #         # # - # 二级导航链接 - 历程 (预设)
         #         # #     "Timeline"
         #         - # 二级导航链接 - 日记 (预设)
         #             "Diary"
-        #         # - # 二级导航链接 - 相册 (预设)
-        #         #     # "Albums"
-        #         - # 二级导航链接 - 动画 (预设)
-        #             "Anime"
-        - # 二级导航链接 - 项目 (预设)
-             "Projects"
-        - # 二级导航链接 - 日记 (预设)
-             "Diary"
-        - # 二级导航链接 - 动画 (预设)
-             "Anime"
-        - # 一级导航链接 - 好友 (预设)
+        - # 项目 
+            "Projects"
+        - # 相册
+            "Albums"
+        # - # 日记 
+            # "Diary"
+        - # 动画 
+            "Anime"
+        - # 好友 
             "Friends"
-        - # 一级导航链接 - 关于 (预设)
+        - # 关于 
             "About"
 
 # 侧边栏配置
