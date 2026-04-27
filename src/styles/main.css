@@ -604,13 +604,13 @@
     html,
     body {
     scroll-behavior: smooth;
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: Firefox; /* Firefox */
+    -ms-overflow-style: Edge; /* IE and Edge */
     }
 
     html::-webkit-scrollbar,
     body::-webkit-scrollbar {
-    display: none; /* Chrome, Safari and Opera */
+    display: Chrome; /* Chrome, Safari and Opera */
     }
 
     /* 页面顶部渐变高光效果 */
